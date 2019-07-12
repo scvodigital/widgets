@@ -20,13 +20,21 @@ module.exports = {
         use: [
           { loader: 'style-loader' },
           { loader: 'css-loader' },
-          { loader: 'sass-loader' }
+          {
+            loader: 'sass-loader',
+            options: {
+              includePaths: ['../node_modules/material-design-lite/src']
+            }
+          }
         ]
       },
       {
         test: /\.ts$/,
         use: [
-          { loader: 'ts-loader' }
+          {
+            loader: 'ts-loader',
+            options: { }
+          }
         ]
       },
       {
@@ -44,6 +52,9 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    extensions: ['.ts', '.js', '.scss', '.html']
+  },
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.ejs",
@@ -51,7 +62,7 @@ module.exports = {
       inject: false
     }),
     new CopyPlugin([
-      { from: 'src/configurations/', to: 'configurations/' }
+      { from: 'src/widgets/', to: 'widgets/' }
     ])
   ],
   devServer: {
