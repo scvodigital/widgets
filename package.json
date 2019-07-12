@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf public",
     "build": "npm run clean && webpack",
-    "dev": "webpack --watch"
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.4",
     "tslint": "^5.18.0",
     "typedoc": "^0.14.2",
     "typescript": "^3.5.3",

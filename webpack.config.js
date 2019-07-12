@@ -7,7 +7,9 @@ const basedir = path.join(__dirname, 'src');
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
-  entry: path.join(__dirname, 'src', 'index.ts'),
+  entry: {
+    widget: path.join(__dirname, 'src', 'widget.ts'),
+  },
   output: {
     path: path.join(__dirname, 'public')
   },
@@ -19,6 +21,12 @@ module.exports = {
           { loader: 'style-loader' },
           { loader: 'css-loader' },
           { loader: 'sass-loader' }
+        ]
+      },
+      {
+        test: /\.ts$/,
+        use: [
+          { loader: 'ts-loader' }
         ]
       },
       {
@@ -49,6 +57,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     compress: true,
-    port: 9000
+    port: 9000,
+    writeToDisk: true
   }
 };

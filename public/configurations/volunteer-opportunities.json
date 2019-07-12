@@ -1,6 +1,6 @@
 {
   "name": "Volunteer Opportunity Search",
-  "template": "/configurations/volunteer-opportunities.hbs",
+  "html": "/configurations/volunteer-opportunities.html",
   "api": {
     "search": "https://search.volunteerscotland.net/search",
     "details": "https://search.volunteerscotland.net/opportunity"
