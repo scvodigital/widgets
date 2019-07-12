@@ -1,0 +1,45 @@
+{
+  "name": "@public/widgets",
+  "version": "0.0.1",
+  "description": "Embeddable bits of SCVOs digital content",
+  "main": "public/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf public",
+    "build": "npm run clean && webpack",
+    "dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scvodigital/widgets.git"
+  },
+  "author": "Matthew Wilkes (SCVO)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/scvodigital/widgets/issues"
+  },
+  "homepage": "https://github.com/scvodigital/widgets#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.2",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^3.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.18.0",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.5.3",
+    "url-loader": "^2.0.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "leaflet": "^1.5.1"
+  }
+}
