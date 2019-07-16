@@ -7,7 +7,7 @@ export class BaseComponent<T> {
 
   constructor(public element: Element, public widget: Widget) {
     const config = element.getAttribute('data-config');
-    if (!config) throw new Error('Invalid component');
+    if (!config) throw new Error('Invalid configuration');
     this.config = JSON.parse(config) as T;
     this.element.setAttribute('data-component-uid', this.uid);
   }

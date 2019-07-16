@@ -10028,7 +10028,7 @@ exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/di
 // Imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/icon?family=Material+Icons);", ""]);
 // Module
-exports.push([module.i, "@charset \"UTF-8\";\n.scvo-widget {\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Material Design Lite */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /*\n * What follows is the result of much research on cross-browser styling.\n * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,\n * Kroc Camen, and the H5BP dev community and team.\n */\n  /* ==========================================================================\n   Base styles: opinionated defaults\n   ========================================================================== */\n  /*\n * Remove text-shadow in selection highlight:\n * https://twitter.com/miketaylr/status/12228805301\n *\n * These selection rule sets have to be separate.\n * Customize the background color to match your design.\n */\n  /*\n * A better looking default horizontal rule\n */\n  /*\n * Remove the gap between audio, canvas, iframes,\n * images, videos and the bottom of their containers:\n * https://github.com/h5bp/html5-boilerplate/issues/440\n */\n  /*\n * Remove default fieldset styles.\n */\n  /*\n * Allow only vertical resizing of textareas.\n */\n  /* ==========================================================================\n   Browser Upgrade Prompt\n   ========================================================================== */\n  /* ==========================================================================\n   Author's custom styles\n   ========================================================================== */\n  /* ==========================================================================\n   Helper classes\n   ========================================================================== */\n  /*\n * Hide visually and from screen readers:\n */\n  /*\n * Hide only visually, but have it available for screen readers:\n * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility\n */\n  /*\n * Extends the .visuallyhidden class to allow the element\n * to be focusable when navigated to via the keyboard:\n * https://www.drupal.org/node/897638\n */\n  /*\n * Hide visually and from screen readers, but maintain layout\n */\n  /*\n * Clearfix: contain floats\n *\n * For modern browsers\n * 1. The space content is one way to avoid an Opera bug when the\n *    `contenteditable` attribute is included anywhere else in the document.\n *    Otherwise it causes space to appear at the top and bottom of elements\n *    that receive the `clearfix` class.\n * 2. The use of `table` rather than `block` is only necessary if using\n *    `:before` to contain the top-margins of child elements.\n */\n  /* ==========================================================================\n   EXAMPLE Media Queries for Responsive Design.\n   These examples override the primary ('mobile first') styles.\n   Modify as content requires.\n   ========================================================================== */\n  /* ==========================================================================\n   Print styles.\n   Inlined to avoid the additional HTTP request:\n   http://www.phpied.com/delay-loading-your-print-css/\n   ========================================================================== */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Remove the unwanted box around FAB buttons */\n  /* More info: http://goo.gl/IPwKi */\n  /*\n * Make html take up the entire screen\n * Then set touch-action to avoid touch delay on mobile IE\n */\n  /*\n* Make body take up the entire screen\n* Remove body margin so layout containers don't cause extra overflow.\n*/\n  /*\n * Main display reset for IE support.\n * Source: http://weblog.west-wind.com/posts/2015/Jan/12/main-HTML5-Tag-not-working-in-Internet-Explorer-91011\n */\n  /*\n* Apply no display to elements with the hidden attribute.\n* IE 9 and 10 support.\n*/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n  * Styles for HTML elements\n  */\n  /**\n * Class Name Styles\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n* HACK: Even though the intention is to have the current .mdl-spinner__layer-N\n* at `opacity: 1`, we set it to `opacity: 0.99` instead since this forces Chrome\n* to do proper subpixel rendering for the elements being animated. This is\n* especially visible in Chrome 39 on Ubuntu 14.04. See:\n*\n* - https://github.com/Polymer/paper-spinner/issues/9\n* - https://code.google.com/p/chromium/issues/detail?id=436255\n*/\n  /**\n* Patch the gap that appear between the two adjacent\n* div.mdl-spinner__circle-clipper while the spinner is rotating\n* (appears on Chrome 38, Safari 7.1, and IE 11).\n*\n* Update: the gap no longer appears on Chrome when .mdl-spinner__layer-N's\n* opacity is 0.99, but still does on Safari and IE.\n*/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*\n* NOTE: Some rules here are applied using duplicate selectors.\n* This is on purpose to increase their specificity when applied.\n* For example: `.mdl-cell--1-col-phone.mdl-cell--1-col-phone`\n*/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Material Design Lite Grid*/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* Typography */\n  /* Shadows */\n  /* Animations */\n  /* Dialog */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*\n* NOTE: Some rules here are applied using duplicate selectors.\n* This is on purpose to increase their specificity when applied.\n* For example: `.mdl-cell--1-col-phone.mdl-cell--1-col-phone`\n*/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /*------------------------------------*\\\n    $CONTENTS\n\\*------------------------------------*/\n  /**\n * STYLE GUIDE VARIABLES------------------Declarations of Sass variables\n * -----Typography\n * -----Colors\n * -----Textfield\n * -----Switch\n * -----Spinner\n * -----Radio\n * -----Menu\n * -----List\n * -----Layout\n * -----Icon toggles\n * -----Footer\n * -----Column\n * -----Checkbox\n * -----Card\n * -----Button\n * -----Animation\n * -----Progress\n * -----Badge\n * -----Shadows\n * -----Grid\n * -----Data table\n * -----Dialog\n * -----Snackbar\n * -----Tooltip\n * -----Chip\n *\n * Even though all variables have the `!default` directive, most of them\n * should not be changed as they are dependent one another. This can cause\n * visual distortions (like alignment issues) that are hard to track down\n * and fix.\n */\n  /* ==========  TYPOGRAPHY  ========== */\n  /* We're splitting fonts into \"preferred\" and \"performance\" in order to optimize\n   page loading. For important text, such as the body, we want it to load\n   immediately and not wait for the web font load, whereas for other sections,\n   such as headers and titles, we're OK with things taking a bit longer to load.\n   We do have some optional classes and parameters in the mixins, in case you\n   definitely want to make sure you're using the preferred font and don't mind\n   the performance hit.\n   We should be able to improve on this once CSS Font Loading L3 becomes more\n   widely available.\n*/\n  /* ==========  COLORS  ========== */\n  /**\n*\n* Material design color palettes.\n* @see http://www.google.com/design/spec/style/color.html\n*\n**/\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  Color Palettes  ========== */\n  /* colors.scss */\n  /**\n * Copyright 2015 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n */\n  /* ==========  IMAGES  ========== */\n  /* ==========  Color & Themes  ========== */\n  /* ==========  Typography  ========== */\n  /* ==========  Components  ========== */\n  /* ==========  Standard Buttons  ========== */\n  /* ==========  Icon Toggles  ========== */\n  /* ==========  Radio Buttons  ========== */\n  /* ==========  Ripple effect  ========== */\n  /* ==========  Layout  ========== */\n  /* ==========  Content Tabs  ========== */\n  /* ==========  Checkboxes  ========== */\n  /* ==========  Switches  ========== */\n  /* ==========  Spinner  ========== */\n  /* ==========  Text fields  ========== */\n  /* ==========  Card  ========== */\n  /* ==========  Sliders ========== */\n  /* ========== Progress ========== */\n  /* ==========  List ========== */\n  /* ==========  Item ========== */\n  /* ==========  Dropdown menu ========== */\n  /* ==========  Tooltips  ========== */\n  /* ==========  Footer  ========== */\n  /* TEXTFIELD */\n  /* SWITCH */\n  /* SPINNER */\n  /* RADIO */\n  /* MENU */\n  /* LIST */\n  /* LAYOUT */\n  /* ICON TOGGLE */\n  /* FOOTER */\n  /*mega-footer*/\n  /*mini-footer*/\n  /* CHECKBOX */\n  /* CARD */\n  /* Card dimensions */\n  /* Cover image */\n  /* BUTTON */\n  /**\n *\n * Dimensions\n *\n */\n  /* ANIMATION */\n  /* PROGRESS */\n  /* BADGE */\n  /* SHADOWS */\n  /* GRID */\n  /* DATA TABLE */\n  /* DIALOG */\n  /* SNACKBAR */\n  /* TOOLTIP */\n  /* CHIP */ }\n  .scvo-widget html {\n    color: rgba(0,0,0, 0.87);\n    font-size: 1em;\n    line-height: 1.4; }\n  .scvo-widget ::selection {\n    background: #b3d4fc;\n    text-shadow: none; }\n  .scvo-widget hr {\n    display: block;\n    height: 1px;\n    border: 0;\n    border-top: 1px solid #ccc;\n    margin: 1em 0;\n    padding: 0; }\n  .scvo-widget audio,\n  .scvo-widget canvas,\n  .scvo-widget iframe,\n  .scvo-widget img,\n  .scvo-widget svg,\n  .scvo-widget video {\n    vertical-align: middle; }\n  .scvo-widget fieldset {\n    border: 0;\n    margin: 0;\n    padding: 0; }\n  .scvo-widget textarea {\n    resize: vertical; }\n  .scvo-widget .browserupgrade {\n    margin: 0.2em 0;\n    background: #ccc;\n    color: #000;\n    padding: 0.2em 0; }\n  .scvo-widget .hidden {\n    display: none !important; }\n  .scvo-widget .visuallyhidden {\n    border: 0;\n    clip: rect(0 0 0 0);\n    height: 1px;\n    margin: -1px;\n    overflow: hidden;\n    padding: 0;\n    position: absolute;\n    width: 1px; }\n  .scvo-widget .visuallyhidden.focusable:active,\n  .scvo-widget .visuallyhidden.focusable:focus {\n    clip: auto;\n    height: auto;\n    margin: 0;\n    overflow: visible;\n    position: static;\n    width: auto; }\n  .scvo-widget .invisible {\n    visibility: hidden; }\n  .scvo-widget .clearfix:before,\n  .scvo-widget .clearfix:after {\n    content: \" \";\n    /* 1 */\n    display: table;\n    /* 2 */ }\n  .scvo-widget .clearfix:after {\n    clear: both; }\n  @media only screen and (min-width: 35em) {\n    .scvo-widget {\n      /* Style adjustments for viewports that meet the condition */ } }\n  @media print, (min-resolution: 1.25dppx), (min-resolution: 120dpi) {\n    .scvo-widget {\n      /* Style adjustments for high resolution devices */ } }\n  @media print {\n    .scvo-widget {\n      /*\n     * Don't show links that are fragment identifiers,\n     * or use the `javascript:` pseudo protocol\n     */\n      /*\n     * Printing Tables:\n     * http://css-discuss.incutio.com/wiki/Printing_Tables\n     */ }\n      .scvo-widget *,\n      .scvo-widget *:before,\n      .scvo-widget *:after,\n      .scvo-widget *:first-letter {\n        background: transparent !important;\n        color: #000 !important;\n        /* Black prints faster: http://www.sanbeiji.com/archives/953 */\n        box-shadow: none !important; }\n      .scvo-widget a,\n      .scvo-widget a:visited {\n        text-decoration: underline; }\n      .scvo-widget a[href]:after {\n        content: \" (\" attr(href) \")\"; }\n      .scvo-widget abbr[title]:after {\n        content: \" (\" attr(title) \")\"; }\n      .scvo-widget a[href^=\"#\"]:after,\n      .scvo-widget a[href^=\"javascript:\"]:after {\n        content: \"\"; }\n      .scvo-widget pre,\n      .scvo-widget blockquote {\n        border: 1px solid #999;\n        page-break-inside: avoid; }\n      .scvo-widget thead {\n        display: table-header-group; }\n      .scvo-widget tr,\n      .scvo-widget img {\n        page-break-inside: avoid; }\n      .scvo-widget img {\n        max-width: 100% !important; }\n      .scvo-widget p,\n      .scvo-widget h2,\n      .scvo-widget h3 {\n        orphans: 3;\n        widows: 3; }\n      .scvo-widget h2,\n      .scvo-widget h3 {\n        page-break-after: avoid; } }\n  .scvo-widget a, .scvo-widget .mdl-accordion, .scvo-widget .mdl-button, .scvo-widget .mdl-card, .scvo-widget .mdl-checkbox, .scvo-widget .mdl-dropdown-menu,\n  .scvo-widget .mdl-icon-toggle, .scvo-widget .mdl-item, .scvo-widget .mdl-radio, .scvo-widget .mdl-slider, .scvo-widget .mdl-switch, .scvo-widget .mdl-tabs__tab {\n    -webkit-tap-highlight-color: transparent;\n    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }\n  .scvo-widget html {\n    width: 100%;\n    height: 100%;\n    -ms-touch-action: manipulation;\n    touch-action: manipulation; }\n  .scvo-widget body {\n    width: 100%;\n    min-height: 100%;\n    margin: 0; }\n  .scvo-widget main {\n    display: block; }\n  .scvo-widget *[hidden] {\n    display: none !important; }\n  .scvo-widget html, .scvo-widget body {\n    font-family: \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 20px; }\n  .scvo-widget h1, .scvo-widget h2, .scvo-widget h3, .scvo-widget h4, .scvo-widget h5, .scvo-widget h6, .scvo-widget p {\n    margin: 0;\n    padding: 0; }\n  .scvo-widget h1 small, .scvo-widget h2 small, .scvo-widget h3 small, .scvo-widget h4 small, .scvo-widget h5 small, .scvo-widget h6 small {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 56px;\n    font-weight: 400;\n    line-height: 1.35;\n    letter-spacing: -0.02em;\n    opacity: 0.54;\n    font-size: 0.6em; }\n  .scvo-widget h1 {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 56px;\n    font-weight: 400;\n    line-height: 1.35;\n    letter-spacing: -0.02em;\n    margin-top: 24px;\n    margin-bottom: 24px; }\n  .scvo-widget h2 {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 45px;\n    font-weight: 400;\n    line-height: 48px;\n    margin-top: 24px;\n    margin-bottom: 24px; }\n  .scvo-widget h3 {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 34px;\n    font-weight: 400;\n    line-height: 40px;\n    margin-top: 24px;\n    margin-bottom: 24px; }\n  .scvo-widget h4 {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 24px;\n    font-weight: 400;\n    line-height: 32px;\n    -moz-osx-font-smoothing: grayscale;\n    margin-top: 24px;\n    margin-bottom: 16px; }\n  .scvo-widget h5 {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 20px;\n    font-weight: 500;\n    line-height: 1;\n    letter-spacing: 0.02em;\n    margin-top: 24px;\n    margin-bottom: 16px; }\n  .scvo-widget h6 {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 16px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0.04em;\n    margin-top: 24px;\n    margin-bottom: 16px; }\n  .scvo-widget p {\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0;\n    margin-bottom: 16px; }\n  .scvo-widget a {\n    color: rgb(255,64,129);\n    font-weight: 500; }\n  .scvo-widget blockquote {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    position: relative;\n    font-size: 24px;\n    font-weight: 300;\n    font-style: italic;\n    line-height: 1.35;\n    letter-spacing: 0.08em; }\n    .scvo-widget blockquote:before {\n      position: absolute;\n      left: -0.5em;\n      content: '“'; }\n    .scvo-widget blockquote:after {\n      content: '”';\n      margin-left: -0.05em; }\n  .scvo-widget mark {\n    background-color: #f4ff81; }\n  .scvo-widget dt {\n    font-weight: 700; }\n  .scvo-widget address {\n    font-size: 12px;\n    font-weight: 400;\n    line-height: 1;\n    letter-spacing: 0;\n    font-style: normal; }\n  .scvo-widget ul, .scvo-widget ol {\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--display-4 {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 112px;\n    font-weight: 300;\n    line-height: 1;\n    letter-spacing: -0.04em; }\n  .scvo-widget .mdl-typography--display-4-color-contrast {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 112px;\n    font-weight: 300;\n    line-height: 1;\n    letter-spacing: -0.04em;\n    opacity: 0.54; }\n  .scvo-widget .mdl-typography--display-3 {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 56px;\n    font-weight: 400;\n    line-height: 1.35;\n    letter-spacing: -0.02em; }\n  .scvo-widget .mdl-typography--display-3-color-contrast {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 56px;\n    font-weight: 400;\n    line-height: 1.35;\n    letter-spacing: -0.02em;\n    opacity: 0.54; }\n  .scvo-widget .mdl-typography--display-2 {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 45px;\n    font-weight: 400;\n    line-height: 48px; }\n  .scvo-widget .mdl-typography--display-2-color-contrast {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 45px;\n    font-weight: 400;\n    line-height: 48px;\n    opacity: 0.54; }\n  .scvo-widget .mdl-typography--display-1 {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 34px;\n    font-weight: 400;\n    line-height: 40px; }\n  .scvo-widget .mdl-typography--display-1-color-contrast {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 34px;\n    font-weight: 400;\n    line-height: 40px;\n    opacity: 0.54; }\n  .scvo-widget .mdl-typography--headline {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 24px;\n    font-weight: 400;\n    line-height: 32px;\n    -moz-osx-font-smoothing: grayscale; }\n  .scvo-widget .mdl-typography--headline-color-contrast {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 24px;\n    font-weight: 400;\n    line-height: 32px;\n    -moz-osx-font-smoothing: grayscale;\n    opacity: 0.87; }\n  .scvo-widget .mdl-typography--title {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 20px;\n    font-weight: 500;\n    line-height: 1;\n    letter-spacing: 0.02em; }\n  .scvo-widget .mdl-typography--title-color-contrast {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 20px;\n    font-weight: 500;\n    line-height: 1;\n    letter-spacing: 0.02em;\n    opacity: 0.87; }\n  .scvo-widget .mdl-typography--subhead {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 16px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0.04em; }\n  .scvo-widget .mdl-typography--subhead-color-contrast {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 16px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0.04em;\n    opacity: 0.87; }\n  .scvo-widget .mdl-typography--body-2 {\n    font-size: 14px;\n    font-weight: bold;\n    line-height: 24px;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--body-2-color-contrast {\n    font-size: 14px;\n    font-weight: bold;\n    line-height: 24px;\n    letter-spacing: 0;\n    opacity: 0.87; }\n  .scvo-widget .mdl-typography--body-1 {\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--body-1-color-contrast {\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0;\n    opacity: 0.87; }\n  .scvo-widget .mdl-typography--body-2-force-preferred-font {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 14px;\n    font-weight: 500;\n    line-height: 24px;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--body-2-force-preferred-font-color-contrast {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 14px;\n    font-weight: 500;\n    line-height: 24px;\n    letter-spacing: 0;\n    opacity: 0.87; }\n  .scvo-widget .mdl-typography--body-1-force-preferred-font {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--body-1-force-preferred-font-color-contrast {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0;\n    opacity: 0.87; }\n  .scvo-widget .mdl-typography--caption {\n    font-size: 12px;\n    font-weight: 400;\n    line-height: 1;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--caption-force-preferred-font {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 12px;\n    font-weight: 400;\n    line-height: 1;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--caption-color-contrast {\n    font-size: 12px;\n    font-weight: 400;\n    line-height: 1;\n    letter-spacing: 0;\n    opacity: 0.54; }\n  .scvo-widget .mdl-typography--caption-force-preferred-font-color-contrast {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 12px;\n    font-weight: 400;\n    line-height: 1;\n    letter-spacing: 0;\n    opacity: 0.54; }\n  .scvo-widget .mdl-typography--menu {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 14px;\n    font-weight: 500;\n    line-height: 1;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--menu-color-contrast {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 14px;\n    font-weight: 500;\n    line-height: 1;\n    letter-spacing: 0;\n    opacity: 0.87; }\n  .scvo-widget .mdl-typography--button {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 14px;\n    font-weight: 500;\n    text-transform: uppercase;\n    line-height: 1;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--button-color-contrast {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 14px;\n    font-weight: 500;\n    text-transform: uppercase;\n    line-height: 1;\n    letter-spacing: 0;\n    opacity: 0.87; }\n  .scvo-widget .mdl-typography--text-left {\n    text-align: left; }\n  .scvo-widget .mdl-typography--text-right {\n    text-align: right; }\n  .scvo-widget .mdl-typography--text-center {\n    text-align: center; }\n  .scvo-widget .mdl-typography--text-justify {\n    text-align: justify; }\n  .scvo-widget .mdl-typography--text-nowrap {\n    white-space: nowrap; }\n  .scvo-widget .mdl-typography--text-lowercase {\n    text-transform: lowercase; }\n  .scvo-widget .mdl-typography--text-uppercase {\n    text-transform: uppercase; }\n  .scvo-widget .mdl-typography--text-capitalize {\n    text-transform: capitalize; }\n  .scvo-widget .mdl-typography--font-thin {\n    font-weight: 200 !important; }\n  .scvo-widget .mdl-typography--font-light {\n    font-weight: 300 !important; }\n  .scvo-widget .mdl-typography--font-regular {\n    font-weight: 400 !important; }\n  .scvo-widget .mdl-typography--font-medium {\n    font-weight: 500 !important; }\n  .scvo-widget .mdl-typography--font-bold {\n    font-weight: 700 !important; }\n  .scvo-widget .mdl-typography--font-black {\n    font-weight: 900 !important; }\n  .scvo-widget .material-icons {\n    font-family: 'Material Icons';\n    font-weight: normal;\n    font-style: normal;\n    font-size: 24px;\n    line-height: 1;\n    letter-spacing: normal;\n    text-transform: none;\n    display: inline-block;\n    word-wrap: normal;\n    font-feature-settings: 'liga';\n    -webkit-font-feature-settings: 'liga';\n    -webkit-font-smoothing: antialiased; }\n  .scvo-widget .mdl-color-text--red {\n    color: rgb(244,67,54) !important; }\n  .scvo-widget .mdl-color--red {\n    background-color: rgb(244,67,54) !important; }\n  .scvo-widget .mdl-color-text--red-50 {\n    color: rgb(255,235,238) !important; }\n  .scvo-widget .mdl-color--red-50 {\n    background-color: rgb(255,235,238) !important; }\n  .scvo-widget .mdl-color-text--red-100 {\n    color: rgb(255,205,210) !important; }\n  .scvo-widget .mdl-color--red-100 {\n    background-color: rgb(255,205,210) !important; }\n  .scvo-widget .mdl-color-text--red-200 {\n    color: rgb(239,154,154) !important; }\n  .scvo-widget .mdl-color--red-200 {\n    background-color: rgb(239,154,154) !important; }\n  .scvo-widget .mdl-color-text--red-300 {\n    color: rgb(229,115,115) !important; }\n  .scvo-widget .mdl-color--red-300 {\n    background-color: rgb(229,115,115) !important; }\n  .scvo-widget .mdl-color-text--red-400 {\n    color: rgb(239,83,80) !important; }\n  .scvo-widget .mdl-color--red-400 {\n    background-color: rgb(239,83,80) !important; }\n  .scvo-widget .mdl-color-text--red-500 {\n    color: rgb(244,67,54) !important; }\n  .scvo-widget .mdl-color--red-500 {\n    background-color: rgb(244,67,54) !important; }\n  .scvo-widget .mdl-color-text--red-600 {\n    color: rgb(229,57,53) !important; }\n  .scvo-widget .mdl-color--red-600 {\n    background-color: rgb(229,57,53) !important; }\n  .scvo-widget .mdl-color-text--red-700 {\n    color: rgb(211,47,47) !important; }\n  .scvo-widget .mdl-color--red-700 {\n    background-color: rgb(211,47,47) !important; }\n  .scvo-widget .mdl-color-text--red-800 {\n    color: rgb(198,40,40) !important; }\n  .scvo-widget .mdl-color--red-800 {\n    background-color: rgb(198,40,40) !important; }\n  .scvo-widget .mdl-color-text--red-900 {\n    color: rgb(183,28,28) !important; }\n  .scvo-widget .mdl-color--red-900 {\n    background-color: rgb(183,28,28) !important; }\n  .scvo-widget .mdl-color-text--red-A100 {\n    color: rgb(255,138,128) !important; }\n  .scvo-widget .mdl-color--red-A100 {\n    background-color: rgb(255,138,128) !important; }\n  .scvo-widget .mdl-color-text--red-A200 {\n    color: rgb(255,82,82) !important; }\n  .scvo-widget .mdl-color--red-A200 {\n    background-color: rgb(255,82,82) !important; }\n  .scvo-widget .mdl-color-text--red-A400 {\n    color: rgb(255,23,68) !important; }\n  .scvo-widget .mdl-color--red-A400 {\n    background-color: rgb(255,23,68) !important; }\n  .scvo-widget .mdl-color-text--red-A700 {\n    color: rgb(213,0,0) !important; }\n  .scvo-widget .mdl-color--red-A700 {\n    background-color: rgb(213,0,0) !important; }\n  .scvo-widget .mdl-color-text--pink {\n    color: rgb(233,30,99) !important; }\n  .scvo-widget .mdl-color--pink {\n    background-color: rgb(233,30,99) !important; }\n  .scvo-widget .mdl-color-text--pink-50 {\n    color: rgb(252,228,236) !important; }\n  .scvo-widget .mdl-color--pink-50 {\n    background-color: rgb(252,228,236) !important; }\n  .scvo-widget .mdl-color-text--pink-100 {\n    color: rgb(248,187,208) !important; }\n  .scvo-widget .mdl-color--pink-100 {\n    background-color: rgb(248,187,208) !important; }\n  .scvo-widget .mdl-color-text--pink-200 {\n    color: rgb(244,143,177) !important; }\n  .scvo-widget .mdl-color--pink-200 {\n    background-color: rgb(244,143,177) !important; }\n  .scvo-widget .mdl-color-text--pink-300 {\n    color: rgb(240,98,146) !important; }\n  .scvo-widget .mdl-color--pink-300 {\n    background-color: rgb(240,98,146) !important; }\n  .scvo-widget .mdl-color-text--pink-400 {\n    color: rgb(236,64,122) !important; }\n  .scvo-widget .mdl-color--pink-400 {\n    background-color: rgb(236,64,122) !important; }\n  .scvo-widget .mdl-color-text--pink-500 {\n    color: rgb(233,30,99) !important; }\n  .scvo-widget .mdl-color--pink-500 {\n    background-color: rgb(233,30,99) !important; }\n  .scvo-widget .mdl-color-text--pink-600 {\n    color: rgb(216,27,96) !important; }\n  .scvo-widget .mdl-color--pink-600 {\n    background-color: rgb(216,27,96) !important; }\n  .scvo-widget .mdl-color-text--pink-700 {\n    color: rgb(194,24,91) !important; }\n  .scvo-widget .mdl-color--pink-700 {\n    background-color: rgb(194,24,91) !important; }\n  .scvo-widget .mdl-color-text--pink-800 {\n    color: rgb(173,20,87) !important; }\n  .scvo-widget .mdl-color--pink-800 {\n    background-color: rgb(173,20,87) !important; }\n  .scvo-widget .mdl-color-text--pink-900 {\n    color: rgb(136,14,79) !important; }\n  .scvo-widget .mdl-color--pink-900 {\n    background-color: rgb(136,14,79) !important; }\n  .scvo-widget .mdl-color-text--pink-A100 {\n    color: rgb(255,128,171) !important; }\n  .scvo-widget .mdl-color--pink-A100 {\n    background-color: rgb(255,128,171) !important; }\n  .scvo-widget .mdl-color-text--pink-A200 {\n    color: rgb(255,64,129) !important; }\n  .scvo-widget .mdl-color--pink-A200 {\n    background-color: rgb(255,64,129) !important; }\n  .scvo-widget .mdl-color-text--pink-A400 {\n    color: rgb(245,0,87) !important; }\n  .scvo-widget .mdl-color--pink-A400 {\n    background-color: rgb(245,0,87) !important; }\n  .scvo-widget .mdl-color-text--pink-A700 {\n    color: rgb(197,17,98) !important; }\n  .scvo-widget .mdl-color--pink-A700 {\n    background-color: rgb(197,17,98) !important; }\n  .scvo-widget .mdl-color-text--purple {\n    color: rgb(156,39,176) !important; }\n  .scvo-widget .mdl-color--purple {\n    background-color: rgb(156,39,176) !important; }\n  .scvo-widget .mdl-color-text--purple-50 {\n    color: rgb(243,229,245) !important; }\n  .scvo-widget .mdl-color--purple-50 {\n    background-color: rgb(243,229,245) !important; }\n  .scvo-widget .mdl-color-text--purple-100 {\n    color: rgb(225,190,231) !important; }\n  .scvo-widget .mdl-color--purple-100 {\n    background-color: rgb(225,190,231) !important; }\n  .scvo-widget .mdl-color-text--purple-200 {\n    color: rgb(206,147,216) !important; }\n  .scvo-widget .mdl-color--purple-200 {\n    background-color: rgb(206,147,216) !important; }\n  .scvo-widget .mdl-color-text--purple-300 {\n    color: rgb(186,104,200) !important; }\n  .scvo-widget .mdl-color--purple-300 {\n    background-color: rgb(186,104,200) !important; }\n  .scvo-widget .mdl-color-text--purple-400 {\n    color: rgb(171,71,188) !important; }\n  .scvo-widget .mdl-color--purple-400 {\n    background-color: rgb(171,71,188) !important; }\n  .scvo-widget .mdl-color-text--purple-500 {\n    color: rgb(156,39,176) !important; }\n  .scvo-widget .mdl-color--purple-500 {\n    background-color: rgb(156,39,176) !important; }\n  .scvo-widget .mdl-color-text--purple-600 {\n    color: rgb(142,36,170) !important; }\n  .scvo-widget .mdl-color--purple-600 {\n    background-color: rgb(142,36,170) !important; }\n  .scvo-widget .mdl-color-text--purple-700 {\n    color: rgb(123,31,162) !important; }\n  .scvo-widget .mdl-color--purple-700 {\n    background-color: rgb(123,31,162) !important; }\n  .scvo-widget .mdl-color-text--purple-800 {\n    color: rgb(106,27,154) !important; }\n  .scvo-widget .mdl-color--purple-800 {\n    background-color: rgb(106,27,154) !important; }\n  .scvo-widget .mdl-color-text--purple-900 {\n    color: rgb(74,20,140) !important; }\n  .scvo-widget .mdl-color--purple-900 {\n    background-color: rgb(74,20,140) !important; }\n  .scvo-widget .mdl-color-text--purple-A100 {\n    color: rgb(234,128,252) !important; }\n  .scvo-widget .mdl-color--purple-A100 {\n    background-color: rgb(234,128,252) !important; }\n  .scvo-widget .mdl-color-text--purple-A200 {\n    color: rgb(224,64,251) !important; }\n  .scvo-widget .mdl-color--purple-A200 {\n    background-color: rgb(224,64,251) !important; }\n  .scvo-widget .mdl-color-text--purple-A400 {\n    color: rgb(213,0,249) !important; }\n  .scvo-widget .mdl-color--purple-A400 {\n    background-color: rgb(213,0,249) !important; }\n  .scvo-widget .mdl-color-text--purple-A700 {\n    color: rgb(170,0,255) !important; }\n  .scvo-widget .mdl-color--purple-A700 {\n    background-color: rgb(170,0,255) !important; }\n  .scvo-widget .mdl-color-text--deep-purple {\n    color: rgb(103,58,183) !important; }\n  .scvo-widget .mdl-color--deep-purple {\n    background-color: rgb(103,58,183) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-50 {\n    color: rgb(237,231,246) !important; }\n  .scvo-widget .mdl-color--deep-purple-50 {\n    background-color: rgb(237,231,246) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-100 {\n    color: rgb(209,196,233) !important; }\n  .scvo-widget .mdl-color--deep-purple-100 {\n    background-color: rgb(209,196,233) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-200 {\n    color: rgb(179,157,219) !important; }\n  .scvo-widget .mdl-color--deep-purple-200 {\n    background-color: rgb(179,157,219) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-300 {\n    color: rgb(149,117,205) !important; }\n  .scvo-widget .mdl-color--deep-purple-300 {\n    background-color: rgb(149,117,205) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-400 {\n    color: rgb(126,87,194) !important; }\n  .scvo-widget .mdl-color--deep-purple-400 {\n    background-color: rgb(126,87,194) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-500 {\n    color: rgb(103,58,183) !important; }\n  .scvo-widget .mdl-color--deep-purple-500 {\n    background-color: rgb(103,58,183) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-600 {\n    color: rgb(94,53,177) !important; }\n  .scvo-widget .mdl-color--deep-purple-600 {\n    background-color: rgb(94,53,177) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-700 {\n    color: rgb(81,45,168) !important; }\n  .scvo-widget .mdl-color--deep-purple-700 {\n    background-color: rgb(81,45,168) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-800 {\n    color: rgb(69,39,160) !important; }\n  .scvo-widget .mdl-color--deep-purple-800 {\n    background-color: rgb(69,39,160) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-900 {\n    color: rgb(49,27,146) !important; }\n  .scvo-widget .mdl-color--deep-purple-900 {\n    background-color: rgb(49,27,146) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-A100 {\n    color: rgb(179,136,255) !important; }\n  .scvo-widget .mdl-color--deep-purple-A100 {\n    background-color: rgb(179,136,255) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-A200 {\n    color: rgb(124,77,255) !important; }\n  .scvo-widget .mdl-color--deep-purple-A200 {\n    background-color: rgb(124,77,255) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-A400 {\n    color: rgb(101,31,255) !important; }\n  .scvo-widget .mdl-color--deep-purple-A400 {\n    background-color: rgb(101,31,255) !important; }\n  .scvo-widget .mdl-color-text--deep-purple-A700 {\n    color: rgb(98,0,234) !important; }\n  .scvo-widget .mdl-color--deep-purple-A700 {\n    background-color: rgb(98,0,234) !important; }\n  .scvo-widget .mdl-color-text--indigo {\n    color: rgb(63,81,181) !important; }\n  .scvo-widget .mdl-color--indigo {\n    background-color: rgb(63,81,181) !important; }\n  .scvo-widget .mdl-color-text--indigo-50 {\n    color: rgb(232,234,246) !important; }\n  .scvo-widget .mdl-color--indigo-50 {\n    background-color: rgb(232,234,246) !important; }\n  .scvo-widget .mdl-color-text--indigo-100 {\n    color: rgb(197,202,233) !important; }\n  .scvo-widget .mdl-color--indigo-100 {\n    background-color: rgb(197,202,233) !important; }\n  .scvo-widget .mdl-color-text--indigo-200 {\n    color: rgb(159,168,218) !important; }\n  .scvo-widget .mdl-color--indigo-200 {\n    background-color: rgb(159,168,218) !important; }\n  .scvo-widget .mdl-color-text--indigo-300 {\n    color: rgb(121,134,203) !important; }\n  .scvo-widget .mdl-color--indigo-300 {\n    background-color: rgb(121,134,203) !important; }\n  .scvo-widget .mdl-color-text--indigo-400 {\n    color: rgb(92,107,192) !important; }\n  .scvo-widget .mdl-color--indigo-400 {\n    background-color: rgb(92,107,192) !important; }\n  .scvo-widget .mdl-color-text--indigo-500 {\n    color: rgb(63,81,181) !important; }\n  .scvo-widget .mdl-color--indigo-500 {\n    background-color: rgb(63,81,181) !important; }\n  .scvo-widget .mdl-color-text--indigo-600 {\n    color: rgb(57,73,171) !important; }\n  .scvo-widget .mdl-color--indigo-600 {\n    background-color: rgb(57,73,171) !important; }\n  .scvo-widget .mdl-color-text--indigo-700 {\n    color: rgb(48,63,159) !important; }\n  .scvo-widget .mdl-color--indigo-700 {\n    background-color: rgb(48,63,159) !important; }\n  .scvo-widget .mdl-color-text--indigo-800 {\n    color: rgb(40,53,147) !important; }\n  .scvo-widget .mdl-color--indigo-800 {\n    background-color: rgb(40,53,147) !important; }\n  .scvo-widget .mdl-color-text--indigo-900 {\n    color: rgb(26,35,126) !important; }\n  .scvo-widget .mdl-color--indigo-900 {\n    background-color: rgb(26,35,126) !important; }\n  .scvo-widget .mdl-color-text--indigo-A100 {\n    color: rgb(140,158,255) !important; }\n  .scvo-widget .mdl-color--indigo-A100 {\n    background-color: rgb(140,158,255) !important; }\n  .scvo-widget .mdl-color-text--indigo-A200 {\n    color: rgb(83,109,254) !important; }\n  .scvo-widget .mdl-color--indigo-A200 {\n    background-color: rgb(83,109,254) !important; }\n  .scvo-widget .mdl-color-text--indigo-A400 {\n    color: rgb(61,90,254) !important; }\n  .scvo-widget .mdl-color--indigo-A400 {\n    background-color: rgb(61,90,254) !important; }\n  .scvo-widget .mdl-color-text--indigo-A700 {\n    color: rgb(48,79,254) !important; }\n  .scvo-widget .mdl-color--indigo-A700 {\n    background-color: rgb(48,79,254) !important; }\n  .scvo-widget .mdl-color-text--blue {\n    color: rgb(33,150,243) !important; }\n  .scvo-widget .mdl-color--blue {\n    background-color: rgb(33,150,243) !important; }\n  .scvo-widget .mdl-color-text--blue-50 {\n    color: rgb(227,242,253) !important; }\n  .scvo-widget .mdl-color--blue-50 {\n    background-color: rgb(227,242,253) !important; }\n  .scvo-widget .mdl-color-text--blue-100 {\n    color: rgb(187,222,251) !important; }\n  .scvo-widget .mdl-color--blue-100 {\n    background-color: rgb(187,222,251) !important; }\n  .scvo-widget .mdl-color-text--blue-200 {\n    color: rgb(144,202,249) !important; }\n  .scvo-widget .mdl-color--blue-200 {\n    background-color: rgb(144,202,249) !important; }\n  .scvo-widget .mdl-color-text--blue-300 {\n    color: rgb(100,181,246) !important; }\n  .scvo-widget .mdl-color--blue-300 {\n    background-color: rgb(100,181,246) !important; }\n  .scvo-widget .mdl-color-text--blue-400 {\n    color: rgb(66,165,245) !important; }\n  .scvo-widget .mdl-color--blue-400 {\n    background-color: rgb(66,165,245) !important; }\n  .scvo-widget .mdl-color-text--blue-500 {\n    color: rgb(33,150,243) !important; }\n  .scvo-widget .mdl-color--blue-500 {\n    background-color: rgb(33,150,243) !important; }\n  .scvo-widget .mdl-color-text--blue-600 {\n    color: rgb(30,136,229) !important; }\n  .scvo-widget .mdl-color--blue-600 {\n    background-color: rgb(30,136,229) !important; }\n  .scvo-widget .mdl-color-text--blue-700 {\n    color: rgb(25,118,210) !important; }\n  .scvo-widget .mdl-color--blue-700 {\n    background-color: rgb(25,118,210) !important; }\n  .scvo-widget .mdl-color-text--blue-800 {\n    color: rgb(21,101,192) !important; }\n  .scvo-widget .mdl-color--blue-800 {\n    background-color: rgb(21,101,192) !important; }\n  .scvo-widget .mdl-color-text--blue-900 {\n    color: rgb(13,71,161) !important; }\n  .scvo-widget .mdl-color--blue-900 {\n    background-color: rgb(13,71,161) !important; }\n  .scvo-widget .mdl-color-text--blue-A100 {\n    color: rgb(130,177,255) !important; }\n  .scvo-widget .mdl-color--blue-A100 {\n    background-color: rgb(130,177,255) !important; }\n  .scvo-widget .mdl-color-text--blue-A200 {\n    color: rgb(68,138,255) !important; }\n  .scvo-widget .mdl-color--blue-A200 {\n    background-color: rgb(68,138,255) !important; }\n  .scvo-widget .mdl-color-text--blue-A400 {\n    color: rgb(41,121,255) !important; }\n  .scvo-widget .mdl-color--blue-A400 {\n    background-color: rgb(41,121,255) !important; }\n  .scvo-widget .mdl-color-text--blue-A700 {\n    color: rgb(41,98,255) !important; }\n  .scvo-widget .mdl-color--blue-A700 {\n    background-color: rgb(41,98,255) !important; }\n  .scvo-widget .mdl-color-text--light-blue {\n    color: rgb(3,169,244) !important; }\n  .scvo-widget .mdl-color--light-blue {\n    background-color: rgb(3,169,244) !important; }\n  .scvo-widget .mdl-color-text--light-blue-50 {\n    color: rgb(225,245,254) !important; }\n  .scvo-widget .mdl-color--light-blue-50 {\n    background-color: rgb(225,245,254) !important; }\n  .scvo-widget .mdl-color-text--light-blue-100 {\n    color: rgb(179,229,252) !important; }\n  .scvo-widget .mdl-color--light-blue-100 {\n    background-color: rgb(179,229,252) !important; }\n  .scvo-widget .mdl-color-text--light-blue-200 {\n    color: rgb(129,212,250) !important; }\n  .scvo-widget .mdl-color--light-blue-200 {\n    background-color: rgb(129,212,250) !important; }\n  .scvo-widget .mdl-color-text--light-blue-300 {\n    color: rgb(79,195,247) !important; }\n  .scvo-widget .mdl-color--light-blue-300 {\n    background-color: rgb(79,195,247) !important; }\n  .scvo-widget .mdl-color-text--light-blue-400 {\n    color: rgb(41,182,246) !important; }\n  .scvo-widget .mdl-color--light-blue-400 {\n    background-color: rgb(41,182,246) !important; }\n  .scvo-widget .mdl-color-text--light-blue-500 {\n    color: rgb(3,169,244) !important; }\n  .scvo-widget .mdl-color--light-blue-500 {\n    background-color: rgb(3,169,244) !important; }\n  .scvo-widget .mdl-color-text--light-blue-600 {\n    color: rgb(3,155,229) !important; }\n  .scvo-widget .mdl-color--light-blue-600 {\n    background-color: rgb(3,155,229) !important; }\n  .scvo-widget .mdl-color-text--light-blue-700 {\n    color: rgb(2,136,209) !important; }\n  .scvo-widget .mdl-color--light-blue-700 {\n    background-color: rgb(2,136,209) !important; }\n  .scvo-widget .mdl-color-text--light-blue-800 {\n    color: rgb(2,119,189) !important; }\n  .scvo-widget .mdl-color--light-blue-800 {\n    background-color: rgb(2,119,189) !important; }\n  .scvo-widget .mdl-color-text--light-blue-900 {\n    color: rgb(1,87,155) !important; }\n  .scvo-widget .mdl-color--light-blue-900 {\n    background-color: rgb(1,87,155) !important; }\n  .scvo-widget .mdl-color-text--light-blue-A100 {\n    color: rgb(128,216,255) !important; }\n  .scvo-widget .mdl-color--light-blue-A100 {\n    background-color: rgb(128,216,255) !important; }\n  .scvo-widget .mdl-color-text--light-blue-A200 {\n    color: rgb(64,196,255) !important; }\n  .scvo-widget .mdl-color--light-blue-A200 {\n    background-color: rgb(64,196,255) !important; }\n  .scvo-widget .mdl-color-text--light-blue-A400 {\n    color: rgb(0,176,255) !important; }\n  .scvo-widget .mdl-color--light-blue-A400 {\n    background-color: rgb(0,176,255) !important; }\n  .scvo-widget .mdl-color-text--light-blue-A700 {\n    color: rgb(0,145,234) !important; }\n  .scvo-widget .mdl-color--light-blue-A700 {\n    background-color: rgb(0,145,234) !important; }\n  .scvo-widget .mdl-color-text--cyan {\n    color: rgb(0,188,212) !important; }\n  .scvo-widget .mdl-color--cyan {\n    background-color: rgb(0,188,212) !important; }\n  .scvo-widget .mdl-color-text--cyan-50 {\n    color: rgb(224,247,250) !important; }\n  .scvo-widget .mdl-color--cyan-50 {\n    background-color: rgb(224,247,250) !important; }\n  .scvo-widget .mdl-color-text--cyan-100 {\n    color: rgb(178,235,242) !important; }\n  .scvo-widget .mdl-color--cyan-100 {\n    background-color: rgb(178,235,242) !important; }\n  .scvo-widget .mdl-color-text--cyan-200 {\n    color: rgb(128,222,234) !important; }\n  .scvo-widget .mdl-color--cyan-200 {\n    background-color: rgb(128,222,234) !important; }\n  .scvo-widget .mdl-color-text--cyan-300 {\n    color: rgb(77,208,225) !important; }\n  .scvo-widget .mdl-color--cyan-300 {\n    background-color: rgb(77,208,225) !important; }\n  .scvo-widget .mdl-color-text--cyan-400 {\n    color: rgb(38,198,218) !important; }\n  .scvo-widget .mdl-color--cyan-400 {\n    background-color: rgb(38,198,218) !important; }\n  .scvo-widget .mdl-color-text--cyan-500 {\n    color: rgb(0,188,212) !important; }\n  .scvo-widget .mdl-color--cyan-500 {\n    background-color: rgb(0,188,212) !important; }\n  .scvo-widget .mdl-color-text--cyan-600 {\n    color: rgb(0,172,193) !important; }\n  .scvo-widget .mdl-color--cyan-600 {\n    background-color: rgb(0,172,193) !important; }\n  .scvo-widget .mdl-color-text--cyan-700 {\n    color: rgb(0,151,167) !important; }\n  .scvo-widget .mdl-color--cyan-700 {\n    background-color: rgb(0,151,167) !important; }\n  .scvo-widget .mdl-color-text--cyan-800 {\n    color: rgb(0,131,143) !important; }\n  .scvo-widget .mdl-color--cyan-800 {\n    background-color: rgb(0,131,143) !important; }\n  .scvo-widget .mdl-color-text--cyan-900 {\n    color: rgb(0,96,100) !important; }\n  .scvo-widget .mdl-color--cyan-900 {\n    background-color: rgb(0,96,100) !important; }\n  .scvo-widget .mdl-color-text--cyan-A100 {\n    color: rgb(132,255,255) !important; }\n  .scvo-widget .mdl-color--cyan-A100 {\n    background-color: rgb(132,255,255) !important; }\n  .scvo-widget .mdl-color-text--cyan-A200 {\n    color: rgb(24,255,255) !important; }\n  .scvo-widget .mdl-color--cyan-A200 {\n    background-color: rgb(24,255,255) !important; }\n  .scvo-widget .mdl-color-text--cyan-A400 {\n    color: rgb(0,229,255) !important; }\n  .scvo-widget .mdl-color--cyan-A400 {\n    background-color: rgb(0,229,255) !important; }\n  .scvo-widget .mdl-color-text--cyan-A700 {\n    color: rgb(0,184,212) !important; }\n  .scvo-widget .mdl-color--cyan-A700 {\n    background-color: rgb(0,184,212) !important; }\n  .scvo-widget .mdl-color-text--teal {\n    color: rgb(0,150,136) !important; }\n  .scvo-widget .mdl-color--teal {\n    background-color: rgb(0,150,136) !important; }\n  .scvo-widget .mdl-color-text--teal-50 {\n    color: rgb(224,242,241) !important; }\n  .scvo-widget .mdl-color--teal-50 {\n    background-color: rgb(224,242,241) !important; }\n  .scvo-widget .mdl-color-text--teal-100 {\n    color: rgb(178,223,219) !important; }\n  .scvo-widget .mdl-color--teal-100 {\n    background-color: rgb(178,223,219) !important; }\n  .scvo-widget .mdl-color-text--teal-200 {\n    color: rgb(128,203,196) !important; }\n  .scvo-widget .mdl-color--teal-200 {\n    background-color: rgb(128,203,196) !important; }\n  .scvo-widget .mdl-color-text--teal-300 {\n    color: rgb(77,182,172) !important; }\n  .scvo-widget .mdl-color--teal-300 {\n    background-color: rgb(77,182,172) !important; }\n  .scvo-widget .mdl-color-text--teal-400 {\n    color: rgb(38,166,154) !important; }\n  .scvo-widget .mdl-color--teal-400 {\n    background-color: rgb(38,166,154) !important; }\n  .scvo-widget .mdl-color-text--teal-500 {\n    color: rgb(0,150,136) !important; }\n  .scvo-widget .mdl-color--teal-500 {\n    background-color: rgb(0,150,136) !important; }\n  .scvo-widget .mdl-color-text--teal-600 {\n    color: rgb(0,137,123) !important; }\n  .scvo-widget .mdl-color--teal-600 {\n    background-color: rgb(0,137,123) !important; }\n  .scvo-widget .mdl-color-text--teal-700 {\n    color: rgb(0,121,107) !important; }\n  .scvo-widget .mdl-color--teal-700 {\n    background-color: rgb(0,121,107) !important; }\n  .scvo-widget .mdl-color-text--teal-800 {\n    color: rgb(0,105,92) !important; }\n  .scvo-widget .mdl-color--teal-800 {\n    background-color: rgb(0,105,92) !important; }\n  .scvo-widget .mdl-color-text--teal-900 {\n    color: rgb(0,77,64) !important; }\n  .scvo-widget .mdl-color--teal-900 {\n    background-color: rgb(0,77,64) !important; }\n  .scvo-widget .mdl-color-text--teal-A100 {\n    color: rgb(167,255,235) !important; }\n  .scvo-widget .mdl-color--teal-A100 {\n    background-color: rgb(167,255,235) !important; }\n  .scvo-widget .mdl-color-text--teal-A200 {\n    color: rgb(100,255,218) !important; }\n  .scvo-widget .mdl-color--teal-A200 {\n    background-color: rgb(100,255,218) !important; }\n  .scvo-widget .mdl-color-text--teal-A400 {\n    color: rgb(29,233,182) !important; }\n  .scvo-widget .mdl-color--teal-A400 {\n    background-color: rgb(29,233,182) !important; }\n  .scvo-widget .mdl-color-text--teal-A700 {\n    color: rgb(0,191,165) !important; }\n  .scvo-widget .mdl-color--teal-A700 {\n    background-color: rgb(0,191,165) !important; }\n  .scvo-widget .mdl-color-text--green {\n    color: rgb(76,175,80) !important; }\n  .scvo-widget .mdl-color--green {\n    background-color: rgb(76,175,80) !important; }\n  .scvo-widget .mdl-color-text--green-50 {\n    color: rgb(232,245,233) !important; }\n  .scvo-widget .mdl-color--green-50 {\n    background-color: rgb(232,245,233) !important; }\n  .scvo-widget .mdl-color-text--green-100 {\n    color: rgb(200,230,201) !important; }\n  .scvo-widget .mdl-color--green-100 {\n    background-color: rgb(200,230,201) !important; }\n  .scvo-widget .mdl-color-text--green-200 {\n    color: rgb(165,214,167) !important; }\n  .scvo-widget .mdl-color--green-200 {\n    background-color: rgb(165,214,167) !important; }\n  .scvo-widget .mdl-color-text--green-300 {\n    color: rgb(129,199,132) !important; }\n  .scvo-widget .mdl-color--green-300 {\n    background-color: rgb(129,199,132) !important; }\n  .scvo-widget .mdl-color-text--green-400 {\n    color: rgb(102,187,106) !important; }\n  .scvo-widget .mdl-color--green-400 {\n    background-color: rgb(102,187,106) !important; }\n  .scvo-widget .mdl-color-text--green-500 {\n    color: rgb(76,175,80) !important; }\n  .scvo-widget .mdl-color--green-500 {\n    background-color: rgb(76,175,80) !important; }\n  .scvo-widget .mdl-color-text--green-600 {\n    color: rgb(67,160,71) !important; }\n  .scvo-widget .mdl-color--green-600 {\n    background-color: rgb(67,160,71) !important; }\n  .scvo-widget .mdl-color-text--green-700 {\n    color: rgb(56,142,60) !important; }\n  .scvo-widget .mdl-color--green-700 {\n    background-color: rgb(56,142,60) !important; }\n  .scvo-widget .mdl-color-text--green-800 {\n    color: rgb(46,125,50) !important; }\n  .scvo-widget .mdl-color--green-800 {\n    background-color: rgb(46,125,50) !important; }\n  .scvo-widget .mdl-color-text--green-900 {\n    color: rgb(27,94,32) !important; }\n  .scvo-widget .mdl-color--green-900 {\n    background-color: rgb(27,94,32) !important; }\n  .scvo-widget .mdl-color-text--green-A100 {\n    color: rgb(185,246,202) !important; }\n  .scvo-widget .mdl-color--green-A100 {\n    background-color: rgb(185,246,202) !important; }\n  .scvo-widget .mdl-color-text--green-A200 {\n    color: rgb(105,240,174) !important; }\n  .scvo-widget .mdl-color--green-A200 {\n    background-color: rgb(105,240,174) !important; }\n  .scvo-widget .mdl-color-text--green-A400 {\n    color: rgb(0,230,118) !important; }\n  .scvo-widget .mdl-color--green-A400 {\n    background-color: rgb(0,230,118) !important; }\n  .scvo-widget .mdl-color-text--green-A700 {\n    color: rgb(0,200,83) !important; }\n  .scvo-widget .mdl-color--green-A700 {\n    background-color: rgb(0,200,83) !important; }\n  .scvo-widget .mdl-color-text--light-green {\n    color: rgb(139,195,74) !important; }\n  .scvo-widget .mdl-color--light-green {\n    background-color: rgb(139,195,74) !important; }\n  .scvo-widget .mdl-color-text--light-green-50 {\n    color: rgb(241,248,233) !important; }\n  .scvo-widget .mdl-color--light-green-50 {\n    background-color: rgb(241,248,233) !important; }\n  .scvo-widget .mdl-color-text--light-green-100 {\n    color: rgb(220,237,200) !important; }\n  .scvo-widget .mdl-color--light-green-100 {\n    background-color: rgb(220,237,200) !important; }\n  .scvo-widget .mdl-color-text--light-green-200 {\n    color: rgb(197,225,165) !important; }\n  .scvo-widget .mdl-color--light-green-200 {\n    background-color: rgb(197,225,165) !important; }\n  .scvo-widget .mdl-color-text--light-green-300 {\n    color: rgb(174,213,129) !important; }\n  .scvo-widget .mdl-color--light-green-300 {\n    background-color: rgb(174,213,129) !important; }\n  .scvo-widget .mdl-color-text--light-green-400 {\n    color: rgb(156,204,101) !important; }\n  .scvo-widget .mdl-color--light-green-400 {\n    background-color: rgb(156,204,101) !important; }\n  .scvo-widget .mdl-color-text--light-green-500 {\n    color: rgb(139,195,74) !important; }\n  .scvo-widget .mdl-color--light-green-500 {\n    background-color: rgb(139,195,74) !important; }\n  .scvo-widget .mdl-color-text--light-green-600 {\n    color: rgb(124,179,66) !important; }\n  .scvo-widget .mdl-color--light-green-600 {\n    background-color: rgb(124,179,66) !important; }\n  .scvo-widget .mdl-color-text--light-green-700 {\n    color: rgb(104,159,56) !important; }\n  .scvo-widget .mdl-color--light-green-700 {\n    background-color: rgb(104,159,56) !important; }\n  .scvo-widget .mdl-color-text--light-green-800 {\n    color: rgb(85,139,47) !important; }\n  .scvo-widget .mdl-color--light-green-800 {\n    background-color: rgb(85,139,47) !important; }\n  .scvo-widget .mdl-color-text--light-green-900 {\n    color: rgb(51,105,30) !important; }\n  .scvo-widget .mdl-color--light-green-900 {\n    background-color: rgb(51,105,30) !important; }\n  .scvo-widget .mdl-color-text--light-green-A100 {\n    color: rgb(204,255,144) !important; }\n  .scvo-widget .mdl-color--light-green-A100 {\n    background-color: rgb(204,255,144) !important; }\n  .scvo-widget .mdl-color-text--light-green-A200 {\n    color: rgb(178,255,89) !important; }\n  .scvo-widget .mdl-color--light-green-A200 {\n    background-color: rgb(178,255,89) !important; }\n  .scvo-widget .mdl-color-text--light-green-A400 {\n    color: rgb(118,255,3) !important; }\n  .scvo-widget .mdl-color--light-green-A400 {\n    background-color: rgb(118,255,3) !important; }\n  .scvo-widget .mdl-color-text--light-green-A700 {\n    color: rgb(100,221,23) !important; }\n  .scvo-widget .mdl-color--light-green-A700 {\n    background-color: rgb(100,221,23) !important; }\n  .scvo-widget .mdl-color-text--lime {\n    color: rgb(205,220,57) !important; }\n  .scvo-widget .mdl-color--lime {\n    background-color: rgb(205,220,57) !important; }\n  .scvo-widget .mdl-color-text--lime-50 {\n    color: rgb(249,251,231) !important; }\n  .scvo-widget .mdl-color--lime-50 {\n    background-color: rgb(249,251,231) !important; }\n  .scvo-widget .mdl-color-text--lime-100 {\n    color: rgb(240,244,195) !important; }\n  .scvo-widget .mdl-color--lime-100 {\n    background-color: rgb(240,244,195) !important; }\n  .scvo-widget .mdl-color-text--lime-200 {\n    color: rgb(230,238,156) !important; }\n  .scvo-widget .mdl-color--lime-200 {\n    background-color: rgb(230,238,156) !important; }\n  .scvo-widget .mdl-color-text--lime-300 {\n    color: rgb(220,231,117) !important; }\n  .scvo-widget .mdl-color--lime-300 {\n    background-color: rgb(220,231,117) !important; }\n  .scvo-widget .mdl-color-text--lime-400 {\n    color: rgb(212,225,87) !important; }\n  .scvo-widget .mdl-color--lime-400 {\n    background-color: rgb(212,225,87) !important; }\n  .scvo-widget .mdl-color-text--lime-500 {\n    color: rgb(205,220,57) !important; }\n  .scvo-widget .mdl-color--lime-500 {\n    background-color: rgb(205,220,57) !important; }\n  .scvo-widget .mdl-color-text--lime-600 {\n    color: rgb(192,202,51) !important; }\n  .scvo-widget .mdl-color--lime-600 {\n    background-color: rgb(192,202,51) !important; }\n  .scvo-widget .mdl-color-text--lime-700 {\n    color: rgb(175,180,43) !important; }\n  .scvo-widget .mdl-color--lime-700 {\n    background-color: rgb(175,180,43) !important; }\n  .scvo-widget .mdl-color-text--lime-800 {\n    color: rgb(158,157,36) !important; }\n  .scvo-widget .mdl-color--lime-800 {\n    background-color: rgb(158,157,36) !important; }\n  .scvo-widget .mdl-color-text--lime-900 {\n    color: rgb(130,119,23) !important; }\n  .scvo-widget .mdl-color--lime-900 {\n    background-color: rgb(130,119,23) !important; }\n  .scvo-widget .mdl-color-text--lime-A100 {\n    color: rgb(244,255,129) !important; }\n  .scvo-widget .mdl-color--lime-A100 {\n    background-color: rgb(244,255,129) !important; }\n  .scvo-widget .mdl-color-text--lime-A200 {\n    color: rgb(238,255,65) !important; }\n  .scvo-widget .mdl-color--lime-A200 {\n    background-color: rgb(238,255,65) !important; }\n  .scvo-widget .mdl-color-text--lime-A400 {\n    color: rgb(198,255,0) !important; }\n  .scvo-widget .mdl-color--lime-A400 {\n    background-color: rgb(198,255,0) !important; }\n  .scvo-widget .mdl-color-text--lime-A700 {\n    color: rgb(174,234,0) !important; }\n  .scvo-widget .mdl-color--lime-A700 {\n    background-color: rgb(174,234,0) !important; }\n  .scvo-widget .mdl-color-text--yellow {\n    color: rgb(255,235,59) !important; }\n  .scvo-widget .mdl-color--yellow {\n    background-color: rgb(255,235,59) !important; }\n  .scvo-widget .mdl-color-text--yellow-50 {\n    color: rgb(255,253,231) !important; }\n  .scvo-widget .mdl-color--yellow-50 {\n    background-color: rgb(255,253,231) !important; }\n  .scvo-widget .mdl-color-text--yellow-100 {\n    color: rgb(255,249,196) !important; }\n  .scvo-widget .mdl-color--yellow-100 {\n    background-color: rgb(255,249,196) !important; }\n  .scvo-widget .mdl-color-text--yellow-200 {\n    color: rgb(255,245,157) !important; }\n  .scvo-widget .mdl-color--yellow-200 {\n    background-color: rgb(255,245,157) !important; }\n  .scvo-widget .mdl-color-text--yellow-300 {\n    color: rgb(255,241,118) !important; }\n  .scvo-widget .mdl-color--yellow-300 {\n    background-color: rgb(255,241,118) !important; }\n  .scvo-widget .mdl-color-text--yellow-400 {\n    color: rgb(255,238,88) !important; }\n  .scvo-widget .mdl-color--yellow-400 {\n    background-color: rgb(255,238,88) !important; }\n  .scvo-widget .mdl-color-text--yellow-500 {\n    color: rgb(255,235,59) !important; }\n  .scvo-widget .mdl-color--yellow-500 {\n    background-color: rgb(255,235,59) !important; }\n  .scvo-widget .mdl-color-text--yellow-600 {\n    color: rgb(253,216,53) !important; }\n  .scvo-widget .mdl-color--yellow-600 {\n    background-color: rgb(253,216,53) !important; }\n  .scvo-widget .mdl-color-text--yellow-700 {\n    color: rgb(251,192,45) !important; }\n  .scvo-widget .mdl-color--yellow-700 {\n    background-color: rgb(251,192,45) !important; }\n  .scvo-widget .mdl-color-text--yellow-800 {\n    color: rgb(249,168,37) !important; }\n  .scvo-widget .mdl-color--yellow-800 {\n    background-color: rgb(249,168,37) !important; }\n  .scvo-widget .mdl-color-text--yellow-900 {\n    color: rgb(245,127,23) !important; }\n  .scvo-widget .mdl-color--yellow-900 {\n    background-color: rgb(245,127,23) !important; }\n  .scvo-widget .mdl-color-text--yellow-A100 {\n    color: rgb(255,255,141) !important; }\n  .scvo-widget .mdl-color--yellow-A100 {\n    background-color: rgb(255,255,141) !important; }\n  .scvo-widget .mdl-color-text--yellow-A200 {\n    color: rgb(255,255,0) !important; }\n  .scvo-widget .mdl-color--yellow-A200 {\n    background-color: rgb(255,255,0) !important; }\n  .scvo-widget .mdl-color-text--yellow-A400 {\n    color: rgb(255,234,0) !important; }\n  .scvo-widget .mdl-color--yellow-A400 {\n    background-color: rgb(255,234,0) !important; }\n  .scvo-widget .mdl-color-text--yellow-A700 {\n    color: rgb(255,214,0) !important; }\n  .scvo-widget .mdl-color--yellow-A700 {\n    background-color: rgb(255,214,0) !important; }\n  .scvo-widget .mdl-color-text--amber {\n    color: rgb(255,193,7) !important; }\n  .scvo-widget .mdl-color--amber {\n    background-color: rgb(255,193,7) !important; }\n  .scvo-widget .mdl-color-text--amber-50 {\n    color: rgb(255,248,225) !important; }\n  .scvo-widget .mdl-color--amber-50 {\n    background-color: rgb(255,248,225) !important; }\n  .scvo-widget .mdl-color-text--amber-100 {\n    color: rgb(255,236,179) !important; }\n  .scvo-widget .mdl-color--amber-100 {\n    background-color: rgb(255,236,179) !important; }\n  .scvo-widget .mdl-color-text--amber-200 {\n    color: rgb(255,224,130) !important; }\n  .scvo-widget .mdl-color--amber-200 {\n    background-color: rgb(255,224,130) !important; }\n  .scvo-widget .mdl-color-text--amber-300 {\n    color: rgb(255,213,79) !important; }\n  .scvo-widget .mdl-color--amber-300 {\n    background-color: rgb(255,213,79) !important; }\n  .scvo-widget .mdl-color-text--amber-400 {\n    color: rgb(255,202,40) !important; }\n  .scvo-widget .mdl-color--amber-400 {\n    background-color: rgb(255,202,40) !important; }\n  .scvo-widget .mdl-color-text--amber-500 {\n    color: rgb(255,193,7) !important; }\n  .scvo-widget .mdl-color--amber-500 {\n    background-color: rgb(255,193,7) !important; }\n  .scvo-widget .mdl-color-text--amber-600 {\n    color: rgb(255,179,0) !important; }\n  .scvo-widget .mdl-color--amber-600 {\n    background-color: rgb(255,179,0) !important; }\n  .scvo-widget .mdl-color-text--amber-700 {\n    color: rgb(255,160,0) !important; }\n  .scvo-widget .mdl-color--amber-700 {\n    background-color: rgb(255,160,0) !important; }\n  .scvo-widget .mdl-color-text--amber-800 {\n    color: rgb(255,143,0) !important; }\n  .scvo-widget .mdl-color--amber-800 {\n    background-color: rgb(255,143,0) !important; }\n  .scvo-widget .mdl-color-text--amber-900 {\n    color: rgb(255,111,0) !important; }\n  .scvo-widget .mdl-color--amber-900 {\n    background-color: rgb(255,111,0) !important; }\n  .scvo-widget .mdl-color-text--amber-A100 {\n    color: rgb(255,229,127) !important; }\n  .scvo-widget .mdl-color--amber-A100 {\n    background-color: rgb(255,229,127) !important; }\n  .scvo-widget .mdl-color-text--amber-A200 {\n    color: rgb(255,215,64) !important; }\n  .scvo-widget .mdl-color--amber-A200 {\n    background-color: rgb(255,215,64) !important; }\n  .scvo-widget .mdl-color-text--amber-A400 {\n    color: rgb(255,196,0) !important; }\n  .scvo-widget .mdl-color--amber-A400 {\n    background-color: rgb(255,196,0) !important; }\n  .scvo-widget .mdl-color-text--amber-A700 {\n    color: rgb(255,171,0) !important; }\n  .scvo-widget .mdl-color--amber-A700 {\n    background-color: rgb(255,171,0) !important; }\n  .scvo-widget .mdl-color-text--orange {\n    color: rgb(255,152,0) !important; }\n  .scvo-widget .mdl-color--orange {\n    background-color: rgb(255,152,0) !important; }\n  .scvo-widget .mdl-color-text--orange-50 {\n    color: rgb(255,243,224) !important; }\n  .scvo-widget .mdl-color--orange-50 {\n    background-color: rgb(255,243,224) !important; }\n  .scvo-widget .mdl-color-text--orange-100 {\n    color: rgb(255,224,178) !important; }\n  .scvo-widget .mdl-color--orange-100 {\n    background-color: rgb(255,224,178) !important; }\n  .scvo-widget .mdl-color-text--orange-200 {\n    color: rgb(255,204,128) !important; }\n  .scvo-widget .mdl-color--orange-200 {\n    background-color: rgb(255,204,128) !important; }\n  .scvo-widget .mdl-color-text--orange-300 {\n    color: rgb(255,183,77) !important; }\n  .scvo-widget .mdl-color--orange-300 {\n    background-color: rgb(255,183,77) !important; }\n  .scvo-widget .mdl-color-text--orange-400 {\n    color: rgb(255,167,38) !important; }\n  .scvo-widget .mdl-color--orange-400 {\n    background-color: rgb(255,167,38) !important; }\n  .scvo-widget .mdl-color-text--orange-500 {\n    color: rgb(255,152,0) !important; }\n  .scvo-widget .mdl-color--orange-500 {\n    background-color: rgb(255,152,0) !important; }\n  .scvo-widget .mdl-color-text--orange-600 {\n    color: rgb(251,140,0) !important; }\n  .scvo-widget .mdl-color--orange-600 {\n    background-color: rgb(251,140,0) !important; }\n  .scvo-widget .mdl-color-text--orange-700 {\n    color: rgb(245,124,0) !important; }\n  .scvo-widget .mdl-color--orange-700 {\n    background-color: rgb(245,124,0) !important; }\n  .scvo-widget .mdl-color-text--orange-800 {\n    color: rgb(239,108,0) !important; }\n  .scvo-widget .mdl-color--orange-800 {\n    background-color: rgb(239,108,0) !important; }\n  .scvo-widget .mdl-color-text--orange-900 {\n    color: rgb(230,81,0) !important; }\n  .scvo-widget .mdl-color--orange-900 {\n    background-color: rgb(230,81,0) !important; }\n  .scvo-widget .mdl-color-text--orange-A100 {\n    color: rgb(255,209,128) !important; }\n  .scvo-widget .mdl-color--orange-A100 {\n    background-color: rgb(255,209,128) !important; }\n  .scvo-widget .mdl-color-text--orange-A200 {\n    color: rgb(255,171,64) !important; }\n  .scvo-widget .mdl-color--orange-A200 {\n    background-color: rgb(255,171,64) !important; }\n  .scvo-widget .mdl-color-text--orange-A400 {\n    color: rgb(255,145,0) !important; }\n  .scvo-widget .mdl-color--orange-A400 {\n    background-color: rgb(255,145,0) !important; }\n  .scvo-widget .mdl-color-text--orange-A700 {\n    color: rgb(255,109,0) !important; }\n  .scvo-widget .mdl-color--orange-A700 {\n    background-color: rgb(255,109,0) !important; }\n  .scvo-widget .mdl-color-text--deep-orange {\n    color: rgb(255,87,34) !important; }\n  .scvo-widget .mdl-color--deep-orange {\n    background-color: rgb(255,87,34) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-50 {\n    color: rgb(251,233,231) !important; }\n  .scvo-widget .mdl-color--deep-orange-50 {\n    background-color: rgb(251,233,231) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-100 {\n    color: rgb(255,204,188) !important; }\n  .scvo-widget .mdl-color--deep-orange-100 {\n    background-color: rgb(255,204,188) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-200 {\n    color: rgb(255,171,145) !important; }\n  .scvo-widget .mdl-color--deep-orange-200 {\n    background-color: rgb(255,171,145) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-300 {\n    color: rgb(255,138,101) !important; }\n  .scvo-widget .mdl-color--deep-orange-300 {\n    background-color: rgb(255,138,101) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-400 {\n    color: rgb(255,112,67) !important; }\n  .scvo-widget .mdl-color--deep-orange-400 {\n    background-color: rgb(255,112,67) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-500 {\n    color: rgb(255,87,34) !important; }\n  .scvo-widget .mdl-color--deep-orange-500 {\n    background-color: rgb(255,87,34) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-600 {\n    color: rgb(244,81,30) !important; }\n  .scvo-widget .mdl-color--deep-orange-600 {\n    background-color: rgb(244,81,30) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-700 {\n    color: rgb(230,74,25) !important; }\n  .scvo-widget .mdl-color--deep-orange-700 {\n    background-color: rgb(230,74,25) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-800 {\n    color: rgb(216,67,21) !important; }\n  .scvo-widget .mdl-color--deep-orange-800 {\n    background-color: rgb(216,67,21) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-900 {\n    color: rgb(191,54,12) !important; }\n  .scvo-widget .mdl-color--deep-orange-900 {\n    background-color: rgb(191,54,12) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-A100 {\n    color: rgb(255,158,128) !important; }\n  .scvo-widget .mdl-color--deep-orange-A100 {\n    background-color: rgb(255,158,128) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-A200 {\n    color: rgb(255,110,64) !important; }\n  .scvo-widget .mdl-color--deep-orange-A200 {\n    background-color: rgb(255,110,64) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-A400 {\n    color: rgb(255,61,0) !important; }\n  .scvo-widget .mdl-color--deep-orange-A400 {\n    background-color: rgb(255,61,0) !important; }\n  .scvo-widget .mdl-color-text--deep-orange-A700 {\n    color: rgb(221,44,0) !important; }\n  .scvo-widget .mdl-color--deep-orange-A700 {\n    background-color: rgb(221,44,0) !important; }\n  .scvo-widget .mdl-color-text--brown {\n    color: rgb(121,85,72) !important; }\n  .scvo-widget .mdl-color--brown {\n    background-color: rgb(121,85,72) !important; }\n  .scvo-widget .mdl-color-text--brown-50 {\n    color: rgb(239,235,233) !important; }\n  .scvo-widget .mdl-color--brown-50 {\n    background-color: rgb(239,235,233) !important; }\n  .scvo-widget .mdl-color-text--brown-100 {\n    color: rgb(215,204,200) !important; }\n  .scvo-widget .mdl-color--brown-100 {\n    background-color: rgb(215,204,200) !important; }\n  .scvo-widget .mdl-color-text--brown-200 {\n    color: rgb(188,170,164) !important; }\n  .scvo-widget .mdl-color--brown-200 {\n    background-color: rgb(188,170,164) !important; }\n  .scvo-widget .mdl-color-text--brown-300 {\n    color: rgb(161,136,127) !important; }\n  .scvo-widget .mdl-color--brown-300 {\n    background-color: rgb(161,136,127) !important; }\n  .scvo-widget .mdl-color-text--brown-400 {\n    color: rgb(141,110,99) !important; }\n  .scvo-widget .mdl-color--brown-400 {\n    background-color: rgb(141,110,99) !important; }\n  .scvo-widget .mdl-color-text--brown-500 {\n    color: rgb(121,85,72) !important; }\n  .scvo-widget .mdl-color--brown-500 {\n    background-color: rgb(121,85,72) !important; }\n  .scvo-widget .mdl-color-text--brown-600 {\n    color: rgb(109,76,65) !important; }\n  .scvo-widget .mdl-color--brown-600 {\n    background-color: rgb(109,76,65) !important; }\n  .scvo-widget .mdl-color-text--brown-700 {\n    color: rgb(93,64,55) !important; }\n  .scvo-widget .mdl-color--brown-700 {\n    background-color: rgb(93,64,55) !important; }\n  .scvo-widget .mdl-color-text--brown-800 {\n    color: rgb(78,52,46) !important; }\n  .scvo-widget .mdl-color--brown-800 {\n    background-color: rgb(78,52,46) !important; }\n  .scvo-widget .mdl-color-text--brown-900 {\n    color: rgb(62,39,35) !important; }\n  .scvo-widget .mdl-color--brown-900 {\n    background-color: rgb(62,39,35) !important; }\n  .scvo-widget .mdl-color-text--grey {\n    color: rgb(158,158,158) !important; }\n  .scvo-widget .mdl-color--grey {\n    background-color: rgb(158,158,158) !important; }\n  .scvo-widget .mdl-color-text--grey-50 {\n    color: rgb(250,250,250) !important; }\n  .scvo-widget .mdl-color--grey-50 {\n    background-color: rgb(250,250,250) !important; }\n  .scvo-widget .mdl-color-text--grey-100 {\n    color: rgb(245,245,245) !important; }\n  .scvo-widget .mdl-color--grey-100 {\n    background-color: rgb(245,245,245) !important; }\n  .scvo-widget .mdl-color-text--grey-200 {\n    color: rgb(238,238,238) !important; }\n  .scvo-widget .mdl-color--grey-200 {\n    background-color: rgb(238,238,238) !important; }\n  .scvo-widget .mdl-color-text--grey-300 {\n    color: rgb(224,224,224) !important; }\n  .scvo-widget .mdl-color--grey-300 {\n    background-color: rgb(224,224,224) !important; }\n  .scvo-widget .mdl-color-text--grey-400 {\n    color: rgb(189,189,189) !important; }\n  .scvo-widget .mdl-color--grey-400 {\n    background-color: rgb(189,189,189) !important; }\n  .scvo-widget .mdl-color-text--grey-500 {\n    color: rgb(158,158,158) !important; }\n  .scvo-widget .mdl-color--grey-500 {\n    background-color: rgb(158,158,158) !important; }\n  .scvo-widget .mdl-color-text--grey-600 {\n    color: rgb(117,117,117) !important; }\n  .scvo-widget .mdl-color--grey-600 {\n    background-color: rgb(117,117,117) !important; }\n  .scvo-widget .mdl-color-text--grey-700 {\n    color: rgb(97,97,97) !important; }\n  .scvo-widget .mdl-color--grey-700 {\n    background-color: rgb(97,97,97) !important; }\n  .scvo-widget .mdl-color-text--grey-800 {\n    color: rgb(66,66,66) !important; }\n  .scvo-widget .mdl-color--grey-800 {\n    background-color: rgb(66,66,66) !important; }\n  .scvo-widget .mdl-color-text--grey-900 {\n    color: rgb(33,33,33) !important; }\n  .scvo-widget .mdl-color--grey-900 {\n    background-color: rgb(33,33,33) !important; }\n  .scvo-widget .mdl-color-text--blue-grey {\n    color: rgb(96,125,139) !important; }\n  .scvo-widget .mdl-color--blue-grey {\n    background-color: rgb(96,125,139) !important; }\n  .scvo-widget .mdl-color-text--blue-grey-50 {\n    color: rgb(236,239,241) !important; }\n  .scvo-widget .mdl-color--blue-grey-50 {\n    background-color: rgb(236,239,241) !important; }\n  .scvo-widget .mdl-color-text--blue-grey-100 {\n    color: rgb(207,216,220) !important; }\n  .scvo-widget .mdl-color--blue-grey-100 {\n    background-color: rgb(207,216,220) !important; }\n  .scvo-widget .mdl-color-text--blue-grey-200 {\n    color: rgb(176,190,197) !important; }\n  .scvo-widget .mdl-color--blue-grey-200 {\n    background-color: rgb(176,190,197) !important; }\n  .scvo-widget .mdl-color-text--blue-grey-300 {\n    color: rgb(144,164,174) !important; }\n  .scvo-widget .mdl-color--blue-grey-300 {\n    background-color: rgb(144,164,174) !important; }\n  .scvo-widget .mdl-color-text--blue-grey-400 {\n    color: rgb(120,144,156) !important; }\n  .scvo-widget .mdl-color--blue-grey-400 {\n    background-color: rgb(120,144,156) !important; }\n  .scvo-widget .mdl-color-text--blue-grey-500 {\n    color: rgb(96,125,139) !important; }\n  .scvo-widget .mdl-color--blue-grey-500 {\n    background-color: rgb(96,125,139) !important; }\n  .scvo-widget .mdl-color-text--blue-grey-600 {\n    color: rgb(84,110,122) !important; }\n  .scvo-widget .mdl-color--blue-grey-600 {\n    background-color: rgb(84,110,122) !important; }\n  .scvo-widget .mdl-color-text--blue-grey-700 {\n    color: rgb(69,90,100) !important; }\n  .scvo-widget .mdl-color--blue-grey-700 {\n    background-color: rgb(69,90,100) !important; }\n  .scvo-widget .mdl-color-text--blue-grey-800 {\n    color: rgb(55,71,79) !important; }\n  .scvo-widget .mdl-color--blue-grey-800 {\n    background-color: rgb(55,71,79) !important; }\n  .scvo-widget .mdl-color-text--blue-grey-900 {\n    color: rgb(38,50,56) !important; }\n  .scvo-widget .mdl-color--blue-grey-900 {\n    background-color: rgb(38,50,56) !important; }\n  .scvo-widget .mdl-color--black {\n    background-color: rgb(0,0,0) !important; }\n  .scvo-widget .mdl-color-text--black {\n    color: rgb(0,0,0) !important; }\n  .scvo-widget .mdl-color--white {\n    background-color: rgb(255,255,255) !important; }\n  .scvo-widget .mdl-color-text--white {\n    color: rgb(255,255,255) !important; }\n  .scvo-widget .mdl-color--primary {\n    background-color: rgb(63,81,181) !important; }\n  .scvo-widget .mdl-color--primary-contrast {\n    background-color: rgb(255,255,255) !important; }\n  .scvo-widget .mdl-color--primary-dark {\n    background-color: rgb(48,63,159) !important; }\n  .scvo-widget .mdl-color--accent {\n    background-color: rgb(255,64,129) !important; }\n  .scvo-widget .mdl-color--accent-contrast {\n    background-color: rgb(255,255,255) !important; }\n  .scvo-widget .mdl-color-text--primary {\n    color: rgb(63,81,181) !important; }\n  .scvo-widget .mdl-color-text--primary-contrast {\n    color: rgb(255,255,255) !important; }\n  .scvo-widget .mdl-color-text--primary-dark {\n    color: rgb(48,63,159) !important; }\n  .scvo-widget .mdl-color-text--accent {\n    color: rgb(255,64,129) !important; }\n  .scvo-widget .mdl-color-text--accent-contrast {\n    color: rgb(255,255,255) !important; }\n  .scvo-widget .mdl-ripple {\n    background: rgb(0,0,0);\n    border-radius: 50%;\n    height: 50px;\n    left: 0;\n    opacity: 0;\n    pointer-events: none;\n    position: absolute;\n    top: 0;\n    transform: translate(-50%, -50%);\n    width: 50px;\n    overflow: hidden; }\n    .scvo-widget .mdl-ripple.is-animating {\n      transition: transform 0.3s cubic-bezier(0, 0, 0.2, 1), width 0.3s cubic-bezier(0, 0, 0.2, 1), height 0.3s cubic-bezier(0, 0, 0.2, 1), opacity 0.6s cubic-bezier(0, 0, 0.2, 1); }\n    .scvo-widget .mdl-ripple.is-visible {\n      opacity: 0.3; }\n  .scvo-widget .mdl-animation--default {\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-animation--fast-out-slow-in {\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-animation--linear-out-slow-in {\n    transition-timing-function: cubic-bezier(0, 0, 0.2, 1); }\n  .scvo-widget .mdl-animation--fast-out-linear-in {\n    transition-timing-function: cubic-bezier(0.4, 0, 1, 1); }\n  .scvo-widget .mdl-badge {\n    position: relative;\n    white-space: nowrap;\n    margin-right: 24px; }\n    .scvo-widget .mdl-badge:not([data-badge]) {\n      margin-right: auto; }\n    .scvo-widget .mdl-badge[data-badge]:after {\n      content: attr(data-badge);\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap;\n      justify-content: center;\n      align-content: center;\n      align-items: center;\n      position: absolute;\n      top: -11px;\n      right: -24px;\n      font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n      font-weight: 600;\n      font-size: 12px;\n      width: 22px;\n      height: 22px;\n      border-radius: 50%;\n      background: rgb(255,64,129);\n      color: rgb(255,255,255); }\n      .mdl-button .scvo-widget .mdl-badge[data-badge]:after {\n        top: -10px;\n        right: -5px; }\n    .scvo-widget .mdl-badge.mdl-badge--no-background[data-badge]:after {\n      color: rgb(255,64,129);\n      background: rgba(255,255,255,0.2);\n      box-shadow: 0 0 1px gray; }\n    .scvo-widget .mdl-badge.mdl-badge--overlap {\n      margin-right: 10px; }\n      .scvo-widget .mdl-badge.mdl-badge--overlap:after {\n        right: -10px; }\n  .scvo-widget .mdl-button {\n    background: transparent;\n    border: none;\n    border-radius: 2px;\n    color: rgb(0,0,0);\n    position: relative;\n    height: 36px;\n    margin: 0;\n    min-width: 64px;\n    padding: 0 16px;\n    display: inline-block;\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 14px;\n    font-weight: 500;\n    text-transform: uppercase;\n    line-height: 1;\n    letter-spacing: 0;\n    overflow: hidden;\n    will-change: box-shadow;\n    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n    outline: none;\n    cursor: pointer;\n    text-decoration: none;\n    text-align: center;\n    line-height: 36px;\n    vertical-align: middle; }\n    .scvo-widget .mdl-button::-moz-focus-inner {\n      border: 0; }\n    .scvo-widget .mdl-button:hover {\n      background-color: rgba(158,158,158, 0.20); }\n    .scvo-widget .mdl-button:focus:not(:active) {\n      background-color: rgba(0,0,0, 0.12); }\n    .scvo-widget .mdl-button:active {\n      background-color: rgba(158,158,158, 0.40); }\n    .scvo-widget .mdl-button.mdl-button--colored {\n      color: rgb(63,81,181); }\n      .scvo-widget .mdl-button.mdl-button--colored:focus:not(:active) {\n        background-color: rgba(0,0,0, 0.12); }\n  .scvo-widget input.mdl-button[type=\"submit\"] {\n    -webkit-appearance: none; }\n  .scvo-widget .mdl-button--raised {\n    background: rgba(158,158,158, 0.20);\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }\n    .scvo-widget .mdl-button--raised:active {\n      box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);\n      background-color: rgba(158,158,158, 0.40); }\n    .scvo-widget .mdl-button--raised:focus:not(:active) {\n      box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);\n      background-color: rgba(158,158,158, 0.40); }\n    .scvo-widget .mdl-button--raised.mdl-button--colored {\n      background: rgb(63,81,181);\n      color: rgb(255,255,255); }\n      .scvo-widget .mdl-button--raised.mdl-button--colored:hover {\n        background-color: rgb(63,81,181); }\n      .scvo-widget .mdl-button--raised.mdl-button--colored:active {\n        background-color: rgb(63,81,181); }\n      .scvo-widget .mdl-button--raised.mdl-button--colored:focus:not(:active) {\n        background-color: rgb(63,81,181); }\n      .scvo-widget .mdl-button--raised.mdl-button--colored .mdl-ripple {\n        background: rgb(255,255,255); }\n  .scvo-widget .mdl-button--fab {\n    border-radius: 50%;\n    font-size: 24px;\n    height: 56px;\n    margin: auto;\n    min-width: 56px;\n    width: 56px;\n    padding: 0;\n    overflow: hidden;\n    background: rgba(158,158,158, 0.20);\n    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);\n    position: relative;\n    line-height: normal; }\n    .scvo-widget .mdl-button--fab .material-icons {\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      transform: translate(-12px, -12px);\n      line-height: 24px;\n      width: 24px; }\n    .scvo-widget .mdl-button--fab.mdl-button--mini-fab {\n      height: 40px;\n      min-width: 40px;\n      width: 40px; }\n    .scvo-widget .mdl-button--fab .mdl-button__ripple-container {\n      border-radius: 50%;\n      -webkit-mask-image: -webkit-radial-gradient(circle, white, black); }\n    .scvo-widget .mdl-button--fab:active {\n      box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);\n      background-color: rgba(158,158,158, 0.40); }\n    .scvo-widget .mdl-button--fab:focus:not(:active) {\n      box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);\n      background-color: rgba(158,158,158, 0.40); }\n    .scvo-widget .mdl-button--fab.mdl-button--colored {\n      background: rgb(255,64,129);\n      color: rgb(255,255,255); }\n      .scvo-widget .mdl-button--fab.mdl-button--colored:hover {\n        background-color: rgb(255,64,129); }\n      .scvo-widget .mdl-button--fab.mdl-button--colored:focus:not(:active) {\n        background-color: rgb(255,64,129); }\n      .scvo-widget .mdl-button--fab.mdl-button--colored:active {\n        background-color: rgb(255,64,129); }\n      .scvo-widget .mdl-button--fab.mdl-button--colored .mdl-ripple {\n        background: rgb(255,255,255); }\n  .scvo-widget .mdl-button--icon {\n    border-radius: 50%;\n    font-size: 24px;\n    height: 32px;\n    margin-left: 0;\n    margin-right: 0;\n    min-width: 32px;\n    width: 32px;\n    padding: 0;\n    overflow: hidden;\n    color: inherit;\n    line-height: normal; }\n    .scvo-widget .mdl-button--icon .material-icons {\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      transform: translate(-12px, -12px);\n      line-height: 24px;\n      width: 24px; }\n    .scvo-widget .mdl-button--icon.mdl-button--mini-icon {\n      height: 24px;\n      min-width: 24px;\n      width: 24px; }\n      .scvo-widget .mdl-button--icon.mdl-button--mini-icon .material-icons {\n        top: 0px;\n        left: 0px; }\n    .scvo-widget .mdl-button--icon .mdl-button__ripple-container {\n      border-radius: 50%;\n      -webkit-mask-image: -webkit-radial-gradient(circle, white, black); }\n  .scvo-widget .mdl-button__ripple-container {\n    display: block;\n    height: 100%;\n    left: 0px;\n    position: absolute;\n    top: 0px;\n    width: 100%;\n    z-index: 0;\n    overflow: hidden; }\n    .mdl-button[disabled] .scvo-widget .mdl-button__ripple-container .mdl-ripple,\n    .mdl-button.mdl-button--disabled .scvo-widget .mdl-button__ripple-container .mdl-ripple {\n      background-color: transparent; }\n  .scvo-widget .mdl-button--primary.mdl-button--primary {\n    color: rgb(63,81,181); }\n    .scvo-widget .mdl-button--primary.mdl-button--primary .mdl-ripple {\n      background: rgb(255,255,255); }\n    .scvo-widget .mdl-button--primary.mdl-button--primary.mdl-button--raised, .scvo-widget .mdl-button--primary.mdl-button--primary.mdl-button--fab {\n      color: rgb(255,255,255);\n      background-color: rgb(63,81,181); }\n  .scvo-widget .mdl-button--accent.mdl-button--accent {\n    color: rgb(255,64,129); }\n    .scvo-widget .mdl-button--accent.mdl-button--accent .mdl-ripple {\n      background: rgb(255,255,255); }\n    .scvo-widget .mdl-button--accent.mdl-button--accent.mdl-button--raised, .scvo-widget .mdl-button--accent.mdl-button--accent.mdl-button--fab {\n      color: rgb(255,255,255);\n      background-color: rgb(255,64,129); }\n  .scvo-widget .mdl-button[disabled][disabled], .scvo-widget .mdl-button.mdl-button--disabled.mdl-button--disabled {\n    color: rgba(0,0,0, 0.26);\n    cursor: default;\n    background-color: transparent; }\n  .scvo-widget .mdl-button--fab[disabled][disabled], .scvo-widget .mdl-button--fab.mdl-button--disabled.mdl-button--disabled {\n    background-color: rgba(0,0,0, 0.12);\n    color: rgba(0,0,0, 0.26); }\n  .scvo-widget .mdl-button--raised[disabled][disabled], .scvo-widget .mdl-button--raised.mdl-button--disabled.mdl-button--disabled {\n    background-color: rgba(0,0,0, 0.12);\n    color: rgba(0,0,0, 0.26);\n    box-shadow: none; }\n  .scvo-widget .mdl-button--colored[disabled][disabled], .scvo-widget .mdl-button--colored.mdl-button--disabled.mdl-button--disabled {\n    color: rgba(0,0,0, 0.26); }\n  .scvo-widget .mdl-button .material-icons {\n    vertical-align: middle; }\n  .scvo-widget .mdl-card {\n    display: flex;\n    flex-direction: column;\n    font-size: 16px;\n    font-weight: 400;\n    min-height: 200px;\n    overflow: hidden;\n    width: 330px;\n    z-index: 1;\n    position: relative;\n    background: rgb(255,255,255);\n    border-radius: 2px;\n    box-sizing: border-box; }\n  .scvo-widget .mdl-card__media {\n    background-color: rgb(255,64,129);\n    background-repeat: repeat;\n    background-position: 50% 50%;\n    background-size: cover;\n    background-origin: padding-box;\n    background-attachment: scroll;\n    box-sizing: border-box; }\n  .scvo-widget .mdl-card__title {\n    align-items: center;\n    color: rgb(0,0,0);\n    display: block;\n    display: flex;\n    justify-content: stretch;\n    line-height: normal;\n    padding: 16px 16px;\n    perspective-origin: 165px 56px;\n    transform-origin: 165px 56px;\n    box-sizing: border-box; }\n    .scvo-widget .mdl-card__title.mdl-card--border {\n      border-bottom: 1px solid rgba(0, 0, 0, 0.1); }\n  .scvo-widget .mdl-card__title-text {\n    align-self: flex-end;\n    color: inherit;\n    display: block;\n    display: flex;\n    font-size: 24px;\n    font-weight: 300;\n    line-height: normal;\n    overflow: hidden;\n    transform-origin: 149px 48px;\n    margin: 0; }\n  .scvo-widget .mdl-card__subtitle-text {\n    font-size: 14px;\n    color: rgba(0,0,0, 0.54);\n    margin: 0; }\n  .scvo-widget .mdl-card__supporting-text {\n    color: rgba(0,0,0, 0.54);\n    font-size: 1rem;\n    line-height: 18px;\n    overflow: hidden;\n    padding: 16px 16px;\n    width: 90%; }\n    .scvo-widget .mdl-card__supporting-text.mdl-card--border {\n      border-bottom: 1px solid rgba(0, 0, 0, 0.1); }\n  .scvo-widget .mdl-card__actions {\n    font-size: 16px;\n    line-height: normal;\n    width: 100%;\n    background-color: rgba(0, 0, 0, 0);\n    padding: 8px;\n    box-sizing: border-box; }\n    .scvo-widget .mdl-card__actions.mdl-card--border {\n      border-top: 1px solid rgba(0, 0, 0, 0.1); }\n  .scvo-widget .mdl-card--expand {\n    flex-grow: 1; }\n  .scvo-widget .mdl-card__menu {\n    position: absolute;\n    right: 16px;\n    top: 16px; }\n  .scvo-widget .mdl-checkbox {\n    position: relative;\n    z-index: 1;\n    vertical-align: middle;\n    display: inline-block;\n    box-sizing: border-box;\n    width: 100%;\n    height: 24px;\n    margin: 0;\n    padding: 0; }\n    .scvo-widget .mdl-checkbox.is-upgraded {\n      padding-left: 24px; }\n  .scvo-widget .mdl-checkbox__input {\n    line-height: 24px; }\n    .mdl-checkbox.is-upgraded .scvo-widget .mdl-checkbox__input {\n      position: absolute;\n      width: 0;\n      height: 0;\n      margin: 0;\n      padding: 0;\n      opacity: 0;\n      -ms-appearance: none;\n      -moz-appearance: none;\n      -webkit-appearance: none;\n      appearance: none;\n      border: none; }\n  .scvo-widget .mdl-checkbox__box-outline {\n    position: absolute;\n    top: 3px;\n    left: 0;\n    display: inline-block;\n    box-sizing: border-box;\n    width: 16px;\n    height: 16px;\n    margin: 0;\n    cursor: pointer;\n    overflow: hidden;\n    border: 2px solid rgba(0,0,0, 0.54);\n    border-radius: 2px;\n    z-index: 2; }\n    .mdl-checkbox.is-checked .scvo-widget .mdl-checkbox__box-outline {\n      border: 2px solid rgb(63,81,181); }\n    fieldset[disabled] .mdl-checkbox .scvo-widget .mdl-checkbox__box-outline,\n    .mdl-checkbox.is-disabled .scvo-widget .mdl-checkbox__box-outline {\n      border: 2px solid rgba(0,0,0, 0.26);\n      cursor: auto; }\n  .scvo-widget .mdl-checkbox__focus-helper {\n    position: absolute;\n    top: 3px;\n    left: 0;\n    display: inline-block;\n    box-sizing: border-box;\n    width: 16px;\n    height: 16px;\n    border-radius: 50%;\n    background-color: transparent; }\n    .mdl-checkbox.is-focused .scvo-widget .mdl-checkbox__focus-helper {\n      box-shadow: 0 0 0px 8px rgba(0, 0, 0, 0.1);\n      background-color: rgba(0, 0, 0, 0.1); }\n    .mdl-checkbox.is-focused.is-checked .scvo-widget .mdl-checkbox__focus-helper {\n      box-shadow: 0 0 0px 8px rgba(63,81,181, 0.26);\n      background-color: rgba(63,81,181, 0.26); }\n  .scvo-widget .mdl-checkbox__tick-outline {\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    mask: url(\"/images/tick-mask.svg?embed\");\n    background: transparent;\n    transition-duration: 0.28s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    transition-property: background; }\n    .mdl-checkbox.is-checked .scvo-widget .mdl-checkbox__tick-outline {\n      background: rgb(63,81,181) url(\"/images/tick.svg?embed\"); }\n    fieldset[disabled] .mdl-checkbox.is-checked .scvo-widget .mdl-checkbox__tick-outline,\n    .mdl-checkbox.is-checked.is-disabled .scvo-widget .mdl-checkbox__tick-outline {\n      background: rgba(0,0,0, 0.26) url(\"/images/tick.svg?embed\"); }\n  .scvo-widget .mdl-checkbox__label {\n    position: relative;\n    cursor: pointer;\n    font-size: 16px;\n    line-height: 24px;\n    margin: 0; }\n    fieldset[disabled] .mdl-checkbox .scvo-widget .mdl-checkbox__label,\n    .mdl-checkbox.is-disabled .scvo-widget .mdl-checkbox__label {\n      color: rgba(0,0,0, 0.26);\n      cursor: auto; }\n  .scvo-widget .mdl-checkbox__ripple-container {\n    position: absolute;\n    z-index: 2;\n    top: -6px;\n    left: -10px;\n    box-sizing: border-box;\n    width: 36px;\n    height: 36px;\n    border-radius: 50%;\n    cursor: pointer;\n    overflow: hidden;\n    -webkit-mask-image: -webkit-radial-gradient(circle, white, black); }\n    .scvo-widget .mdl-checkbox__ripple-container .mdl-ripple {\n      background: rgb(63,81,181); }\n    fieldset[disabled] .mdl-checkbox .scvo-widget .mdl-checkbox__ripple-container,\n    .mdl-checkbox.is-disabled .scvo-widget .mdl-checkbox__ripple-container {\n      cursor: auto; }\n    fieldset[disabled] .mdl-checkbox .scvo-widget .mdl-checkbox__ripple-container .mdl-ripple,\n    .mdl-checkbox.is-disabled .scvo-widget .mdl-checkbox__ripple-container .mdl-ripple {\n      background: transparent; }\n  .scvo-widget .mdl-chip {\n    height: 32px;\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    line-height: 32px;\n    padding: 0 12px;\n    border: 0;\n    border-radius: 16px;\n    background-color: #dedede;\n    display: inline-block;\n    color: rgba(0,0,0, 0.87);\n    margin: 2px 0;\n    font-size: 0;\n    white-space: nowrap; }\n    .scvo-widget .mdl-chip__text {\n      font-size: 13px;\n      vertical-align: middle;\n      display: inline-block; }\n    .scvo-widget .mdl-chip__action {\n      height: 24px;\n      width: 24px;\n      background: transparent;\n      opacity: 0.54;\n      display: inline-block;\n      cursor: pointer;\n      text-align: center;\n      vertical-align: middle;\n      padding: 0;\n      margin: 0 0 0 4px;\n      font-size: 13px;\n      text-decoration: none;\n      color: rgba(0,0,0, 0.87);\n      border: none;\n      outline: none;\n      overflow: hidden; }\n    .scvo-widget .mdl-chip__contact {\n      height: 32px;\n      width: 32px;\n      border-radius: 16px;\n      display: inline-block;\n      vertical-align: middle;\n      margin-right: 8px;\n      overflow: hidden;\n      text-align: center;\n      font-size: 18px;\n      line-height: 32px; }\n    .scvo-widget .mdl-chip:focus {\n      outline: 0;\n      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }\n    .scvo-widget .mdl-chip:active {\n      background-color: #d6d6d6; }\n    .scvo-widget .mdl-chip--deletable {\n      padding-right: 4px; }\n    .scvo-widget .mdl-chip--contact {\n      padding-left: 0; }\n  .scvo-widget .mdl-data-table {\n    position: relative;\n    border: 1px solid rgba(0, 0, 0, 0.12);\n    border-collapse: collapse;\n    white-space: nowrap;\n    font-size: 13px;\n    background-color: rgb(255,255,255); }\n    .scvo-widget .mdl-data-table thead {\n      padding-bottom: 3px; }\n      .scvo-widget .mdl-data-table thead .mdl-data-table__select {\n        margin-top: 0; }\n    .scvo-widget .mdl-data-table tbody tr {\n      position: relative;\n      height: 48px;\n      transition-duration: 0.28s;\n      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n      transition-property: background-color; }\n      .scvo-widget .mdl-data-table tbody tr.is-selected {\n        background-color: #e0e0e0; }\n      .scvo-widget .mdl-data-table tbody tr:hover {\n        background-color: #eeeeee; }\n    .scvo-widget .mdl-data-table td, .scvo-widget .mdl-data-table th {\n      padding: 0 18px 12px 18px;\n      text-align: right; }\n      .scvo-widget .mdl-data-table td:first-of-type, .scvo-widget .mdl-data-table th:first-of-type {\n        padding-left: 24px; }\n      .scvo-widget .mdl-data-table td:last-of-type, .scvo-widget .mdl-data-table th:last-of-type {\n        padding-right: 24px; }\n    .scvo-widget .mdl-data-table td {\n      position: relative;\n      vertical-align: middle;\n      height: 48px;\n      border-top: 1px solid rgba(0, 0, 0, 0.12);\n      border-bottom: 1px solid rgba(0, 0, 0, 0.12);\n      padding-top: 12px;\n      box-sizing: border-box; }\n      .scvo-widget .mdl-data-table td .mdl-data-table__select {\n        vertical-align: middle; }\n    .scvo-widget .mdl-data-table th {\n      position: relative;\n      vertical-align: bottom;\n      text-overflow: ellipsis;\n      font-size: 14px;\n      font-weight: bold;\n      line-height: 24px;\n      letter-spacing: 0;\n      height: 48px;\n      font-size: 12px;\n      color: rgba(0, 0, 0, 0.54);\n      padding-bottom: 8px;\n      box-sizing: border-box; }\n      .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-ascending, .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-descending {\n        color: rgba(0, 0, 0, 0.87); }\n        .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-ascending:before, .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-descending:before {\n          font-family: 'Material Icons';\n          font-weight: normal;\n          font-style: normal;\n          font-size: 24px;\n          line-height: 1;\n          letter-spacing: normal;\n          text-transform: none;\n          display: inline-block;\n          word-wrap: normal;\n          font-feature-settings: 'liga';\n          -webkit-font-feature-settings: 'liga';\n          -webkit-font-smoothing: antialiased;\n          font-size: 16px;\n          content: \"\\e5d8\";\n          margin-right: 5px;\n          vertical-align: sub; }\n        .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-ascending:hover, .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-descending:hover {\n          cursor: pointer; }\n          .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-ascending:hover:before, .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-descending:hover:before {\n            color: rgba(0, 0, 0, 0.26); }\n      .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-descending:before {\n        content: \"\\e5db\"; }\n  .scvo-widget .mdl-data-table__select {\n    width: 16px; }\n  .scvo-widget .mdl-data-table__cell--non-numeric.mdl-data-table__cell--non-numeric {\n    text-align: left; }\n  .scvo-widget .mdl-dialog {\n    border: none;\n    box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);\n    width: 280px; }\n    .scvo-widget .mdl-dialog__title {\n      padding: 24px 24px 0;\n      margin: 0;\n      font-size: 2.5rem; }\n    .scvo-widget .mdl-dialog__actions {\n      padding: 8px 8px 8px 24px;\n      display: flex;\n      flex-direction: row-reverse;\n      flex-wrap: wrap; }\n      .scvo-widget .mdl-dialog__actions > * {\n        margin-right: 8px;\n        height: 36px; }\n        .scvo-widget .mdl-dialog__actions > *:first-child {\n          margin-right: 0; }\n      .scvo-widget .mdl-dialog__actions--full-width {\n        padding: 0 0 8px 0; }\n        .scvo-widget .mdl-dialog__actions--full-width > * {\n          height: 48px;\n          flex: 0 0 100%;\n          padding-right: 16px;\n          margin-right: 0;\n          text-align: right; }\n    .scvo-widget .mdl-dialog__content {\n      padding: 20px 24px 24px 24px;\n      color: rgba(0,0,0, 0.54); }\n  .scvo-widget .mdl-mega-footer {\n    padding: 16px 40px;\n    color: rgb(158,158,158);\n    background-color: rgb(66,66,66); }\n  .scvo-widget .mdl-mega-footer--top-section:after,\n  .scvo-widget .mdl-mega-footer--middle-section:after,\n  .scvo-widget .mdl-mega-footer--bottom-section:after,\n  .scvo-widget .mdl-mega-footer__top-section:after,\n  .scvo-widget .mdl-mega-footer__middle-section:after,\n  .scvo-widget .mdl-mega-footer__bottom-section:after {\n    content: '';\n    display: block;\n    clear: both; }\n  .scvo-widget .mdl-mega-footer--left-section,\n  .scvo-widget .mdl-mega-footer__left-section {\n    margin-bottom: 16px; }\n  .scvo-widget .mdl-mega-footer--right-section,\n  .scvo-widget .mdl-mega-footer__right-section {\n    margin-bottom: 16px; }\n  .scvo-widget .mdl-mega-footer--right-section a,\n  .scvo-widget .mdl-mega-footer__right-section a {\n    display: block;\n    margin-bottom: 16px;\n    color: inherit;\n    text-decoration: none; }\n  @media screen and (min-width: 760px) {\n    .scvo-widget .mdl-mega-footer--left-section,\n    .scvo-widget .mdl-mega-footer__left-section {\n      float: left; }\n    .scvo-widget .mdl-mega-footer--right-section,\n    .scvo-widget .mdl-mega-footer__right-section {\n      float: right; }\n    .scvo-widget .mdl-mega-footer--right-section a,\n    .scvo-widget .mdl-mega-footer__right-section a {\n      display: inline-block;\n      margin-left: 16px;\n      line-height: 36px;\n      vertical-align: middle; } }\n  .scvo-widget .mdl-mega-footer--social-btn,\n  .scvo-widget .mdl-mega-footer__social-btn {\n    width: 36px;\n    height: 36px;\n    padding: 0;\n    margin: 0;\n    background-color: rgb(158,158,158);\n    border: none; }\n  .scvo-widget .mdl-mega-footer--drop-down-section,\n  .scvo-widget .mdl-mega-footer__drop-down-section {\n    display: block;\n    position: relative; }\n  @media screen and (min-width: 760px) {\n    .scvo-widget .mdl-mega-footer--drop-down-section,\n    .scvo-widget .mdl-mega-footer__drop-down-section {\n      width: 33%; }\n    .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(1),\n    .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(2),\n    .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(1),\n    .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(2) {\n      float: left; }\n    .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(3),\n    .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(3) {\n      float: right; }\n      .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(3):after,\n      .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(3):after {\n        clear: right; }\n    .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(4),\n    .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(4) {\n      clear: right;\n      float: right; }\n    .scvo-widget .mdl-mega-footer--middle-section:after,\n    .scvo-widget .mdl-mega-footer__middle-section:after {\n      content: '';\n      display: block;\n      clear: both; }\n    .scvo-widget .mdl-mega-footer--bottom-section,\n    .scvo-widget .mdl-mega-footer__bottom-section {\n      padding-top: 0; } }\n  @media screen and (min-width: 1024px) {\n    .scvo-widget .mdl-mega-footer--drop-down-section,\n    .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(3),\n    .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(4),\n    .scvo-widget .mdl-mega-footer__drop-down-section,\n    .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(3),\n    .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(4) {\n      width: 24%;\n      float: left; } }\n  .scvo-widget .mdl-mega-footer--heading-checkbox,\n  .scvo-widget .mdl-mega-footer__heading-checkbox {\n    position: absolute;\n    width: 100%;\n    height: 55.8px;\n    padding: 32px;\n    margin: 0;\n    margin-top: -16px;\n    cursor: pointer;\n    z-index: 1;\n    opacity: 0; }\n    .scvo-widget .mdl-mega-footer--heading-checkbox + .mdl-mega-footer--heading:after,\n    .scvo-widget .mdl-mega-footer--heading-checkbox + .mdl-mega-footer__heading:after,\n    .scvo-widget .mdl-mega-footer__heading-checkbox + .mdl-mega-footer--heading:after,\n    .scvo-widget .mdl-mega-footer__heading-checkbox + .mdl-mega-footer__heading:after {\n      font-family: 'Material Icons';\n      content: '\\E5CE'; }\n  .scvo-widget .mdl-mega-footer--heading-checkbox:checked ~ .mdl-mega-footer--link-list,\n  .scvo-widget .mdl-mega-footer--heading-checkbox:checked ~ .mdl-mega-footer__link-list,\n  .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer--heading + .mdl-mega-footer--link-list,\n  .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer__heading + .mdl-mega-footer__link-list,\n  .scvo-widget .mdl-mega-footer__heading-checkbox:checked ~ .mdl-mega-footer--link-list,\n  .scvo-widget .mdl-mega-footer__heading-checkbox:checked ~ .mdl-mega-footer__link-list,\n  .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer--heading + .mdl-mega-footer--link-list,\n  .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer__heading + .mdl-mega-footer__link-list {\n    display: none; }\n  .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer--heading:after,\n  .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer__heading:after,\n  .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer--heading:after,\n  .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer__heading:after {\n    font-family: 'Material Icons';\n    content: '\\E5CF'; }\n  .scvo-widget .mdl-mega-footer--heading,\n  .scvo-widget .mdl-mega-footer__heading {\n    position: relative;\n    width: 100%;\n    padding-right: 39.8px;\n    margin-bottom: 16px;\n    box-sizing: border-box;\n    font-size: 14px;\n    line-height: 23.8px;\n    font-weight: 500;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n    overflow: hidden;\n    color: rgb(224,224,224); }\n  .scvo-widget .mdl-mega-footer--heading:after,\n  .scvo-widget .mdl-mega-footer__heading:after {\n    content: '';\n    position: absolute;\n    top: 0;\n    right: 0;\n    display: block;\n    width: 23.8px;\n    height: 23.8px;\n    background-size: cover; }\n  .scvo-widget .mdl-mega-footer--link-list,\n  .scvo-widget .mdl-mega-footer__link-list {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    margin-bottom: 32px; }\n    .scvo-widget .mdl-mega-footer--link-list:after,\n    .scvo-widget .mdl-mega-footer__link-list:after {\n      clear: both;\n      display: block;\n      content: ''; }\n  .scvo-widget .mdl-mega-footer--link-list li,\n  .scvo-widget .mdl-mega-footer__link-list li {\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0;\n    line-height: 20px; }\n  .scvo-widget .mdl-mega-footer--link-list a,\n  .scvo-widget .mdl-mega-footer__link-list a {\n    color: inherit;\n    text-decoration: none;\n    white-space: nowrap; }\n  @media screen and (min-width: 760px) {\n    .scvo-widget .mdl-mega-footer--heading-checkbox,\n    .scvo-widget .mdl-mega-footer__heading-checkbox {\n      display: none; }\n      .scvo-widget .mdl-mega-footer--heading-checkbox + .mdl-mega-footer--heading:after,\n      .scvo-widget .mdl-mega-footer--heading-checkbox + .mdl-mega-footer__heading:after,\n      .scvo-widget .mdl-mega-footer__heading-checkbox + .mdl-mega-footer--heading:after,\n      .scvo-widget .mdl-mega-footer__heading-checkbox + .mdl-mega-footer__heading:after {\n        content: ''; }\n    .scvo-widget .mdl-mega-footer--heading-checkbox:checked ~ .mdl-mega-footer--link-list,\n    .scvo-widget .mdl-mega-footer--heading-checkbox:checked ~ .mdl-mega-footer__link-list,\n    .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer__heading + .mdl-mega-footer__link-list,\n    .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer--heading + .mdl-mega-footer--link-list,\n    .scvo-widget .mdl-mega-footer__heading-checkbox:checked ~ .mdl-mega-footer--link-list,\n    .scvo-widget .mdl-mega-footer__heading-checkbox:checked ~ .mdl-mega-footer__link-list,\n    .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer__heading + .mdl-mega-footer__link-list,\n    .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer--heading + .mdl-mega-footer--link-list {\n      display: block; }\n    .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer--heading:after,\n    .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer__heading:after,\n    .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer--heading:after,\n    .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer__heading:after {\n      content: ''; } }\n  .scvo-widget .mdl-mega-footer--bottom-section,\n  .scvo-widget .mdl-mega-footer__bottom-section {\n    padding-top: 16px;\n    margin-bottom: 16px; }\n  .scvo-widget .mdl-logo {\n    margin-bottom: 16px;\n    color: white; }\n  .scvo-widget .mdl-mega-footer--bottom-section .mdl-mega-footer--link-list li,\n  .scvo-widget .mdl-mega-footer__bottom-section .mdl-mega-footer__link-list li {\n    float: left;\n    margin-bottom: 0;\n    margin-right: 16px; }\n  @media screen and (min-width: 760px) {\n    .scvo-widget .mdl-logo {\n      float: left;\n      margin-bottom: 0;\n      margin-right: 16px; } }\n  .scvo-widget .mdl-mini-footer {\n    display: flex;\n    flex-flow: row wrap;\n    justify-content: space-between;\n    padding: 32px 16px;\n    color: rgb(158,158,158);\n    background-color: rgb(66,66,66); }\n    .scvo-widget .mdl-mini-footer:after {\n      content: '';\n      display: block; }\n    .scvo-widget .mdl-mini-footer .mdl-logo {\n      line-height: 36px; }\n  .scvo-widget .mdl-mini-footer--link-list,\n  .scvo-widget .mdl-mini-footer__link-list {\n    display: flex;\n    flex-flow: row nowrap;\n    list-style: none;\n    margin: 0;\n    padding: 0; }\n    .scvo-widget .mdl-mini-footer--link-list li,\n    .scvo-widget .mdl-mini-footer__link-list li {\n      margin-bottom: 0;\n      margin-right: 16px; }\n      @media screen and (min-width: 760px) {\n        .scvo-widget .mdl-mini-footer--link-list li,\n        .scvo-widget .mdl-mini-footer__link-list li {\n          line-height: 36px; } }\n    .scvo-widget .mdl-mini-footer--link-list a,\n    .scvo-widget .mdl-mini-footer__link-list a {\n      color: inherit;\n      text-decoration: none;\n      white-space: nowrap; }\n  .scvo-widget .mdl-mini-footer--left-section,\n  .scvo-widget .mdl-mini-footer__left-section {\n    display: inline-block;\n    order: 0; }\n  .scvo-widget .mdl-mini-footer--right-section,\n  .scvo-widget .mdl-mini-footer__right-section {\n    display: inline-block;\n    order: 1; }\n  .scvo-widget .mdl-mini-footer--social-btn,\n  .scvo-widget .mdl-mini-footer__social-btn {\n    width: 36px;\n    height: 36px;\n    padding: 0;\n    margin: 0;\n    background-color: rgb(158,158,158);\n    border: none; }\n  .scvo-widget .mdl-icon-toggle {\n    position: relative;\n    z-index: 1;\n    vertical-align: middle;\n    display: inline-block;\n    height: 32px;\n    margin: 0;\n    padding: 0; }\n  .scvo-widget .mdl-icon-toggle__input {\n    line-height: 32px; }\n    .mdl-icon-toggle.is-upgraded .scvo-widget .mdl-icon-toggle__input {\n      position: absolute;\n      width: 0;\n      height: 0;\n      margin: 0;\n      padding: 0;\n      opacity: 0;\n      -ms-appearance: none;\n      -moz-appearance: none;\n      -webkit-appearance: none;\n      appearance: none;\n      border: none; }\n  .scvo-widget .mdl-icon-toggle__label {\n    display: inline-block;\n    position: relative;\n    cursor: pointer;\n    height: 32px;\n    width: 32px;\n    min-width: 32px;\n    color: rgb(97,97,97);\n    border-radius: 50%;\n    padding: 0;\n    margin-left: 0;\n    margin-right: 0;\n    text-align: center;\n    background-color: transparent;\n    will-change: background-color;\n    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1); }\n    .scvo-widget .mdl-icon-toggle__label.material-icons {\n      line-height: 32px;\n      font-size: 24px; }\n    .mdl-icon-toggle.is-checked .scvo-widget .mdl-icon-toggle__label {\n      color: rgb(63,81,181); }\n    .mdl-icon-toggle.is-disabled .scvo-widget .mdl-icon-toggle__label {\n      color: rgba(0,0,0, 0.26);\n      cursor: auto;\n      transition: none; }\n    .mdl-icon-toggle.is-focused .scvo-widget .mdl-icon-toggle__label {\n      background-color: rgba(0,0,0, 0.12); }\n    .mdl-icon-toggle.is-focused.is-checked .scvo-widget .mdl-icon-toggle__label {\n      background-color: rgba(63,81,181, 0.26); }\n  .scvo-widget .mdl-icon-toggle__ripple-container {\n    position: absolute;\n    z-index: 2;\n    top: -2px;\n    left: -2px;\n    box-sizing: border-box;\n    width: 36px;\n    height: 36px;\n    border-radius: 50%;\n    cursor: pointer;\n    overflow: hidden;\n    -webkit-mask-image: -webkit-radial-gradient(circle, white, black); }\n    .scvo-widget .mdl-icon-toggle__ripple-container .mdl-ripple {\n      background: rgb(97,97,97); }\n    .mdl-icon-toggle.is-disabled .scvo-widget .mdl-icon-toggle__ripple-container {\n      cursor: auto; }\n    .mdl-icon-toggle.is-disabled .scvo-widget .mdl-icon-toggle__ripple-container .mdl-ripple {\n      background: transparent; }\n  .scvo-widget .mdl-list {\n    display: block;\n    padding: 8px 0;\n    list-style: none; }\n  .scvo-widget .mdl-list__item {\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 16px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0.04em;\n    line-height: 1;\n    display: flex;\n    min-height: 48px;\n    box-sizing: border-box;\n    flex-direction: row;\n    flex-wrap: nowrap;\n    align-items: center;\n    padding: 16px;\n    cursor: default;\n    color: rgba(0,0,0, 0.87);\n    overflow: hidden; }\n    .scvo-widget .mdl-list__item .mdl-list__item-primary-content {\n      order: 0;\n      flex-grow: 2;\n      text-decoration: none;\n      box-sizing: border-box;\n      display: flex;\n      align-items: center; }\n      .scvo-widget .mdl-list__item .mdl-list__item-primary-content .mdl-list__item-icon {\n        margin-right: 32px; }\n      .scvo-widget .mdl-list__item .mdl-list__item-primary-content .mdl-list__item-avatar {\n        margin-right: 16px; }\n    .scvo-widget .mdl-list__item .mdl-list__item-secondary-content {\n      display: flex;\n      flex-flow: column;\n      align-items: flex-end;\n      margin-left: 16px; }\n      .scvo-widget .mdl-list__item .mdl-list__item-secondary-content .mdl-list__item-secondary-action label {\n        display: inline; }\n      .scvo-widget .mdl-list__item .mdl-list__item-secondary-content .mdl-list__item-secondary-info {\n        font-size: 12px;\n        font-weight: 400;\n        line-height: 1;\n        letter-spacing: 0;\n        color: rgba(0,0,0, 0.54); }\n      .scvo-widget .mdl-list__item .mdl-list__item-secondary-content .mdl-list__item-sub-header {\n        padding: 0 0 0 16px; }\n  .scvo-widget .mdl-list__item-icon,\n  .scvo-widget .mdl-list__item-icon.material-icons {\n    height: 24px;\n    width: 24px;\n    font-size: 24px;\n    box-sizing: border-box;\n    color: rgb(117,117,117); }\n  .scvo-widget .mdl-list__item-avatar,\n  .scvo-widget .mdl-list__item-avatar.material-icons {\n    height: 40px;\n    width: 40px;\n    box-sizing: border-box;\n    border-radius: 50%;\n    background-color: rgb(117,117,117);\n    font-size: 40px;\n    color: white; }\n  .scvo-widget .mdl-list__item--two-line {\n    height: 72px; }\n    .scvo-widget .mdl-list__item--two-line .mdl-list__item-primary-content {\n      height: 36px;\n      line-height: 20px;\n      display: block; }\n      .scvo-widget .mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-avatar {\n        float: left; }\n      .scvo-widget .mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-icon {\n        float: left;\n        margin-top: 6px; }\n      .scvo-widget .mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-secondary-content {\n        height: 36px; }\n      .scvo-widget .mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-sub-title {\n        font-size: 14px;\n        font-weight: 400;\n        line-height: 24px;\n        letter-spacing: 0;\n        line-height: 18px;\n        color: rgba(0,0,0, 0.54);\n        display: block;\n        padding: 0; }\n  .scvo-widget .mdl-list__item--three-line {\n    height: 88px; }\n    .scvo-widget .mdl-list__item--three-line .mdl-list__item-primary-content {\n      height: 52px;\n      line-height: 20px;\n      display: block; }\n      .scvo-widget .mdl-list__item--three-line .mdl-list__item-primary-content .mdl-list__item-avatar,\n      .scvo-widget .mdl-list__item--three-line .mdl-list__item-primary-content .mdl-list__item-icon {\n        float: left; }\n    .scvo-widget .mdl-list__item--three-line .mdl-list__item-secondary-content {\n      height: 52px; }\n    .scvo-widget .mdl-list__item--three-line .mdl-list__item-text-body {\n      font-size: 14px;\n      font-weight: 400;\n      line-height: 24px;\n      letter-spacing: 0;\n      line-height: 18px;\n      height: 52px;\n      color: rgba(0,0,0, 0.54);\n      display: block;\n      padding: 0; }\n  .scvo-widget .mdl-menu__container {\n    display: block;\n    margin: 0;\n    padding: 0;\n    border: none;\n    position: absolute;\n    overflow: visible;\n    height: 0;\n    width: 0;\n    visibility: hidden;\n    z-index: -1; }\n    .scvo-widget .mdl-menu__container.is-visible, .scvo-widget .mdl-menu__container.is-animating {\n      z-index: 999;\n      visibility: visible; }\n  .scvo-widget .mdl-menu__outline {\n    display: block;\n    background: rgb(255,255,255);\n    margin: 0;\n    padding: 0;\n    border: none;\n    border-radius: 2px;\n    position: absolute;\n    top: 0;\n    left: 0;\n    overflow: hidden;\n    opacity: 0;\n    transform: scale(0);\n    transform-origin: 0 0;\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);\n    will-change: transform;\n    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n    z-index: -1; }\n    .mdl-menu__container.is-visible .scvo-widget .mdl-menu__outline {\n      opacity: 1;\n      transform: scale(1);\n      z-index: 999; }\n    .scvo-widget .mdl-menu__outline.mdl-menu--bottom-right {\n      transform-origin: 100% 0; }\n    .scvo-widget .mdl-menu__outline.mdl-menu--top-left {\n      transform-origin: 0 100%; }\n    .scvo-widget .mdl-menu__outline.mdl-menu--top-right {\n      transform-origin: 100% 100%; }\n  .scvo-widget .mdl-menu {\n    position: absolute;\n    list-style: none;\n    top: 0;\n    left: 0;\n    height: auto;\n    width: auto;\n    min-width: 124px;\n    padding: 8px 0;\n    margin: 0;\n    opacity: 0;\n    clip: rect(0 0 0 0);\n    z-index: -1; }\n    .mdl-menu__container.is-visible .scvo-widget .mdl-menu {\n      opacity: 1;\n      z-index: 999; }\n    .scvo-widget .mdl-menu.is-animating {\n      transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), clip 0.3s cubic-bezier(0.4, 0, 0.2, 1); }\n    .scvo-widget .mdl-menu.mdl-menu--bottom-right {\n      left: auto;\n      right: 0; }\n    .scvo-widget .mdl-menu.mdl-menu--top-left {\n      top: auto;\n      bottom: 0; }\n    .scvo-widget .mdl-menu.mdl-menu--top-right {\n      top: auto;\n      left: auto;\n      bottom: 0;\n      right: 0; }\n    .scvo-widget .mdl-menu.mdl-menu--unaligned {\n      top: auto;\n      left: auto; }\n  .scvo-widget .mdl-menu__item {\n    display: block;\n    border: none;\n    color: rgba(0,0,0, 0.87);\n    background-color: transparent;\n    text-align: left;\n    margin: 0;\n    padding: 0 16px;\n    outline-color: rgb(189,189,189);\n    position: relative;\n    overflow: hidden;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0;\n    text-decoration: none;\n    cursor: pointer;\n    height: 48px;\n    line-height: 48px;\n    white-space: nowrap;\n    opacity: 0;\n    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n    user-select: none; }\n    .mdl-menu__container.is-visible .scvo-widget .mdl-menu__item {\n      opacity: 1; }\n    .scvo-widget .mdl-menu__item::-moz-focus-inner {\n      border: 0; }\n    .scvo-widget .mdl-menu__item--full-bleed-divider {\n      border-bottom: 1px solid rgba(0,0,0, 0.12); }\n    .scvo-widget .mdl-menu__item[disabled], .scvo-widget .mdl-menu__item[data-mdl-disabled] {\n      color: rgb(189,189,189);\n      background-color: transparent;\n      cursor: auto; }\n      .scvo-widget .mdl-menu__item[disabled]:hover, .scvo-widget .mdl-menu__item[data-mdl-disabled]:hover {\n        background-color: transparent; }\n      .scvo-widget .mdl-menu__item[disabled]:focus, .scvo-widget .mdl-menu__item[data-mdl-disabled]:focus {\n        background-color: transparent; }\n      .scvo-widget .mdl-menu__item[disabled] .mdl-ripple, .scvo-widget .mdl-menu__item[data-mdl-disabled] .mdl-ripple {\n        background: transparent; }\n    .scvo-widget .mdl-menu__item:hover {\n      background-color: rgb(238,238,238); }\n    .scvo-widget .mdl-menu__item:focus {\n      outline: none;\n      background-color: rgb(238,238,238); }\n    .scvo-widget .mdl-menu__item:active {\n      background-color: rgb(224,224,224); }\n  .scvo-widget .mdl-menu__item--ripple-container {\n    display: block;\n    height: 100%;\n    left: 0px;\n    position: absolute;\n    top: 0px;\n    width: 100%;\n    z-index: 0;\n    overflow: hidden; }\n  .scvo-widget .mdl-progress {\n    display: block;\n    position: relative;\n    height: 4px;\n    width: 500px;\n    max-width: 100%; }\n  .scvo-widget .mdl-progress > .bar {\n    display: block;\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    width: 0%;\n    transition: width 0.2s cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-progress > .progressbar {\n    background-color: rgb(63,81,181);\n    z-index: 1;\n    left: 0; }\n  .scvo-widget .mdl-progress > .bufferbar {\n    background-image: linear-gradient(to right, rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), linear-gradient(to right, rgb(63,81,181), rgb(63,81,181));\n    z-index: 0;\n    left: 0; }\n  .scvo-widget .mdl-progress > .auxbar {\n    right: 0; }\n  @supports (-webkit-appearance: none) {\n    .scvo-widget .mdl-progress:not(.mdl-progress--indeterminate):not(.mdl-progress--indeterminate) > .auxbar,\n    .scvo-widget .mdl-progress:not(.mdl-progress__indeterminate):not(.mdl-progress__indeterminate) > .auxbar {\n      background-image: linear-gradient(to right, rgba(255,255,255, 0.7), rgba(255,255,255, 0.7)), linear-gradient(to right, rgb(63,81,181), rgb(63,81,181));\n      mask: url(\"/images/buffer.svg?embed\"); } }\n  .scvo-widget .mdl-progress:not(.mdl-progress--indeterminate) > .auxbar,\n  .scvo-widget .mdl-progress:not(.mdl-progress__indeterminate) > .auxbar {\n    background-image: linear-gradient(to right, rgba(255,255,255, 0.9), rgba(255,255,255, 0.9)), linear-gradient(to right, rgb(63,81,181), rgb(63,81,181)); }\n  .scvo-widget .mdl-progress.mdl-progress--indeterminate > .bar1,\n  .scvo-widget .mdl-progress.mdl-progress__indeterminate > .bar1 {\n    background-color: rgb(63,81,181);\n    animation-name: indeterminate1;\n    animation-duration: 2s;\n    animation-iteration-count: infinite;\n    animation-timing-function: linear; }\n  .scvo-widget .mdl-progress.mdl-progress--indeterminate > .bar3,\n  .scvo-widget .mdl-progress.mdl-progress__indeterminate > .bar3 {\n    background-image: none;\n    background-color: rgb(63,81,181);\n    animation-name: indeterminate2;\n    animation-duration: 2s;\n    animation-iteration-count: infinite;\n    animation-timing-function: linear; }\n\n@keyframes indeterminate1 {\n  0% {\n    left: 0%;\n    width: 0%; }\n  50% {\n    left: 25%;\n    width: 75%; }\n  75% {\n    left: 100%;\n    width: 0%; } }\n\n@keyframes indeterminate2 {\n  0% {\n    left: 0%;\n    width: 0%; }\n  50% {\n    left: 0%;\n    width: 0%; }\n  75% {\n    left: 0%;\n    width: 25%; }\n  100% {\n    left: 100%;\n    width: 0%; } }\n  .scvo-widget .mdl-navigation {\n    display: flex;\n    flex-wrap: nowrap;\n    box-sizing: border-box; }\n  .scvo-widget .mdl-navigation__link {\n    color: rgb(66,66,66);\n    text-decoration: none;\n    margin: 0;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0;\n    opacity: 0.87; }\n    .scvo-widget .mdl-navigation__link .material-icons {\n      vertical-align: middle; }\n  .scvo-widget .mdl-layout {\n    width: 100%;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n    overflow-y: auto;\n    overflow-x: hidden;\n    position: relative;\n    -webkit-overflow-scrolling: touch; }\n  .scvo-widget .mdl-layout.is-small-screen .mdl-layout--large-screen-only {\n    display: none; }\n  .scvo-widget .mdl-layout:not(.is-small-screen) .mdl-layout--small-screen-only {\n    display: none; }\n  .scvo-widget .mdl-layout__container {\n    position: absolute;\n    width: 100%;\n    height: 100%; }\n  .scvo-widget .mdl-layout__title,\n  .scvo-widget .mdl-layout-title {\n    display: block;\n    position: relative;\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    font-size: 20px;\n    font-weight: 500;\n    line-height: 1;\n    letter-spacing: 0.02em;\n    font-weight: 400;\n    box-sizing: border-box; }\n  .scvo-widget .mdl-layout-spacer {\n    flex-grow: 1; }\n  .scvo-widget .mdl-layout__drawer {\n    display: flex;\n    flex-direction: column;\n    flex-wrap: nowrap;\n    width: 240px;\n    height: 100%;\n    max-height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);\n    box-sizing: border-box;\n    border-right: 1px solid rgb(224,224,224);\n    background: rgb(250,250,250);\n    transform: translateX(-250px);\n    transform-style: preserve-3d;\n    will-change: transform;\n    transition-duration: 0.2s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    transition-property: transform;\n    color: rgb(66,66,66);\n    overflow: visible;\n    overflow-y: auto;\n    z-index: 5; }\n    .scvo-widget .mdl-layout__drawer.is-visible {\n      transform: translateX(0); }\n      .scvo-widget .mdl-layout__drawer.is-visible ~ .mdl-layout__content.mdl-layout__content {\n        overflow: hidden; }\n    .scvo-widget .mdl-layout__drawer > * {\n      flex-shrink: 0; }\n    .scvo-widget .mdl-layout__drawer > .mdl-layout__title,\n    .scvo-widget .mdl-layout__drawer > .mdl-layout-title {\n      line-height: 64px;\n      padding-left: 40px; }\n      @media screen and (max-width: 1024px) {\n        .scvo-widget .mdl-layout__drawer > .mdl-layout__title,\n        .scvo-widget .mdl-layout__drawer > .mdl-layout-title {\n          line-height: 56px;\n          padding-left: 16px; } }\n    .scvo-widget .mdl-layout__drawer .mdl-navigation {\n      flex-direction: column;\n      align-items: stretch;\n      padding-top: 16px; }\n      .scvo-widget .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {\n        display: block;\n        flex-shrink: 0;\n        padding: 16px 40px;\n        margin: 0;\n        color: #757575; }\n        @media screen and (max-width: 1024px) {\n          .scvo-widget .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {\n            padding: 16px 16px; } }\n        .scvo-widget .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {\n          background-color: rgb(224,224,224); }\n        .scvo-widget .mdl-layout__drawer .mdl-navigation .mdl-navigation__link--current {\n          background-color: rgb(224,224,224);\n          color: rgb(0,0,0); }\n    @media screen and (min-width: 1025px) {\n      .mdl-layout--fixed-drawer > .scvo-widget .mdl-layout__drawer {\n        transform: translateX(0); } }\n  .scvo-widget .mdl-layout__drawer-button {\n    display: block;\n    position: absolute;\n    height: 48px;\n    width: 48px;\n    border: 0;\n    flex-shrink: 0;\n    overflow: hidden;\n    text-align: center;\n    cursor: pointer;\n    font-size: 26px;\n    line-height: 56px;\n    font-family: Helvetica, Arial, sans-serif;\n    margin: 8px 12px;\n    top: 0;\n    left: 0;\n    color: rgb(255,255,255);\n    z-index: 4; }\n    .mdl-layout__header .scvo-widget .mdl-layout__drawer-button {\n      position: absolute;\n      color: rgb(255,255,255);\n      background-color: inherit; }\n      @media screen and (max-width: 1024px) {\n        .mdl-layout__header .scvo-widget .mdl-layout__drawer-button {\n          margin: 4px; } }\n    @media screen and (max-width: 1024px) {\n      .scvo-widget .mdl-layout__drawer-button {\n        margin: 4px;\n        color: rgba(0, 0, 0, 0.5); } }\n    @media screen and (min-width: 1025px) {\n      .scvo-widget .mdl-layout__drawer-button {\n        line-height: 54px; }\n        .mdl-layout--no-desktop-drawer-button .scvo-widget .mdl-layout__drawer-button,\n        .mdl-layout--fixed-drawer > .scvo-widget .mdl-layout__drawer-button,\n        .mdl-layout--no-drawer-button .scvo-widget .mdl-layout__drawer-button {\n          display: none; } }\n  .scvo-widget .mdl-layout__header {\n    display: flex;\n    flex-direction: column;\n    flex-wrap: nowrap;\n    justify-content: flex-start;\n    box-sizing: border-box;\n    flex-shrink: 0;\n    width: 100%;\n    margin: 0;\n    padding: 0;\n    border: none;\n    min-height: 64px;\n    max-height: 1000px;\n    z-index: 3;\n    background-color: rgb(63,81,181);\n    color: rgb(255,255,255);\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);\n    transition-duration: 0.2s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    transition-property: max-height, box-shadow; }\n    @media screen and (max-width: 1024px) {\n      .scvo-widget .mdl-layout__header {\n        min-height: 56px; } }\n    .mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen) > .scvo-widget .mdl-layout__header {\n      margin-left: 240px;\n      width: calc(100% - 240px); }\n    @media screen and (min-width: 1025px) {\n      .mdl-layout--fixed-drawer > .scvo-widget .mdl-layout__header .mdl-layout__header-row {\n        padding-left: 40px; } }\n    .scvo-widget .mdl-layout__header > .mdl-layout-icon {\n      position: absolute;\n      left: 40px;\n      top: 16px;\n      height: 32px;\n      width: 32px;\n      overflow: hidden;\n      z-index: 3;\n      display: block; }\n      @media screen and (max-width: 1024px) {\n        .scvo-widget .mdl-layout__header > .mdl-layout-icon {\n          left: 16px;\n          top: 12px; } }\n    .mdl-layout.has-drawer .scvo-widget .mdl-layout__header > .mdl-layout-icon {\n      display: none; }\n    .scvo-widget .mdl-layout__header.is-compact {\n      max-height: 64px; }\n      @media screen and (max-width: 1024px) {\n        .scvo-widget .mdl-layout__header.is-compact {\n          max-height: 56px; } }\n    .scvo-widget .mdl-layout__header.is-compact.has-tabs {\n      height: 112px; }\n      @media screen and (max-width: 1024px) {\n        .scvo-widget .mdl-layout__header.is-compact.has-tabs {\n          min-height: 104px; } }\n    @media screen and (max-width: 1024px) {\n      .scvo-widget .mdl-layout__header {\n        display: none; }\n      .mdl-layout--fixed-header > .scvo-widget .mdl-layout__header {\n        display: flex; } }\n  .scvo-widget .mdl-layout__header--transparent.mdl-layout__header--transparent {\n    background-color: transparent;\n    box-shadow: none; }\n  .scvo-widget .mdl-layout__header--seamed {\n    box-shadow: none; }\n  .scvo-widget .mdl-layout__header--scroll {\n    box-shadow: none; }\n  .scvo-widget .mdl-layout__header--waterfall {\n    box-shadow: none;\n    overflow: hidden; }\n    .scvo-widget .mdl-layout__header--waterfall.is-casting-shadow {\n      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }\n    .scvo-widget .mdl-layout__header--waterfall.mdl-layout__header--waterfall-hide-top {\n      justify-content: flex-end; }\n  .scvo-widget .mdl-layout__header-row {\n    display: flex;\n    flex-direction: row;\n    flex-wrap: nowrap;\n    flex-shrink: 0;\n    box-sizing: border-box;\n    align-self: stretch;\n    align-items: center;\n    height: 64px;\n    margin: 0;\n    padding: 0 40px 0 80px; }\n    .mdl-layout--no-drawer-button .scvo-widget .mdl-layout__header-row {\n      padding-left: 40px; }\n    @media screen and (min-width: 1025px) {\n      .mdl-layout--no-desktop-drawer-button .scvo-widget .mdl-layout__header-row {\n        padding-left: 40px; } }\n    @media screen and (max-width: 1024px) {\n      .scvo-widget .mdl-layout__header-row {\n        height: 56px;\n        padding: 0 16px 0 72px; }\n        .mdl-layout--no-drawer-button .scvo-widget .mdl-layout__header-row {\n          padding-left: 16px; } }\n    .scvo-widget .mdl-layout__header-row > * {\n      flex-shrink: 0; }\n    .mdl-layout__header--scroll .scvo-widget .mdl-layout__header-row {\n      width: 100%; }\n    .scvo-widget .mdl-layout__header-row .mdl-navigation {\n      margin: 0;\n      padding: 0;\n      height: 64px;\n      flex-direction: row;\n      align-items: center; }\n      @media screen and (max-width: 1024px) {\n        .scvo-widget .mdl-layout__header-row .mdl-navigation {\n          height: 56px; } }\n    .scvo-widget .mdl-layout__header-row .mdl-navigation__link {\n      display: block;\n      color: rgb(255,255,255);\n      line-height: 64px;\n      padding: 0 24px; }\n      @media screen and (max-width: 1024px) {\n        .scvo-widget .mdl-layout__header-row .mdl-navigation__link {\n          line-height: 56px;\n          padding: 0 16px; } }\n  .scvo-widget .mdl-layout__obfuscator {\n    background-color: transparent;\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    z-index: 4;\n    visibility: hidden;\n    transition-property: background-color;\n    transition-duration: 0.2s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }\n    .scvo-widget .mdl-layout__obfuscator.is-visible {\n      background-color: rgba(0, 0, 0, 0.5);\n      visibility: visible; }\n    @supports (pointer-events: auto) {\n      .scvo-widget .mdl-layout__obfuscator {\n        background-color: rgba(0, 0, 0, 0.5);\n        opacity: 0;\n        transition-property: opacity;\n        visibility: visible;\n        pointer-events: none; }\n        .scvo-widget .mdl-layout__obfuscator.is-visible {\n          pointer-events: auto;\n          opacity: 1; } }\n  .scvo-widget .mdl-layout__content {\n    -ms-flex: 0 1 auto;\n    position: relative;\n    display: inline-block;\n    overflow-y: auto;\n    overflow-x: hidden;\n    flex-grow: 1;\n    z-index: 1;\n    -webkit-overflow-scrolling: touch; }\n    .mdl-layout--fixed-drawer > .scvo-widget .mdl-layout__content {\n      margin-left: 240px; }\n    .mdl-layout__container.has-scrolling-header .scvo-widget .mdl-layout__content {\n      overflow: visible; }\n    @media screen and (max-width: 1024px) {\n      .mdl-layout--fixed-drawer > .scvo-widget .mdl-layout__content {\n        margin-left: 0; }\n      .mdl-layout__container.has-scrolling-header .scvo-widget .mdl-layout__content {\n        overflow-y: auto;\n        overflow-x: hidden; } }\n  .scvo-widget .mdl-layout__tab-bar {\n    height: 96px;\n    margin: 0;\n    width: calc(100% - 112px);\n    padding: 0 0 0 56px;\n    display: flex;\n    background-color: rgb(63,81,181);\n    overflow-y: hidden;\n    overflow-x: scroll; }\n    .scvo-widget .mdl-layout__tab-bar::-webkit-scrollbar {\n      display: none; }\n    .mdl-layout--no-drawer-button .scvo-widget .mdl-layout__tab-bar {\n      padding-left: 16px;\n      width: calc(100% - 32px); }\n    @media screen and (min-width: 1025px) {\n      .mdl-layout--no-desktop-drawer-button .scvo-widget .mdl-layout__tab-bar {\n        padding-left: 16px;\n        width: calc(100% - 32px); } }\n    @media screen and (max-width: 1024px) {\n      .scvo-widget .mdl-layout__tab-bar {\n        width: calc(100% - 60px);\n        padding: 0 0 0 60px; }\n        .mdl-layout--no-drawer-button .scvo-widget .mdl-layout__tab-bar {\n          width: calc(100% - 8px);\n          padding-left: 4px; } }\n    .mdl-layout--fixed-tabs .scvo-widget .mdl-layout__tab-bar {\n      padding: 0;\n      overflow: hidden;\n      width: 100%; }\n  .scvo-widget .mdl-layout__tab-bar-container {\n    position: relative;\n    height: 48px;\n    width: 100%;\n    border: none;\n    margin: 0;\n    z-index: 2;\n    flex-grow: 0;\n    flex-shrink: 0;\n    overflow: hidden; }\n    .mdl-layout__container > .scvo-widget .mdl-layout__tab-bar-container {\n      position: absolute;\n      top: 0;\n      left: 0; }\n  .scvo-widget .mdl-layout__tab-bar-button {\n    display: inline-block;\n    position: absolute;\n    top: 0;\n    height: 48px;\n    width: 56px;\n    z-index: 4;\n    text-align: center;\n    background-color: rgb(63,81,181);\n    color: transparent;\n    cursor: pointer;\n    user-select: none; }\n    .mdl-layout--no-desktop-drawer-button .scvo-widget .mdl-layout__tab-bar-button,\n    .mdl-layout--no-drawer-button .scvo-widget .mdl-layout__tab-bar-button {\n      width: 16px; }\n      .mdl-layout--no-desktop-drawer-button .scvo-widget .mdl-layout__tab-bar-button .material-icons,\n      .mdl-layout--no-drawer-button .scvo-widget .mdl-layout__tab-bar-button .material-icons {\n        position: relative;\n        left: -4px; }\n    @media screen and (max-width: 1024px) {\n      .scvo-widget .mdl-layout__tab-bar-button {\n        width: 60px; } }\n    .mdl-layout--fixed-tabs .scvo-widget .mdl-layout__tab-bar-button {\n      display: none; }\n    .scvo-widget .mdl-layout__tab-bar-button .material-icons {\n      line-height: 48px; }\n    .scvo-widget .mdl-layout__tab-bar-button.is-active {\n      color: rgb(255,255,255); }\n  .scvo-widget .mdl-layout__tab-bar-left-button {\n    left: 0; }\n  .scvo-widget .mdl-layout__tab-bar-right-button {\n    right: 0; }\n  .scvo-widget .mdl-layout__tab {\n    margin: 0;\n    border: none;\n    padding: 0 24px 0 24px;\n    float: left;\n    position: relative;\n    display: block;\n    flex-grow: 0;\n    flex-shrink: 0;\n    text-decoration: none;\n    height: 48px;\n    line-height: 48px;\n    text-align: center;\n    font-weight: 500;\n    font-size: 14px;\n    text-transform: uppercase;\n    color: rgba(255,255,255, 0.6);\n    overflow: hidden; }\n    @media screen and (max-width: 1024px) {\n      .scvo-widget .mdl-layout__tab {\n        padding: 0 12px 0 12px; } }\n    .mdl-layout--fixed-tabs .scvo-widget .mdl-layout__tab {\n      float: none;\n      flex-grow: 1;\n      padding: 0; }\n    .mdl-layout.is-upgraded .scvo-widget .mdl-layout__tab.is-active {\n      color: rgb(255,255,255); }\n    .mdl-layout.is-upgraded .scvo-widget .mdl-layout__tab.is-active::after {\n      height: 2px;\n      width: 100%;\n      display: block;\n      content: \" \";\n      bottom: 0;\n      left: 0;\n      position: absolute;\n      background: rgb(255,64,129);\n      animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;\n      transition: all 1s cubic-bezier(0.4, 0, 1, 1); }\n    .scvo-widget .mdl-layout__tab .mdl-layout__tab-ripple-container {\n      display: block;\n      position: absolute;\n      height: 100%;\n      width: 100%;\n      left: 0;\n      top: 0;\n      z-index: 1;\n      overflow: hidden; }\n      .scvo-widget .mdl-layout__tab .mdl-layout__tab-ripple-container .mdl-ripple {\n        background-color: rgb(255,255,255); }\n  .scvo-widget .mdl-layout__tab-panel {\n    display: block; }\n    .mdl-layout.is-upgraded .scvo-widget .mdl-layout__tab-panel {\n      display: none; }\n    .mdl-layout.is-upgraded .scvo-widget .mdl-layout__tab-panel.is-active {\n      display: block; }\n  .scvo-widget .mdl-radio {\n    position: relative;\n    font-size: 16px;\n    line-height: 24px;\n    display: inline-block;\n    vertical-align: middle;\n    box-sizing: border-box;\n    height: 24px;\n    margin: 0;\n    padding-left: 0; }\n    .scvo-widget .mdl-radio.is-upgraded {\n      padding-left: 24px; }\n  .scvo-widget .mdl-radio__button {\n    line-height: 24px; }\n    .mdl-radio.is-upgraded .scvo-widget .mdl-radio__button {\n      position: absolute;\n      width: 0;\n      height: 0;\n      margin: 0;\n      padding: 0;\n      opacity: 0;\n      -ms-appearance: none;\n      -moz-appearance: none;\n      -webkit-appearance: none;\n      appearance: none;\n      border: none; }\n  .scvo-widget .mdl-radio__outer-circle {\n    position: absolute;\n    top: 4px;\n    left: 0;\n    display: inline-block;\n    box-sizing: border-box;\n    width: 16px;\n    height: 16px;\n    margin: 0;\n    cursor: pointer;\n    border: 2px solid rgba(0,0,0, 0.54);\n    border-radius: 50%;\n    z-index: 2; }\n    .mdl-radio.is-checked .scvo-widget .mdl-radio__outer-circle {\n      border: 2px solid rgb(63,81,181); }\n    .scvo-widget .mdl-radio__outer-circle fieldset[disabled] .mdl-radio,\n    .mdl-radio.is-disabled .scvo-widget .mdl-radio__outer-circle {\n      border: 2px solid rgba(0,0,0, 0.26);\n      cursor: auto; }\n  .scvo-widget .mdl-radio__inner-circle {\n    position: absolute;\n    z-index: 1;\n    margin: 0;\n    top: 8px;\n    left: 4px;\n    box-sizing: border-box;\n    width: 8px;\n    height: 8px;\n    cursor: pointer;\n    transition-duration: 0.28s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    transition-property: transform;\n    transform: scale(0, 0);\n    border-radius: 50%;\n    background: rgb(63,81,181); }\n    .mdl-radio.is-checked .scvo-widget .mdl-radio__inner-circle {\n      transform: scale(1, 1); }\n    fieldset[disabled] .mdl-radio .scvo-widget .mdl-radio__inner-circle,\n    .mdl-radio.is-disabled .scvo-widget .mdl-radio__inner-circle {\n      background: rgba(0,0,0, 0.26);\n      cursor: auto; }\n    .mdl-radio.is-focused .scvo-widget .mdl-radio__inner-circle {\n      box-shadow: 0 0 0px 10px rgba(0, 0, 0, 0.1); }\n  .scvo-widget .mdl-radio__label {\n    cursor: pointer; }\n    fieldset[disabled] .mdl-radio .scvo-widget .mdl-radio__label,\n    .mdl-radio.is-disabled .scvo-widget .mdl-radio__label {\n      color: rgba(0,0,0, 0.26);\n      cursor: auto; }\n  .scvo-widget .mdl-radio__ripple-container {\n    position: absolute;\n    z-index: 2;\n    top: -9px;\n    left: -13px;\n    box-sizing: border-box;\n    width: 42px;\n    height: 42px;\n    border-radius: 50%;\n    cursor: pointer;\n    overflow: hidden;\n    -webkit-mask-image: -webkit-radial-gradient(circle, white, black); }\n    .scvo-widget .mdl-radio__ripple-container .mdl-ripple {\n      background: rgb(63,81,181); }\n    fieldset[disabled] .mdl-radio .scvo-widget .mdl-radio__ripple-container,\n    .mdl-radio.is-disabled .scvo-widget .mdl-radio__ripple-container {\n      cursor: auto; }\n    fieldset[disabled] .mdl-radio .scvo-widget .mdl-radio__ripple-container .mdl-ripple,\n    .mdl-radio.is-disabled .scvo-widget .mdl-radio__ripple-container .mdl-ripple {\n      background: transparent; }\n  .scvo-widget _:-ms-input-placeholder, .scvo-widget :root .mdl-slider.mdl-slider.is-upgraded {\n    -ms-appearance: none;\n    height: 32px;\n    margin: 0; }\n  .scvo-widget .mdl-slider {\n    width: calc(100% - 40px);\n    margin: 0 20px; }\n    .scvo-widget .mdl-slider.is-upgraded {\n      -webkit-appearance: none;\n      -moz-appearance: none;\n      appearance: none;\n      height: 2px;\n      background: transparent;\n      -webkit-user-select: none;\n      -moz-user-select: none;\n      user-select: none;\n      outline: 0;\n      padding: 0;\n      color: rgb(63,81,181);\n      align-self: center;\n      z-index: 1;\n      cursor: pointer;\n      /**************************** Tracks ****************************/\n      /**************************** Thumbs ****************************/\n      /**************************** 0-value ****************************/\n      /**************************** Disabled ****************************/ }\n      .scvo-widget .mdl-slider.is-upgraded::-moz-focus-outer {\n        border: 0; }\n      .scvo-widget .mdl-slider.is-upgraded::-ms-tooltip {\n        display: none; }\n      .scvo-widget .mdl-slider.is-upgraded::-webkit-slider-runnable-track {\n        background: transparent; }\n      .scvo-widget .mdl-slider.is-upgraded::-moz-range-track {\n        background: transparent;\n        border: none; }\n      .scvo-widget .mdl-slider.is-upgraded::-ms-track {\n        background: none;\n        color: transparent;\n        height: 2px;\n        width: 100%;\n        border: none; }\n      .scvo-widget .mdl-slider.is-upgraded::-ms-fill-lower {\n        padding: 0;\n        background: linear-gradient(to right, transparent, transparent 16px, rgb(63,81,181) 16px, rgb(63,81,181) 0); }\n      .scvo-widget .mdl-slider.is-upgraded::-ms-fill-upper {\n        padding: 0;\n        background: linear-gradient(to left, transparent, transparent 16px, rgba(0,0,0, 0.26) 16px, rgba(0,0,0, 0.26) 0); }\n      .scvo-widget .mdl-slider.is-upgraded::-webkit-slider-thumb {\n        -webkit-appearance: none;\n        width: 12px;\n        height: 12px;\n        box-sizing: border-box;\n        border-radius: 50%;\n        background: rgb(63,81,181);\n        border: none;\n        transition: transform 0.18s cubic-bezier(0.4, 0, 0.2, 1), border 0.18s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.18s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1); }\n      .scvo-widget .mdl-slider.is-upgraded::-moz-range-thumb {\n        -moz-appearance: none;\n        width: 12px;\n        height: 12px;\n        box-sizing: border-box;\n        border-radius: 50%;\n        background-image: none;\n        background: rgb(63,81,181);\n        border: none; }\n      .scvo-widget .mdl-slider.is-upgraded:focus:not(:active)::-webkit-slider-thumb {\n        box-shadow: 0 0 0 10px rgba(63,81,181, 0.26); }\n      .scvo-widget .mdl-slider.is-upgraded:focus:not(:active)::-moz-range-thumb {\n        box-shadow: 0 0 0 10px rgba(63,81,181, 0.26); }\n      .scvo-widget .mdl-slider.is-upgraded:active::-webkit-slider-thumb {\n        background-image: none;\n        background: rgb(63,81,181);\n        transform: scale(1.5); }\n      .scvo-widget .mdl-slider.is-upgraded:active::-moz-range-thumb {\n        background-image: none;\n        background: rgb(63,81,181);\n        transform: scale(1.5); }\n      .scvo-widget .mdl-slider.is-upgraded::-ms-thumb {\n        width: 32px;\n        height: 32px;\n        border: none;\n        border-radius: 50%;\n        background: rgb(63,81,181);\n        transform: scale(0.375);\n        transition: transform 0.18s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1); }\n      .scvo-widget .mdl-slider.is-upgraded:focus:not(:active)::-ms-thumb {\n        background: radial-gradient(circle closest-side, rgb(63,81,181) 0%, rgb(63,81,181) 37.5%, rgba(63,81,181, 0.26) 37.5%, rgba(63,81,181, 0.26) 100%);\n        transform: scale(1); }\n      .scvo-widget .mdl-slider.is-upgraded:active::-ms-thumb {\n        background: rgb(63,81,181);\n        transform: scale(0.5625); }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value::-webkit-slider-thumb {\n        border: 2px solid rgba(0,0,0, 0.26);\n        background: transparent; }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value::-moz-range-thumb {\n        border: 2px solid rgba(0,0,0, 0.26);\n        background: transparent; }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value + .mdl-slider__background-flex > .mdl-slider__background-upper {\n        left: 6px; }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:focus:not(:active)::-webkit-slider-thumb {\n        box-shadow: 0 0 0 10px rgba(0,0,0, 0.12);\n        background: rgba(0,0,0, 0.12); }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:focus:not(:active)::-moz-range-thumb {\n        box-shadow: 0 0 0 10px rgba(0,0,0, 0.12);\n        background: rgba(0,0,0, 0.12); }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:active::-webkit-slider-thumb {\n        border: 1.6px solid rgba(0,0,0, 0.26);\n        transform: scale(1.5); }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:active + .mdl-slider__background-flex > .mdl-slider__background-upper {\n        left: 9px; }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:active::-moz-range-thumb {\n        border: 1.5px solid rgba(0,0,0, 0.26);\n        transform: scale(1.5); }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value::-ms-thumb {\n        background: radial-gradient(circle closest-side, transparent 0%, transparent 66.67%, rgba(0,0,0, 0.26) 66.67%, rgba(0,0,0, 0.26) 100%); }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:focus:not(:active)::-ms-thumb {\n        background: radial-gradient(circle closest-side, rgba(0,0,0, 0.12) 0%, rgba(0,0,0, 0.12) 25%, rgba(0,0,0, 0.26) 25%, rgba(0,0,0, 0.26) 37.5%, rgba(0,0,0, 0.12) 37.5%, rgba(0,0,0, 0.12) 100%);\n        transform: scale(1); }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:active::-ms-thumb {\n        transform: scale(0.5625);\n        background: radial-gradient(circle closest-side, transparent 0%, transparent 77.78%, rgba(0,0,0, 0.26) 77.78%, rgba(0,0,0, 0.26) 100%); }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value::-ms-fill-lower {\n        background: transparent; }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value::-ms-fill-upper {\n        margin-left: 6px; }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:active::-ms-fill-upper {\n        margin-left: 9px; }\n      .scvo-widget .mdl-slider.is-upgraded:disabled:focus::-webkit-slider-thumb, .scvo-widget .mdl-slider.is-upgraded:disabled:active::-webkit-slider-thumb, .scvo-widget .mdl-slider.is-upgraded:disabled::-webkit-slider-thumb {\n        transform: scale(0.667);\n        background: rgba(0,0,0, 0.26); }\n      .scvo-widget .mdl-slider.is-upgraded:disabled:focus::-moz-range-thumb, .scvo-widget .mdl-slider.is-upgraded:disabled:active::-moz-range-thumb, .scvo-widget .mdl-slider.is-upgraded:disabled::-moz-range-thumb {\n        transform: scale(0.667);\n        background: rgba(0,0,0, 0.26); }\n      .scvo-widget .mdl-slider.is-upgraded:disabled + .mdl-slider__background-flex > .mdl-slider__background-lower {\n        background-color: rgba(0,0,0, 0.26);\n        left: -6px; }\n      .scvo-widget .mdl-slider.is-upgraded:disabled + .mdl-slider__background-flex > .mdl-slider__background-upper {\n        left: 6px; }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:focus::-webkit-slider-thumb, .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:active::-webkit-slider-thumb, .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled::-webkit-slider-thumb {\n        border: 3px solid rgba(0,0,0, 0.26);\n        background: transparent;\n        transform: scale(0.667); }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:focus::-moz-range-thumb, .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:active::-moz-range-thumb, .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled::-moz-range-thumb {\n        border: 3px solid rgba(0,0,0, 0.26);\n        background: transparent;\n        transform: scale(0.667); }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:active + .mdl-slider__background-flex > .mdl-slider__background-upper {\n        left: 6px; }\n      .scvo-widget .mdl-slider.is-upgraded:disabled:focus::-ms-thumb, .scvo-widget .mdl-slider.is-upgraded:disabled:active::-ms-thumb, .scvo-widget .mdl-slider.is-upgraded:disabled::-ms-thumb {\n        transform: scale(0.25);\n        background: rgba(0,0,0, 0.26); }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:focus::-ms-thumb, .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:active::-ms-thumb, .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled::-ms-thumb {\n        transform: scale(0.25);\n        background: radial-gradient(circle closest-side, transparent 0%, transparent 50%, rgba(0,0,0, 0.26) 50%, rgba(0,0,0, 0.26) 100%); }\n      .scvo-widget .mdl-slider.is-upgraded:disabled::-ms-fill-lower {\n        margin-right: 6px;\n        background: linear-gradient(to right, transparent, transparent 25px, rgba(0,0,0, 0.26) 25px, rgba(0,0,0, 0.26) 0); }\n      .scvo-widget .mdl-slider.is-upgraded:disabled::-ms-fill-upper {\n        margin-left: 6px; }\n      .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:active::-ms-fill-upper {\n        margin-left: 6px; }\n  .scvo-widget .mdl-slider__ie-container {\n    height: 18px;\n    overflow: visible;\n    border: none;\n    margin: none;\n    padding: none; }\n  .scvo-widget .mdl-slider__container {\n    height: 18px;\n    position: relative;\n    background: none;\n    display: flex;\n    flex-direction: row; }\n  .scvo-widget .mdl-slider__background-flex {\n    background: transparent;\n    position: absolute;\n    height: 2px;\n    width: calc(100% - 52px);\n    top: 50%;\n    left: 0;\n    margin: 0 26px;\n    display: flex;\n    overflow: hidden;\n    border: 0;\n    padding: 0;\n    transform: translate(0, -1px); }\n  .scvo-widget .mdl-slider__background-lower {\n    background: rgb(63,81,181);\n    flex: 0;\n    position: relative;\n    border: 0;\n    padding: 0; }\n  .scvo-widget .mdl-slider__background-upper {\n    background: rgba(0,0,0, 0.26);\n    flex: 0;\n    position: relative;\n    border: 0;\n    padding: 0;\n    transition: left 0.18s cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-snackbar {\n    position: fixed;\n    bottom: 0;\n    left: 50%;\n    cursor: default;\n    background-color: #323232;\n    z-index: 3;\n    display: block;\n    display: flex;\n    justify-content: space-between;\n    font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n    will-change: transform;\n    transform: translate(0, 80px);\n    transition: transform 0.25s cubic-bezier(0.4, 0, 1, 1);\n    pointer-events: none; }\n    @media (max-width: 479px) {\n      .scvo-widget .mdl-snackbar {\n        width: 100%;\n        left: 0;\n        min-height: 48px;\n        max-height: 80px; } }\n    @media (min-width: 480px) {\n      .scvo-widget .mdl-snackbar {\n        min-width: 288px;\n        max-width: 568px;\n        border-radius: 2px;\n        transform: translate(-50%, 80px); } }\n    .scvo-widget .mdl-snackbar--active {\n      transform: translate(0, 0);\n      pointer-events: auto;\n      transition: transform 0.25s cubic-bezier(0, 0, 0.2, 1); }\n      @media (min-width: 480px) {\n        .scvo-widget .mdl-snackbar--active {\n          transform: translate(-50%, 0); } }\n    .scvo-widget .mdl-snackbar__text {\n      padding: 14px 12px 14px 24px;\n      vertical-align: middle;\n      color: white;\n      float: left; }\n    .scvo-widget .mdl-snackbar__action {\n      background: transparent;\n      border: none;\n      color: rgb(255,64,129);\n      float: right;\n      text-transform: uppercase;\n      padding: 14px 24px 14px 12px;\n      font-family: \"Roboto\", \"Helvetica\", \"Arial\", sans-serif;\n      font-size: 14px;\n      font-weight: 500;\n      text-transform: uppercase;\n      line-height: 1;\n      letter-spacing: 0;\n      overflow: hidden;\n      outline: none;\n      opacity: 0;\n      pointer-events: none;\n      cursor: pointer;\n      text-decoration: none;\n      text-align: center;\n      align-self: center; }\n      .scvo-widget .mdl-snackbar__action::-moz-focus-inner {\n        border: 0; }\n      .scvo-widget .mdl-snackbar__action:not([aria-hidden]) {\n        opacity: 1;\n        pointer-events: auto; }\n  .scvo-widget .mdl-spinner {\n    display: inline-block;\n    position: relative;\n    width: 28px;\n    height: 28px; }\n    .scvo-widget .mdl-spinner:not(.is-upgraded).is-active:after {\n      content: \"Loading...\"; }\n    .scvo-widget .mdl-spinner.is-upgraded.is-active {\n      animation: mdl-spinner__container-rotate 1568.23529ms linear infinite; }\n\n@keyframes mdl-spinner__container-rotate {\n  to {\n    transform: rotate(360deg); } }\n  .scvo-widget .mdl-spinner__layer {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    opacity: 0; }\n  .scvo-widget .mdl-spinner__layer-1 {\n    border-color: rgb(66,165,245); }\n    .mdl-spinner--single-color .scvo-widget .mdl-spinner__layer-1 {\n      border-color: rgb(63,81,181); }\n    .mdl-spinner.is-active .scvo-widget .mdl-spinner__layer-1 {\n      animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-1-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }\n  .scvo-widget .mdl-spinner__layer-2 {\n    border-color: rgb(244,67,54); }\n    .mdl-spinner--single-color .scvo-widget .mdl-spinner__layer-2 {\n      border-color: rgb(63,81,181); }\n    .mdl-spinner.is-active .scvo-widget .mdl-spinner__layer-2 {\n      animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-2-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }\n  .scvo-widget .mdl-spinner__layer-3 {\n    border-color: rgb(253,216,53); }\n    .mdl-spinner--single-color .scvo-widget .mdl-spinner__layer-3 {\n      border-color: rgb(63,81,181); }\n    .mdl-spinner.is-active .scvo-widget .mdl-spinner__layer-3 {\n      animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-3-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }\n  .scvo-widget .mdl-spinner__layer-4 {\n    border-color: rgb(76,175,80); }\n    .mdl-spinner--single-color .scvo-widget .mdl-spinner__layer-4 {\n      border-color: rgb(63,81,181); }\n    .mdl-spinner.is-active .scvo-widget .mdl-spinner__layer-4 {\n      animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-4-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }\n\n@keyframes mdl-spinner__fill-unfill-rotate {\n  12.5% {\n    transform: rotate(135deg); }\n  25% {\n    transform: rotate(270deg); }\n  37.5% {\n    transform: rotate(405deg); }\n  50% {\n    transform: rotate(540deg); }\n  62.5% {\n    transform: rotate(675deg); }\n  75% {\n    transform: rotate(810deg); }\n  87.5% {\n    transform: rotate(945deg); }\n  to {\n    transform: rotate(1080deg); } }\n\n@keyframes mdl-spinner__layer-1-fade-in-out {\n  from {\n    opacity: 0.99; }\n  25% {\n    opacity: 0.99; }\n  26% {\n    opacity: 0; }\n  89% {\n    opacity: 0; }\n  90% {\n    opacity: 0.99; }\n  100% {\n    opacity: 0.99; } }\n\n@keyframes mdl-spinner__layer-2-fade-in-out {\n  from {\n    opacity: 0; }\n  15% {\n    opacity: 0; }\n  25% {\n    opacity: 0.99; }\n  50% {\n    opacity: 0.99; }\n  51% {\n    opacity: 0; } }\n\n@keyframes mdl-spinner__layer-3-fade-in-out {\n  from {\n    opacity: 0; }\n  40% {\n    opacity: 0; }\n  50% {\n    opacity: 0.99; }\n  75% {\n    opacity: 0.99; }\n  76% {\n    opacity: 0; } }\n\n@keyframes mdl-spinner__layer-4-fade-in-out {\n  from {\n    opacity: 0; }\n  65% {\n    opacity: 0; }\n  75% {\n    opacity: 0.99; }\n  90% {\n    opacity: 0.99; }\n  100% {\n    opacity: 0; } }\n  .scvo-widget .mdl-spinner__gap-patch {\n    position: absolute;\n    box-sizing: border-box;\n    top: 0;\n    left: 45%;\n    width: 10%;\n    height: 100%;\n    overflow: hidden;\n    border-color: inherit; }\n    .scvo-widget .mdl-spinner__gap-patch .mdl-spinner__circle {\n      width: 1000%;\n      left: -450%; }\n  .scvo-widget .mdl-spinner__circle-clipper {\n    display: inline-block;\n    position: relative;\n    width: 50%;\n    height: 100%;\n    overflow: hidden;\n    border-color: inherit; }\n    .scvo-widget .mdl-spinner__circle-clipper.mdl-spinner__left {\n      float: left; }\n    .scvo-widget .mdl-spinner__circle-clipper.mdl-spinner__right {\n      float: right; }\n    .scvo-widget .mdl-spinner__circle-clipper .mdl-spinner__circle {\n      width: 200%; }\n  .scvo-widget .mdl-spinner__circle {\n    box-sizing: border-box;\n    height: 100%;\n    border-width: 3px;\n    border-style: solid;\n    border-color: inherit;\n    border-bottom-color: transparent !important;\n    border-radius: 50%;\n    animation: none;\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0; }\n    .mdl-spinner__left .scvo-widget .mdl-spinner__circle {\n      border-right-color: transparent !important;\n      transform: rotate(129deg); }\n      .mdl-spinner.is-active .mdl-spinner__left .scvo-widget .mdl-spinner__circle {\n        animation: mdl-spinner__left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }\n    .mdl-spinner__right .scvo-widget .mdl-spinner__circle {\n      left: -100%;\n      border-left-color: transparent !important;\n      transform: rotate(-129deg); }\n      .mdl-spinner.is-active .mdl-spinner__right .scvo-widget .mdl-spinner__circle {\n        animation: mdl-spinner__right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }\n\n@keyframes mdl-spinner__left-spin {\n  from {\n    transform: rotate(130deg); }\n  50% {\n    transform: rotate(-5deg); }\n  to {\n    transform: rotate(130deg); } }\n\n@keyframes mdl-spinner__right-spin {\n  from {\n    transform: rotate(-130deg); }\n  50% {\n    transform: rotate(5deg); }\n  to {\n    transform: rotate(-130deg); } }\n  .scvo-widget .mdl-switch {\n    position: relative;\n    z-index: 1;\n    vertical-align: middle;\n    display: inline-block;\n    box-sizing: border-box;\n    width: 100%;\n    height: 24px;\n    margin: 0;\n    padding: 0;\n    overflow: visible;\n    -webkit-touch-callout: none;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none; }\n    .scvo-widget .mdl-switch.is-upgraded {\n      padding-left: 28px; }\n  .scvo-widget .mdl-switch__input {\n    line-height: 24px; }\n    .mdl-switch.is-upgraded .scvo-widget .mdl-switch__input {\n      position: absolute;\n      width: 0;\n      height: 0;\n      margin: 0;\n      padding: 0;\n      opacity: 0;\n      -ms-appearance: none;\n      -moz-appearance: none;\n      -webkit-appearance: none;\n      appearance: none;\n      border: none; }\n  .scvo-widget .mdl-switch__track {\n    background: rgba(0,0,0, 0.26);\n    position: absolute;\n    left: 0;\n    top: 5px;\n    height: 14px;\n    width: 36px;\n    border-radius: 14px;\n    cursor: pointer; }\n    .mdl-switch.is-checked .scvo-widget .mdl-switch__track {\n      background: rgba(63,81,181, 0.5); }\n    .scvo-widget .mdl-switch__track fieldset[disabled] .mdl-switch,\n    .mdl-switch.is-disabled .scvo-widget .mdl-switch__track {\n      background: rgba(0,0,0, 0.12);\n      cursor: auto; }\n  .scvo-widget .mdl-switch__thumb {\n    background: rgb(250,250,250);\n    position: absolute;\n    left: 0;\n    top: 2px;\n    height: 20px;\n    width: 20px;\n    border-radius: 50%;\n    cursor: pointer;\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);\n    transition-duration: 0.28s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    transition-property: left; }\n    .mdl-switch.is-checked .scvo-widget .mdl-switch__thumb {\n      background: rgb(63,81,181);\n      left: 16px;\n      box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12); }\n    .scvo-widget .mdl-switch__thumb fieldset[disabled] .mdl-switch,\n    .mdl-switch.is-disabled .scvo-widget .mdl-switch__thumb {\n      background: rgb(189,189,189);\n      cursor: auto; }\n  .scvo-widget .mdl-switch__focus-helper {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-4px, -4px);\n    display: inline-block;\n    box-sizing: border-box;\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background-color: transparent; }\n    .mdl-switch.is-focused .scvo-widget .mdl-switch__focus-helper {\n      box-shadow: 0 0 0px 20px rgba(0, 0, 0, 0.1);\n      background-color: rgba(0, 0, 0, 0.1); }\n    .mdl-switch.is-focused.is-checked .scvo-widget .mdl-switch__focus-helper {\n      box-shadow: 0 0 0px 20px rgba(63,81,181, 0.26);\n      background-color: rgba(63,81,181, 0.26); }\n  .scvo-widget .mdl-switch__label {\n    position: relative;\n    cursor: pointer;\n    font-size: 16px;\n    line-height: 24px;\n    margin: 0;\n    left: 24px; }\n    .scvo-widget .mdl-switch__label fieldset[disabled] .mdl-switch,\n    .mdl-switch.is-disabled .scvo-widget .mdl-switch__label {\n      color: rgb(189,189,189);\n      cursor: auto; }\n  .scvo-widget .mdl-switch__ripple-container {\n    position: absolute;\n    z-index: 2;\n    top: -12px;\n    left: -14px;\n    box-sizing: border-box;\n    width: 48px;\n    height: 48px;\n    border-radius: 50%;\n    cursor: pointer;\n    overflow: hidden;\n    -webkit-mask-image: -webkit-radial-gradient(circle, white, black);\n    transition-duration: 0.40s;\n    transition-timing-function: step-end;\n    transition-property: left; }\n    .scvo-widget .mdl-switch__ripple-container .mdl-ripple {\n      background: rgb(63,81,181); }\n    .scvo-widget .mdl-switch__ripple-container fieldset[disabled] .mdl-switch,\n    .mdl-switch.is-disabled .scvo-widget .mdl-switch__ripple-container {\n      cursor: auto; }\n    fieldset[disabled] .mdl-switch .scvo-widget .mdl-switch__ripple-container .mdl-ripple,\n    .mdl-switch.is-disabled .scvo-widget .mdl-switch__ripple-container .mdl-ripple {\n      background: transparent; }\n    .mdl-switch.is-checked .scvo-widget .mdl-switch__ripple-container {\n      left: 2px; }\n  .scvo-widget .mdl-tabs {\n    display: block;\n    width: 100%; }\n  .scvo-widget .mdl-tabs__tab-bar {\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    align-content: space-between;\n    align-items: flex-start;\n    height: 48px;\n    padding: 0 0 0 0;\n    margin: 0;\n    border-bottom: 1px solid rgb(224,224,224); }\n  .scvo-widget .mdl-tabs__tab {\n    margin: 0;\n    border: none;\n    padding: 0 24px 0 24px;\n    float: left;\n    position: relative;\n    display: block;\n    text-decoration: none;\n    height: 48px;\n    line-height: 48px;\n    text-align: center;\n    font-weight: 500;\n    font-size: 14px;\n    text-transform: uppercase;\n    color: rgba(0,0,0, 0.54);\n    overflow: hidden; }\n    .mdl-tabs.is-upgraded .scvo-widget .mdl-tabs__tab.is-active {\n      color: rgba(0,0,0, 0.87); }\n    .mdl-tabs.is-upgraded .scvo-widget .mdl-tabs__tab.is-active:after {\n      height: 2px;\n      width: 100%;\n      display: block;\n      content: \" \";\n      bottom: 0px;\n      left: 0px;\n      position: absolute;\n      background: rgb(63,81,181);\n      animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;\n      transition: all 1s cubic-bezier(0.4, 0, 1, 1); }\n    .scvo-widget .mdl-tabs__tab .mdl-tabs__ripple-container {\n      display: block;\n      position: absolute;\n      height: 100%;\n      width: 100%;\n      left: 0px;\n      top: 0px;\n      z-index: 1;\n      overflow: hidden; }\n      .scvo-widget .mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple {\n        background: rgb(63,81,181); }\n  .scvo-widget .mdl-tabs__panel {\n    display: block; }\n    .mdl-tabs.is-upgraded .scvo-widget .mdl-tabs__panel {\n      display: none; }\n    .mdl-tabs.is-upgraded .scvo-widget .mdl-tabs__panel.is-active {\n      display: block; }\n\n@keyframes border-expand {\n  0% {\n    opacity: 0;\n    width: 0; }\n  100% {\n    opacity: 1;\n    width: 100%; } }\n  .scvo-widget .mdl-textfield {\n    position: relative;\n    font-size: 16px;\n    display: inline-block;\n    box-sizing: border-box;\n    width: 300px;\n    max-width: 100%;\n    margin: 0;\n    padding: 20px 0; }\n    .scvo-widget .mdl-textfield .mdl-button {\n      position: absolute;\n      bottom: 20px; }\n  .scvo-widget .mdl-textfield--align-right {\n    text-align: right; }\n  .scvo-widget .mdl-textfield--full-width {\n    width: 100%; }\n  .scvo-widget .mdl-textfield--expandable {\n    min-width: 32px;\n    width: auto;\n    min-height: 32px; }\n    .scvo-widget .mdl-textfield--expandable .mdl-button--icon {\n      top: 16px; }\n  .scvo-widget .mdl-textfield__input {\n    border: none;\n    border-bottom: 1px solid rgba(0,0,0, 0.12);\n    display: block;\n    font-size: 16px;\n    font-family: \"Helvetica\", \"Arial\", sans-serif;\n    margin: 0;\n    padding: 4px 0;\n    width: 100%;\n    background: none;\n    text-align: left;\n    color: inherit; }\n    .scvo-widget .mdl-textfield__input[type=\"number\"] {\n      -moz-appearance: textfield; }\n    .scvo-widget .mdl-textfield__input[type=\"number\"]::-webkit-inner-spin-button, .scvo-widget .mdl-textfield__input[type=\"number\"]::-webkit-outer-spin-button {\n      -webkit-appearance: none;\n      margin: 0; }\n    .mdl-textfield.is-focused .scvo-widget .mdl-textfield__input {\n      outline: none; }\n    .mdl-textfield.is-invalid .scvo-widget .mdl-textfield__input {\n      border-color: rgb(213,0,0);\n      box-shadow: none; }\n    fieldset[disabled] .mdl-textfield .scvo-widget .mdl-textfield__input,\n    .mdl-textfield.is-disabled .scvo-widget .mdl-textfield__input {\n      background-color: transparent;\n      border-bottom: 1px dotted rgba(0,0,0, 0.12);\n      color: rgba(0,0,0, 0.26); }\n  .scvo-widget .mdl-textfield textarea.mdl-textfield__input {\n    display: block; }\n  .scvo-widget .mdl-textfield__label {\n    bottom: 0;\n    color: rgba(0,0,0, 0.26);\n    font-size: 16px;\n    left: 0;\n    right: 0;\n    pointer-events: none;\n    position: absolute;\n    display: block;\n    top: 24px;\n    width: 100%;\n    overflow: hidden;\n    white-space: nowrap;\n    text-align: left; }\n    .mdl-textfield.is-dirty .scvo-widget .mdl-textfield__label,\n    .mdl-textfield.has-placeholder .scvo-widget .mdl-textfield__label {\n      visibility: hidden; }\n    .mdl-textfield--floating-label .scvo-widget .mdl-textfield__label {\n      transition-duration: 0.2s;\n      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }\n    .mdl-textfield--floating-label.has-placeholder .scvo-widget .mdl-textfield__label {\n      transition: none; }\n    fieldset[disabled] .mdl-textfield .scvo-widget .mdl-textfield__label,\n    .mdl-textfield.is-disabled.is-disabled .scvo-widget .mdl-textfield__label {\n      color: rgba(0,0,0, 0.26); }\n    .mdl-textfield--floating-label.is-focused .scvo-widget .mdl-textfield__label,\n    .mdl-textfield--floating-label.is-dirty .scvo-widget .mdl-textfield__label,\n    .mdl-textfield--floating-label.has-placeholder .scvo-widget .mdl-textfield__label {\n      color: rgb(63,81,181);\n      font-size: 12px;\n      top: 4px;\n      visibility: visible; }\n    .mdl-textfield--floating-label.is-focused .mdl-textfield__expandable-holder .scvo-widget .mdl-textfield__label,\n    .mdl-textfield--floating-label.is-dirty .mdl-textfield__expandable-holder .scvo-widget .mdl-textfield__label,\n    .mdl-textfield--floating-label.has-placeholder .mdl-textfield__expandable-holder .scvo-widget .mdl-textfield__label {\n      top: -16px; }\n    .mdl-textfield--floating-label.is-invalid .scvo-widget .mdl-textfield__label {\n      color: rgb(213,0,0);\n      font-size: 12px; }\n    .scvo-widget .mdl-textfield__label:after {\n      background-color: rgb(63,81,181);\n      bottom: 20px;\n      content: '';\n      height: 2px;\n      left: 45%;\n      position: absolute;\n      transition-duration: 0.2s;\n      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n      visibility: hidden;\n      width: 10px; }\n    .mdl-textfield.is-focused .scvo-widget .mdl-textfield__label:after {\n      left: 0;\n      visibility: visible;\n      width: 100%; }\n    .mdl-textfield.is-invalid .scvo-widget .mdl-textfield__label:after {\n      background-color: rgb(213,0,0); }\n  .scvo-widget .mdl-textfield__error {\n    color: rgb(213,0,0);\n    position: absolute;\n    font-size: 12px;\n    margin-top: 3px;\n    visibility: hidden;\n    display: block; }\n    .mdl-textfield.is-invalid .scvo-widget .mdl-textfield__error {\n      visibility: visible; }\n  .scvo-widget .mdl-textfield__expandable-holder {\n    display: inline-block;\n    position: relative;\n    margin-left: 32px;\n    transition-duration: 0.2s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    display: inline-block;\n    max-width: 0.1px; }\n    .mdl-textfield.is-focused .scvo-widget .mdl-textfield__expandable-holder, .mdl-textfield.is-dirty .scvo-widget .mdl-textfield__expandable-holder {\n      max-width: 600px; }\n    .scvo-widget .mdl-textfield__expandable-holder .mdl-textfield__label:after {\n      bottom: 0; }\n  .scvo-widget .mdl-tooltip {\n    transform: scale(0);\n    transform-origin: top center;\n    z-index: 999;\n    background: rgba(97,97,97, 0.9);\n    border-radius: 2px;\n    color: rgb(255,255,255);\n    display: inline-block;\n    font-size: 10px;\n    font-weight: 500;\n    line-height: 14px;\n    max-width: 170px;\n    position: fixed;\n    top: -500px;\n    left: -500px;\n    padding: 8px;\n    text-align: center; }\n  .scvo-widget .mdl-tooltip.is-active {\n    animation: pulse 200ms cubic-bezier(0, 0, 0.2, 1) forwards; }\n  .scvo-widget .mdl-tooltip--large {\n    line-height: 14px;\n    font-size: 14px;\n    padding: 16px; }\n\n@keyframes pulse {\n  0% {\n    transform: scale(0);\n    opacity: 0; }\n  50% {\n    transform: scale(0.99); }\n  100% {\n    transform: scale(1);\n    opacity: 1;\n    visibility: visible; } }\n  .scvo-widget .mdl-shadow--2dp {\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-shadow--3dp {\n    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-shadow--4dp {\n    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2); }\n  .scvo-widget .mdl-shadow--6dp {\n    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2); }\n  .scvo-widget .mdl-shadow--8dp {\n    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2); }\n  .scvo-widget .mdl-shadow--16dp {\n    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }\n  .scvo-widget .mdl-shadow--24dp {\n    box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2); }\n  .scvo-widget .mdl-grid {\n    display: flex;\n    flex-flow: row wrap;\n    margin: 0 auto 0 auto;\n    align-items: stretch; }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing {\n      padding: 0; }\n  .scvo-widget .mdl-cell {\n    box-sizing: border-box; }\n  .scvo-widget .mdl-cell--top {\n    align-self: flex-start; }\n  .scvo-widget .mdl-cell--middle {\n    align-self: center; }\n  .scvo-widget .mdl-cell--bottom {\n    align-self: flex-end; }\n  .scvo-widget .mdl-cell--stretch {\n    align-self: stretch; }\n  .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell {\n    margin: 0; }\n  .scvo-widget .mdl-cell--order-1 {\n    order: 1; }\n  .scvo-widget .mdl-cell--order-2 {\n    order: 2; }\n  .scvo-widget .mdl-cell--order-3 {\n    order: 3; }\n  .scvo-widget .mdl-cell--order-4 {\n    order: 4; }\n  .scvo-widget .mdl-cell--order-5 {\n    order: 5; }\n  .scvo-widget .mdl-cell--order-6 {\n    order: 6; }\n  .scvo-widget .mdl-cell--order-7 {\n    order: 7; }\n  .scvo-widget .mdl-cell--order-8 {\n    order: 8; }\n  .scvo-widget .mdl-cell--order-9 {\n    order: 9; }\n  .scvo-widget .mdl-cell--order-10 {\n    order: 10; }\n  .scvo-widget .mdl-cell--order-11 {\n    order: 11; }\n  .scvo-widget .mdl-cell--order-12 {\n    order: 12; }\n  @media (max-width: 479px) {\n    .scvo-widget .mdl-grid {\n      padding: 8px; }\n    .scvo-widget .mdl-cell {\n      margin: 8px;\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell {\n        width: 100%; }\n    .scvo-widget .mdl-cell--hide-phone {\n      display: none !important; }\n    .scvo-widget .mdl-cell--order-1-phone.mdl-cell--order-1-phone {\n      order: 1; }\n    .scvo-widget .mdl-cell--order-2-phone.mdl-cell--order-2-phone {\n      order: 2; }\n    .scvo-widget .mdl-cell--order-3-phone.mdl-cell--order-3-phone {\n      order: 3; }\n    .scvo-widget .mdl-cell--order-4-phone.mdl-cell--order-4-phone {\n      order: 4; }\n    .scvo-widget .mdl-cell--order-5-phone.mdl-cell--order-5-phone {\n      order: 5; }\n    .scvo-widget .mdl-cell--order-6-phone.mdl-cell--order-6-phone {\n      order: 6; }\n    .scvo-widget .mdl-cell--order-7-phone.mdl-cell--order-7-phone {\n      order: 7; }\n    .scvo-widget .mdl-cell--order-8-phone.mdl-cell--order-8-phone {\n      order: 8; }\n    .scvo-widget .mdl-cell--order-9-phone.mdl-cell--order-9-phone {\n      order: 9; }\n    .scvo-widget .mdl-cell--order-10-phone.mdl-cell--order-10-phone {\n      order: 10; }\n    .scvo-widget .mdl-cell--order-11-phone.mdl-cell--order-11-phone {\n      order: 11; }\n    .scvo-widget .mdl-cell--order-12-phone.mdl-cell--order-12-phone {\n      order: 12; }\n    .scvo-widget .mdl-cell--1-col,\n    .scvo-widget .mdl-cell--1-col-phone.mdl-cell--1-col-phone {\n      width: calc(25% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--1-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--1-col-phone.mdl-cell--1-col-phone {\n        width: 25%; }\n    .scvo-widget .mdl-cell--2-col,\n    .scvo-widget .mdl-cell--2-col-phone.mdl-cell--2-col-phone {\n      width: calc(50% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--2-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--2-col-phone.mdl-cell--2-col-phone {\n        width: 50%; }\n    .scvo-widget .mdl-cell--3-col,\n    .scvo-widget .mdl-cell--3-col-phone.mdl-cell--3-col-phone {\n      width: calc(75% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--3-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--3-col-phone.mdl-cell--3-col-phone {\n        width: 75%; }\n    .scvo-widget .mdl-cell--4-col,\n    .scvo-widget .mdl-cell--4-col-phone.mdl-cell--4-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--4-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--4-col-phone.mdl-cell--4-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--5-col,\n    .scvo-widget .mdl-cell--5-col-phone.mdl-cell--5-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--5-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--5-col-phone.mdl-cell--5-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--6-col,\n    .scvo-widget .mdl-cell--6-col-phone.mdl-cell--6-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--6-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--6-col-phone.mdl-cell--6-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--7-col,\n    .scvo-widget .mdl-cell--7-col-phone.mdl-cell--7-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--7-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--7-col-phone.mdl-cell--7-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--8-col,\n    .scvo-widget .mdl-cell--8-col-phone.mdl-cell--8-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--8-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--8-col-phone.mdl-cell--8-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--9-col,\n    .scvo-widget .mdl-cell--9-col-phone.mdl-cell--9-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--9-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--9-col-phone.mdl-cell--9-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--10-col,\n    .scvo-widget .mdl-cell--10-col-phone.mdl-cell--10-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--10-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--10-col-phone.mdl-cell--10-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--11-col,\n    .scvo-widget .mdl-cell--11-col-phone.mdl-cell--11-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--11-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--11-col-phone.mdl-cell--11-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--12-col,\n    .scvo-widget .mdl-cell--12-col-phone.mdl-cell--12-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--12-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--12-col-phone.mdl-cell--12-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--1-offset,\n    .scvo-widget .mdl-cell--1-offset-phone.mdl-cell--1-offset-phone {\n      margin-left: calc(25% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--1-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--1-offset-phone.mdl-cell--1-offset-phone {\n        margin-left: 25%; }\n    .scvo-widget .mdl-cell--2-offset,\n    .scvo-widget .mdl-cell--2-offset-phone.mdl-cell--2-offset-phone {\n      margin-left: calc(50% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--2-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--2-offset-phone.mdl-cell--2-offset-phone {\n        margin-left: 50%; }\n    .scvo-widget .mdl-cell--3-offset,\n    .scvo-widget .mdl-cell--3-offset-phone.mdl-cell--3-offset-phone {\n      margin-left: calc(75% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--3-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--3-offset-phone.mdl-cell--3-offset-phone {\n        margin-left: 75%; } }\n  @media (min-width: 480px) and (max-width: 839px) {\n    .scvo-widget .mdl-grid {\n      padding: 8px; }\n    .scvo-widget .mdl-cell {\n      margin: 8px;\n      width: calc(50% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell {\n        width: 50%; }\n    .scvo-widget .mdl-cell--hide-tablet {\n      display: none !important; }\n    .scvo-widget .mdl-cell--order-1-tablet.mdl-cell--order-1-tablet {\n      order: 1; }\n    .scvo-widget .mdl-cell--order-2-tablet.mdl-cell--order-2-tablet {\n      order: 2; }\n    .scvo-widget .mdl-cell--order-3-tablet.mdl-cell--order-3-tablet {\n      order: 3; }\n    .scvo-widget .mdl-cell--order-4-tablet.mdl-cell--order-4-tablet {\n      order: 4; }\n    .scvo-widget .mdl-cell--order-5-tablet.mdl-cell--order-5-tablet {\n      order: 5; }\n    .scvo-widget .mdl-cell--order-6-tablet.mdl-cell--order-6-tablet {\n      order: 6; }\n    .scvo-widget .mdl-cell--order-7-tablet.mdl-cell--order-7-tablet {\n      order: 7; }\n    .scvo-widget .mdl-cell--order-8-tablet.mdl-cell--order-8-tablet {\n      order: 8; }\n    .scvo-widget .mdl-cell--order-9-tablet.mdl-cell--order-9-tablet {\n      order: 9; }\n    .scvo-widget .mdl-cell--order-10-tablet.mdl-cell--order-10-tablet {\n      order: 10; }\n    .scvo-widget .mdl-cell--order-11-tablet.mdl-cell--order-11-tablet {\n      order: 11; }\n    .scvo-widget .mdl-cell--order-12-tablet.mdl-cell--order-12-tablet {\n      order: 12; }\n    .scvo-widget .mdl-cell--1-col,\n    .scvo-widget .mdl-cell--1-col-tablet.mdl-cell--1-col-tablet {\n      width: calc(12.5% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--1-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--1-col-tablet.mdl-cell--1-col-tablet {\n        width: 12.5%; }\n    .scvo-widget .mdl-cell--2-col,\n    .scvo-widget .mdl-cell--2-col-tablet.mdl-cell--2-col-tablet {\n      width: calc(25% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--2-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--2-col-tablet.mdl-cell--2-col-tablet {\n        width: 25%; }\n    .scvo-widget .mdl-cell--3-col,\n    .scvo-widget .mdl-cell--3-col-tablet.mdl-cell--3-col-tablet {\n      width: calc(37.5% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--3-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--3-col-tablet.mdl-cell--3-col-tablet {\n        width: 37.5%; }\n    .scvo-widget .mdl-cell--4-col,\n    .scvo-widget .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {\n      width: calc(50% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--4-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {\n        width: 50%; }\n    .scvo-widget .mdl-cell--5-col,\n    .scvo-widget .mdl-cell--5-col-tablet.mdl-cell--5-col-tablet {\n      width: calc(62.5% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--5-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--5-col-tablet.mdl-cell--5-col-tablet {\n        width: 62.5%; }\n    .scvo-widget .mdl-cell--6-col,\n    .scvo-widget .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {\n      width: calc(75% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--6-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {\n        width: 75%; }\n    .scvo-widget .mdl-cell--7-col,\n    .scvo-widget .mdl-cell--7-col-tablet.mdl-cell--7-col-tablet {\n      width: calc(87.5% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--7-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--7-col-tablet.mdl-cell--7-col-tablet {\n        width: 87.5%; }\n    .scvo-widget .mdl-cell--8-col,\n    .scvo-widget .mdl-cell--8-col-tablet.mdl-cell--8-col-tablet {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--8-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--8-col-tablet.mdl-cell--8-col-tablet {\n        width: 100%; }\n    .scvo-widget .mdl-cell--9-col,\n    .scvo-widget .mdl-cell--9-col-tablet.mdl-cell--9-col-tablet {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--9-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--9-col-tablet.mdl-cell--9-col-tablet {\n        width: 100%; }\n    .scvo-widget .mdl-cell--10-col,\n    .scvo-widget .mdl-cell--10-col-tablet.mdl-cell--10-col-tablet {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--10-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--10-col-tablet.mdl-cell--10-col-tablet {\n        width: 100%; }\n    .scvo-widget .mdl-cell--11-col,\n    .scvo-widget .mdl-cell--11-col-tablet.mdl-cell--11-col-tablet {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--11-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--11-col-tablet.mdl-cell--11-col-tablet {\n        width: 100%; }\n    .scvo-widget .mdl-cell--12-col,\n    .scvo-widget .mdl-cell--12-col-tablet.mdl-cell--12-col-tablet {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--12-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--12-col-tablet.mdl-cell--12-col-tablet {\n        width: 100%; }\n    .scvo-widget .mdl-cell--1-offset,\n    .scvo-widget .mdl-cell--1-offset-tablet.mdl-cell--1-offset-tablet {\n      margin-left: calc(12.5% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--1-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--1-offset-tablet.mdl-cell--1-offset-tablet {\n        margin-left: 12.5%; }\n    .scvo-widget .mdl-cell--2-offset,\n    .scvo-widget .mdl-cell--2-offset-tablet.mdl-cell--2-offset-tablet {\n      margin-left: calc(25% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--2-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--2-offset-tablet.mdl-cell--2-offset-tablet {\n        margin-left: 25%; }\n    .scvo-widget .mdl-cell--3-offset,\n    .scvo-widget .mdl-cell--3-offset-tablet.mdl-cell--3-offset-tablet {\n      margin-left: calc(37.5% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--3-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--3-offset-tablet.mdl-cell--3-offset-tablet {\n        margin-left: 37.5%; }\n    .scvo-widget .mdl-cell--4-offset,\n    .scvo-widget .mdl-cell--4-offset-tablet.mdl-cell--4-offset-tablet {\n      margin-left: calc(50% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--4-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--4-offset-tablet.mdl-cell--4-offset-tablet {\n        margin-left: 50%; }\n    .scvo-widget .mdl-cell--5-offset,\n    .scvo-widget .mdl-cell--5-offset-tablet.mdl-cell--5-offset-tablet {\n      margin-left: calc(62.5% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--5-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--5-offset-tablet.mdl-cell--5-offset-tablet {\n        margin-left: 62.5%; }\n    .scvo-widget .mdl-cell--6-offset,\n    .scvo-widget .mdl-cell--6-offset-tablet.mdl-cell--6-offset-tablet {\n      margin-left: calc(75% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--6-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--6-offset-tablet.mdl-cell--6-offset-tablet {\n        margin-left: 75%; }\n    .scvo-widget .mdl-cell--7-offset,\n    .scvo-widget .mdl-cell--7-offset-tablet.mdl-cell--7-offset-tablet {\n      margin-left: calc(87.5% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--7-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--7-offset-tablet.mdl-cell--7-offset-tablet {\n        margin-left: 87.5%; } }\n  @media (min-width: 840px) {\n    .scvo-widget .mdl-grid {\n      padding: 8px; }\n    .scvo-widget .mdl-cell {\n      margin: 8px;\n      width: calc(33.33333% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell {\n        width: 33.33333%; }\n    .scvo-widget .mdl-cell--hide-desktop {\n      display: none !important; }\n    .scvo-widget .mdl-cell--order-1-desktop.mdl-cell--order-1-desktop {\n      order: 1; }\n    .scvo-widget .mdl-cell--order-2-desktop.mdl-cell--order-2-desktop {\n      order: 2; }\n    .scvo-widget .mdl-cell--order-3-desktop.mdl-cell--order-3-desktop {\n      order: 3; }\n    .scvo-widget .mdl-cell--order-4-desktop.mdl-cell--order-4-desktop {\n      order: 4; }\n    .scvo-widget .mdl-cell--order-5-desktop.mdl-cell--order-5-desktop {\n      order: 5; }\n    .scvo-widget .mdl-cell--order-6-desktop.mdl-cell--order-6-desktop {\n      order: 6; }\n    .scvo-widget .mdl-cell--order-7-desktop.mdl-cell--order-7-desktop {\n      order: 7; }\n    .scvo-widget .mdl-cell--order-8-desktop.mdl-cell--order-8-desktop {\n      order: 8; }\n    .scvo-widget .mdl-cell--order-9-desktop.mdl-cell--order-9-desktop {\n      order: 9; }\n    .scvo-widget .mdl-cell--order-10-desktop.mdl-cell--order-10-desktop {\n      order: 10; }\n    .scvo-widget .mdl-cell--order-11-desktop.mdl-cell--order-11-desktop {\n      order: 11; }\n    .scvo-widget .mdl-cell--order-12-desktop.mdl-cell--order-12-desktop {\n      order: 12; }\n    .scvo-widget .mdl-cell--1-col,\n    .scvo-widget .mdl-cell--1-col-desktop.mdl-cell--1-col-desktop {\n      width: calc(8.33333% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--1-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--1-col-desktop.mdl-cell--1-col-desktop {\n        width: 8.33333%; }\n    .scvo-widget .mdl-cell--2-col,\n    .scvo-widget .mdl-cell--2-col-desktop.mdl-cell--2-col-desktop {\n      width: calc(16.66667% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--2-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--2-col-desktop.mdl-cell--2-col-desktop {\n        width: 16.66667%; }\n    .scvo-widget .mdl-cell--3-col,\n    .scvo-widget .mdl-cell--3-col-desktop.mdl-cell--3-col-desktop {\n      width: calc(25% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--3-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--3-col-desktop.mdl-cell--3-col-desktop {\n        width: 25%; }\n    .scvo-widget .mdl-cell--4-col,\n    .scvo-widget .mdl-cell--4-col-desktop.mdl-cell--4-col-desktop {\n      width: calc(33.33333% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--4-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--4-col-desktop.mdl-cell--4-col-desktop {\n        width: 33.33333%; }\n    .scvo-widget .mdl-cell--5-col,\n    .scvo-widget .mdl-cell--5-col-desktop.mdl-cell--5-col-desktop {\n      width: calc(41.66667% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--5-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--5-col-desktop.mdl-cell--5-col-desktop {\n        width: 41.66667%; }\n    .scvo-widget .mdl-cell--6-col,\n    .scvo-widget .mdl-cell--6-col-desktop.mdl-cell--6-col-desktop {\n      width: calc(50% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--6-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--6-col-desktop.mdl-cell--6-col-desktop {\n        width: 50%; }\n    .scvo-widget .mdl-cell--7-col,\n    .scvo-widget .mdl-cell--7-col-desktop.mdl-cell--7-col-desktop {\n      width: calc(58.33333% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--7-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--7-col-desktop.mdl-cell--7-col-desktop {\n        width: 58.33333%; }\n    .scvo-widget .mdl-cell--8-col,\n    .scvo-widget .mdl-cell--8-col-desktop.mdl-cell--8-col-desktop {\n      width: calc(66.66667% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--8-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--8-col-desktop.mdl-cell--8-col-desktop {\n        width: 66.66667%; }\n    .scvo-widget .mdl-cell--9-col,\n    .scvo-widget .mdl-cell--9-col-desktop.mdl-cell--9-col-desktop {\n      width: calc(75% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--9-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--9-col-desktop.mdl-cell--9-col-desktop {\n        width: 75%; }\n    .scvo-widget .mdl-cell--10-col,\n    .scvo-widget .mdl-cell--10-col-desktop.mdl-cell--10-col-desktop {\n      width: calc(83.33333% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--10-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--10-col-desktop.mdl-cell--10-col-desktop {\n        width: 83.33333%; }\n    .scvo-widget .mdl-cell--11-col,\n    .scvo-widget .mdl-cell--11-col-desktop.mdl-cell--11-col-desktop {\n      width: calc(91.66667% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--11-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--11-col-desktop.mdl-cell--11-col-desktop {\n        width: 91.66667%; }\n    .scvo-widget .mdl-cell--12-col,\n    .scvo-widget .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--12-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {\n        width: 100%; }\n    .scvo-widget .mdl-cell--1-offset,\n    .scvo-widget .mdl-cell--1-offset-desktop.mdl-cell--1-offset-desktop {\n      margin-left: calc(8.33333% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--1-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--1-offset-desktop.mdl-cell--1-offset-desktop {\n        margin-left: 8.33333%; }\n    .scvo-widget .mdl-cell--2-offset,\n    .scvo-widget .mdl-cell--2-offset-desktop.mdl-cell--2-offset-desktop {\n      margin-left: calc(16.66667% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--2-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--2-offset-desktop.mdl-cell--2-offset-desktop {\n        margin-left: 16.66667%; }\n    .scvo-widget .mdl-cell--3-offset,\n    .scvo-widget .mdl-cell--3-offset-desktop.mdl-cell--3-offset-desktop {\n      margin-left: calc(25% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--3-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--3-offset-desktop.mdl-cell--3-offset-desktop {\n        margin-left: 25%; }\n    .scvo-widget .mdl-cell--4-offset,\n    .scvo-widget .mdl-cell--4-offset-desktop.mdl-cell--4-offset-desktop {\n      margin-left: calc(33.33333% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--4-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--4-offset-desktop.mdl-cell--4-offset-desktop {\n        margin-left: 33.33333%; }\n    .scvo-widget .mdl-cell--5-offset,\n    .scvo-widget .mdl-cell--5-offset-desktop.mdl-cell--5-offset-desktop {\n      margin-left: calc(41.66667% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--5-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--5-offset-desktop.mdl-cell--5-offset-desktop {\n        margin-left: 41.66667%; }\n    .scvo-widget .mdl-cell--6-offset,\n    .scvo-widget .mdl-cell--6-offset-desktop.mdl-cell--6-offset-desktop {\n      margin-left: calc(50% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--6-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--6-offset-desktop.mdl-cell--6-offset-desktop {\n        margin-left: 50%; }\n    .scvo-widget .mdl-cell--7-offset,\n    .scvo-widget .mdl-cell--7-offset-desktop.mdl-cell--7-offset-desktop {\n      margin-left: calc(58.33333% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--7-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--7-offset-desktop.mdl-cell--7-offset-desktop {\n        margin-left: 58.33333%; }\n    .scvo-widget .mdl-cell--8-offset,\n    .scvo-widget .mdl-cell--8-offset-desktop.mdl-cell--8-offset-desktop {\n      margin-left: calc(66.66667% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--8-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--8-offset-desktop.mdl-cell--8-offset-desktop {\n        margin-left: 66.66667%; }\n    .scvo-widget .mdl-cell--9-offset,\n    .scvo-widget .mdl-cell--9-offset-desktop.mdl-cell--9-offset-desktop {\n      margin-left: calc(75% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--9-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--9-offset-desktop.mdl-cell--9-offset-desktop {\n        margin-left: 75%; }\n    .scvo-widget .mdl-cell--10-offset,\n    .scvo-widget .mdl-cell--10-offset-desktop.mdl-cell--10-offset-desktop {\n      margin-left: calc(83.33333% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--10-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--10-offset-desktop.mdl-cell--10-offset-desktop {\n        margin-left: 83.33333%; }\n    .scvo-widget .mdl-cell--11-offset,\n    .scvo-widget .mdl-cell--11-offset-desktop.mdl-cell--11-offset-desktop {\n      margin-left: calc(91.66667% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--11-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--11-offset-desktop.mdl-cell--11-offset-desktop {\n        margin-left: 91.66667%; } }\n  .scvo-widget .mdl-grid {\n    display: flex;\n    flex-flow: row wrap;\n    margin: 0 auto 0 auto;\n    align-items: stretch; }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing {\n      padding: 0; }\n  .scvo-widget .mdl-cell {\n    box-sizing: border-box; }\n  .scvo-widget .mdl-cell--top {\n    align-self: flex-start; }\n  .scvo-widget .mdl-cell--middle {\n    align-self: center; }\n  .scvo-widget .mdl-cell--bottom {\n    align-self: flex-end; }\n  .scvo-widget .mdl-cell--stretch {\n    align-self: stretch; }\n  .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell {\n    margin: 0; }\n  .scvo-widget .mdl-cell--order-1 {\n    order: 1; }\n  .scvo-widget .mdl-cell--order-2 {\n    order: 2; }\n  .scvo-widget .mdl-cell--order-3 {\n    order: 3; }\n  .scvo-widget .mdl-cell--order-4 {\n    order: 4; }\n  .scvo-widget .mdl-cell--order-5 {\n    order: 5; }\n  .scvo-widget .mdl-cell--order-6 {\n    order: 6; }\n  .scvo-widget .mdl-cell--order-7 {\n    order: 7; }\n  .scvo-widget .mdl-cell--order-8 {\n    order: 8; }\n  .scvo-widget .mdl-cell--order-9 {\n    order: 9; }\n  .scvo-widget .mdl-cell--order-10 {\n    order: 10; }\n  .scvo-widget .mdl-cell--order-11 {\n    order: 11; }\n  .scvo-widget .mdl-cell--order-12 {\n    order: 12; }\n  @media (max-width: 479px) {\n    .scvo-widget .mdl-grid {\n      padding: 8px; }\n    .scvo-widget .mdl-cell {\n      margin: 8px;\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell {\n        width: 100%; }\n    .scvo-widget .mdl-cell--hide-phone {\n      display: none !important; }\n    .scvo-widget .mdl-cell--order-1-phone.mdl-cell--order-1-phone {\n      order: 1; }\n    .scvo-widget .mdl-cell--order-2-phone.mdl-cell--order-2-phone {\n      order: 2; }\n    .scvo-widget .mdl-cell--order-3-phone.mdl-cell--order-3-phone {\n      order: 3; }\n    .scvo-widget .mdl-cell--order-4-phone.mdl-cell--order-4-phone {\n      order: 4; }\n    .scvo-widget .mdl-cell--order-5-phone.mdl-cell--order-5-phone {\n      order: 5; }\n    .scvo-widget .mdl-cell--order-6-phone.mdl-cell--order-6-phone {\n      order: 6; }\n    .scvo-widget .mdl-cell--order-7-phone.mdl-cell--order-7-phone {\n      order: 7; }\n    .scvo-widget .mdl-cell--order-8-phone.mdl-cell--order-8-phone {\n      order: 8; }\n    .scvo-widget .mdl-cell--order-9-phone.mdl-cell--order-9-phone {\n      order: 9; }\n    .scvo-widget .mdl-cell--order-10-phone.mdl-cell--order-10-phone {\n      order: 10; }\n    .scvo-widget .mdl-cell--order-11-phone.mdl-cell--order-11-phone {\n      order: 11; }\n    .scvo-widget .mdl-cell--order-12-phone.mdl-cell--order-12-phone {\n      order: 12; }\n    .scvo-widget .mdl-cell--1-col,\n    .scvo-widget .mdl-cell--1-col-phone.mdl-cell--1-col-phone {\n      width: calc(25% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--1-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--1-col-phone.mdl-cell--1-col-phone {\n        width: 25%; }\n    .scvo-widget .mdl-cell--2-col,\n    .scvo-widget .mdl-cell--2-col-phone.mdl-cell--2-col-phone {\n      width: calc(50% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--2-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--2-col-phone.mdl-cell--2-col-phone {\n        width: 50%; }\n    .scvo-widget .mdl-cell--3-col,\n    .scvo-widget .mdl-cell--3-col-phone.mdl-cell--3-col-phone {\n      width: calc(75% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--3-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--3-col-phone.mdl-cell--3-col-phone {\n        width: 75%; }\n    .scvo-widget .mdl-cell--4-col,\n    .scvo-widget .mdl-cell--4-col-phone.mdl-cell--4-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--4-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--4-col-phone.mdl-cell--4-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--5-col,\n    .scvo-widget .mdl-cell--5-col-phone.mdl-cell--5-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--5-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--5-col-phone.mdl-cell--5-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--6-col,\n    .scvo-widget .mdl-cell--6-col-phone.mdl-cell--6-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--6-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--6-col-phone.mdl-cell--6-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--7-col,\n    .scvo-widget .mdl-cell--7-col-phone.mdl-cell--7-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--7-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--7-col-phone.mdl-cell--7-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--8-col,\n    .scvo-widget .mdl-cell--8-col-phone.mdl-cell--8-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--8-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--8-col-phone.mdl-cell--8-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--9-col,\n    .scvo-widget .mdl-cell--9-col-phone.mdl-cell--9-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--9-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--9-col-phone.mdl-cell--9-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--10-col,\n    .scvo-widget .mdl-cell--10-col-phone.mdl-cell--10-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--10-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--10-col-phone.mdl-cell--10-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--11-col,\n    .scvo-widget .mdl-cell--11-col-phone.mdl-cell--11-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--11-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--11-col-phone.mdl-cell--11-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--12-col,\n    .scvo-widget .mdl-cell--12-col-phone.mdl-cell--12-col-phone {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--12-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--12-col-phone.mdl-cell--12-col-phone {\n        width: 100%; }\n    .scvo-widget .mdl-cell--1-offset,\n    .scvo-widget .mdl-cell--1-offset-phone.mdl-cell--1-offset-phone {\n      margin-left: calc(25% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--1-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--1-offset-phone.mdl-cell--1-offset-phone {\n        margin-left: 25%; }\n    .scvo-widget .mdl-cell--2-offset,\n    .scvo-widget .mdl-cell--2-offset-phone.mdl-cell--2-offset-phone {\n      margin-left: calc(50% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--2-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--2-offset-phone.mdl-cell--2-offset-phone {\n        margin-left: 50%; }\n    .scvo-widget .mdl-cell--3-offset,\n    .scvo-widget .mdl-cell--3-offset-phone.mdl-cell--3-offset-phone {\n      margin-left: calc(75% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--3-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--3-offset-phone.mdl-cell--3-offset-phone {\n        margin-left: 75%; } }\n  @media (min-width: 480px) and (max-width: 839px) {\n    .scvo-widget .mdl-grid {\n      padding: 8px; }\n    .scvo-widget .mdl-cell {\n      margin: 8px;\n      width: calc(50% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell {\n        width: 50%; }\n    .scvo-widget .mdl-cell--hide-tablet {\n      display: none !important; }\n    .scvo-widget .mdl-cell--order-1-tablet.mdl-cell--order-1-tablet {\n      order: 1; }\n    .scvo-widget .mdl-cell--order-2-tablet.mdl-cell--order-2-tablet {\n      order: 2; }\n    .scvo-widget .mdl-cell--order-3-tablet.mdl-cell--order-3-tablet {\n      order: 3; }\n    .scvo-widget .mdl-cell--order-4-tablet.mdl-cell--order-4-tablet {\n      order: 4; }\n    .scvo-widget .mdl-cell--order-5-tablet.mdl-cell--order-5-tablet {\n      order: 5; }\n    .scvo-widget .mdl-cell--order-6-tablet.mdl-cell--order-6-tablet {\n      order: 6; }\n    .scvo-widget .mdl-cell--order-7-tablet.mdl-cell--order-7-tablet {\n      order: 7; }\n    .scvo-widget .mdl-cell--order-8-tablet.mdl-cell--order-8-tablet {\n      order: 8; }\n    .scvo-widget .mdl-cell--order-9-tablet.mdl-cell--order-9-tablet {\n      order: 9; }\n    .scvo-widget .mdl-cell--order-10-tablet.mdl-cell--order-10-tablet {\n      order: 10; }\n    .scvo-widget .mdl-cell--order-11-tablet.mdl-cell--order-11-tablet {\n      order: 11; }\n    .scvo-widget .mdl-cell--order-12-tablet.mdl-cell--order-12-tablet {\n      order: 12; }\n    .scvo-widget .mdl-cell--1-col,\n    .scvo-widget .mdl-cell--1-col-tablet.mdl-cell--1-col-tablet {\n      width: calc(12.5% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--1-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--1-col-tablet.mdl-cell--1-col-tablet {\n        width: 12.5%; }\n    .scvo-widget .mdl-cell--2-col,\n    .scvo-widget .mdl-cell--2-col-tablet.mdl-cell--2-col-tablet {\n      width: calc(25% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--2-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--2-col-tablet.mdl-cell--2-col-tablet {\n        width: 25%; }\n    .scvo-widget .mdl-cell--3-col,\n    .scvo-widget .mdl-cell--3-col-tablet.mdl-cell--3-col-tablet {\n      width: calc(37.5% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--3-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--3-col-tablet.mdl-cell--3-col-tablet {\n        width: 37.5%; }\n    .scvo-widget .mdl-cell--4-col,\n    .scvo-widget .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {\n      width: calc(50% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--4-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {\n        width: 50%; }\n    .scvo-widget .mdl-cell--5-col,\n    .scvo-widget .mdl-cell--5-col-tablet.mdl-cell--5-col-tablet {\n      width: calc(62.5% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--5-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--5-col-tablet.mdl-cell--5-col-tablet {\n        width: 62.5%; }\n    .scvo-widget .mdl-cell--6-col,\n    .scvo-widget .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {\n      width: calc(75% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--6-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {\n        width: 75%; }\n    .scvo-widget .mdl-cell--7-col,\n    .scvo-widget .mdl-cell--7-col-tablet.mdl-cell--7-col-tablet {\n      width: calc(87.5% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--7-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--7-col-tablet.mdl-cell--7-col-tablet {\n        width: 87.5%; }\n    .scvo-widget .mdl-cell--8-col,\n    .scvo-widget .mdl-cell--8-col-tablet.mdl-cell--8-col-tablet {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--8-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--8-col-tablet.mdl-cell--8-col-tablet {\n        width: 100%; }\n    .scvo-widget .mdl-cell--9-col,\n    .scvo-widget .mdl-cell--9-col-tablet.mdl-cell--9-col-tablet {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--9-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--9-col-tablet.mdl-cell--9-col-tablet {\n        width: 100%; }\n    .scvo-widget .mdl-cell--10-col,\n    .scvo-widget .mdl-cell--10-col-tablet.mdl-cell--10-col-tablet {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--10-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--10-col-tablet.mdl-cell--10-col-tablet {\n        width: 100%; }\n    .scvo-widget .mdl-cell--11-col,\n    .scvo-widget .mdl-cell--11-col-tablet.mdl-cell--11-col-tablet {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--11-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--11-col-tablet.mdl-cell--11-col-tablet {\n        width: 100%; }\n    .scvo-widget .mdl-cell--12-col,\n    .scvo-widget .mdl-cell--12-col-tablet.mdl-cell--12-col-tablet {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--12-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--12-col-tablet.mdl-cell--12-col-tablet {\n        width: 100%; }\n    .scvo-widget .mdl-cell--1-offset,\n    .scvo-widget .mdl-cell--1-offset-tablet.mdl-cell--1-offset-tablet {\n      margin-left: calc(12.5% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--1-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--1-offset-tablet.mdl-cell--1-offset-tablet {\n        margin-left: 12.5%; }\n    .scvo-widget .mdl-cell--2-offset,\n    .scvo-widget .mdl-cell--2-offset-tablet.mdl-cell--2-offset-tablet {\n      margin-left: calc(25% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--2-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--2-offset-tablet.mdl-cell--2-offset-tablet {\n        margin-left: 25%; }\n    .scvo-widget .mdl-cell--3-offset,\n    .scvo-widget .mdl-cell--3-offset-tablet.mdl-cell--3-offset-tablet {\n      margin-left: calc(37.5% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--3-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--3-offset-tablet.mdl-cell--3-offset-tablet {\n        margin-left: 37.5%; }\n    .scvo-widget .mdl-cell--4-offset,\n    .scvo-widget .mdl-cell--4-offset-tablet.mdl-cell--4-offset-tablet {\n      margin-left: calc(50% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--4-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--4-offset-tablet.mdl-cell--4-offset-tablet {\n        margin-left: 50%; }\n    .scvo-widget .mdl-cell--5-offset,\n    .scvo-widget .mdl-cell--5-offset-tablet.mdl-cell--5-offset-tablet {\n      margin-left: calc(62.5% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--5-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--5-offset-tablet.mdl-cell--5-offset-tablet {\n        margin-left: 62.5%; }\n    .scvo-widget .mdl-cell--6-offset,\n    .scvo-widget .mdl-cell--6-offset-tablet.mdl-cell--6-offset-tablet {\n      margin-left: calc(75% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--6-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--6-offset-tablet.mdl-cell--6-offset-tablet {\n        margin-left: 75%; }\n    .scvo-widget .mdl-cell--7-offset,\n    .scvo-widget .mdl-cell--7-offset-tablet.mdl-cell--7-offset-tablet {\n      margin-left: calc(87.5% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--7-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--7-offset-tablet.mdl-cell--7-offset-tablet {\n        margin-left: 87.5%; } }\n  @media (min-width: 840px) {\n    .scvo-widget .mdl-grid {\n      padding: 8px; }\n    .scvo-widget .mdl-cell {\n      margin: 8px;\n      width: calc(33.33333% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell {\n        width: 33.33333%; }\n    .scvo-widget .mdl-cell--hide-desktop {\n      display: none !important; }\n    .scvo-widget .mdl-cell--order-1-desktop.mdl-cell--order-1-desktop {\n      order: 1; }\n    .scvo-widget .mdl-cell--order-2-desktop.mdl-cell--order-2-desktop {\n      order: 2; }\n    .scvo-widget .mdl-cell--order-3-desktop.mdl-cell--order-3-desktop {\n      order: 3; }\n    .scvo-widget .mdl-cell--order-4-desktop.mdl-cell--order-4-desktop {\n      order: 4; }\n    .scvo-widget .mdl-cell--order-5-desktop.mdl-cell--order-5-desktop {\n      order: 5; }\n    .scvo-widget .mdl-cell--order-6-desktop.mdl-cell--order-6-desktop {\n      order: 6; }\n    .scvo-widget .mdl-cell--order-7-desktop.mdl-cell--order-7-desktop {\n      order: 7; }\n    .scvo-widget .mdl-cell--order-8-desktop.mdl-cell--order-8-desktop {\n      order: 8; }\n    .scvo-widget .mdl-cell--order-9-desktop.mdl-cell--order-9-desktop {\n      order: 9; }\n    .scvo-widget .mdl-cell--order-10-desktop.mdl-cell--order-10-desktop {\n      order: 10; }\n    .scvo-widget .mdl-cell--order-11-desktop.mdl-cell--order-11-desktop {\n      order: 11; }\n    .scvo-widget .mdl-cell--order-12-desktop.mdl-cell--order-12-desktop {\n      order: 12; }\n    .scvo-widget .mdl-cell--1-col,\n    .scvo-widget .mdl-cell--1-col-desktop.mdl-cell--1-col-desktop {\n      width: calc(8.33333% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--1-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--1-col-desktop.mdl-cell--1-col-desktop {\n        width: 8.33333%; }\n    .scvo-widget .mdl-cell--2-col,\n    .scvo-widget .mdl-cell--2-col-desktop.mdl-cell--2-col-desktop {\n      width: calc(16.66667% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--2-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--2-col-desktop.mdl-cell--2-col-desktop {\n        width: 16.66667%; }\n    .scvo-widget .mdl-cell--3-col,\n    .scvo-widget .mdl-cell--3-col-desktop.mdl-cell--3-col-desktop {\n      width: calc(25% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--3-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--3-col-desktop.mdl-cell--3-col-desktop {\n        width: 25%; }\n    .scvo-widget .mdl-cell--4-col,\n    .scvo-widget .mdl-cell--4-col-desktop.mdl-cell--4-col-desktop {\n      width: calc(33.33333% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--4-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--4-col-desktop.mdl-cell--4-col-desktop {\n        width: 33.33333%; }\n    .scvo-widget .mdl-cell--5-col,\n    .scvo-widget .mdl-cell--5-col-desktop.mdl-cell--5-col-desktop {\n      width: calc(41.66667% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--5-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--5-col-desktop.mdl-cell--5-col-desktop {\n        width: 41.66667%; }\n    .scvo-widget .mdl-cell--6-col,\n    .scvo-widget .mdl-cell--6-col-desktop.mdl-cell--6-col-desktop {\n      width: calc(50% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--6-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--6-col-desktop.mdl-cell--6-col-desktop {\n        width: 50%; }\n    .scvo-widget .mdl-cell--7-col,\n    .scvo-widget .mdl-cell--7-col-desktop.mdl-cell--7-col-desktop {\n      width: calc(58.33333% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--7-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--7-col-desktop.mdl-cell--7-col-desktop {\n        width: 58.33333%; }\n    .scvo-widget .mdl-cell--8-col,\n    .scvo-widget .mdl-cell--8-col-desktop.mdl-cell--8-col-desktop {\n      width: calc(66.66667% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--8-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--8-col-desktop.mdl-cell--8-col-desktop {\n        width: 66.66667%; }\n    .scvo-widget .mdl-cell--9-col,\n    .scvo-widget .mdl-cell--9-col-desktop.mdl-cell--9-col-desktop {\n      width: calc(75% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--9-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--9-col-desktop.mdl-cell--9-col-desktop {\n        width: 75%; }\n    .scvo-widget .mdl-cell--10-col,\n    .scvo-widget .mdl-cell--10-col-desktop.mdl-cell--10-col-desktop {\n      width: calc(83.33333% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--10-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--10-col-desktop.mdl-cell--10-col-desktop {\n        width: 83.33333%; }\n    .scvo-widget .mdl-cell--11-col,\n    .scvo-widget .mdl-cell--11-col-desktop.mdl-cell--11-col-desktop {\n      width: calc(91.66667% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--11-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--11-col-desktop.mdl-cell--11-col-desktop {\n        width: 91.66667%; }\n    .scvo-widget .mdl-cell--12-col,\n    .scvo-widget .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {\n      width: calc(100% - 16px); }\n      .mdl-grid--no-spacing > .scvo-widget .mdl-cell--12-col, .mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {\n        width: 100%; }\n    .scvo-widget .mdl-cell--1-offset,\n    .scvo-widget .mdl-cell--1-offset-desktop.mdl-cell--1-offset-desktop {\n      margin-left: calc(8.33333% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--1-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--1-offset-desktop.mdl-cell--1-offset-desktop {\n        margin-left: 8.33333%; }\n    .scvo-widget .mdl-cell--2-offset,\n    .scvo-widget .mdl-cell--2-offset-desktop.mdl-cell--2-offset-desktop {\n      margin-left: calc(16.66667% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--2-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--2-offset-desktop.mdl-cell--2-offset-desktop {\n        margin-left: 16.66667%; }\n    .scvo-widget .mdl-cell--3-offset,\n    .scvo-widget .mdl-cell--3-offset-desktop.mdl-cell--3-offset-desktop {\n      margin-left: calc(25% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--3-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--3-offset-desktop.mdl-cell--3-offset-desktop {\n        margin-left: 25%; }\n    .scvo-widget .mdl-cell--4-offset,\n    .scvo-widget .mdl-cell--4-offset-desktop.mdl-cell--4-offset-desktop {\n      margin-left: calc(33.33333% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--4-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--4-offset-desktop.mdl-cell--4-offset-desktop {\n        margin-left: 33.33333%; }\n    .scvo-widget .mdl-cell--5-offset,\n    .scvo-widget .mdl-cell--5-offset-desktop.mdl-cell--5-offset-desktop {\n      margin-left: calc(41.66667% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--5-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--5-offset-desktop.mdl-cell--5-offset-desktop {\n        margin-left: 41.66667%; }\n    .scvo-widget .mdl-cell--6-offset,\n    .scvo-widget .mdl-cell--6-offset-desktop.mdl-cell--6-offset-desktop {\n      margin-left: calc(50% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--6-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--6-offset-desktop.mdl-cell--6-offset-desktop {\n        margin-left: 50%; }\n    .scvo-widget .mdl-cell--7-offset,\n    .scvo-widget .mdl-cell--7-offset-desktop.mdl-cell--7-offset-desktop {\n      margin-left: calc(58.33333% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--7-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--7-offset-desktop.mdl-cell--7-offset-desktop {\n        margin-left: 58.33333%; }\n    .scvo-widget .mdl-cell--8-offset,\n    .scvo-widget .mdl-cell--8-offset-desktop.mdl-cell--8-offset-desktop {\n      margin-left: calc(66.66667% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--8-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--8-offset-desktop.mdl-cell--8-offset-desktop {\n        margin-left: 66.66667%; }\n    .scvo-widget .mdl-cell--9-offset,\n    .scvo-widget .mdl-cell--9-offset-desktop.mdl-cell--9-offset-desktop {\n      margin-left: calc(75% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--9-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--9-offset-desktop.mdl-cell--9-offset-desktop {\n        margin-left: 75%; }\n    .scvo-widget .mdl-cell--10-offset,\n    .scvo-widget .mdl-cell--10-offset-desktop.mdl-cell--10-offset-desktop {\n      margin-left: calc(83.33333% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--10-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--10-offset-desktop.mdl-cell--10-offset-desktop {\n        margin-left: 83.33333%; }\n    .scvo-widget .mdl-cell--11-offset,\n    .scvo-widget .mdl-cell--11-offset-desktop.mdl-cell--11-offset-desktop {\n      margin-left: calc(91.66667% + 8px); }\n      .mdl-grid.mdl-grid--no-spacing > .scvo-widget .mdl-cell--11-offset, .mdl-grid.mdl-grid--no-spacing >\n      .scvo-widget .mdl-cell--11-offset-desktop.mdl-cell--11-offset-desktop {\n        margin-left: 91.66667%; } }\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n.scvo-widget {\n  /**\n * material-design-lite - Material Design Components in CSS, JS and HTML\n * @version v1.3.0\n * @license Apache-2.0\n * @copyright 2015 Google, Inc.\n * @link https://github.com/google/material-design-lite\n */ }\n  .scvo-widget html {\n    color: rgba(0, 0, 0, 0.87); }\n  .scvo-widget ::-moz-selection {\n    background: #b3d4fc;\n    text-shadow: none; }\n  .scvo-widget ::selection {\n    background: #b3d4fc;\n    text-shadow: none; }\n  .scvo-widget hr {\n    display: block;\n    height: 1px;\n    border: 0;\n    border-top: 1px solid #ccc;\n    margin: 1em 0;\n    padding: 0; }\n  .scvo-widget audio, .scvo-widget canvas, .scvo-widget iframe, .scvo-widget img, .scvo-widget svg, .scvo-widget video {\n    vertical-align: middle; }\n  .scvo-widget fieldset {\n    border: 0;\n    margin: 0;\n    padding: 0; }\n  .scvo-widget textarea {\n    resize: vertical; }\n  .scvo-widget .browserupgrade {\n    margin: .2em 0;\n    background: #ccc;\n    color: #000;\n    padding: .2em 0; }\n  .scvo-widget .hidden {\n    display: none !important; }\n  .scvo-widget .visuallyhidden {\n    border: 0;\n    clip: rect(0 0 0 0);\n    height: 1px;\n    margin: -1px;\n    overflow: hidden;\n    padding: 0;\n    position: absolute;\n    width: 1px; }\n  .scvo-widget .visuallyhidden.focusable:active, .scvo-widget .visuallyhidden.focusable:focus {\n    clip: auto;\n    height: auto;\n    margin: 0;\n    overflow: visible;\n    position: static;\n    width: auto; }\n  .scvo-widget .invisible {\n    visibility: hidden; }\n  .scvo-widget .clearfix:before, .scvo-widget .clearfix:after {\n    content: \" \";\n    display: table; }\n  .scvo-widget .clearfix:after {\n    clear: both; }\n  @media print {\n    .scvo-widget *, .scvo-widget *:before, .scvo-widget *:after, .scvo-widget *:first-letter {\n      background: transparent !important;\n      color: #000 !important;\n      box-shadow: none !important; }\n    .scvo-widget a, .scvo-widget a:visited {\n      text-decoration: underline; }\n    .scvo-widget a[href]:after {\n      content: \" (\" attr(href) \")\"; }\n    .scvo-widget abbr[title]:after {\n      content: \" (\" attr(title) \")\"; }\n    .scvo-widget a[href^=\"#\"]:after, .scvo-widget a[href^=\"javascript:\"]:after {\n      content: \"\"; }\n    .scvo-widget pre, .scvo-widget blockquote {\n      border: 1px solid #999;\n      page-break-inside: avoid; }\n    .scvo-widget thead {\n      display: table-header-group; }\n    .scvo-widget tr, .scvo-widget img {\n      page-break-inside: avoid; }\n    .scvo-widget img {\n      max-width: 100% !important; }\n    .scvo-widget p, .scvo-widget h2, .scvo-widget h3 {\n      orphans: 3;\n      widows: 3; }\n    .scvo-widget h2, .scvo-widget h3 {\n      page-break-after: avoid; } }\n  .scvo-widget a, .scvo-widget .mdl-accordion, .scvo-widget .mdl-button, .scvo-widget .mdl-card, .scvo-widget .mdl-checkbox, .scvo-widget .mdl-dropdown-menu, .scvo-widget .mdl-icon-toggle, .scvo-widget .mdl-item, .scvo-widget .mdl-radio, .scvo-widget .mdl-slider, .scvo-widget .mdl-switch, .scvo-widget .mdl-tabs__tab {\n    -webkit-tap-highlight-color: transparent;\n    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }\n  .scvo-widget html {\n    width: 100%;\n    height: 100%;\n    -ms-touch-action: manipulation;\n    touch-action: manipulation; }\n  .scvo-widget body {\n    width: 100%;\n    min-height: 100%; }\n  .scvo-widget main {\n    display: block; }\n  .scvo-widget *[hidden] {\n    display: none !important; }\n  .scvo-widget html, .scvo-widget body {\n    font-family: \"Helvetica\",\"Arial\",sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 20px; }\n  .scvo-widget h1, .scvo-widget h2, .scvo-widget h3, .scvo-widget h4, .scvo-widget h5, .scvo-widget h6, .scvo-widget p {\n    padding: 0; }\n  .scvo-widget h1 small, .scvo-widget h2 small, .scvo-widget h3 small, .scvo-widget h4 small, .scvo-widget h5 small, .scvo-widget h6 small {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-weight: 400;\n    line-height: 1.35;\n    letter-spacing: -.02em;\n    opacity: .54;\n    font-size: .6em; }\n  .scvo-widget h1 {\n    font-size: 56px;\n    line-height: 1.35;\n    letter-spacing: -.02em;\n    margin: 24px 0; }\n  .scvo-widget h1, .scvo-widget h2 {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-weight: 400; }\n  .scvo-widget h2 {\n    font-size: 45px;\n    line-height: 48px; }\n  .scvo-widget h2, .scvo-widget h3 {\n    margin: 24px 0; }\n  .scvo-widget h3 {\n    font-size: 34px;\n    line-height: 40px; }\n  .scvo-widget h3, .scvo-widget h4 {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-weight: 400; }\n  .scvo-widget h4 {\n    font-size: 24px;\n    line-height: 32px;\n    -moz-osx-font-smoothing: grayscale;\n    margin: 24px 0 16px; }\n  .scvo-widget h5 {\n    font-size: 20px;\n    font-weight: 500;\n    line-height: 1;\n    letter-spacing: .02em; }\n  .scvo-widget h5, .scvo-widget h6 {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    margin: 24px 0 16px; }\n  .scvo-widget h6 {\n    font-size: 16px;\n    letter-spacing: .04em; }\n  .scvo-widget h6, .scvo-widget p {\n    font-weight: 400;\n    line-height: 24px; }\n  .scvo-widget p {\n    font-size: 14px;\n    letter-spacing: 0;\n    margin: 0 0 16px; }\n  .scvo-widget a {\n    color: #448aff;\n    font-weight: 500; }\n  .scvo-widget blockquote {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    position: relative;\n    font-size: 24px;\n    font-weight: 300;\n    font-style: italic;\n    line-height: 1.35;\n    letter-spacing: .08em; }\n  .scvo-widget blockquote:before {\n    position: absolute;\n    left: -.5em;\n    content: '“'; }\n  .scvo-widget blockquote:after {\n    content: '”';\n    margin-left: -.05em; }\n  .scvo-widget mark {\n    background-color: #f4ff81; }\n  .scvo-widget dt {\n    font-weight: 700; }\n  .scvo-widget address {\n    font-size: 12px;\n    line-height: 1;\n    font-style: normal; }\n  .scvo-widget address, .scvo-widget ul, .scvo-widget ol {\n    font-weight: 400;\n    letter-spacing: 0; }\n  .scvo-widget ul, .scvo-widget ol {\n    font-size: 14px;\n    line-height: 24px; }\n  .scvo-widget .mdl-typography--display-4, .scvo-widget .mdl-typography--display-4-color-contrast {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 112px;\n    font-weight: 300;\n    line-height: 1;\n    letter-spacing: -.04em; }\n  .scvo-widget .mdl-typography--display-4-color-contrast {\n    opacity: .54; }\n  .scvo-widget .mdl-typography--display-3, .scvo-widget .mdl-typography--display-3-color-contrast {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 56px;\n    font-weight: 400;\n    line-height: 1.35;\n    letter-spacing: -.02em; }\n  .scvo-widget .mdl-typography--display-3-color-contrast {\n    opacity: .54; }\n  .scvo-widget .mdl-typography--display-2, .scvo-widget .mdl-typography--display-2-color-contrast {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 45px;\n    font-weight: 400;\n    line-height: 48px; }\n  .scvo-widget .mdl-typography--display-2-color-contrast {\n    opacity: .54; }\n  .scvo-widget .mdl-typography--display-1, .scvo-widget .mdl-typography--display-1-color-contrast {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 34px;\n    font-weight: 400;\n    line-height: 40px; }\n  .scvo-widget .mdl-typography--display-1-color-contrast {\n    opacity: .54; }\n  .scvo-widget .mdl-typography--headline, .scvo-widget .mdl-typography--headline-color-contrast {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 24px;\n    font-weight: 400;\n    line-height: 32px;\n    -moz-osx-font-smoothing: grayscale; }\n  .scvo-widget .mdl-typography--headline-color-contrast {\n    opacity: .87; }\n  .scvo-widget .mdl-typography--title, .scvo-widget .mdl-typography--title-color-contrast {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 20px;\n    font-weight: 500;\n    line-height: 1;\n    letter-spacing: .02em; }\n  .scvo-widget .mdl-typography--title-color-contrast {\n    opacity: .87; }\n  .scvo-widget .mdl-typography--subhead, .scvo-widget .mdl-typography--subhead-color-contrast {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 16px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: .04em; }\n  .scvo-widget .mdl-typography--subhead-color-contrast {\n    opacity: .87; }\n  .scvo-widget .mdl-typography--body-2, .scvo-widget .mdl-typography--body-2-color-contrast {\n    font-size: 14px;\n    font-weight: 700;\n    line-height: 24px;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--body-2-color-contrast {\n    opacity: .87; }\n  .scvo-widget .mdl-typography--body-1, .scvo-widget .mdl-typography--body-1-color-contrast {\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--body-1-color-contrast {\n    opacity: .87; }\n  .scvo-widget .mdl-typography--body-2-force-preferred-font, .scvo-widget .mdl-typography--body-2-force-preferred-font-color-contrast {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 14px;\n    font-weight: 500;\n    line-height: 24px;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--body-2-force-preferred-font-color-contrast {\n    opacity: .87; }\n  .scvo-widget .mdl-typography--body-1-force-preferred-font, .scvo-widget .mdl-typography--body-1-force-preferred-font-color-contrast {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--body-1-force-preferred-font-color-contrast {\n    opacity: .87; }\n  .scvo-widget .mdl-typography--caption, .scvo-widget .mdl-typography--caption-force-preferred-font {\n    font-size: 12px;\n    font-weight: 400;\n    line-height: 1;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--caption-force-preferred-font {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif; }\n  .scvo-widget .mdl-typography--caption-color-contrast, .scvo-widget .mdl-typography--caption-force-preferred-font-color-contrast {\n    font-size: 12px;\n    font-weight: 400;\n    line-height: 1;\n    letter-spacing: 0;\n    opacity: .54; }\n  .scvo-widget .mdl-typography--caption-force-preferred-font-color-contrast, .scvo-widget .mdl-typography--menu {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif; }\n  .scvo-widget .mdl-typography--menu {\n    font-size: 14px;\n    font-weight: 500;\n    line-height: 1;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--menu-color-contrast {\n    opacity: .87; }\n  .scvo-widget .mdl-typography--menu-color-contrast, .scvo-widget .mdl-typography--button, .scvo-widget .mdl-typography--button-color-contrast {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 14px;\n    font-weight: 500;\n    line-height: 1;\n    letter-spacing: 0; }\n  .scvo-widget .mdl-typography--button, .scvo-widget .mdl-typography--button-color-contrast {\n    text-transform: uppercase; }\n  .scvo-widget .mdl-typography--button-color-contrast {\n    opacity: .87; }\n  .scvo-widget .mdl-typography--text-left {\n    text-align: left; }\n  .scvo-widget .mdl-typography--text-right {\n    text-align: right; }\n  .scvo-widget .mdl-typography--text-center {\n    text-align: center; }\n  .scvo-widget .mdl-typography--text-justify {\n    text-align: justify; }\n  .scvo-widget .mdl-typography--text-nowrap {\n    white-space: nowrap; }\n  .scvo-widget .mdl-typography--text-lowercase {\n    text-transform: lowercase; }\n  .scvo-widget .mdl-typography--text-uppercase {\n    text-transform: uppercase; }\n  .scvo-widget .mdl-typography--text-capitalize {\n    text-transform: capitalize; }\n  .scvo-widget .mdl-typography--font-thin {\n    font-weight: 200 !important; }\n  .scvo-widget .mdl-typography--font-light {\n    font-weight: 300 !important; }\n  .scvo-widget .mdl-typography--font-regular {\n    font-weight: 400 !important; }\n  .scvo-widget .mdl-typography--font-medium {\n    font-weight: 500 !important; }\n  .scvo-widget .mdl-typography--font-bold {\n    font-weight: 700 !important; }\n  .scvo-widget .mdl-typography--font-black {\n    font-weight: 900 !important; }\n  .scvo-widget .material-icons {\n    font-family: 'Material Icons';\n    font-weight: 400;\n    font-style: normal;\n    font-size: 24px;\n    line-height: 1;\n    letter-spacing: normal;\n    text-transform: none;\n    display: inline-block;\n    word-wrap: normal;\n    -moz-font-feature-settings: 'liga';\n    font-feature-settings: 'liga';\n    -webkit-font-feature-settings: 'liga';\n    -webkit-font-smoothing: antialiased; }\n  .scvo-widget .mdl-color-text--red {\n    color: #f44336 !important; }\n  .scvo-widget .mdl-color--red {\n    background-color: #f44336 !important; }\n  .scvo-widget .mdl-color-text--red-50 {\n    color: #ffebee !important; }\n  .scvo-widget .mdl-color--red-50 {\n    background-color: #ffebee !important; }\n  .scvo-widget .mdl-color-text--red-100 {\n    color: #ffcdd2 !important; }\n  .scvo-widget .mdl-color--red-100 {\n    background-color: #ffcdd2 !important; }\n  .scvo-widget .mdl-color-text--red-200 {\n    color: #ef9a9a !important; }\n  .scvo-widget .mdl-color--red-200 {\n    background-color: #ef9a9a !important; }\n  .scvo-widget .mdl-color-text--red-300 {\n    color: #e57373 !important; }\n  .scvo-widget .mdl-color--red-300 {\n    background-color: #e57373 !important; }\n  .scvo-widget .mdl-color-text--red-400 {\n    color: #ef5350 !important; }\n  .scvo-widget .mdl-color--red-400 {\n    background-color: #ef5350 !important; }\n  .scvo-widget .mdl-color-text--red-500 {\n    color: #f44336 !important; }\n  .scvo-widget .mdl-color--red-500 {\n    background-color: #f44336 !important; }\n  .scvo-widget .mdl-color-text--red-600 {\n    color: #e53935 !important; }\n  .scvo-widget .mdl-color--red-600 {\n    background-color: #e53935 !important; }\n  .scvo-widget .mdl-color-text--red-700 {\n    color: #d32f2f !important; }\n  .scvo-widget .mdl-color--red-700 {\n    background-color: #d32f2f !important; }\n  .scvo-widget .mdl-color-text--red-800 {\n    color: #c62828 !important; }\n  .scvo-widget .mdl-color--red-800 {\n    background-color: #c62828 !important; }\n  .scvo-widget .mdl-color-text--red-900 {\n    color: #b71c1c !important; }\n  .scvo-widget .mdl-color--red-900 {\n    background-color: #b71c1c !important; }\n  .scvo-widget .mdl-color-text--red-A100 {\n    color: #ff8a80 !important; }\n  .scvo-widget .mdl-color--red-A100 {\n    background-color: #ff8a80 !important; }\n  .scvo-widget .mdl-color-text--red-A200 {\n    color: #ff5252 !important; }\n  .scvo-widget .mdl-color--red-A200 {\n    background-color: #ff5252 !important; }\n  .scvo-widget .mdl-color-text--red-A400 {\n    color: #ff1744 !important; }\n  .scvo-widget .mdl-color--red-A400 {\n    background-color: #ff1744 !important; }\n  .scvo-widget .mdl-color-text--red-A700 {\n    color: #d50000 !important; }\n  .scvo-widget .mdl-color--red-A700 {\n    background-color: #d50000 !important; }\n  .scvo-widget .mdl-color-text--pink {\n    color: #e91e63 !important; }\n  .scvo-widget .mdl-color--pink {\n    background-color: #e91e63 !important; }\n  .scvo-widget .mdl-color-text--pink-50 {\n    color: #fce4ec !important; }\n  .scvo-widget .mdl-color--pink-50 {\n    background-color: #fce4ec !important; }\n  .scvo-widget .mdl-color-text--pink-100 {\n    color: #f8bbd0 !important; }\n  .scvo-widget .mdl-color--pink-100 {\n    background-color: #f8bbd0 !important; }\n  .scvo-widget .mdl-color-text--pink-200 {\n    color: #f48fb1 !important; }\n  .scvo-widget .mdl-color--pink-200 {\n    background-color: #f48fb1 !important; }\n  .scvo-widget .mdl-color-text--pink-300 {\n    color: #f06292 !important; }\n  .scvo-widget .mdl-color--pink-300 {\n    background-color: #f06292 !important; }\n  .scvo-widget .mdl-color-text--pink-400 {\n    color: #ec407a !important; }\n  .scvo-widget .mdl-color--pink-400 {\n    background-color: #ec407a !important; }\n  .scvo-widget .mdl-color-text--pink-500 {\n    color: #e91e63 !important; }\n  .scvo-widget .mdl-color--pink-500 {\n    background-color: #e91e63 !important; }\n  .scvo-widget .mdl-color-text--pink-600 {\n    color: #d81b60 !important; }\n  .scvo-widget .mdl-color--pink-600 {\n    background-color: #d81b60 !important; }\n  .scvo-widget .mdl-color-text--pink-700 {\n    color: #c2185b !important; }\n  .scvo-widget .mdl-color--pink-700 {\n    background-color: #c2185b !important; }\n  .scvo-widget .mdl-color-text--pink-800 {\n    color: #ad1457 !important; }\n  .scvo-widget .mdl-color--pink-800 {\n    background-color: #ad1457 !important; }\n  .scvo-widget .mdl-color-text--pink-900 {\n    color: #880e4f !important; }\n  .scvo-widget .mdl-color--pink-900 {\n    background-color: #880e4f !important; }\n  .scvo-widget .mdl-color-text--pink-A100 {\n    color: #ff80ab !important; }\n  .scvo-widget .mdl-color--pink-A100 {\n    background-color: #ff80ab !important; }\n  .scvo-widget .mdl-color-text--pink-A200 {\n    color: #ff4081 !important; }\n  .scvo-widget .mdl-color--pink-A200 {\n    background-color: #ff4081 !important; }\n  .scvo-widget .mdl-color-text--pink-A400 {\n    color: #f50057 !important; }\n  .scvo-widget .mdl-color--pink-A400 {\n    background-color: #f50057 !important; }\n  .scvo-widget .mdl-color-text--pink-A700 {\n    color: #c51162 !important; }\n  .scvo-widget .mdl-color--pink-A700 {\n    background-color: #c51162 !important; }\n  .scvo-widget .mdl-color-text--purple {\n    color: #9c27b0 !important; }\n  .scvo-widget .mdl-color--purple {\n    background-color: #9c27b0 !important; }\n  .scvo-widget .mdl-color-text--purple-50 {\n    color: #f3e5f5 !important; }\n  .scvo-widget .mdl-color--purple-50 {\n    background-color: #f3e5f5 !important; }\n  .scvo-widget .mdl-color-text--purple-100 {\n    color: #e1bee7 !important; }\n  .scvo-widget .mdl-color--purple-100 {\n    background-color: #e1bee7 !important; }\n  .scvo-widget .mdl-color-text--purple-200 {\n    color: #ce93d8 !important; }\n  .scvo-widget .mdl-color--purple-200 {\n    background-color: #ce93d8 !important; }\n  .scvo-widget .mdl-color-text--purple-300 {\n    color: #ba68c8 !important; }\n  .scvo-widget .mdl-color--purple-300 {\n    background-color: #ba68c8 !important; }\n  .scvo-widget .mdl-color-text--purple-400 {\n    color: #ab47bc !important; }\n  .scvo-widget .mdl-color--purple-400 {\n    background-color: #ab47bc !important; }\n  .scvo-widget .mdl-color-text--purple-500 {\n    color: #9c27b0 !important; }\n  .scvo-widget .mdl-color--purple-500 {\n    background-color: #9c27b0 !important; }\n  .scvo-widget .mdl-color-text--purple-600 {\n    color: #8e24aa !important; }\n  .scvo-widget .mdl-color--purple-600 {\n    background-color: #8e24aa !important; }\n  .scvo-widget .mdl-color-text--purple-700 {\n    color: #7b1fa2 !important; }\n  .scvo-widget .mdl-color--purple-700 {\n    background-color: #7b1fa2 !important; }\n  .scvo-widget .mdl-color-text--purple-800 {\n    color: #6a1b9a !important; }\n  .scvo-widget .mdl-color--purple-800 {\n    background-color: #6a1b9a !important; }\n  .scvo-widget .mdl-color-text--purple-900 {\n    color: #4a148c !important; }\n  .scvo-widget .mdl-color--purple-900 {\n    background-color: #4a148c !important; }\n  .scvo-widget .mdl-color-text--purple-A100 {\n    color: #ea80fc !important; }\n  .scvo-widget .mdl-color--purple-A100 {\n    background-color: #ea80fc !important; }\n  .scvo-widget .mdl-color-text--purple-A200 {\n    color: #e040fb !important; }\n  .scvo-widget .mdl-color--purple-A200 {\n    background-color: #e040fb !important; }\n  .scvo-widget .mdl-color-text--purple-A400 {\n    color: #d500f9 !important; }\n  .scvo-widget .mdl-color--purple-A400 {\n    background-color: #d500f9 !important; }\n  .scvo-widget .mdl-color-text--purple-A700 {\n    color: #a0f !important; }\n  .scvo-widget .mdl-color--purple-A700 {\n    background-color: #a0f !important; }\n  .scvo-widget .mdl-color-text--deep-purple {\n    color: #673ab7 !important; }\n  .scvo-widget .mdl-color--deep-purple {\n    background-color: #673ab7 !important; }\n  .scvo-widget .mdl-color-text--deep-purple-50 {\n    color: #ede7f6 !important; }\n  .scvo-widget .mdl-color--deep-purple-50 {\n    background-color: #ede7f6 !important; }\n  .scvo-widget .mdl-color-text--deep-purple-100 {\n    color: #d1c4e9 !important; }\n  .scvo-widget .mdl-color--deep-purple-100 {\n    background-color: #d1c4e9 !important; }\n  .scvo-widget .mdl-color-text--deep-purple-200 {\n    color: #b39ddb !important; }\n  .scvo-widget .mdl-color--deep-purple-200 {\n    background-color: #b39ddb !important; }\n  .scvo-widget .mdl-color-text--deep-purple-300 {\n    color: #9575cd !important; }\n  .scvo-widget .mdl-color--deep-purple-300 {\n    background-color: #9575cd !important; }\n  .scvo-widget .mdl-color-text--deep-purple-400 {\n    color: #7e57c2 !important; }\n  .scvo-widget .mdl-color--deep-purple-400 {\n    background-color: #7e57c2 !important; }\n  .scvo-widget .mdl-color-text--deep-purple-500 {\n    color: #673ab7 !important; }\n  .scvo-widget .mdl-color--deep-purple-500 {\n    background-color: #673ab7 !important; }\n  .scvo-widget .mdl-color-text--deep-purple-600 {\n    color: #5e35b1 !important; }\n  .scvo-widget .mdl-color--deep-purple-600 {\n    background-color: #5e35b1 !important; }\n  .scvo-widget .mdl-color-text--deep-purple-700 {\n    color: #512da8 !important; }\n  .scvo-widget .mdl-color--deep-purple-700 {\n    background-color: #512da8 !important; }\n  .scvo-widget .mdl-color-text--deep-purple-800 {\n    color: #4527a0 !important; }\n  .scvo-widget .mdl-color--deep-purple-800 {\n    background-color: #4527a0 !important; }\n  .scvo-widget .mdl-color-text--deep-purple-900 {\n    color: #311b92 !important; }\n  .scvo-widget .mdl-color--deep-purple-900 {\n    background-color: #311b92 !important; }\n  .scvo-widget .mdl-color-text--deep-purple-A100 {\n    color: #b388ff !important; }\n  .scvo-widget .mdl-color--deep-purple-A100 {\n    background-color: #b388ff !important; }\n  .scvo-widget .mdl-color-text--deep-purple-A200 {\n    color: #7c4dff !important; }\n  .scvo-widget .mdl-color--deep-purple-A200 {\n    background-color: #7c4dff !important; }\n  .scvo-widget .mdl-color-text--deep-purple-A400 {\n    color: #651fff !important; }\n  .scvo-widget .mdl-color--deep-purple-A400 {\n    background-color: #651fff !important; }\n  .scvo-widget .mdl-color-text--deep-purple-A700 {\n    color: #6200ea !important; }\n  .scvo-widget .mdl-color--deep-purple-A700 {\n    background-color: #6200ea !important; }\n  .scvo-widget .mdl-color-text--indigo {\n    color: #3f51b5 !important; }\n  .scvo-widget .mdl-color--indigo {\n    background-color: #3f51b5 !important; }\n  .scvo-widget .mdl-color-text--indigo-50 {\n    color: #e8eaf6 !important; }\n  .scvo-widget .mdl-color--indigo-50 {\n    background-color: #e8eaf6 !important; }\n  .scvo-widget .mdl-color-text--indigo-100 {\n    color: #c5cae9 !important; }\n  .scvo-widget .mdl-color--indigo-100 {\n    background-color: #c5cae9 !important; }\n  .scvo-widget .mdl-color-text--indigo-200 {\n    color: #9fa8da !important; }\n  .scvo-widget .mdl-color--indigo-200 {\n    background-color: #9fa8da !important; }\n  .scvo-widget .mdl-color-text--indigo-300 {\n    color: #7986cb !important; }\n  .scvo-widget .mdl-color--indigo-300 {\n    background-color: #7986cb !important; }\n  .scvo-widget .mdl-color-text--indigo-400 {\n    color: #5c6bc0 !important; }\n  .scvo-widget .mdl-color--indigo-400 {\n    background-color: #5c6bc0 !important; }\n  .scvo-widget .mdl-color-text--indigo-500 {\n    color: #3f51b5 !important; }\n  .scvo-widget .mdl-color--indigo-500 {\n    background-color: #3f51b5 !important; }\n  .scvo-widget .mdl-color-text--indigo-600 {\n    color: #3949ab !important; }\n  .scvo-widget .mdl-color--indigo-600 {\n    background-color: #3949ab !important; }\n  .scvo-widget .mdl-color-text--indigo-700 {\n    color: #303f9f !important; }\n  .scvo-widget .mdl-color--indigo-700 {\n    background-color: #303f9f !important; }\n  .scvo-widget .mdl-color-text--indigo-800 {\n    color: #283593 !important; }\n  .scvo-widget .mdl-color--indigo-800 {\n    background-color: #283593 !important; }\n  .scvo-widget .mdl-color-text--indigo-900 {\n    color: #1a237e !important; }\n  .scvo-widget .mdl-color--indigo-900 {\n    background-color: #1a237e !important; }\n  .scvo-widget .mdl-color-text--indigo-A100 {\n    color: #8c9eff !important; }\n  .scvo-widget .mdl-color--indigo-A100 {\n    background-color: #8c9eff !important; }\n  .scvo-widget .mdl-color-text--indigo-A200 {\n    color: #536dfe !important; }\n  .scvo-widget .mdl-color--indigo-A200 {\n    background-color: #536dfe !important; }\n  .scvo-widget .mdl-color-text--indigo-A400 {\n    color: #3d5afe !important; }\n  .scvo-widget .mdl-color--indigo-A400 {\n    background-color: #3d5afe !important; }\n  .scvo-widget .mdl-color-text--indigo-A700 {\n    color: #304ffe !important; }\n  .scvo-widget .mdl-color--indigo-A700 {\n    background-color: #304ffe !important; }\n  .scvo-widget .mdl-color-text--blue {\n    color: #2196f3 !important; }\n  .scvo-widget .mdl-color--blue {\n    background-color: #2196f3 !important; }\n  .scvo-widget .mdl-color-text--blue-50 {\n    color: #e3f2fd !important; }\n  .scvo-widget .mdl-color--blue-50 {\n    background-color: #e3f2fd !important; }\n  .scvo-widget .mdl-color-text--blue-100 {\n    color: #bbdefb !important; }\n  .scvo-widget .mdl-color--blue-100 {\n    background-color: #bbdefb !important; }\n  .scvo-widget .mdl-color-text--blue-200 {\n    color: #90caf9 !important; }\n  .scvo-widget .mdl-color--blue-200 {\n    background-color: #90caf9 !important; }\n  .scvo-widget .mdl-color-text--blue-300 {\n    color: #64b5f6 !important; }\n  .scvo-widget .mdl-color--blue-300 {\n    background-color: #64b5f6 !important; }\n  .scvo-widget .mdl-color-text--blue-400 {\n    color: #42a5f5 !important; }\n  .scvo-widget .mdl-color--blue-400 {\n    background-color: #42a5f5 !important; }\n  .scvo-widget .mdl-color-text--blue-500 {\n    color: #2196f3 !important; }\n  .scvo-widget .mdl-color--blue-500 {\n    background-color: #2196f3 !important; }\n  .scvo-widget .mdl-color-text--blue-600 {\n    color: #1e88e5 !important; }\n  .scvo-widget .mdl-color--blue-600 {\n    background-color: #1e88e5 !important; }\n  .scvo-widget .mdl-color-text--blue-700 {\n    color: #1976d2 !important; }\n  .scvo-widget .mdl-color--blue-700 {\n    background-color: #1976d2 !important; }\n  .scvo-widget .mdl-color-text--blue-800 {\n    color: #1565c0 !important; }\n  .scvo-widget .mdl-color--blue-800 {\n    background-color: #1565c0 !important; }\n  .scvo-widget .mdl-color-text--blue-900 {\n    color: #0d47a1 !important; }\n  .scvo-widget .mdl-color--blue-900 {\n    background-color: #0d47a1 !important; }\n  .scvo-widget .mdl-color-text--blue-A100 {\n    color: #82b1ff !important; }\n  .scvo-widget .mdl-color--blue-A100 {\n    background-color: #82b1ff !important; }\n  .scvo-widget .mdl-color-text--blue-A200 {\n    color: #448aff !important; }\n  .scvo-widget .mdl-color--blue-A200 {\n    background-color: #448aff !important; }\n  .scvo-widget .mdl-color-text--blue-A400 {\n    color: #2979ff !important; }\n  .scvo-widget .mdl-color--blue-A400 {\n    background-color: #2979ff !important; }\n  .scvo-widget .mdl-color-text--blue-A700 {\n    color: #2962ff !important; }\n  .scvo-widget .mdl-color--blue-A700 {\n    background-color: #2962ff !important; }\n  .scvo-widget .mdl-color-text--light-blue {\n    color: #03a9f4 !important; }\n  .scvo-widget .mdl-color--light-blue {\n    background-color: #03a9f4 !important; }\n  .scvo-widget .mdl-color-text--light-blue-50 {\n    color: #e1f5fe !important; }\n  .scvo-widget .mdl-color--light-blue-50 {\n    background-color: #e1f5fe !important; }\n  .scvo-widget .mdl-color-text--light-blue-100 {\n    color: #b3e5fc !important; }\n  .scvo-widget .mdl-color--light-blue-100 {\n    background-color: #b3e5fc !important; }\n  .scvo-widget .mdl-color-text--light-blue-200 {\n    color: #81d4fa !important; }\n  .scvo-widget .mdl-color--light-blue-200 {\n    background-color: #81d4fa !important; }\n  .scvo-widget .mdl-color-text--light-blue-300 {\n    color: #4fc3f7 !important; }\n  .scvo-widget .mdl-color--light-blue-300 {\n    background-color: #4fc3f7 !important; }\n  .scvo-widget .mdl-color-text--light-blue-400 {\n    color: #29b6f6 !important; }\n  .scvo-widget .mdl-color--light-blue-400 {\n    background-color: #29b6f6 !important; }\n  .scvo-widget .mdl-color-text--light-blue-500 {\n    color: #03a9f4 !important; }\n  .scvo-widget .mdl-color--light-blue-500 {\n    background-color: #03a9f4 !important; }\n  .scvo-widget .mdl-color-text--light-blue-600 {\n    color: #039be5 !important; }\n  .scvo-widget .mdl-color--light-blue-600 {\n    background-color: #039be5 !important; }\n  .scvo-widget .mdl-color-text--light-blue-700 {\n    color: #0288d1 !important; }\n  .scvo-widget .mdl-color--light-blue-700 {\n    background-color: #0288d1 !important; }\n  .scvo-widget .mdl-color-text--light-blue-800 {\n    color: #0277bd !important; }\n  .scvo-widget .mdl-color--light-blue-800 {\n    background-color: #0277bd !important; }\n  .scvo-widget .mdl-color-text--light-blue-900 {\n    color: #01579b !important; }\n  .scvo-widget .mdl-color--light-blue-900 {\n    background-color: #01579b !important; }\n  .scvo-widget .mdl-color-text--light-blue-A100 {\n    color: #80d8ff !important; }\n  .scvo-widget .mdl-color--light-blue-A100 {\n    background-color: #80d8ff !important; }\n  .scvo-widget .mdl-color-text--light-blue-A200 {\n    color: #40c4ff !important; }\n  .scvo-widget .mdl-color--light-blue-A200 {\n    background-color: #40c4ff !important; }\n  .scvo-widget .mdl-color-text--light-blue-A400 {\n    color: #00b0ff !important; }\n  .scvo-widget .mdl-color--light-blue-A400 {\n    background-color: #00b0ff !important; }\n  .scvo-widget .mdl-color-text--light-blue-A700 {\n    color: #0091ea !important; }\n  .scvo-widget .mdl-color--light-blue-A700 {\n    background-color: #0091ea !important; }\n  .scvo-widget .mdl-color-text--cyan {\n    color: #00bcd4 !important; }\n  .scvo-widget .mdl-color--cyan {\n    background-color: #00bcd4 !important; }\n  .scvo-widget .mdl-color-text--cyan-50 {\n    color: #e0f7fa !important; }\n  .scvo-widget .mdl-color--cyan-50 {\n    background-color: #e0f7fa !important; }\n  .scvo-widget .mdl-color-text--cyan-100 {\n    color: #b2ebf2 !important; }\n  .scvo-widget .mdl-color--cyan-100 {\n    background-color: #b2ebf2 !important; }\n  .scvo-widget .mdl-color-text--cyan-200 {\n    color: #80deea !important; }\n  .scvo-widget .mdl-color--cyan-200 {\n    background-color: #80deea !important; }\n  .scvo-widget .mdl-color-text--cyan-300 {\n    color: #4dd0e1 !important; }\n  .scvo-widget .mdl-color--cyan-300 {\n    background-color: #4dd0e1 !important; }\n  .scvo-widget .mdl-color-text--cyan-400 {\n    color: #26c6da !important; }\n  .scvo-widget .mdl-color--cyan-400 {\n    background-color: #26c6da !important; }\n  .scvo-widget .mdl-color-text--cyan-500 {\n    color: #00bcd4 !important; }\n  .scvo-widget .mdl-color--cyan-500 {\n    background-color: #00bcd4 !important; }\n  .scvo-widget .mdl-color-text--cyan-600 {\n    color: #00acc1 !important; }\n  .scvo-widget .mdl-color--cyan-600 {\n    background-color: #00acc1 !important; }\n  .scvo-widget .mdl-color-text--cyan-700 {\n    color: #0097a7 !important; }\n  .scvo-widget .mdl-color--cyan-700 {\n    background-color: #0097a7 !important; }\n  .scvo-widget .mdl-color-text--cyan-800 {\n    color: #00838f !important; }\n  .scvo-widget .mdl-color--cyan-800 {\n    background-color: #00838f !important; }\n  .scvo-widget .mdl-color-text--cyan-900 {\n    color: #006064 !important; }\n  .scvo-widget .mdl-color--cyan-900 {\n    background-color: #006064 !important; }\n  .scvo-widget .mdl-color-text--cyan-A100 {\n    color: #84ffff !important; }\n  .scvo-widget .mdl-color--cyan-A100 {\n    background-color: #84ffff !important; }\n  .scvo-widget .mdl-color-text--cyan-A200 {\n    color: #18ffff !important; }\n  .scvo-widget .mdl-color--cyan-A200 {\n    background-color: #18ffff !important; }\n  .scvo-widget .mdl-color-text--cyan-A400 {\n    color: #00e5ff !important; }\n  .scvo-widget .mdl-color--cyan-A400 {\n    background-color: #00e5ff !important; }\n  .scvo-widget .mdl-color-text--cyan-A700 {\n    color: #00b8d4 !important; }\n  .scvo-widget .mdl-color--cyan-A700 {\n    background-color: #00b8d4 !important; }\n  .scvo-widget .mdl-color-text--teal {\n    color: #009688 !important; }\n  .scvo-widget .mdl-color--teal {\n    background-color: #009688 !important; }\n  .scvo-widget .mdl-color-text--teal-50 {\n    color: #e0f2f1 !important; }\n  .scvo-widget .mdl-color--teal-50 {\n    background-color: #e0f2f1 !important; }\n  .scvo-widget .mdl-color-text--teal-100 {\n    color: #b2dfdb !important; }\n  .scvo-widget .mdl-color--teal-100 {\n    background-color: #b2dfdb !important; }\n  .scvo-widget .mdl-color-text--teal-200 {\n    color: #80cbc4 !important; }\n  .scvo-widget .mdl-color--teal-200 {\n    background-color: #80cbc4 !important; }\n  .scvo-widget .mdl-color-text--teal-300 {\n    color: #4db6ac !important; }\n  .scvo-widget .mdl-color--teal-300 {\n    background-color: #4db6ac !important; }\n  .scvo-widget .mdl-color-text--teal-400 {\n    color: #26a69a !important; }\n  .scvo-widget .mdl-color--teal-400 {\n    background-color: #26a69a !important; }\n  .scvo-widget .mdl-color-text--teal-500 {\n    color: #009688 !important; }\n  .scvo-widget .mdl-color--teal-500 {\n    background-color: #009688 !important; }\n  .scvo-widget .mdl-color-text--teal-600 {\n    color: #00897b !important; }\n  .scvo-widget .mdl-color--teal-600 {\n    background-color: #00897b !important; }\n  .scvo-widget .mdl-color-text--teal-700 {\n    color: #00796b !important; }\n  .scvo-widget .mdl-color--teal-700 {\n    background-color: #00796b !important; }\n  .scvo-widget .mdl-color-text--teal-800 {\n    color: #00695c !important; }\n  .scvo-widget .mdl-color--teal-800 {\n    background-color: #00695c !important; }\n  .scvo-widget .mdl-color-text--teal-900 {\n    color: #004d40 !important; }\n  .scvo-widget .mdl-color--teal-900 {\n    background-color: #004d40 !important; }\n  .scvo-widget .mdl-color-text--teal-A100 {\n    color: #a7ffeb !important; }\n  .scvo-widget .mdl-color--teal-A100 {\n    background-color: #a7ffeb !important; }\n  .scvo-widget .mdl-color-text--teal-A200 {\n    color: #64ffda !important; }\n  .scvo-widget .mdl-color--teal-A200 {\n    background-color: #64ffda !important; }\n  .scvo-widget .mdl-color-text--teal-A400 {\n    color: #1de9b6 !important; }\n  .scvo-widget .mdl-color--teal-A400 {\n    background-color: #1de9b6 !important; }\n  .scvo-widget .mdl-color-text--teal-A700 {\n    color: #00bfa5 !important; }\n  .scvo-widget .mdl-color--teal-A700 {\n    background-color: #00bfa5 !important; }\n  .scvo-widget .mdl-color-text--green {\n    color: #4caf50 !important; }\n  .scvo-widget .mdl-color--green {\n    background-color: #4caf50 !important; }\n  .scvo-widget .mdl-color-text--green-50 {\n    color: #e8f5e9 !important; }\n  .scvo-widget .mdl-color--green-50 {\n    background-color: #e8f5e9 !important; }\n  .scvo-widget .mdl-color-text--green-100 {\n    color: #c8e6c9 !important; }\n  .scvo-widget .mdl-color--green-100 {\n    background-color: #c8e6c9 !important; }\n  .scvo-widget .mdl-color-text--green-200 {\n    color: #a5d6a7 !important; }\n  .scvo-widget .mdl-color--green-200 {\n    background-color: #a5d6a7 !important; }\n  .scvo-widget .mdl-color-text--green-300 {\n    color: #81c784 !important; }\n  .scvo-widget .mdl-color--green-300 {\n    background-color: #81c784 !important; }\n  .scvo-widget .mdl-color-text--green-400 {\n    color: #66bb6a !important; }\n  .scvo-widget .mdl-color--green-400 {\n    background-color: #66bb6a !important; }\n  .scvo-widget .mdl-color-text--green-500 {\n    color: #4caf50 !important; }\n  .scvo-widget .mdl-color--green-500 {\n    background-color: #4caf50 !important; }\n  .scvo-widget .mdl-color-text--green-600 {\n    color: #43a047 !important; }\n  .scvo-widget .mdl-color--green-600 {\n    background-color: #43a047 !important; }\n  .scvo-widget .mdl-color-text--green-700 {\n    color: #388e3c !important; }\n  .scvo-widget .mdl-color--green-700 {\n    background-color: #388e3c !important; }\n  .scvo-widget .mdl-color-text--green-800 {\n    color: #2e7d32 !important; }\n  .scvo-widget .mdl-color--green-800 {\n    background-color: #2e7d32 !important; }\n  .scvo-widget .mdl-color-text--green-900 {\n    color: #1b5e20 !important; }\n  .scvo-widget .mdl-color--green-900 {\n    background-color: #1b5e20 !important; }\n  .scvo-widget .mdl-color-text--green-A100 {\n    color: #b9f6ca !important; }\n  .scvo-widget .mdl-color--green-A100 {\n    background-color: #b9f6ca !important; }\n  .scvo-widget .mdl-color-text--green-A200 {\n    color: #69f0ae !important; }\n  .scvo-widget .mdl-color--green-A200 {\n    background-color: #69f0ae !important; }\n  .scvo-widget .mdl-color-text--green-A400 {\n    color: #00e676 !important; }\n  .scvo-widget .mdl-color--green-A400 {\n    background-color: #00e676 !important; }\n  .scvo-widget .mdl-color-text--green-A700 {\n    color: #00c853 !important; }\n  .scvo-widget .mdl-color--green-A700 {\n    background-color: #00c853 !important; }\n  .scvo-widget .mdl-color-text--light-green {\n    color: #8bc34a !important; }\n  .scvo-widget .mdl-color--light-green {\n    background-color: #8bc34a !important; }\n  .scvo-widget .mdl-color-text--light-green-50 {\n    color: #f1f8e9 !important; }\n  .scvo-widget .mdl-color--light-green-50 {\n    background-color: #f1f8e9 !important; }\n  .scvo-widget .mdl-color-text--light-green-100 {\n    color: #dcedc8 !important; }\n  .scvo-widget .mdl-color--light-green-100 {\n    background-color: #dcedc8 !important; }\n  .scvo-widget .mdl-color-text--light-green-200 {\n    color: #c5e1a5 !important; }\n  .scvo-widget .mdl-color--light-green-200 {\n    background-color: #c5e1a5 !important; }\n  .scvo-widget .mdl-color-text--light-green-300 {\n    color: #aed581 !important; }\n  .scvo-widget .mdl-color--light-green-300 {\n    background-color: #aed581 !important; }\n  .scvo-widget .mdl-color-text--light-green-400 {\n    color: #9ccc65 !important; }\n  .scvo-widget .mdl-color--light-green-400 {\n    background-color: #9ccc65 !important; }\n  .scvo-widget .mdl-color-text--light-green-500 {\n    color: #8bc34a !important; }\n  .scvo-widget .mdl-color--light-green-500 {\n    background-color: #8bc34a !important; }\n  .scvo-widget .mdl-color-text--light-green-600 {\n    color: #7cb342 !important; }\n  .scvo-widget .mdl-color--light-green-600 {\n    background-color: #7cb342 !important; }\n  .scvo-widget .mdl-color-text--light-green-700 {\n    color: #689f38 !important; }\n  .scvo-widget .mdl-color--light-green-700 {\n    background-color: #689f38 !important; }\n  .scvo-widget .mdl-color-text--light-green-800 {\n    color: #558b2f !important; }\n  .scvo-widget .mdl-color--light-green-800 {\n    background-color: #558b2f !important; }\n  .scvo-widget .mdl-color-text--light-green-900 {\n    color: #33691e !important; }\n  .scvo-widget .mdl-color--light-green-900 {\n    background-color: #33691e !important; }\n  .scvo-widget .mdl-color-text--light-green-A100 {\n    color: #ccff90 !important; }\n  .scvo-widget .mdl-color--light-green-A100 {\n    background-color: #ccff90 !important; }\n  .scvo-widget .mdl-color-text--light-green-A200 {\n    color: #b2ff59 !important; }\n  .scvo-widget .mdl-color--light-green-A200 {\n    background-color: #b2ff59 !important; }\n  .scvo-widget .mdl-color-text--light-green-A400 {\n    color: #76ff03 !important; }\n  .scvo-widget .mdl-color--light-green-A400 {\n    background-color: #76ff03 !important; }\n  .scvo-widget .mdl-color-text--light-green-A700 {\n    color: #64dd17 !important; }\n  .scvo-widget .mdl-color--light-green-A700 {\n    background-color: #64dd17 !important; }\n  .scvo-widget .mdl-color-text--lime {\n    color: #cddc39 !important; }\n  .scvo-widget .mdl-color--lime {\n    background-color: #cddc39 !important; }\n  .scvo-widget .mdl-color-text--lime-50 {\n    color: #f9fbe7 !important; }\n  .scvo-widget .mdl-color--lime-50 {\n    background-color: #f9fbe7 !important; }\n  .scvo-widget .mdl-color-text--lime-100 {\n    color: #f0f4c3 !important; }\n  .scvo-widget .mdl-color--lime-100 {\n    background-color: #f0f4c3 !important; }\n  .scvo-widget .mdl-color-text--lime-200 {\n    color: #e6ee9c !important; }\n  .scvo-widget .mdl-color--lime-200 {\n    background-color: #e6ee9c !important; }\n  .scvo-widget .mdl-color-text--lime-300 {\n    color: #dce775 !important; }\n  .scvo-widget .mdl-color--lime-300 {\n    background-color: #dce775 !important; }\n  .scvo-widget .mdl-color-text--lime-400 {\n    color: #d4e157 !important; }\n  .scvo-widget .mdl-color--lime-400 {\n    background-color: #d4e157 !important; }\n  .scvo-widget .mdl-color-text--lime-500 {\n    color: #cddc39 !important; }\n  .scvo-widget .mdl-color--lime-500 {\n    background-color: #cddc39 !important; }\n  .scvo-widget .mdl-color-text--lime-600 {\n    color: #c0ca33 !important; }\n  .scvo-widget .mdl-color--lime-600 {\n    background-color: #c0ca33 !important; }\n  .scvo-widget .mdl-color-text--lime-700 {\n    color: #afb42b !important; }\n  .scvo-widget .mdl-color--lime-700 {\n    background-color: #afb42b !important; }\n  .scvo-widget .mdl-color-text--lime-800 {\n    color: #9e9d24 !important; }\n  .scvo-widget .mdl-color--lime-800 {\n    background-color: #9e9d24 !important; }\n  .scvo-widget .mdl-color-text--lime-900 {\n    color: #827717 !important; }\n  .scvo-widget .mdl-color--lime-900 {\n    background-color: #827717 !important; }\n  .scvo-widget .mdl-color-text--lime-A100 {\n    color: #f4ff81 !important; }\n  .scvo-widget .mdl-color--lime-A100 {\n    background-color: #f4ff81 !important; }\n  .scvo-widget .mdl-color-text--lime-A200 {\n    color: #eeff41 !important; }\n  .scvo-widget .mdl-color--lime-A200 {\n    background-color: #eeff41 !important; }\n  .scvo-widget .mdl-color-text--lime-A400 {\n    color: #c6ff00 !important; }\n  .scvo-widget .mdl-color--lime-A400 {\n    background-color: #c6ff00 !important; }\n  .scvo-widget .mdl-color-text--lime-A700 {\n    color: #aeea00 !important; }\n  .scvo-widget .mdl-color--lime-A700 {\n    background-color: #aeea00 !important; }\n  .scvo-widget .mdl-color-text--yellow {\n    color: #ffeb3b !important; }\n  .scvo-widget .mdl-color--yellow {\n    background-color: #ffeb3b !important; }\n  .scvo-widget .mdl-color-text--yellow-50 {\n    color: #fffde7 !important; }\n  .scvo-widget .mdl-color--yellow-50 {\n    background-color: #fffde7 !important; }\n  .scvo-widget .mdl-color-text--yellow-100 {\n    color: #fff9c4 !important; }\n  .scvo-widget .mdl-color--yellow-100 {\n    background-color: #fff9c4 !important; }\n  .scvo-widget .mdl-color-text--yellow-200 {\n    color: #fff59d !important; }\n  .scvo-widget .mdl-color--yellow-200 {\n    background-color: #fff59d !important; }\n  .scvo-widget .mdl-color-text--yellow-300 {\n    color: #fff176 !important; }\n  .scvo-widget .mdl-color--yellow-300 {\n    background-color: #fff176 !important; }\n  .scvo-widget .mdl-color-text--yellow-400 {\n    color: #ffee58 !important; }\n  .scvo-widget .mdl-color--yellow-400 {\n    background-color: #ffee58 !important; }\n  .scvo-widget .mdl-color-text--yellow-500 {\n    color: #ffeb3b !important; }\n  .scvo-widget .mdl-color--yellow-500 {\n    background-color: #ffeb3b !important; }\n  .scvo-widget .mdl-color-text--yellow-600 {\n    color: #fdd835 !important; }\n  .scvo-widget .mdl-color--yellow-600 {\n    background-color: #fdd835 !important; }\n  .scvo-widget .mdl-color-text--yellow-700 {\n    color: #fbc02d !important; }\n  .scvo-widget .mdl-color--yellow-700 {\n    background-color: #fbc02d !important; }\n  .scvo-widget .mdl-color-text--yellow-800 {\n    color: #f9a825 !important; }\n  .scvo-widget .mdl-color--yellow-800 {\n    background-color: #f9a825 !important; }\n  .scvo-widget .mdl-color-text--yellow-900 {\n    color: #f57f17 !important; }\n  .scvo-widget .mdl-color--yellow-900 {\n    background-color: #f57f17 !important; }\n  .scvo-widget .mdl-color-text--yellow-A100 {\n    color: #ffff8d !important; }\n  .scvo-widget .mdl-color--yellow-A100 {\n    background-color: #ffff8d !important; }\n  .scvo-widget .mdl-color-text--yellow-A200 {\n    color: #ff0 !important; }\n  .scvo-widget .mdl-color--yellow-A200 {\n    background-color: #ff0 !important; }\n  .scvo-widget .mdl-color-text--yellow-A400 {\n    color: #ffea00 !important; }\n  .scvo-widget .mdl-color--yellow-A400 {\n    background-color: #ffea00 !important; }\n  .scvo-widget .mdl-color-text--yellow-A700 {\n    color: #ffd600 !important; }\n  .scvo-widget .mdl-color--yellow-A700 {\n    background-color: #ffd600 !important; }\n  .scvo-widget .mdl-color-text--amber {\n    color: #ffc107 !important; }\n  .scvo-widget .mdl-color--amber {\n    background-color: #ffc107 !important; }\n  .scvo-widget .mdl-color-text--amber-50 {\n    color: #fff8e1 !important; }\n  .scvo-widget .mdl-color--amber-50 {\n    background-color: #fff8e1 !important; }\n  .scvo-widget .mdl-color-text--amber-100 {\n    color: #ffecb3 !important; }\n  .scvo-widget .mdl-color--amber-100 {\n    background-color: #ffecb3 !important; }\n  .scvo-widget .mdl-color-text--amber-200 {\n    color: #ffe082 !important; }\n  .scvo-widget .mdl-color--amber-200 {\n    background-color: #ffe082 !important; }\n  .scvo-widget .mdl-color-text--amber-300 {\n    color: #ffd54f !important; }\n  .scvo-widget .mdl-color--amber-300 {\n    background-color: #ffd54f !important; }\n  .scvo-widget .mdl-color-text--amber-400 {\n    color: #ffca28 !important; }\n  .scvo-widget .mdl-color--amber-400 {\n    background-color: #ffca28 !important; }\n  .scvo-widget .mdl-color-text--amber-500 {\n    color: #ffc107 !important; }\n  .scvo-widget .mdl-color--amber-500 {\n    background-color: #ffc107 !important; }\n  .scvo-widget .mdl-color-text--amber-600 {\n    color: #ffb300 !important; }\n  .scvo-widget .mdl-color--amber-600 {\n    background-color: #ffb300 !important; }\n  .scvo-widget .mdl-color-text--amber-700 {\n    color: #ffa000 !important; }\n  .scvo-widget .mdl-color--amber-700 {\n    background-color: #ffa000 !important; }\n  .scvo-widget .mdl-color-text--amber-800 {\n    color: #ff8f00 !important; }\n  .scvo-widget .mdl-color--amber-800 {\n    background-color: #ff8f00 !important; }\n  .scvo-widget .mdl-color-text--amber-900 {\n    color: #ff6f00 !important; }\n  .scvo-widget .mdl-color--amber-900 {\n    background-color: #ff6f00 !important; }\n  .scvo-widget .mdl-color-text--amber-A100 {\n    color: #ffe57f !important; }\n  .scvo-widget .mdl-color--amber-A100 {\n    background-color: #ffe57f !important; }\n  .scvo-widget .mdl-color-text--amber-A200 {\n    color: #ffd740 !important; }\n  .scvo-widget .mdl-color--amber-A200 {\n    background-color: #ffd740 !important; }\n  .scvo-widget .mdl-color-text--amber-A400 {\n    color: #ffc400 !important; }\n  .scvo-widget .mdl-color--amber-A400 {\n    background-color: #ffc400 !important; }\n  .scvo-widget .mdl-color-text--amber-A700 {\n    color: #ffab00 !important; }\n  .scvo-widget .mdl-color--amber-A700 {\n    background-color: #ffab00 !important; }\n  .scvo-widget .mdl-color-text--orange {\n    color: #ff9800 !important; }\n  .scvo-widget .mdl-color--orange {\n    background-color: #ff9800 !important; }\n  .scvo-widget .mdl-color-text--orange-50 {\n    color: #fff3e0 !important; }\n  .scvo-widget .mdl-color--orange-50 {\n    background-color: #fff3e0 !important; }\n  .scvo-widget .mdl-color-text--orange-100 {\n    color: #ffe0b2 !important; }\n  .scvo-widget .mdl-color--orange-100 {\n    background-color: #ffe0b2 !important; }\n  .scvo-widget .mdl-color-text--orange-200 {\n    color: #ffcc80 !important; }\n  .scvo-widget .mdl-color--orange-200 {\n    background-color: #ffcc80 !important; }\n  .scvo-widget .mdl-color-text--orange-300 {\n    color: #ffb74d !important; }\n  .scvo-widget .mdl-color--orange-300 {\n    background-color: #ffb74d !important; }\n  .scvo-widget .mdl-color-text--orange-400 {\n    color: #ffa726 !important; }\n  .scvo-widget .mdl-color--orange-400 {\n    background-color: #ffa726 !important; }\n  .scvo-widget .mdl-color-text--orange-500 {\n    color: #ff9800 !important; }\n  .scvo-widget .mdl-color--orange-500 {\n    background-color: #ff9800 !important; }\n  .scvo-widget .mdl-color-text--orange-600 {\n    color: #fb8c00 !important; }\n  .scvo-widget .mdl-color--orange-600 {\n    background-color: #fb8c00 !important; }\n  .scvo-widget .mdl-color-text--orange-700 {\n    color: #f57c00 !important; }\n  .scvo-widget .mdl-color--orange-700 {\n    background-color: #f57c00 !important; }\n  .scvo-widget .mdl-color-text--orange-800 {\n    color: #ef6c00 !important; }\n  .scvo-widget .mdl-color--orange-800 {\n    background-color: #ef6c00 !important; }\n  .scvo-widget .mdl-color-text--orange-900 {\n    color: #e65100 !important; }\n  .scvo-widget .mdl-color--orange-900 {\n    background-color: #e65100 !important; }\n  .scvo-widget .mdl-color-text--orange-A100 {\n    color: #ffd180 !important; }\n  .scvo-widget .mdl-color--orange-A100 {\n    background-color: #ffd180 !important; }\n  .scvo-widget .mdl-color-text--orange-A200 {\n    color: #ffab40 !important; }\n  .scvo-widget .mdl-color--orange-A200 {\n    background-color: #ffab40 !important; }\n  .scvo-widget .mdl-color-text--orange-A400 {\n    color: #ff9100 !important; }\n  .scvo-widget .mdl-color--orange-A400 {\n    background-color: #ff9100 !important; }\n  .scvo-widget .mdl-color-text--orange-A700 {\n    color: #ff6d00 !important; }\n  .scvo-widget .mdl-color--orange-A700 {\n    background-color: #ff6d00 !important; }\n  .scvo-widget .mdl-color-text--deep-orange {\n    color: #ff5722 !important; }\n  .scvo-widget .mdl-color--deep-orange {\n    background-color: #ff5722 !important; }\n  .scvo-widget .mdl-color-text--deep-orange-50 {\n    color: #fbe9e7 !important; }\n  .scvo-widget .mdl-color--deep-orange-50 {\n    background-color: #fbe9e7 !important; }\n  .scvo-widget .mdl-color-text--deep-orange-100 {\n    color: #ffccbc !important; }\n  .scvo-widget .mdl-color--deep-orange-100 {\n    background-color: #ffccbc !important; }\n  .scvo-widget .mdl-color-text--deep-orange-200 {\n    color: #ffab91 !important; }\n  .scvo-widget .mdl-color--deep-orange-200 {\n    background-color: #ffab91 !important; }\n  .scvo-widget .mdl-color-text--deep-orange-300 {\n    color: #ff8a65 !important; }\n  .scvo-widget .mdl-color--deep-orange-300 {\n    background-color: #ff8a65 !important; }\n  .scvo-widget .mdl-color-text--deep-orange-400 {\n    color: #ff7043 !important; }\n  .scvo-widget .mdl-color--deep-orange-400 {\n    background-color: #ff7043 !important; }\n  .scvo-widget .mdl-color-text--deep-orange-500 {\n    color: #ff5722 !important; }\n  .scvo-widget .mdl-color--deep-orange-500 {\n    background-color: #ff5722 !important; }\n  .scvo-widget .mdl-color-text--deep-orange-600 {\n    color: #f4511e !important; }\n  .scvo-widget .mdl-color--deep-orange-600 {\n    background-color: #f4511e !important; }\n  .scvo-widget .mdl-color-text--deep-orange-700 {\n    color: #e64a19 !important; }\n  .scvo-widget .mdl-color--deep-orange-700 {\n    background-color: #e64a19 !important; }\n  .scvo-widget .mdl-color-text--deep-orange-800 {\n    color: #d84315 !important; }\n  .scvo-widget .mdl-color--deep-orange-800 {\n    background-color: #d84315 !important; }\n  .scvo-widget .mdl-color-text--deep-orange-900 {\n    color: #bf360c !important; }\n  .scvo-widget .mdl-color--deep-orange-900 {\n    background-color: #bf360c !important; }\n  .scvo-widget .mdl-color-text--deep-orange-A100 {\n    color: #ff9e80 !important; }\n  .scvo-widget .mdl-color--deep-orange-A100 {\n    background-color: #ff9e80 !important; }\n  .scvo-widget .mdl-color-text--deep-orange-A200 {\n    color: #ff6e40 !important; }\n  .scvo-widget .mdl-color--deep-orange-A200 {\n    background-color: #ff6e40 !important; }\n  .scvo-widget .mdl-color-text--deep-orange-A400 {\n    color: #ff3d00 !important; }\n  .scvo-widget .mdl-color--deep-orange-A400 {\n    background-color: #ff3d00 !important; }\n  .scvo-widget .mdl-color-text--deep-orange-A700 {\n    color: #dd2c00 !important; }\n  .scvo-widget .mdl-color--deep-orange-A700 {\n    background-color: #dd2c00 !important; }\n  .scvo-widget .mdl-color-text--brown {\n    color: #795548 !important; }\n  .scvo-widget .mdl-color--brown {\n    background-color: #795548 !important; }\n  .scvo-widget .mdl-color-text--brown-50 {\n    color: #efebe9 !important; }\n  .scvo-widget .mdl-color--brown-50 {\n    background-color: #efebe9 !important; }\n  .scvo-widget .mdl-color-text--brown-100 {\n    color: #d7ccc8 !important; }\n  .scvo-widget .mdl-color--brown-100 {\n    background-color: #d7ccc8 !important; }\n  .scvo-widget .mdl-color-text--brown-200 {\n    color: #bcaaa4 !important; }\n  .scvo-widget .mdl-color--brown-200 {\n    background-color: #bcaaa4 !important; }\n  .scvo-widget .mdl-color-text--brown-300 {\n    color: #a1887f !important; }\n  .scvo-widget .mdl-color--brown-300 {\n    background-color: #a1887f !important; }\n  .scvo-widget .mdl-color-text--brown-400 {\n    color: #8d6e63 !important; }\n  .scvo-widget .mdl-color--brown-400 {\n    background-color: #8d6e63 !important; }\n  .scvo-widget .mdl-color-text--brown-500 {\n    color: #795548 !important; }\n  .scvo-widget .mdl-color--brown-500 {\n    background-color: #795548 !important; }\n  .scvo-widget .mdl-color-text--brown-600 {\n    color: #6d4c41 !important; }\n  .scvo-widget .mdl-color--brown-600 {\n    background-color: #6d4c41 !important; }\n  .scvo-widget .mdl-color-text--brown-700 {\n    color: #5d4037 !important; }\n  .scvo-widget .mdl-color--brown-700 {\n    background-color: #5d4037 !important; }\n  .scvo-widget .mdl-color-text--brown-800 {\n    color: #4e342e !important; }\n  .scvo-widget .mdl-color--brown-800 {\n    background-color: #4e342e !important; }\n  .scvo-widget .mdl-color-text--brown-900 {\n    color: #3e2723 !important; }\n  .scvo-widget .mdl-color--brown-900 {\n    background-color: #3e2723 !important; }\n  .scvo-widget .mdl-color-text--grey {\n    color: #9e9e9e !important; }\n  .scvo-widget .mdl-color--grey {\n    background-color: #9e9e9e !important; }\n  .scvo-widget .mdl-color-text--grey-50 {\n    color: #fafafa !important; }\n  .scvo-widget .mdl-color--grey-50 {\n    background-color: #fafafa !important; }\n  .scvo-widget .mdl-color-text--grey-100 {\n    color: #f5f5f5 !important; }\n  .scvo-widget .mdl-color--grey-100 {\n    background-color: #f5f5f5 !important; }\n  .scvo-widget .mdl-color-text--grey-200 {\n    color: #eee !important; }\n  .scvo-widget .mdl-color--grey-200 {\n    background-color: #eee !important; }\n  .scvo-widget .mdl-color-text--grey-300 {\n    color: #e0e0e0 !important; }\n  .scvo-widget .mdl-color--grey-300 {\n    background-color: #e0e0e0 !important; }\n  .scvo-widget .mdl-color-text--grey-400 {\n    color: #bdbdbd !important; }\n  .scvo-widget .mdl-color--grey-400 {\n    background-color: #bdbdbd !important; }\n  .scvo-widget .mdl-color-text--grey-500 {\n    color: #9e9e9e !important; }\n  .scvo-widget .mdl-color--grey-500 {\n    background-color: #9e9e9e !important; }\n  .scvo-widget .mdl-color-text--grey-600 {\n    color: #757575 !important; }\n  .scvo-widget .mdl-color--grey-600 {\n    background-color: #757575 !important; }\n  .scvo-widget .mdl-color-text--grey-700 {\n    color: #616161 !important; }\n  .scvo-widget .mdl-color--grey-700 {\n    background-color: #616161 !important; }\n  .scvo-widget .mdl-color-text--grey-800 {\n    color: #424242 !important; }\n  .scvo-widget .mdl-color--grey-800 {\n    background-color: #424242 !important; }\n  .scvo-widget .mdl-color-text--grey-900 {\n    color: #212121 !important; }\n  .scvo-widget .mdl-color--grey-900 {\n    background-color: #212121 !important; }\n  .scvo-widget .mdl-color-text--blue-grey {\n    color: #607d8b !important; }\n  .scvo-widget .mdl-color--blue-grey {\n    background-color: #607d8b !important; }\n  .scvo-widget .mdl-color-text--blue-grey-50 {\n    color: #eceff1 !important; }\n  .scvo-widget .mdl-color--blue-grey-50 {\n    background-color: #eceff1 !important; }\n  .scvo-widget .mdl-color-text--blue-grey-100 {\n    color: #cfd8dc !important; }\n  .scvo-widget .mdl-color--blue-grey-100 {\n    background-color: #cfd8dc !important; }\n  .scvo-widget .mdl-color-text--blue-grey-200 {\n    color: #b0bec5 !important; }\n  .scvo-widget .mdl-color--blue-grey-200 {\n    background-color: #b0bec5 !important; }\n  .scvo-widget .mdl-color-text--blue-grey-300 {\n    color: #90a4ae !important; }\n  .scvo-widget .mdl-color--blue-grey-300 {\n    background-color: #90a4ae !important; }\n  .scvo-widget .mdl-color-text--blue-grey-400 {\n    color: #78909c !important; }\n  .scvo-widget .mdl-color--blue-grey-400 {\n    background-color: #78909c !important; }\n  .scvo-widget .mdl-color-text--blue-grey-500 {\n    color: #607d8b !important; }\n  .scvo-widget .mdl-color--blue-grey-500 {\n    background-color: #607d8b !important; }\n  .scvo-widget .mdl-color-text--blue-grey-600 {\n    color: #546e7a !important; }\n  .scvo-widget .mdl-color--blue-grey-600 {\n    background-color: #546e7a !important; }\n  .scvo-widget .mdl-color-text--blue-grey-700 {\n    color: #455a64 !important; }\n  .scvo-widget .mdl-color--blue-grey-700 {\n    background-color: #455a64 !important; }\n  .scvo-widget .mdl-color-text--blue-grey-800 {\n    color: #37474f !important; }\n  .scvo-widget .mdl-color--blue-grey-800 {\n    background-color: #37474f !important; }\n  .scvo-widget .mdl-color-text--blue-grey-900 {\n    color: #263238 !important; }\n  .scvo-widget .mdl-color--blue-grey-900 {\n    background-color: #263238 !important; }\n  .scvo-widget .mdl-color--black {\n    background-color: #000 !important; }\n  .scvo-widget .mdl-color-text--black {\n    color: #000 !important; }\n  .scvo-widget .mdl-color--white {\n    background-color: #fff !important; }\n  .scvo-widget .mdl-color-text--white {\n    color: #fff !important; }\n  .scvo-widget .mdl-color--primary {\n    background-color: #607d8b !important; }\n  .scvo-widget .mdl-color--primary-contrast {\n    background-color: white !important; }\n  .scvo-widget .mdl-color--primary-dark {\n    background-color: #455a64 !important; }\n  .scvo-widget .mdl-color--accent {\n    background-color: #448aff !important; }\n  .scvo-widget .mdl-color--accent-contrast {\n    background-color: white !important; }\n  .scvo-widget .mdl-color-text--primary {\n    color: #607d8b !important; }\n  .scvo-widget .mdl-color-text--primary-contrast {\n    color: white !important; }\n  .scvo-widget .mdl-color-text--primary-dark {\n    color: #455a64 !important; }\n  .scvo-widget .mdl-color-text--accent {\n    color: #448aff !important; }\n  .scvo-widget .mdl-color-text--accent-contrast {\n    color: white !important; }\n  .scvo-widget .mdl-ripple {\n    background: #000;\n    border-radius: 50%;\n    height: 50px;\n    left: 0;\n    opacity: 0;\n    pointer-events: none;\n    position: absolute;\n    top: 0;\n    -webkit-transform: translate(-50%, -50%);\n    transform: translate(-50%, -50%);\n    width: 50px;\n    overflow: hidden; }\n  .scvo-widget .mdl-ripple.is-animating {\n    transition: transform 0.3s cubic-bezier(0, 0, 0.2, 1), width 0.3s cubic-bezier(0, 0, 0.2, 1), height 0.3s cubic-bezier(0, 0, 0.2, 1), opacity 0.6s cubic-bezier(0, 0, 0.2, 1);\n    transition: transform 0.3s cubic-bezier(0, 0, 0.2, 1), width 0.3s cubic-bezier(0, 0, 0.2, 1), height 0.3s cubic-bezier(0, 0, 0.2, 1), opacity 0.6s cubic-bezier(0, 0, 0.2, 1), -webkit-transform 0.3s cubic-bezier(0, 0, 0.2, 1); }\n  .scvo-widget .mdl-ripple.is-visible {\n    opacity: .3; }\n  .scvo-widget .mdl-animation--default, .scvo-widget .mdl-animation--fast-out-slow-in {\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-animation--linear-out-slow-in {\n    transition-timing-function: cubic-bezier(0, 0, 0.2, 1); }\n  .scvo-widget .mdl-animation--fast-out-linear-in {\n    transition-timing-function: cubic-bezier(0.4, 0, 1, 1); }\n  .scvo-widget .mdl-badge {\n    position: relative;\n    white-space: nowrap;\n    margin-right: 24px; }\n  .scvo-widget .mdl-badge:not([data-badge]) {\n    margin-right: auto; }\n  .scvo-widget .mdl-badge[data-badge]:after {\n    content: attr(data-badge);\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-direction: row;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    -webkit-flex-wrap: wrap;\n    -ms-flex-wrap: wrap;\n    flex-wrap: wrap;\n    -webkit-justify-content: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-align-content: center;\n    -ms-flex-line-pack: center;\n    align-content: center;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    position: absolute;\n    top: -11px;\n    right: -24px;\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-weight: 600;\n    font-size: 12px;\n    width: 22px;\n    height: 22px;\n    border-radius: 50%;\n    background: #448aff;\n    color: white; }\n  .scvo-widget .mdl-button .mdl-badge[data-badge]:after {\n    top: -10px;\n    right: -5px; }\n  .scvo-widget .mdl-badge.mdl-badge--no-background[data-badge]:after {\n    color: #448aff;\n    background: rgba(255, 255, 255, 0.2);\n    box-shadow: 0 0 1px gray; }\n  .scvo-widget .mdl-badge.mdl-badge--overlap {\n    margin-right: 10px; }\n  .scvo-widget .mdl-badge.mdl-badge--overlap:after {\n    right: -10px; }\n  .scvo-widget .mdl-button {\n    background: 0 0;\n    border: none;\n    border-radius: 2px;\n    color: #000;\n    position: relative;\n    height: 36px;\n    margin: 0;\n    min-width: 64px;\n    padding: 0 16px;\n    display: inline-block;\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 14px;\n    font-weight: 500;\n    text-transform: uppercase;\n    letter-spacing: 0;\n    overflow: hidden;\n    will-change: box-shadow;\n    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n    outline: none;\n    cursor: pointer;\n    text-decoration: none;\n    text-align: center;\n    line-height: 36px;\n    vertical-align: middle; }\n  .scvo-widget .mdl-button::-moz-focus-inner {\n    border: 0; }\n  .scvo-widget .mdl-button:hover {\n    background-color: rgba(158, 158, 158, 0.2); }\n  .scvo-widget .mdl-button:focus:not(:active) {\n    background-color: rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-button:active {\n    background-color: rgba(158, 158, 158, 0.4); }\n  .scvo-widget .mdl-button.mdl-button--colored {\n    color: #607d8b; }\n  .scvo-widget .mdl-button.mdl-button--colored:focus:not(:active) {\n    background-color: rgba(0, 0, 0, 0.12); }\n  .scvo-widget input.mdl-button[type=\"submit\"] {\n    -webkit-appearance: none; }\n  .scvo-widget .mdl-button--raised {\n    background: rgba(158, 158, 158, 0.2);\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-button--raised:active {\n    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);\n    background-color: rgba(158, 158, 158, 0.4); }\n  .scvo-widget .mdl-button--raised:focus:not(:active) {\n    box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);\n    background-color: rgba(158, 158, 158, 0.4); }\n  .scvo-widget .mdl-button--raised.mdl-button--colored {\n    background: #607d8b;\n    color: white; }\n  .scvo-widget .mdl-button--raised.mdl-button--colored:hover {\n    background-color: #607d8b; }\n  .scvo-widget .mdl-button--raised.mdl-button--colored:active {\n    background-color: #607d8b; }\n  .scvo-widget .mdl-button--raised.mdl-button--colored:focus:not(:active) {\n    background-color: #607d8b; }\n  .scvo-widget .mdl-button--raised.mdl-button--colored .mdl-ripple {\n    background: white; }\n  .scvo-widget .mdl-button--fab {\n    border-radius: 50%;\n    font-size: 24px;\n    height: 56px;\n    margin: auto;\n    min-width: 56px;\n    width: 56px;\n    padding: 0;\n    overflow: hidden;\n    background: rgba(158, 158, 158, 0.2);\n    box-shadow: 0 1px 1.5px 0 rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.24);\n    position: relative;\n    line-height: normal; }\n  .scvo-widget .mdl-button--fab .material-icons {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-12px, -12px);\n    transform: translate(-12px, -12px);\n    line-height: 24px;\n    width: 24px; }\n  .scvo-widget .mdl-button--fab.mdl-button--mini-fab {\n    height: 40px;\n    min-width: 40px;\n    width: 40px; }\n  .scvo-widget .mdl-button--fab .mdl-button__ripple-container {\n    border-radius: 50%;\n    -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000); }\n  .scvo-widget .mdl-button--fab:active {\n    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);\n    background-color: rgba(158, 158, 158, 0.4); }\n  .scvo-widget .mdl-button--fab:focus:not(:active) {\n    box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);\n    background-color: rgba(158, 158, 158, 0.4); }\n  .scvo-widget .mdl-button--fab.mdl-button--colored {\n    background: #448aff;\n    color: white; }\n  .scvo-widget .mdl-button--fab.mdl-button--colored:hover {\n    background-color: #448aff; }\n  .scvo-widget .mdl-button--fab.mdl-button--colored:focus:not(:active) {\n    background-color: #448aff; }\n  .scvo-widget .mdl-button--fab.mdl-button--colored:active {\n    background-color: #448aff; }\n  .scvo-widget .mdl-button--fab.mdl-button--colored .mdl-ripple {\n    background: white; }\n  .scvo-widget .mdl-button--icon {\n    border-radius: 50%;\n    font-size: 24px;\n    height: 32px;\n    margin-left: 0;\n    margin-right: 0;\n    min-width: 32px;\n    width: 32px;\n    padding: 0;\n    overflow: hidden;\n    color: inherit;\n    line-height: normal; }\n  .scvo-widget .mdl-button--icon .material-icons {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-12px, -12px);\n    transform: translate(-12px, -12px);\n    line-height: 24px;\n    width: 24px; }\n  .scvo-widget .mdl-button--icon.mdl-button--mini-icon {\n    height: 24px;\n    min-width: 24px;\n    width: 24px; }\n  .scvo-widget .mdl-button--icon.mdl-button--mini-icon .material-icons {\n    top: 0;\n    left: 0; }\n  .scvo-widget .mdl-button--icon .mdl-button__ripple-container {\n    border-radius: 50%;\n    -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000); }\n  .scvo-widget .mdl-button__ripple-container {\n    display: block;\n    height: 100%;\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: 100%;\n    z-index: 0;\n    overflow: hidden; }\n  .scvo-widget .mdl-button[disabled] .mdl-button__ripple-container .mdl-ripple, .scvo-widget .mdl-button.mdl-button--disabled .mdl-button__ripple-container .mdl-ripple {\n    background-color: transparent; }\n  .scvo-widget .mdl-button--primary.mdl-button--primary {\n    color: #607d8b; }\n  .scvo-widget .mdl-button--primary.mdl-button--primary .mdl-ripple {\n    background: white; }\n  .scvo-widget .mdl-button--primary.mdl-button--primary.mdl-button--raised, .scvo-widget .mdl-button--primary.mdl-button--primary.mdl-button--fab {\n    color: white;\n    background-color: #607d8b; }\n  .scvo-widget .mdl-button--accent.mdl-button--accent {\n    color: #448aff; }\n  .scvo-widget .mdl-button--accent.mdl-button--accent .mdl-ripple {\n    background: white; }\n  .scvo-widget .mdl-button--accent.mdl-button--accent.mdl-button--raised, .scvo-widget .mdl-button--accent.mdl-button--accent.mdl-button--fab {\n    color: white;\n    background-color: #448aff; }\n  .scvo-widget .mdl-button[disabled][disabled], .scvo-widget .mdl-button.mdl-button--disabled.mdl-button--disabled {\n    color: rgba(0, 0, 0, 0.26);\n    cursor: default;\n    background-color: transparent; }\n  .scvo-widget .mdl-button--fab[disabled][disabled], .scvo-widget .mdl-button--fab.mdl-button--disabled.mdl-button--disabled {\n    background-color: rgba(0, 0, 0, 0.12);\n    color: rgba(0, 0, 0, 0.26); }\n  .scvo-widget .mdl-button--raised[disabled][disabled], .scvo-widget .mdl-button--raised.mdl-button--disabled.mdl-button--disabled {\n    background-color: rgba(0, 0, 0, 0.12);\n    color: rgba(0, 0, 0, 0.26);\n    box-shadow: none; }\n  .scvo-widget .mdl-button--colored[disabled][disabled], .scvo-widget .mdl-button--colored.mdl-button--disabled.mdl-button--disabled {\n    color: rgba(0, 0, 0, 0.26); }\n  .scvo-widget .mdl-button .material-icons {\n    vertical-align: middle; }\n  .scvo-widget .mdl-card {\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-direction: column;\n    -ms-flex-direction: column;\n    flex-direction: column;\n    font-size: 16px;\n    font-weight: 400;\n    min-height: 200px;\n    overflow: hidden;\n    width: 330px;\n    z-index: 1;\n    position: relative;\n    background: #fff;\n    border-radius: 2px;\n    box-sizing: border-box; }\n  .scvo-widget .mdl-card__media {\n    background-color: #448aff;\n    background-repeat: repeat;\n    background-position: 50% 50%;\n    background-size: cover;\n    background-origin: padding-box;\n    background-attachment: scroll;\n    box-sizing: border-box; }\n  .scvo-widget .mdl-card__title {\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    color: #000;\n    display: block;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-justify-content: stretch;\n    -ms-flex-pack: stretch;\n    justify-content: stretch;\n    line-height: normal;\n    padding: 16px;\n    -webkit-perspective-origin: 165px 56px;\n    perspective-origin: 165px 56px;\n    -webkit-transform-origin: 165px 56px;\n    transform-origin: 165px 56px;\n    box-sizing: border-box; }\n  .scvo-widget .mdl-card__title.mdl-card--border {\n    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }\n  .scvo-widget .mdl-card__title-text {\n    -webkit-align-self: flex-end;\n    -ms-flex-item-align: end;\n    align-self: flex-end;\n    color: inherit;\n    display: block;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    font-size: 24px;\n    font-weight: 300;\n    line-height: normal;\n    overflow: hidden;\n    -webkit-transform-origin: 149px 48px;\n    transform-origin: 149px 48px;\n    margin: 0; }\n  .scvo-widget .mdl-card__subtitle-text {\n    font-size: 14px;\n    color: rgba(0, 0, 0, 0.54);\n    margin: 0; }\n  .scvo-widget .mdl-card__supporting-text {\n    color: rgba(0, 0, 0, 0.54);\n    font-size: 1rem;\n    line-height: 18px;\n    overflow: hidden;\n    padding: 16px;\n    width: 90%; }\n  .scvo-widget .mdl-card__supporting-text.mdl-card--border {\n    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }\n  .scvo-widget .mdl-card__actions {\n    font-size: 16px;\n    line-height: normal;\n    width: 100%;\n    background-color: transparent;\n    padding: 8px;\n    box-sizing: border-box; }\n  .scvo-widget .mdl-card__actions.mdl-card--border {\n    border-top: 1px solid rgba(0, 0, 0, 0.1); }\n  .scvo-widget .mdl-card--expand {\n    -webkit-flex-grow: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1; }\n  .scvo-widget .mdl-card__menu {\n    position: absolute;\n    right: 16px;\n    top: 16px; }\n  .scvo-widget .mdl-checkbox {\n    position: relative;\n    z-index: 1;\n    vertical-align: middle;\n    display: inline-block;\n    box-sizing: border-box;\n    width: 100%;\n    height: 24px;\n    margin: 0;\n    padding: 0; }\n  .scvo-widget .mdl-checkbox.is-upgraded {\n    padding-left: 24px; }\n  .scvo-widget .mdl-checkbox__input {\n    line-height: 24px; }\n  .scvo-widget .mdl-checkbox.is-upgraded .mdl-checkbox__input {\n    position: absolute;\n    width: 0;\n    height: 0;\n    margin: 0;\n    padding: 0;\n    opacity: 0;\n    -ms-appearance: none;\n    -moz-appearance: none;\n    -webkit-appearance: none;\n    appearance: none;\n    border: none; }\n  .scvo-widget .mdl-checkbox__box-outline {\n    position: absolute;\n    top: 3px;\n    left: 0;\n    display: inline-block;\n    box-sizing: border-box;\n    width: 16px;\n    height: 16px;\n    margin: 0;\n    cursor: pointer;\n    overflow: hidden;\n    border: 2px solid rgba(0, 0, 0, 0.54);\n    border-radius: 2px;\n    z-index: 2; }\n  .scvo-widget .mdl-checkbox.is-checked .mdl-checkbox__box-outline {\n    border: 2px solid #607d8b; }\n  .scvo-widget fieldset[disabled] .mdl-checkbox .mdl-checkbox__box-outline, .scvo-widget .mdl-checkbox.is-disabled .mdl-checkbox__box-outline {\n    border: 2px solid rgba(0, 0, 0, 0.26);\n    cursor: auto; }\n  .scvo-widget .mdl-checkbox__focus-helper {\n    position: absolute;\n    top: 3px;\n    left: 0;\n    display: inline-block;\n    box-sizing: border-box;\n    width: 16px;\n    height: 16px;\n    border-radius: 50%;\n    background-color: transparent; }\n  .scvo-widget .mdl-checkbox.is-focused .mdl-checkbox__focus-helper {\n    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.1);\n    background-color: rgba(0, 0, 0, 0.1); }\n  .scvo-widget .mdl-checkbox.is-focused.is-checked .mdl-checkbox__focus-helper {\n    box-shadow: 0 0 0 8px rgba(96, 125, 139, 0.26);\n    background-color: rgba(96, 125, 139, 0.26); }\n  .scvo-widget .mdl-checkbox__tick-outline {\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    -webkit-mask: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgdmVyc2lvbj0iMS4xIgogICB2aWV3Qm94PSIwIDAgMSAxIgogICBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWluWU1pbiBtZWV0Ij4KICA8ZGVmcz4KICAgIDxjbGlwUGF0aCBpZD0iY2xpcCI+CiAgICAgIDxwYXRoCiAgICAgICAgIGQ9Ik0gMCwwIDAsMSAxLDEgMSwwIDAsMCB6IE0gMC44NTM0Mzc1LDAuMTY3MTg3NSAwLjk1OTY4NzUsMC4yNzMxMjUgMC40MjkzNzUsMC44MDM0Mzc1IDAuMzIzMTI1LDAuOTA5Njg3NSAwLjIxNzE4NzUsMC44MDM0Mzc1IDAuMDQwMzEyNSwwLjYyNjg3NSAwLjE0NjU2MjUsMC41MjA2MjUgMC4zMjMxMjUsMC42OTc1IDAuODUzNDM3NSwwLjE2NzE4NzUgeiIKICAgICAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZSIgLz4KICAgIDwvY2xpcFBhdGg+CiAgICA8bWFzayBpZD0ibWFzayIgbWFza1VuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgbWFza0NvbnRlbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giPgogICAgICA8cGF0aAogICAgICAgICBkPSJNIDAsMCAwLDEgMSwxIDEsMCAwLDAgeiBNIDAuODUzNDM3NSwwLjE2NzE4NzUgMC45NTk2ODc1LDAuMjczMTI1IDAuNDI5Mzc1LDAuODAzNDM3NSAwLjMyMzEyNSwwLjkwOTY4NzUgMC4yMTcxODc1LDAuODAzNDM3NSAwLjA0MDMxMjUsMC42MjY4NzUgMC4xNDY1NjI1LDAuNTIwNjI1IDAuMzIzMTI1LDAuNjk3NSAwLjg1MzQzNzUsMC4xNjcxODc1IHoiCiAgICAgICAgIHN0eWxlPSJmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmUiIC8+CiAgICA8L21hc2s+CiAgPC9kZWZzPgogIDxyZWN0CiAgICAgd2lkdGg9IjEiCiAgICAgaGVpZ2h0PSIxIgogICAgIHg9IjAiCiAgICAgeT0iMCIKICAgICBjbGlwLXBhdGg9InVybCgjY2xpcCkiCiAgICAgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZSIgLz4KPC9zdmc+Cg==\");\n    mask: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgdmVyc2lvbj0iMS4xIgogICB2aWV3Qm94PSIwIDAgMSAxIgogICBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWluWU1pbiBtZWV0Ij4KICA8ZGVmcz4KICAgIDxjbGlwUGF0aCBpZD0iY2xpcCI+CiAgICAgIDxwYXRoCiAgICAgICAgIGQ9Ik0gMCwwIDAsMSAxLDEgMSwwIDAsMCB6IE0gMC44NTM0Mzc1LDAuMTY3MTg3NSAwLjk1OTY4NzUsMC4yNzMxMjUgMC40MjkzNzUsMC44MDM0Mzc1IDAuMzIzMTI1LDAuOTA5Njg3NSAwLjIxNzE4NzUsMC44MDM0Mzc1IDAuMDQwMzEyNSwwLjYyNjg3NSAwLjE0NjU2MjUsMC41MjA2MjUgMC4zMjMxMjUsMC42OTc1IDAuODUzNDM3NSwwLjE2NzE4NzUgeiIKICAgICAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZSIgLz4KICAgIDwvY2xpcFBhdGg+CiAgICA8bWFzayBpZD0ibWFzayIgbWFza1VuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgbWFza0NvbnRlbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giPgogICAgICA8cGF0aAogICAgICAgICBkPSJNIDAsMCAwLDEgMSwxIDEsMCAwLDAgeiBNIDAuODUzNDM3NSwwLjE2NzE4NzUgMC45NTk2ODc1LDAuMjczMTI1IDAuNDI5Mzc1LDAuODAzNDM3NSAwLjMyMzEyNSwwLjkwOTY4NzUgMC4yMTcxODc1LDAuODAzNDM3NSAwLjA0MDMxMjUsMC42MjY4NzUgMC4xNDY1NjI1LDAuNTIwNjI1IDAuMzIzMTI1LDAuNjk3NSAwLjg1MzQzNzUsMC4xNjcxODc1IHoiCiAgICAgICAgIHN0eWxlPSJmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmUiIC8+CiAgICA8L21hc2s+CiAgPC9kZWZzPgogIDxyZWN0CiAgICAgd2lkdGg9IjEiCiAgICAgaGVpZ2h0PSIxIgogICAgIHg9IjAiCiAgICAgeT0iMCIKICAgICBjbGlwLXBhdGg9InVybCgjY2xpcCkiCiAgICAgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZSIgLz4KPC9zdmc+Cg==\");\n    background: 0 0;\n    transition-duration: .28s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    transition-property: background; }\n  .scvo-widget .mdl-checkbox.is-checked .mdl-checkbox__tick-outline {\n    background: #607d8b url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgdmVyc2lvbj0iMS4xIgogICB2aWV3Qm94PSIwIDAgMSAxIgogICBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWluWU1pbiBtZWV0Ij4KICA8cGF0aAogICAgIGQ9Ik0gMC4wNDAzODA1OSwwLjYyNjc3NjcgMC4xNDY0NDY2MSwwLjUyMDcxMDY4IDAuNDI5Mjg5MzIsMC44MDM1NTMzOSAwLjMyMzIyMzMsMC45MDk2MTk0MSB6IE0gMC4yMTcxNTcyOSwwLjgwMzU1MzM5IDAuODUzNTUzMzksMC4xNjcxNTcyOSAwLjk1OTYxOTQxLDAuMjczMjIzMyAwLjMyMzIyMzMsMC45MDk2MTk0MSB6IgogICAgIGlkPSJyZWN0Mzc4MCIKICAgICBzdHlsZT0iZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lIiAvPgo8L3N2Zz4K\"); }\n  .scvo-widget fieldset[disabled] .mdl-checkbox.is-checked .mdl-checkbox__tick-outline, .scvo-widget .mdl-checkbox.is-checked.is-disabled .mdl-checkbox__tick-outline {\n    background: rgba(0, 0, 0, 0.26) url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgdmVyc2lvbj0iMS4xIgogICB2aWV3Qm94PSIwIDAgMSAxIgogICBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWluWU1pbiBtZWV0Ij4KICA8cGF0aAogICAgIGQ9Ik0gMC4wNDAzODA1OSwwLjYyNjc3NjcgMC4xNDY0NDY2MSwwLjUyMDcxMDY4IDAuNDI5Mjg5MzIsMC44MDM1NTMzOSAwLjMyMzIyMzMsMC45MDk2MTk0MSB6IE0gMC4yMTcxNTcyOSwwLjgwMzU1MzM5IDAuODUzNTUzMzksMC4xNjcxNTcyOSAwLjk1OTYxOTQxLDAuMjczMjIzMyAwLjMyMzIyMzMsMC45MDk2MTk0MSB6IgogICAgIGlkPSJyZWN0Mzc4MCIKICAgICBzdHlsZT0iZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lIiAvPgo8L3N2Zz4K\"); }\n  .scvo-widget .mdl-checkbox__label {\n    position: relative;\n    cursor: pointer;\n    font-size: 16px;\n    line-height: 24px;\n    margin: 0; }\n  .scvo-widget fieldset[disabled] .mdl-checkbox .mdl-checkbox__label, .scvo-widget .mdl-checkbox.is-disabled .mdl-checkbox__label {\n    color: rgba(0, 0, 0, 0.26);\n    cursor: auto; }\n  .scvo-widget .mdl-checkbox__ripple-container {\n    position: absolute;\n    z-index: 2;\n    top: -6px;\n    left: -10px;\n    box-sizing: border-box;\n    width: 36px;\n    height: 36px;\n    border-radius: 50%;\n    cursor: pointer;\n    overflow: hidden;\n    -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000); }\n  .scvo-widget .mdl-checkbox__ripple-container .mdl-ripple {\n    background: #607d8b; }\n  .scvo-widget fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container, .scvo-widget .mdl-checkbox.is-disabled .mdl-checkbox__ripple-container {\n    cursor: auto; }\n  .scvo-widget fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .scvo-widget .mdl-checkbox.is-disabled .mdl-checkbox__ripple-container .mdl-ripple {\n    background: 0 0; }\n  .scvo-widget .mdl-chip {\n    height: 32px;\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    line-height: 32px;\n    padding: 0 12px;\n    border: 0;\n    border-radius: 16px;\n    background-color: #dedede;\n    display: inline-block;\n    color: rgba(0, 0, 0, 0.87);\n    margin: 2px 0;\n    font-size: 0;\n    white-space: nowrap; }\n  .scvo-widget .mdl-chip__text {\n    font-size: 13px;\n    vertical-align: middle;\n    display: inline-block; }\n  .scvo-widget .mdl-chip__action {\n    height: 24px;\n    width: 24px;\n    background: 0 0;\n    opacity: .54;\n    cursor: pointer;\n    padding: 0;\n    margin: 0 0 0 4px;\n    font-size: 13px;\n    text-decoration: none;\n    color: rgba(0, 0, 0, 0.87);\n    border: none;\n    outline: none; }\n  .scvo-widget .mdl-chip__action, .scvo-widget .mdl-chip__contact {\n    display: inline-block;\n    vertical-align: middle;\n    overflow: hidden;\n    text-align: center; }\n  .scvo-widget .mdl-chip__contact {\n    height: 32px;\n    width: 32px;\n    border-radius: 16px;\n    margin-right: 8px;\n    font-size: 18px;\n    line-height: 32px; }\n  .scvo-widget .mdl-chip:focus {\n    outline: 0;\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-chip:active {\n    background-color: #d6d6d6; }\n  .scvo-widget .mdl-chip--deletable {\n    padding-right: 4px; }\n  .scvo-widget .mdl-chip--contact {\n    padding-left: 0; }\n  .scvo-widget .mdl-data-table {\n    position: relative;\n    border: 1px solid rgba(0, 0, 0, 0.12);\n    border-collapse: collapse;\n    white-space: nowrap;\n    font-size: 13px;\n    background-color: #fff; }\n  .scvo-widget .mdl-data-table thead {\n    padding-bottom: 3px; }\n  .scvo-widget .mdl-data-table thead .mdl-data-table__select {\n    margin-top: 0; }\n  .scvo-widget .mdl-data-table tbody tr {\n    position: relative;\n    height: 48px;\n    transition-duration: .28s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    transition-property: background-color; }\n  .scvo-widget .mdl-data-table tbody tr.is-selected {\n    background-color: #e0e0e0; }\n  .scvo-widget .mdl-data-table tbody tr:hover {\n    background-color: #eee; }\n  .scvo-widget .mdl-data-table td {\n    text-align: right; }\n  .scvo-widget .mdl-data-table th {\n    padding: 0 18px 12px 18px;\n    text-align: right; }\n  .scvo-widget .mdl-data-table td:first-of-type, .scvo-widget .mdl-data-table th:first-of-type {\n    padding-left: 24px; }\n  .scvo-widget .mdl-data-table td:last-of-type, .scvo-widget .mdl-data-table th:last-of-type {\n    padding-right: 24px; }\n  .scvo-widget .mdl-data-table td {\n    position: relative;\n    height: 48px;\n    border-top: 1px solid rgba(0, 0, 0, 0.12);\n    border-bottom: 1px solid rgba(0, 0, 0, 0.12);\n    padding: 12px 18px;\n    box-sizing: border-box; }\n  .scvo-widget .mdl-data-table td, .scvo-widget .mdl-data-table td .mdl-data-table__select {\n    vertical-align: middle; }\n  .scvo-widget .mdl-data-table th {\n    position: relative;\n    vertical-align: bottom;\n    text-overflow: ellipsis;\n    font-weight: 700;\n    line-height: 24px;\n    letter-spacing: 0;\n    height: 48px;\n    font-size: 12px;\n    color: rgba(0, 0, 0, 0.54);\n    padding-bottom: 8px;\n    box-sizing: border-box; }\n  .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-ascending, .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-descending {\n    color: rgba(0, 0, 0, 0.87); }\n  .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-ascending:before, .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-descending:before {\n    font-family: 'Material Icons';\n    font-weight: 400;\n    font-style: normal;\n    line-height: 1;\n    letter-spacing: normal;\n    text-transform: none;\n    display: inline-block;\n    word-wrap: normal;\n    -moz-font-feature-settings: 'liga';\n    font-feature-settings: 'liga';\n    -webkit-font-feature-settings: 'liga';\n    -webkit-font-smoothing: antialiased;\n    font-size: 16px;\n    content: \"\\e5d8\";\n    margin-right: 5px;\n    vertical-align: sub; }\n  .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-ascending:hover, .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-descending:hover {\n    cursor: pointer; }\n  .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-ascending:hover:before, .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-descending:hover:before {\n    color: rgba(0, 0, 0, 0.26); }\n  .scvo-widget .mdl-data-table th.mdl-data-table__header--sorted-descending:before {\n    content: \"\\e5db\"; }\n  .scvo-widget .mdl-data-table__select {\n    width: 16px; }\n  .scvo-widget .mdl-data-table__cell--non-numeric.mdl-data-table__cell--non-numeric {\n    text-align: left; }\n  .scvo-widget .mdl-dialog {\n    border: none;\n    box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);\n    width: 280px; }\n  .scvo-widget .mdl-dialog__title {\n    padding: 24px 24px 0;\n    margin: 0;\n    font-size: 2.5rem; }\n  .scvo-widget .mdl-dialog__actions {\n    padding: 8px 8px 8px 24px;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-direction: row-reverse;\n    -ms-flex-direction: row-reverse;\n    flex-direction: row-reverse;\n    -webkit-flex-wrap: wrap;\n    -ms-flex-wrap: wrap;\n    flex-wrap: wrap; }\n  .scvo-widget .mdl-dialog__actions > * {\n    margin-right: 8px;\n    height: 36px; }\n  .scvo-widget .mdl-dialog__actions > *:first-child {\n    margin-right: 0; }\n  .scvo-widget .mdl-dialog__actions--full-width {\n    padding: 0 0 8px; }\n  .scvo-widget .mdl-dialog__actions--full-width > * {\n    height: 48px;\n    -webkit-flex: 0 0 100%;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%;\n    padding-right: 16px;\n    margin-right: 0;\n    text-align: right; }\n  .scvo-widget .mdl-dialog__content {\n    padding: 20px 24px 24px;\n    color: rgba(0, 0, 0, 0.54); }\n  .scvo-widget .mdl-mega-footer {\n    padding: 16px 40px;\n    color: #9e9e9e;\n    background-color: #424242; }\n  .scvo-widget .mdl-mega-footer--top-section:after, .scvo-widget .mdl-mega-footer--middle-section:after, .scvo-widget .mdl-mega-footer--bottom-section:after, .scvo-widget .mdl-mega-footer__top-section:after, .scvo-widget .mdl-mega-footer__middle-section:after, .scvo-widget .mdl-mega-footer__bottom-section:after {\n    content: '';\n    display: block;\n    clear: both; }\n  .scvo-widget .mdl-mega-footer--left-section, .scvo-widget .mdl-mega-footer__left-section, .scvo-widget .mdl-mega-footer--right-section, .scvo-widget .mdl-mega-footer__right-section {\n    margin-bottom: 16px; }\n  .scvo-widget .mdl-mega-footer--right-section a, .scvo-widget .mdl-mega-footer__right-section a {\n    display: block;\n    margin-bottom: 16px;\n    color: inherit;\n    text-decoration: none; }\n  @media screen and (min-width: 760px) {\n    .scvo-widget .mdl-mega-footer--left-section, .scvo-widget .mdl-mega-footer__left-section {\n      float: left; }\n    .scvo-widget .mdl-mega-footer--right-section, .scvo-widget .mdl-mega-footer__right-section {\n      float: right; }\n    .scvo-widget .mdl-mega-footer--right-section a, .scvo-widget .mdl-mega-footer__right-section a {\n      display: inline-block;\n      margin-left: 16px;\n      line-height: 36px;\n      vertical-align: middle; } }\n  .scvo-widget .mdl-mega-footer--social-btn, .scvo-widget .mdl-mega-footer__social-btn {\n    width: 36px;\n    height: 36px;\n    padding: 0;\n    margin: 0;\n    background-color: #9e9e9e;\n    border: none; }\n  .scvo-widget .mdl-mega-footer--drop-down-section, .scvo-widget .mdl-mega-footer__drop-down-section {\n    display: block;\n    position: relative; }\n  @media screen and (min-width: 760px) {\n    .scvo-widget .mdl-mega-footer--drop-down-section, .scvo-widget .mdl-mega-footer__drop-down-section {\n      width: 33%; }\n    .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(1), .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(2), .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(1), .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(2) {\n      float: left; }\n    .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(3), .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(3) {\n      float: right; }\n    .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(3):after, .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(3):after {\n      clear: right; }\n    .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(4), .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(4) {\n      clear: right;\n      float: right; }\n    .scvo-widget .mdl-mega-footer--middle-section:after, .scvo-widget .mdl-mega-footer__middle-section:after {\n      content: '';\n      display: block;\n      clear: both; }\n    .scvo-widget .mdl-mega-footer--bottom-section, .scvo-widget .mdl-mega-footer__bottom-section {\n      padding-top: 0; } }\n  @media screen and (min-width: 1024px) {\n    .scvo-widget .mdl-mega-footer--drop-down-section, .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(3), .scvo-widget .mdl-mega-footer--drop-down-section:nth-child(4), .scvo-widget .mdl-mega-footer__drop-down-section, .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(3), .scvo-widget .mdl-mega-footer__drop-down-section:nth-child(4) {\n      width: 24%;\n      float: left; } }\n  .scvo-widget .mdl-mega-footer--heading-checkbox, .scvo-widget .mdl-mega-footer__heading-checkbox {\n    position: absolute;\n    width: 100%;\n    height: 55.8px;\n    padding: 32px;\n    margin: -16px 0 0;\n    cursor: pointer;\n    z-index: 1;\n    opacity: 0; }\n  .scvo-widget .mdl-mega-footer--heading-checkbox + .mdl-mega-footer--heading:after, .scvo-widget .mdl-mega-footer--heading-checkbox + .mdl-mega-footer__heading:after, .scvo-widget .mdl-mega-footer__heading-checkbox + .mdl-mega-footer--heading:after, .scvo-widget .mdl-mega-footer__heading-checkbox + .mdl-mega-footer__heading:after {\n    font-family: 'Material Icons';\n    content: '\\E5CE'; }\n  .scvo-widget .mdl-mega-footer--heading-checkbox:checked ~ .mdl-mega-footer--link-list, .scvo-widget .mdl-mega-footer--heading-checkbox:checked ~ .mdl-mega-footer__link-list, .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer--heading + .mdl-mega-footer--link-list, .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer__heading + .mdl-mega-footer__link-list, .scvo-widget .mdl-mega-footer__heading-checkbox:checked ~ .mdl-mega-footer--link-list, .scvo-widget .mdl-mega-footer__heading-checkbox:checked ~ .mdl-mega-footer__link-list, .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer--heading + .mdl-mega-footer--link-list, .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer__heading + .mdl-mega-footer__link-list {\n    display: none; }\n  .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer--heading:after, .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer__heading:after, .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer--heading:after, .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer__heading:after {\n    font-family: 'Material Icons';\n    content: '\\E5CF'; }\n  .scvo-widget .mdl-mega-footer--heading, .scvo-widget .mdl-mega-footer__heading {\n    position: relative;\n    width: 100%;\n    padding-right: 39.8px;\n    margin-bottom: 16px;\n    box-sizing: border-box;\n    font-size: 14px;\n    line-height: 23.8px;\n    font-weight: 500;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n    overflow: hidden;\n    color: #e0e0e0; }\n  .scvo-widget .mdl-mega-footer--heading:after, .scvo-widget .mdl-mega-footer__heading:after {\n    content: '';\n    position: absolute;\n    top: 0;\n    right: 0;\n    display: block;\n    width: 23.8px;\n    height: 23.8px;\n    background-size: cover; }\n  .scvo-widget .mdl-mega-footer--link-list, .scvo-widget .mdl-mega-footer__link-list {\n    list-style: none;\n    padding: 0;\n    margin: 0 0 32px; }\n  .scvo-widget .mdl-mega-footer--link-list:after, .scvo-widget .mdl-mega-footer__link-list:after {\n    clear: both;\n    display: block;\n    content: ''; }\n  .scvo-widget .mdl-mega-footer--link-list li, .scvo-widget .mdl-mega-footer__link-list li {\n    font-size: 14px;\n    font-weight: 400;\n    letter-spacing: 0;\n    line-height: 20px; }\n  .scvo-widget .mdl-mega-footer--link-list a, .scvo-widget .mdl-mega-footer__link-list a {\n    color: inherit;\n    text-decoration: none;\n    white-space: nowrap; }\n  @media screen and (min-width: 760px) {\n    .scvo-widget .mdl-mega-footer--heading-checkbox, .scvo-widget .mdl-mega-footer__heading-checkbox {\n      display: none; }\n    .scvo-widget .mdl-mega-footer--heading-checkbox + .mdl-mega-footer--heading:after, .scvo-widget .mdl-mega-footer--heading-checkbox + .mdl-mega-footer__heading:after, .scvo-widget .mdl-mega-footer__heading-checkbox + .mdl-mega-footer--heading:after, .scvo-widget .mdl-mega-footer__heading-checkbox + .mdl-mega-footer__heading:after {\n      content: ''; }\n    .scvo-widget .mdl-mega-footer--heading-checkbox:checked ~ .mdl-mega-footer--link-list, .scvo-widget .mdl-mega-footer--heading-checkbox:checked ~ .mdl-mega-footer__link-list, .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer__heading + .mdl-mega-footer__link-list, .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer--heading + .mdl-mega-footer--link-list, .scvo-widget .mdl-mega-footer__heading-checkbox:checked ~ .mdl-mega-footer--link-list, .scvo-widget .mdl-mega-footer__heading-checkbox:checked ~ .mdl-mega-footer__link-list, .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer__heading + .mdl-mega-footer__link-list, .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer--heading + .mdl-mega-footer--link-list {\n      display: block; }\n    .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer--heading:after, .scvo-widget .mdl-mega-footer--heading-checkbox:checked + .mdl-mega-footer__heading:after, .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer--heading:after, .scvo-widget .mdl-mega-footer__heading-checkbox:checked + .mdl-mega-footer__heading:after {\n      content: ''; } }\n  .scvo-widget .mdl-mega-footer--bottom-section, .scvo-widget .mdl-mega-footer__bottom-section {\n    padding-top: 16px;\n    margin-bottom: 16px; }\n  .scvo-widget .mdl-logo {\n    margin-bottom: 16px;\n    color: #fff; }\n  .scvo-widget .mdl-mega-footer--bottom-section .mdl-mega-footer--link-list li, .scvo-widget .mdl-mega-footer__bottom-section .mdl-mega-footer__link-list li {\n    float: left;\n    margin-bottom: 0;\n    margin-right: 16px; }\n  @media screen and (min-width: 760px) {\n    .scvo-widget .mdl-logo {\n      float: left;\n      margin-bottom: 0;\n      margin-right: 16px; } }\n  .scvo-widget .mdl-mini-footer {\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-flow: row wrap;\n    -ms-flex-flow: row wrap;\n    flex-flow: row wrap;\n    -webkit-justify-content: space-between;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n    padding: 32px 16px;\n    color: #9e9e9e;\n    background-color: #424242; }\n  .scvo-widget .mdl-mini-footer:after {\n    content: '';\n    display: block; }\n  .scvo-widget .mdl-mini-footer .mdl-logo {\n    line-height: 36px; }\n  .scvo-widget .mdl-mini-footer--link-list, .scvo-widget .mdl-mini-footer__link-list {\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-flow: row nowrap;\n    -ms-flex-flow: row nowrap;\n    flex-flow: row nowrap;\n    list-style: none;\n    margin: 0;\n    padding: 0; }\n  .scvo-widget .mdl-mini-footer--link-list li, .scvo-widget .mdl-mini-footer__link-list li {\n    margin-bottom: 0;\n    margin-right: 16px; }\n  @media screen and (min-width: 760px) {\n    .scvo-widget .mdl-mini-footer--link-list li, .scvo-widget .mdl-mini-footer__link-list li {\n      line-height: 36px; } }\n  .scvo-widget .mdl-mini-footer--link-list a, .scvo-widget .mdl-mini-footer__link-list a {\n    color: inherit;\n    text-decoration: none;\n    white-space: nowrap; }\n  .scvo-widget .mdl-mini-footer--left-section, .scvo-widget .mdl-mini-footer__left-section {\n    display: inline-block;\n    -webkit-order: 0;\n    -ms-flex-order: 0;\n    order: 0; }\n  .scvo-widget .mdl-mini-footer--right-section, .scvo-widget .mdl-mini-footer__right-section {\n    display: inline-block;\n    -webkit-order: 1;\n    -ms-flex-order: 1;\n    order: 1; }\n  .scvo-widget .mdl-mini-footer--social-btn, .scvo-widget .mdl-mini-footer__social-btn {\n    width: 36px;\n    height: 36px;\n    padding: 0;\n    margin: 0;\n    background-color: #9e9e9e;\n    border: none; }\n  .scvo-widget .mdl-icon-toggle {\n    position: relative;\n    z-index: 1;\n    vertical-align: middle;\n    display: inline-block;\n    height: 32px;\n    margin: 0;\n    padding: 0; }\n  .scvo-widget .mdl-icon-toggle__input {\n    line-height: 32px; }\n  .scvo-widget .mdl-icon-toggle.is-upgraded .mdl-icon-toggle__input {\n    position: absolute;\n    width: 0;\n    height: 0;\n    margin: 0;\n    padding: 0;\n    opacity: 0;\n    -ms-appearance: none;\n    -moz-appearance: none;\n    -webkit-appearance: none;\n    appearance: none;\n    border: none; }\n  .scvo-widget .mdl-icon-toggle__label {\n    display: inline-block;\n    position: relative;\n    cursor: pointer;\n    height: 32px;\n    width: 32px;\n    min-width: 32px;\n    color: #616161;\n    border-radius: 50%;\n    padding: 0;\n    margin-left: 0;\n    margin-right: 0;\n    text-align: center;\n    background-color: transparent;\n    will-change: background-color;\n    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-icon-toggle__label.material-icons {\n    line-height: 32px;\n    font-size: 24px; }\n  .scvo-widget .mdl-icon-toggle.is-checked .mdl-icon-toggle__label {\n    color: #607d8b; }\n  .scvo-widget .mdl-icon-toggle.is-disabled .mdl-icon-toggle__label {\n    color: rgba(0, 0, 0, 0.26);\n    cursor: auto;\n    transition: none; }\n  .scvo-widget .mdl-icon-toggle.is-focused .mdl-icon-toggle__label {\n    background-color: rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-icon-toggle.is-focused.is-checked .mdl-icon-toggle__label {\n    background-color: rgba(96, 125, 139, 0.26); }\n  .scvo-widget .mdl-icon-toggle__ripple-container {\n    position: absolute;\n    z-index: 2;\n    top: -2px;\n    left: -2px;\n    box-sizing: border-box;\n    width: 36px;\n    height: 36px;\n    border-radius: 50%;\n    cursor: pointer;\n    overflow: hidden;\n    -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000); }\n  .scvo-widget .mdl-icon-toggle__ripple-container .mdl-ripple {\n    background: #616161; }\n  .scvo-widget .mdl-icon-toggle.is-disabled .mdl-icon-toggle__ripple-container {\n    cursor: auto; }\n  .scvo-widget .mdl-icon-toggle.is-disabled .mdl-icon-toggle__ripple-container .mdl-ripple {\n    background: 0 0; }\n  .scvo-widget .mdl-list {\n    display: block;\n    padding: 8px 0;\n    list-style: none; }\n  .scvo-widget .mdl-list__item {\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 16px;\n    font-weight: 400;\n    letter-spacing: .04em;\n    line-height: 1;\n    min-height: 48px;\n    -webkit-flex-direction: row;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    -webkit-flex-wrap: nowrap;\n    -ms-flex-wrap: nowrap;\n    flex-wrap: nowrap;\n    padding: 16px;\n    cursor: default;\n    color: rgba(0, 0, 0, 0.87);\n    overflow: hidden; }\n  .scvo-widget .mdl-list__item, .scvo-widget .mdl-list__item .mdl-list__item-primary-content {\n    box-sizing: border-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center; }\n  .scvo-widget .mdl-list__item .mdl-list__item-primary-content {\n    -webkit-order: 0;\n    -ms-flex-order: 0;\n    order: 0;\n    -webkit-flex-grow: 2;\n    -ms-flex-positive: 2;\n    flex-grow: 2;\n    text-decoration: none; }\n  .scvo-widget .mdl-list__item .mdl-list__item-primary-content .mdl-list__item-icon {\n    margin-right: 32px; }\n  .scvo-widget .mdl-list__item .mdl-list__item-primary-content .mdl-list__item-avatar {\n    margin-right: 16px; }\n  .scvo-widget .mdl-list__item .mdl-list__item-secondary-content {\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-flow: column;\n    -ms-flex-flow: column;\n    flex-flow: column;\n    -webkit-align-items: flex-end;\n    -ms-flex-align: end;\n    align-items: flex-end;\n    margin-left: 16px; }\n  .scvo-widget .mdl-list__item .mdl-list__item-secondary-content .mdl-list__item-secondary-action label {\n    display: inline; }\n  .scvo-widget .mdl-list__item .mdl-list__item-secondary-content .mdl-list__item-secondary-info {\n    font-size: 12px;\n    font-weight: 400;\n    line-height: 1;\n    letter-spacing: 0;\n    color: rgba(0, 0, 0, 0.54); }\n  .scvo-widget .mdl-list__item .mdl-list__item-secondary-content .mdl-list__item-sub-header {\n    padding: 0 0 0 16px; }\n  .scvo-widget .mdl-list__item-icon, .scvo-widget .mdl-list__item-icon.material-icons {\n    height: 24px;\n    width: 24px;\n    font-size: 24px;\n    box-sizing: border-box;\n    color: #757575; }\n  .scvo-widget .mdl-list__item-avatar, .scvo-widget .mdl-list__item-avatar.material-icons {\n    height: 40px;\n    width: 40px;\n    box-sizing: border-box;\n    border-radius: 50%;\n    background-color: #757575;\n    font-size: 40px;\n    color: #fff; }\n  .scvo-widget .mdl-list__item--two-line {\n    height: 72px; }\n  .scvo-widget .mdl-list__item--two-line .mdl-list__item-primary-content {\n    height: 36px;\n    line-height: 20px;\n    display: block; }\n  .scvo-widget .mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-avatar {\n    float: left; }\n  .scvo-widget .mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-icon {\n    float: left;\n    margin-top: 6px; }\n  .scvo-widget .mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-secondary-content {\n    height: 36px; }\n  .scvo-widget .mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-sub-title {\n    font-size: 14px;\n    font-weight: 400;\n    letter-spacing: 0;\n    line-height: 18px;\n    color: rgba(0, 0, 0, 0.54);\n    display: block;\n    padding: 0; }\n  .scvo-widget .mdl-list__item--three-line {\n    height: 88px; }\n  .scvo-widget .mdl-list__item--three-line .mdl-list__item-primary-content {\n    height: 52px;\n    line-height: 20px;\n    display: block; }\n  .scvo-widget .mdl-list__item--three-line .mdl-list__item-primary-content .mdl-list__item-avatar, .scvo-widget .mdl-list__item--three-line .mdl-list__item-primary-content .mdl-list__item-icon {\n    float: left; }\n  .scvo-widget .mdl-list__item--three-line .mdl-list__item-secondary-content {\n    height: 52px; }\n  .scvo-widget .mdl-list__item--three-line .mdl-list__item-text-body {\n    font-size: 14px;\n    font-weight: 400;\n    letter-spacing: 0;\n    line-height: 18px;\n    height: 52px;\n    color: rgba(0, 0, 0, 0.54);\n    display: block;\n    padding: 0; }\n  .scvo-widget .mdl-menu__container {\n    display: block;\n    margin: 0;\n    padding: 0;\n    border: none;\n    position: absolute;\n    overflow: visible;\n    height: 0;\n    width: 0;\n    visibility: hidden;\n    z-index: -1; }\n  .scvo-widget .mdl-menu__container.is-visible, .scvo-widget .mdl-menu__container.is-animating {\n    z-index: 999;\n    visibility: visible; }\n  .scvo-widget .mdl-menu__outline {\n    display: block;\n    background: #fff;\n    margin: 0;\n    padding: 0;\n    border: none;\n    border-radius: 2px;\n    position: absolute;\n    top: 0;\n    left: 0;\n    overflow: hidden;\n    opacity: 0;\n    -webkit-transform: scale(0);\n    transform: scale(0);\n    -webkit-transform-origin: 0 0;\n    transform-origin: 0 0;\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);\n    will-change: transform;\n    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n    z-index: -1; }\n  .scvo-widget .mdl-menu__container.is-visible .mdl-menu__outline {\n    opacity: 1;\n    -webkit-transform: scale(1);\n    transform: scale(1);\n    z-index: 999; }\n  .scvo-widget .mdl-menu__outline.mdl-menu--bottom-right {\n    -webkit-transform-origin: 100% 0;\n    transform-origin: 100% 0; }\n  .scvo-widget .mdl-menu__outline.mdl-menu--top-left {\n    -webkit-transform-origin: 0 100%;\n    transform-origin: 0 100%; }\n  .scvo-widget .mdl-menu__outline.mdl-menu--top-right {\n    -webkit-transform-origin: 100% 100%;\n    transform-origin: 100% 100%; }\n  .scvo-widget .mdl-menu {\n    position: absolute;\n    list-style: none;\n    top: 0;\n    left: 0;\n    height: auto;\n    width: auto;\n    min-width: 124px;\n    padding: 8px 0;\n    margin: 0;\n    opacity: 0;\n    clip: rect(0 0 0 0);\n    z-index: -1; }\n  .scvo-widget .mdl-menu__container.is-visible .mdl-menu {\n    opacity: 1;\n    z-index: 999; }\n  .scvo-widget .mdl-menu.is-animating {\n    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), clip 0.3s cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-menu.mdl-menu--bottom-right {\n    left: auto;\n    right: 0; }\n  .scvo-widget .mdl-menu.mdl-menu--top-left {\n    top: auto;\n    bottom: 0; }\n  .scvo-widget .mdl-menu.mdl-menu--top-right {\n    top: auto;\n    left: auto;\n    bottom: 0;\n    right: 0; }\n  .scvo-widget .mdl-menu.mdl-menu--unaligned {\n    top: auto;\n    left: auto; }\n  .scvo-widget .mdl-menu__item {\n    display: block;\n    border: none;\n    color: rgba(0, 0, 0, 0.87);\n    background-color: transparent;\n    text-align: left;\n    margin: 0;\n    padding: 0 16px;\n    outline-color: #bdbdbd;\n    position: relative;\n    overflow: hidden;\n    font-size: 14px;\n    font-weight: 400;\n    letter-spacing: 0;\n    text-decoration: none;\n    cursor: pointer;\n    height: 48px;\n    line-height: 48px;\n    white-space: nowrap;\n    opacity: 0;\n    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none; }\n  .scvo-widget .mdl-menu__container.is-visible .mdl-menu__item {\n    opacity: 1; }\n  .scvo-widget .mdl-menu__item::-moz-focus-inner {\n    border: 0; }\n  .scvo-widget .mdl-menu__item--full-bleed-divider {\n    border-bottom: 1px solid rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-menu__item[disabled], .scvo-widget .mdl-menu__item[data-mdl-disabled] {\n    color: #bdbdbd;\n    background-color: transparent;\n    cursor: auto; }\n  .scvo-widget .mdl-menu__item[disabled]:hover, .scvo-widget .mdl-menu__item[data-mdl-disabled]:hover {\n    background-color: transparent; }\n  .scvo-widget .mdl-menu__item[disabled]:focus, .scvo-widget .mdl-menu__item[data-mdl-disabled]:focus {\n    background-color: transparent; }\n  .scvo-widget .mdl-menu__item[disabled] .mdl-ripple, .scvo-widget .mdl-menu__item[data-mdl-disabled] .mdl-ripple {\n    background: 0 0; }\n  .scvo-widget .mdl-menu__item:hover {\n    background-color: #eee; }\n  .scvo-widget .mdl-menu__item:focus {\n    outline: none;\n    background-color: #eee; }\n  .scvo-widget .mdl-menu__item:active {\n    background-color: #e0e0e0; }\n  .scvo-widget .mdl-menu__item--ripple-container {\n    display: block;\n    height: 100%;\n    left: 0;\n    position: absolute;\n    top: 0;\n    width: 100%;\n    z-index: 0;\n    overflow: hidden; }\n  .scvo-widget .mdl-progress {\n    display: block;\n    position: relative;\n    height: 4px;\n    width: 500px;\n    max-width: 100%; }\n  .scvo-widget .mdl-progress > .bar {\n    display: block;\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    width: 0%;\n    transition: width 0.2s cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-progress > .progressbar {\n    background-color: #607d8b;\n    z-index: 1;\n    left: 0; }\n  .scvo-widget .mdl-progress > .bufferbar {\n    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), linear-gradient(to right, #607d8b, #607d8b);\n    z-index: 0;\n    left: 0; }\n  .scvo-widget .mdl-progress > .auxbar {\n    right: 0; }\n  @supports (-webkit-appearance: none) {\n    .scvo-widget .mdl-progress:not(.mdl-progress--indeterminate):not(.mdl-progress--indeterminate) > .auxbar, .scvo-widget .mdl-progress:not(.mdl-progress__indeterminate):not(.mdl-progress__indeterminate) > .auxbar {\n      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), linear-gradient(to right, #607d8b, #607d8b);\n      -webkit-mask: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+Cjxzdmcgd2lkdGg9IjEyIiBoZWlnaHQ9IjQiIHZpZXdQb3J0PSIwIDAgMTIgNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxlbGxpcHNlIGN4PSIyIiBjeT0iMiIgcng9IjIiIHJ5PSIyIj4KICAgIDxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImN4IiBmcm9tPSIyIiB0bz0iLTEwIiBkdXI9IjAuNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAvPgogIDwvZWxsaXBzZT4KICA8ZWxsaXBzZSBjeD0iMTQiIGN5PSIyIiByeD0iMiIgcnk9IjIiIGNsYXNzPSJsb2FkZXIiPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iY3giIGZyb209IjE0IiB0bz0iMiIgZHVyPSIwLjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgLz4KICA8L2VsbGlwc2U+Cjwvc3ZnPgo=\");\n      mask: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+Cjxzdmcgd2lkdGg9IjEyIiBoZWlnaHQ9IjQiIHZpZXdQb3J0PSIwIDAgMTIgNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxlbGxpcHNlIGN4PSIyIiBjeT0iMiIgcng9IjIiIHJ5PSIyIj4KICAgIDxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9ImN4IiBmcm9tPSIyIiB0bz0iLTEwIiBkdXI9IjAuNnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiAvPgogIDwvZWxsaXBzZT4KICA8ZWxsaXBzZSBjeD0iMTQiIGN5PSIyIiByeD0iMiIgcnk9IjIiIGNsYXNzPSJsb2FkZXIiPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iY3giIGZyb209IjE0IiB0bz0iMiIgZHVyPSIwLjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgLz4KICA8L2VsbGlwc2U+Cjwvc3ZnPgo=\"); } }\n  .scvo-widget .mdl-progress:not(.mdl-progress--indeterminate) > .auxbar, .scvo-widget .mdl-progress:not(.mdl-progress__indeterminate) > .auxbar {\n    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), linear-gradient(to right, #607d8b, #607d8b); }\n  .scvo-widget .mdl-progress.mdl-progress--indeterminate > .bar1, .scvo-widget .mdl-progress.mdl-progress__indeterminate > .bar1 {\n    -webkit-animation-name: indeterminate1;\n    animation-name: indeterminate1; }\n  .scvo-widget .mdl-progress.mdl-progress--indeterminate > .bar1, .scvo-widget .mdl-progress.mdl-progress__indeterminate > .bar1, .scvo-widget .mdl-progress.mdl-progress--indeterminate > .bar3, .scvo-widget .mdl-progress.mdl-progress__indeterminate > .bar3 {\n    background-color: #607d8b;\n    -webkit-animation-duration: 2s;\n    animation-duration: 2s;\n    -webkit-animation-iteration-count: infinite;\n    animation-iteration-count: infinite;\n    -webkit-animation-timing-function: linear;\n    animation-timing-function: linear; }\n  .scvo-widget .mdl-progress.mdl-progress--indeterminate > .bar3, .scvo-widget .mdl-progress.mdl-progress__indeterminate > .bar3 {\n    background-image: none;\n    -webkit-animation-name: indeterminate2;\n    animation-name: indeterminate2; }\n\n@-webkit-keyframes indeterminate1 {\n  0% {\n    left: 0%;\n    width: 0%; }\n  50% {\n    left: 25%;\n    width: 75%; }\n  75% {\n    left: 100%;\n    width: 0%; } }\n\n@keyframes indeterminate1 {\n  0% {\n    left: 0%;\n    width: 0%; }\n  50% {\n    left: 25%;\n    width: 75%; }\n  75% {\n    left: 100%;\n    width: 0%; } }\n\n@-webkit-keyframes indeterminate2 {\n  0%, 50% {\n    left: 0%;\n    width: 0%; }\n  75% {\n    left: 0%;\n    width: 25%; }\n  100% {\n    left: 100%;\n    width: 0%; } }\n\n@keyframes indeterminate2 {\n  0%, 50% {\n    left: 0%;\n    width: 0%; }\n  75% {\n    left: 0%;\n    width: 25%; }\n  100% {\n    left: 100%;\n    width: 0%; } }\n  .scvo-widget .mdl-navigation {\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-wrap: nowrap;\n    -ms-flex-wrap: nowrap;\n    flex-wrap: nowrap;\n    box-sizing: border-box; }\n  .scvo-widget .mdl-navigation__link {\n    color: #424242;\n    text-decoration: none;\n    margin: 0;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 24px;\n    letter-spacing: 0;\n    opacity: .87; }\n  .scvo-widget .mdl-navigation__link .material-icons {\n    vertical-align: middle; }\n  .scvo-widget .mdl-layout {\n    width: 100%;\n    height: 100%;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-direction: column;\n    -ms-flex-direction: column;\n    flex-direction: column;\n    overflow-y: auto;\n    overflow-x: hidden;\n    position: relative;\n    -webkit-overflow-scrolling: touch; }\n  .scvo-widget .mdl-layout.is-small-screen .mdl-layout--large-screen-only {\n    display: none; }\n  .scvo-widget .mdl-layout:not(.is-small-screen) .mdl-layout--small-screen-only {\n    display: none; }\n  .scvo-widget .mdl-layout__container {\n    position: absolute;\n    width: 100%;\n    height: 100%; }\n  .scvo-widget .mdl-layout__title, .scvo-widget .mdl-layout-title {\n    display: block;\n    position: relative;\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 20px;\n    line-height: 1;\n    letter-spacing: .02em;\n    font-weight: 400;\n    box-sizing: border-box; }\n  .scvo-widget .mdl-layout-spacer {\n    -webkit-flex-grow: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1; }\n  .scvo-widget .mdl-layout__drawer {\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-direction: column;\n    -ms-flex-direction: column;\n    flex-direction: column;\n    -webkit-flex-wrap: nowrap;\n    -ms-flex-wrap: nowrap;\n    flex-wrap: nowrap;\n    width: 240px;\n    height: 100%;\n    max-height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);\n    box-sizing: border-box;\n    border-right: 1px solid #e0e0e0;\n    background: #fafafa;\n    -webkit-transform: translateX(-250px);\n    transform: translateX(-250px);\n    -webkit-transform-style: preserve-3d;\n    transform-style: preserve-3d;\n    will-change: transform;\n    transition-duration: .2s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    transition-property: transform;\n    transition-property: transform,-webkit-transform;\n    color: #424242;\n    overflow: visible;\n    overflow-y: auto;\n    z-index: 5; }\n  .scvo-widget .mdl-layout__drawer.is-visible {\n    -webkit-transform: translateX(0);\n    transform: translateX(0); }\n  .scvo-widget .mdl-layout__drawer.is-visible ~ .mdl-layout__content.mdl-layout__content {\n    overflow: hidden; }\n  .scvo-widget .mdl-layout__drawer > * {\n    -webkit-flex-shrink: 0;\n    -ms-flex-negative: 0;\n    flex-shrink: 0; }\n  .scvo-widget .mdl-layout__drawer > .mdl-layout__title, .scvo-widget .mdl-layout__drawer > .mdl-layout-title {\n    line-height: 64px;\n    padding-left: 40px; }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__drawer > .mdl-layout__title, .scvo-widget .mdl-layout__drawer > .mdl-layout-title {\n      line-height: 56px;\n      padding-left: 16px; } }\n  .scvo-widget .mdl-layout__drawer .mdl-navigation {\n    -webkit-flex-direction: column;\n    -ms-flex-direction: column;\n    flex-direction: column;\n    -webkit-align-items: stretch;\n    -ms-flex-align: stretch;\n    align-items: stretch;\n    padding-top: 16px; }\n  .scvo-widget .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {\n    display: block;\n    -webkit-flex-shrink: 0;\n    -ms-flex-negative: 0;\n    flex-shrink: 0;\n    padding: 16px 40px;\n    margin: 0;\n    color: #757575; }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {\n      padding: 16px; } }\n  .scvo-widget .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {\n    background-color: #e0e0e0; }\n  .scvo-widget .mdl-layout__drawer .mdl-navigation .mdl-navigation__link--current {\n    background-color: #e0e0e0;\n    color: #000; }\n  @media screen and (min-width: 1025px) {\n    .scvo-widget .mdl-layout--fixed-drawer > .mdl-layout__drawer {\n      -webkit-transform: translateX(0);\n      transform: translateX(0); } }\n  .scvo-widget .mdl-layout__drawer-button {\n    display: block;\n    position: absolute;\n    height: 48px;\n    width: 48px;\n    border: 0;\n    -webkit-flex-shrink: 0;\n    -ms-flex-negative: 0;\n    flex-shrink: 0;\n    overflow: hidden;\n    text-align: center;\n    cursor: pointer;\n    font-size: 26px;\n    line-height: 56px;\n    font-family: Helvetica,Arial,sans-serif;\n    margin: 8px 12px;\n    top: 0;\n    left: 0;\n    color: white;\n    z-index: 4; }\n  .scvo-widget .mdl-layout__header .mdl-layout__drawer-button {\n    position: absolute;\n    color: white;\n    background-color: inherit; }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__header .mdl-layout__drawer-button {\n      margin: 4px; } }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__drawer-button {\n      margin: 4px;\n      color: rgba(0, 0, 0, 0.5); } }\n  @media screen and (min-width: 1025px) {\n    .scvo-widget .mdl-layout__drawer-button {\n      line-height: 54px; }\n    .scvo-widget .mdl-layout--no-desktop-drawer-button .mdl-layout__drawer-button, .scvo-widget .mdl-layout--fixed-drawer > .mdl-layout__drawer-button, .scvo-widget .mdl-layout--no-drawer-button .mdl-layout__drawer-button {\n      display: none; } }\n  .scvo-widget .mdl-layout__header {\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-direction: column;\n    -ms-flex-direction: column;\n    flex-direction: column;\n    -webkit-flex-wrap: nowrap;\n    -ms-flex-wrap: nowrap;\n    flex-wrap: nowrap;\n    -webkit-justify-content: flex-start;\n    -ms-flex-pack: start;\n    justify-content: flex-start;\n    box-sizing: border-box;\n    -webkit-flex-shrink: 0;\n    -ms-flex-negative: 0;\n    flex-shrink: 0;\n    width: 100%;\n    margin: 0;\n    padding: 0;\n    border: none;\n    min-height: 64px;\n    max-height: 1000px;\n    z-index: 3;\n    background-color: #607d8b;\n    color: white;\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);\n    transition-duration: .2s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    transition-property: max-height,box-shadow; }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__header {\n      min-height: 56px; } }\n  .scvo-widget .mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen) > .mdl-layout__header {\n    margin-left: 240px;\n    width: calc(100% - 240px); }\n  @media screen and (min-width: 1025px) {\n    .scvo-widget .mdl-layout--fixed-drawer > .mdl-layout__header .mdl-layout__header-row {\n      padding-left: 40px; } }\n  .scvo-widget .mdl-layout__header > .mdl-layout-icon {\n    position: absolute;\n    left: 40px;\n    top: 16px;\n    height: 32px;\n    width: 32px;\n    overflow: hidden;\n    z-index: 3;\n    display: block; }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__header > .mdl-layout-icon {\n      left: 16px;\n      top: 12px; } }\n  .scvo-widget .mdl-layout.has-drawer .mdl-layout__header > .mdl-layout-icon {\n    display: none; }\n  .scvo-widget .mdl-layout__header.is-compact {\n    max-height: 64px; }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__header.is-compact {\n      max-height: 56px; } }\n  .scvo-widget .mdl-layout__header.is-compact.has-tabs {\n    height: 112px; }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__header.is-compact.has-tabs {\n      min-height: 104px; } }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__header {\n      display: none; }\n    .scvo-widget .mdl-layout--fixed-header > .mdl-layout__header {\n      display: -webkit-flex;\n      display: -ms-flexbox;\n      display: flex; } }\n  .scvo-widget .mdl-layout__header--transparent.mdl-layout__header--transparent {\n    background-color: transparent;\n    box-shadow: none; }\n  .scvo-widget .mdl-layout__header--seamed, .scvo-widget .mdl-layout__header--scroll {\n    box-shadow: none; }\n  .scvo-widget .mdl-layout__header--waterfall {\n    box-shadow: none;\n    overflow: hidden; }\n  .scvo-widget .mdl-layout__header--waterfall.is-casting-shadow {\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-layout__header--waterfall.mdl-layout__header--waterfall-hide-top {\n    -webkit-justify-content: flex-end;\n    -ms-flex-pack: end;\n    justify-content: flex-end; }\n  .scvo-widget .mdl-layout__header-row {\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-direction: row;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    -webkit-flex-wrap: nowrap;\n    -ms-flex-wrap: nowrap;\n    flex-wrap: nowrap;\n    -webkit-flex-shrink: 0;\n    -ms-flex-negative: 0;\n    flex-shrink: 0;\n    box-sizing: border-box;\n    -webkit-align-self: stretch;\n    -ms-flex-item-align: stretch;\n    align-self: stretch;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center;\n    height: 64px;\n    margin: 0;\n    padding: 0 40px 0 80px; }\n  .scvo-widget .mdl-layout--no-drawer-button .mdl-layout__header-row {\n    padding-left: 40px; }\n  @media screen and (min-width: 1025px) {\n    .scvo-widget .mdl-layout--no-desktop-drawer-button .mdl-layout__header-row {\n      padding-left: 40px; } }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__header-row {\n      height: 56px;\n      padding: 0 16px 0 72px; }\n    .scvo-widget .mdl-layout--no-drawer-button .mdl-layout__header-row {\n      padding-left: 16px; } }\n  .scvo-widget .mdl-layout__header-row > * {\n    -webkit-flex-shrink: 0;\n    -ms-flex-negative: 0;\n    flex-shrink: 0; }\n  .scvo-widget .mdl-layout__header--scroll .mdl-layout__header-row {\n    width: 100%; }\n  .scvo-widget .mdl-layout__header-row .mdl-navigation {\n    margin: 0;\n    padding: 0;\n    height: 64px;\n    -webkit-flex-direction: row;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    -webkit-align-items: center;\n    -ms-flex-align: center;\n    align-items: center; }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__header-row .mdl-navigation {\n      height: 56px; } }\n  .scvo-widget .mdl-layout__header-row .mdl-navigation__link {\n    display: block;\n    color: white;\n    line-height: 64px;\n    padding: 0 24px; }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__header-row .mdl-navigation__link {\n      line-height: 56px;\n      padding: 0 16px; } }\n  .scvo-widget .mdl-layout__obfuscator {\n    background-color: transparent;\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    width: 100%;\n    z-index: 4;\n    visibility: hidden;\n    transition-property: background-color;\n    transition-duration: .2s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-layout__obfuscator.is-visible {\n    background-color: rgba(0, 0, 0, 0.5);\n    visibility: visible; }\n  @supports (pointer-events: auto) {\n    .scvo-widget .mdl-layout__obfuscator {\n      background-color: rgba(0, 0, 0, 0.5);\n      opacity: 0;\n      transition-property: opacity;\n      visibility: visible;\n      pointer-events: none; }\n    .scvo-widget .mdl-layout__obfuscator.is-visible {\n      pointer-events: auto;\n      opacity: 1; } }\n  .scvo-widget .mdl-layout__content {\n    -ms-flex: 0 1 auto;\n    position: relative;\n    display: inline-block;\n    overflow-y: auto;\n    overflow-x: hidden;\n    -webkit-flex-grow: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    z-index: 1;\n    -webkit-overflow-scrolling: touch; }\n  .scvo-widget .mdl-layout--fixed-drawer > .mdl-layout__content {\n    margin-left: 240px; }\n  .scvo-widget .mdl-layout__container.has-scrolling-header .mdl-layout__content {\n    overflow: visible; }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout--fixed-drawer > .mdl-layout__content {\n      margin-left: 0; }\n    .scvo-widget .mdl-layout__container.has-scrolling-header .mdl-layout__content {\n      overflow-y: auto;\n      overflow-x: hidden; } }\n  .scvo-widget .mdl-layout__tab-bar {\n    height: 96px;\n    margin: 0;\n    width: calc(100% - 112px);\n    padding: 0 0 0 56px;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    background-color: #607d8b;\n    overflow-y: hidden;\n    overflow-x: scroll; }\n  .scvo-widget .mdl-layout__tab-bar::-webkit-scrollbar {\n    display: none; }\n  .scvo-widget .mdl-layout--no-drawer-button .mdl-layout__tab-bar {\n    padding-left: 16px;\n    width: calc(100% - 32px); }\n  @media screen and (min-width: 1025px) {\n    .scvo-widget .mdl-layout--no-desktop-drawer-button .mdl-layout__tab-bar {\n      padding-left: 16px;\n      width: calc(100% - 32px); } }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__tab-bar {\n      width: calc(100% - 60px);\n      padding: 0 0 0 60px; }\n    .scvo-widget .mdl-layout--no-drawer-button .mdl-layout__tab-bar {\n      width: calc(100% - 8px);\n      padding-left: 4px; } }\n  .scvo-widget .mdl-layout--fixed-tabs .mdl-layout__tab-bar {\n    padding: 0;\n    overflow: hidden;\n    width: 100%; }\n  .scvo-widget .mdl-layout__tab-bar-container {\n    position: relative;\n    height: 48px;\n    width: 100%;\n    border: none;\n    margin: 0;\n    z-index: 2;\n    -webkit-flex-grow: 0;\n    -ms-flex-positive: 0;\n    flex-grow: 0;\n    -webkit-flex-shrink: 0;\n    -ms-flex-negative: 0;\n    flex-shrink: 0;\n    overflow: hidden; }\n  .scvo-widget .mdl-layout__container > .mdl-layout__tab-bar-container {\n    position: absolute;\n    top: 0;\n    left: 0; }\n  .scvo-widget .mdl-layout__tab-bar-button {\n    display: inline-block;\n    position: absolute;\n    top: 0;\n    height: 48px;\n    width: 56px;\n    z-index: 4;\n    text-align: center;\n    background-color: #607d8b;\n    color: transparent;\n    cursor: pointer;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none; }\n  .scvo-widget .mdl-layout--no-desktop-drawer-button .mdl-layout__tab-bar-button, .scvo-widget .mdl-layout--no-drawer-button .mdl-layout__tab-bar-button {\n    width: 16px; }\n  .scvo-widget .mdl-layout--no-desktop-drawer-button .mdl-layout__tab-bar-button .material-icons, .scvo-widget .mdl-layout--no-drawer-button .mdl-layout__tab-bar-button .material-icons {\n    position: relative;\n    left: -4px; }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__tab-bar-button {\n      width: 60px; } }\n  .scvo-widget .mdl-layout--fixed-tabs .mdl-layout__tab-bar-button {\n    display: none; }\n  .scvo-widget .mdl-layout__tab-bar-button .material-icons {\n    line-height: 48px; }\n  .scvo-widget .mdl-layout__tab-bar-button.is-active {\n    color: white; }\n  .scvo-widget .mdl-layout__tab-bar-left-button {\n    left: 0; }\n  .scvo-widget .mdl-layout__tab-bar-right-button {\n    right: 0; }\n  .scvo-widget .mdl-layout__tab {\n    margin: 0;\n    border: none;\n    padding: 0 24px;\n    float: left;\n    position: relative;\n    display: block;\n    -webkit-flex-grow: 0;\n    -ms-flex-positive: 0;\n    flex-grow: 0;\n    -webkit-flex-shrink: 0;\n    -ms-flex-negative: 0;\n    flex-shrink: 0;\n    text-decoration: none;\n    height: 48px;\n    line-height: 48px;\n    text-align: center;\n    font-weight: 500;\n    font-size: 14px;\n    text-transform: uppercase;\n    color: rgba(255, 255, 255, 0.6);\n    overflow: hidden; }\n  @media screen and (max-width: 1024px) {\n    .scvo-widget .mdl-layout__tab {\n      padding: 0 12px; } }\n  .scvo-widget .mdl-layout--fixed-tabs .mdl-layout__tab {\n    float: none;\n    -webkit-flex-grow: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    padding: 0; }\n  .scvo-widget .mdl-layout.is-upgraded .mdl-layout__tab.is-active {\n    color: white; }\n  .scvo-widget .mdl-layout.is-upgraded .mdl-layout__tab.is-active::after {\n    height: 2px;\n    width: 100%;\n    display: block;\n    content: \" \";\n    bottom: 0;\n    left: 0;\n    position: absolute;\n    background: #448aff;\n    -webkit-animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;\n    animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;\n    transition: all 1s cubic-bezier(0.4, 0, 1, 1); }\n  .scvo-widget .mdl-layout__tab .mdl-layout__tab-ripple-container {\n    display: block;\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    left: 0;\n    top: 0;\n    z-index: 1;\n    overflow: hidden; }\n  .scvo-widget .mdl-layout__tab .mdl-layout__tab-ripple-container .mdl-ripple {\n    background-color: white; }\n  .scvo-widget .mdl-layout__tab-panel {\n    display: block; }\n  .scvo-widget .mdl-layout.is-upgraded .mdl-layout__tab-panel {\n    display: none; }\n  .scvo-widget .mdl-layout.is-upgraded .mdl-layout__tab-panel.is-active {\n    display: block; }\n  .scvo-widget .mdl-radio {\n    position: relative;\n    font-size: 16px;\n    line-height: 24px;\n    display: inline-block;\n    vertical-align: middle;\n    box-sizing: border-box;\n    height: 24px;\n    margin: 0;\n    padding-left: 0; }\n  .scvo-widget .mdl-radio.is-upgraded {\n    padding-left: 24px; }\n  .scvo-widget .mdl-radio__button {\n    line-height: 24px; }\n  .scvo-widget .mdl-radio.is-upgraded .mdl-radio__button {\n    position: absolute;\n    width: 0;\n    height: 0;\n    margin: 0;\n    padding: 0;\n    opacity: 0;\n    -ms-appearance: none;\n    -moz-appearance: none;\n    -webkit-appearance: none;\n    appearance: none;\n    border: none; }\n  .scvo-widget .mdl-radio__outer-circle {\n    position: absolute;\n    top: 4px;\n    left: 0;\n    display: inline-block;\n    box-sizing: border-box;\n    width: 16px;\n    height: 16px;\n    margin: 0;\n    cursor: pointer;\n    border: 2px solid rgba(0, 0, 0, 0.54);\n    border-radius: 50%;\n    z-index: 2; }\n  .scvo-widget .mdl-radio.is-checked .mdl-radio__outer-circle {\n    border: 2px solid #607d8b; }\n  .scvo-widget .mdl-radio__outer-circle fieldset[disabled] .mdl-radio, .scvo-widget .mdl-radio.is-disabled .mdl-radio__outer-circle {\n    border: 2px solid rgba(0, 0, 0, 0.26);\n    cursor: auto; }\n  .scvo-widget .mdl-radio__inner-circle {\n    position: absolute;\n    z-index: 1;\n    margin: 0;\n    top: 8px;\n    left: 4px;\n    box-sizing: border-box;\n    width: 8px;\n    height: 8px;\n    cursor: pointer;\n    transition-duration: .28s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    transition-property: transform;\n    transition-property: transform,-webkit-transform;\n    -webkit-transform: scale(0, 0);\n    transform: scale(0, 0);\n    border-radius: 50%;\n    background: #607d8b; }\n  .scvo-widget .mdl-radio.is-checked .mdl-radio__inner-circle {\n    -webkit-transform: scale(1, 1);\n    transform: scale(1, 1); }\n  .scvo-widget fieldset[disabled] .mdl-radio .mdl-radio__inner-circle, .scvo-widget .mdl-radio.is-disabled .mdl-radio__inner-circle {\n    background: rgba(0, 0, 0, 0.26);\n    cursor: auto; }\n  .scvo-widget .mdl-radio.is-focused .mdl-radio__inner-circle {\n    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1); }\n  .scvo-widget .mdl-radio__label {\n    cursor: pointer; }\n  .scvo-widget fieldset[disabled] .mdl-radio .mdl-radio__label, .scvo-widget .mdl-radio.is-disabled .mdl-radio__label {\n    color: rgba(0, 0, 0, 0.26);\n    cursor: auto; }\n  .scvo-widget .mdl-radio__ripple-container {\n    position: absolute;\n    z-index: 2;\n    top: -9px;\n    left: -13px;\n    box-sizing: border-box;\n    width: 42px;\n    height: 42px;\n    border-radius: 50%;\n    cursor: pointer;\n    overflow: hidden;\n    -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000); }\n  .scvo-widget .mdl-radio__ripple-container .mdl-ripple {\n    background: #607d8b; }\n  .scvo-widget fieldset[disabled] .mdl-radio .mdl-radio__ripple-container, .scvo-widget .mdl-radio.is-disabled .mdl-radio__ripple-container {\n    cursor: auto; }\n  .scvo-widget fieldset[disabled] .mdl-radio .mdl-radio__ripple-container .mdl-ripple, .scvo-widget .mdl-radio.is-disabled .mdl-radio__ripple-container .mdl-ripple {\n    background: 0 0; }\n  .scvo-widget _:-ms-input-placeholder, .scvo-widget :root .mdl-slider.mdl-slider.is-upgraded {\n    -ms-appearance: none;\n    height: 32px;\n    margin: 0; }\n  .scvo-widget .mdl-slider {\n    width: calc(100% - 40px);\n    margin: 0 20px; }\n  .scvo-widget .mdl-slider.is-upgraded {\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    appearance: none;\n    height: 2px;\n    background: 0 0;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    outline: 0;\n    padding: 0;\n    color: #607d8b;\n    -webkit-align-self: center;\n    -ms-flex-item-align: center;\n    -ms-grid-row-align: center;\n    align-self: center;\n    z-index: 1;\n    cursor: pointer; }\n  .scvo-widget .mdl-slider.is-upgraded::-moz-focus-outer {\n    border: 0; }\n  .scvo-widget .mdl-slider.is-upgraded::-ms-tooltip {\n    display: none; }\n  .scvo-widget .mdl-slider.is-upgraded::-webkit-slider-runnable-track {\n    background: 0 0; }\n  .scvo-widget .mdl-slider.is-upgraded::-moz-range-track {\n    background: 0 0;\n    border: none; }\n  .scvo-widget .mdl-slider.is-upgraded::-ms-track {\n    background: 0 0;\n    color: transparent;\n    height: 2px;\n    width: 100%;\n    border: none; }\n  .scvo-widget .mdl-slider.is-upgraded::-ms-fill-lower {\n    padding: 0;\n    background: linear-gradient(to right, transparent, transparent 16px, #607d8b 16px, #607d8b 0); }\n  .scvo-widget .mdl-slider.is-upgraded::-ms-fill-upper {\n    padding: 0;\n    background: linear-gradient(to left, transparent, transparent 16px, rgba(0, 0, 0, 0.26) 16px, rgba(0, 0, 0, 0.26) 0); }\n  .scvo-widget .mdl-slider.is-upgraded::-webkit-slider-thumb {\n    -webkit-appearance: none;\n    width: 12px;\n    height: 12px;\n    box-sizing: border-box;\n    border-radius: 50%;\n    background: #607d8b;\n    border: none;\n    transition: transform 0.18s cubic-bezier(0.4, 0, 0.2, 1), border 0.18s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.18s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1);\n    transition: transform 0.18s cubic-bezier(0.4, 0, 0.2, 1), border 0.18s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.18s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.18s cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-slider.is-upgraded::-moz-range-thumb {\n    -moz-appearance: none;\n    width: 12px;\n    height: 12px;\n    box-sizing: border-box;\n    border-radius: 50%;\n    background-image: none;\n    background: #607d8b;\n    border: none; }\n  .scvo-widget .mdl-slider.is-upgraded:focus:not(:active)::-webkit-slider-thumb {\n    box-shadow: 0 0 0 10px rgba(96, 125, 139, 0.26); }\n  .scvo-widget .mdl-slider.is-upgraded:focus:not(:active)::-moz-range-thumb {\n    box-shadow: 0 0 0 10px rgba(96, 125, 139, 0.26); }\n  .scvo-widget .mdl-slider.is-upgraded:active::-webkit-slider-thumb {\n    background-image: none;\n    background: #607d8b;\n    -webkit-transform: scale(1.5);\n    transform: scale(1.5); }\n  .scvo-widget .mdl-slider.is-upgraded:active::-moz-range-thumb {\n    background-image: none;\n    background: #607d8b;\n    transform: scale(1.5); }\n  .scvo-widget .mdl-slider.is-upgraded::-ms-thumb {\n    width: 32px;\n    height: 32px;\n    border: none;\n    border-radius: 50%;\n    background: #607d8b;\n    transform: scale(0.375);\n    transition: transform 0.18s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1);\n    transition: transform 0.18s cubic-bezier(0.4, 0, 0.2, 1), background 0.28s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.18s cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-slider.is-upgraded:focus:not(:active)::-ms-thumb {\n    background: radial-gradient(circle closest-side, #607d8b 0%, #607d8b 37.5%, rgba(96, 125, 139, 0.26) 37.5%, rgba(96, 125, 139, 0.26) 100%);\n    transform: scale(1); }\n  .scvo-widget .mdl-slider.is-upgraded:active::-ms-thumb {\n    background: #607d8b;\n    transform: scale(0.5625); }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value::-webkit-slider-thumb {\n    border: 2px solid rgba(0, 0, 0, 0.26);\n    background: 0 0; }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value::-moz-range-thumb {\n    border: 2px solid rgba(0, 0, 0, 0.26);\n    background: 0 0; }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value + .mdl-slider__background-flex > .mdl-slider__background-upper {\n    left: 6px; }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:focus:not(:active)::-webkit-slider-thumb {\n    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.12);\n    background: rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:focus:not(:active)::-moz-range-thumb {\n    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.12);\n    background: rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:active::-webkit-slider-thumb {\n    border: 1.6px solid rgba(0, 0, 0, 0.26);\n    -webkit-transform: scale(1.5);\n    transform: scale(1.5); }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:active + .mdl-slider__background-flex > .mdl-slider__background-upper {\n    left: 9px; }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:active::-moz-range-thumb {\n    border: 1.5px solid rgba(0, 0, 0, 0.26);\n    transform: scale(1.5); }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value::-ms-thumb {\n    background: radial-gradient(circle closest-side, transparent 0%, transparent 66.67%, rgba(0, 0, 0, 0.26) 66.67%, rgba(0, 0, 0, 0.26) 100%); }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:focus:not(:active)::-ms-thumb {\n    background: radial-gradient(circle closest-side, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0.12) 25%, rgba(0, 0, 0, 0.26) 25%, rgba(0, 0, 0, 0.26) 37.5%, rgba(0, 0, 0, 0.12) 37.5%, rgba(0, 0, 0, 0.12) 100%);\n    transform: scale(1); }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:active::-ms-thumb {\n    transform: scale(0.5625);\n    background: radial-gradient(circle closest-side, transparent 0%, transparent 77.78%, rgba(0, 0, 0, 0.26) 77.78%, rgba(0, 0, 0, 0.26) 100%); }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value::-ms-fill-lower {\n    background: 0 0; }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value::-ms-fill-upper {\n    margin-left: 6px; }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:active::-ms-fill-upper {\n    margin-left: 9px; }\n  .scvo-widget .mdl-slider.is-upgraded:disabled:focus::-webkit-slider-thumb, .scvo-widget .mdl-slider.is-upgraded:disabled:active::-webkit-slider-thumb, .scvo-widget .mdl-slider.is-upgraded:disabled::-webkit-slider-thumb {\n    -webkit-transform: scale(0.667);\n    transform: scale(0.667);\n    background: rgba(0, 0, 0, 0.26); }\n  .scvo-widget .mdl-slider.is-upgraded:disabled:focus::-moz-range-thumb, .scvo-widget .mdl-slider.is-upgraded:disabled:active::-moz-range-thumb, .scvo-widget .mdl-slider.is-upgraded:disabled::-moz-range-thumb {\n    transform: scale(0.667);\n    background: rgba(0, 0, 0, 0.26); }\n  .scvo-widget .mdl-slider.is-upgraded:disabled + .mdl-slider__background-flex > .mdl-slider__background-lower {\n    background-color: rgba(0, 0, 0, 0.26);\n    left: -6px; }\n  .scvo-widget .mdl-slider.is-upgraded:disabled + .mdl-slider__background-flex > .mdl-slider__background-upper {\n    left: 6px; }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:focus::-webkit-slider-thumb, .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:active::-webkit-slider-thumb, .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled::-webkit-slider-thumb {\n    border: 3px solid rgba(0, 0, 0, 0.26);\n    background: 0 0;\n    -webkit-transform: scale(0.667);\n    transform: scale(0.667); }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:focus::-moz-range-thumb, .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:active::-moz-range-thumb, .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled::-moz-range-thumb {\n    border: 3px solid rgba(0, 0, 0, 0.26);\n    background: 0 0;\n    transform: scale(0.667); }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:active + .mdl-slider__background-flex > .mdl-slider__background-upper {\n    left: 6px; }\n  .scvo-widget .mdl-slider.is-upgraded:disabled:focus::-ms-thumb, .scvo-widget .mdl-slider.is-upgraded:disabled:active::-ms-thumb, .scvo-widget .mdl-slider.is-upgraded:disabled::-ms-thumb {\n    transform: scale(0.25);\n    background: rgba(0, 0, 0, 0.26); }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:focus::-ms-thumb, .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:active::-ms-thumb, .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled::-ms-thumb {\n    transform: scale(0.25);\n    background: radial-gradient(circle closest-side, transparent 0%, transparent 50%, rgba(0, 0, 0, 0.26) 50%, rgba(0, 0, 0, 0.26) 100%); }\n  .scvo-widget .mdl-slider.is-upgraded:disabled::-ms-fill-lower {\n    margin-right: 6px;\n    background: linear-gradient(to right, transparent, transparent 25px, rgba(0, 0, 0, 0.26) 25px, rgba(0, 0, 0, 0.26) 0); }\n  .scvo-widget .mdl-slider.is-upgraded:disabled::-ms-fill-upper {\n    margin-left: 6px; }\n  .scvo-widget .mdl-slider.is-upgraded.is-lowest-value:disabled:active::-ms-fill-upper {\n    margin-left: 6px; }\n  .scvo-widget .mdl-slider__ie-container {\n    height: 18px;\n    overflow: visible;\n    border: none;\n    margin: none;\n    padding: none; }\n  .scvo-widget .mdl-slider__container {\n    height: 18px;\n    position: relative;\n    -webkit-flex-direction: row;\n    -ms-flex-direction: row;\n    flex-direction: row; }\n  .scvo-widget .mdl-slider__container, .scvo-widget .mdl-slider__background-flex {\n    background: 0 0;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex; }\n  .scvo-widget .mdl-slider__background-flex {\n    position: absolute;\n    height: 2px;\n    width: calc(100% - 52px);\n    top: 50%;\n    left: 0;\n    margin: 0 26px;\n    overflow: hidden;\n    border: 0;\n    padding: 0;\n    -webkit-transform: translate(0, -1px);\n    transform: translate(0, -1px); }\n  .scvo-widget .mdl-slider__background-lower {\n    background: #607d8b; }\n  .scvo-widget .mdl-slider__background-lower, .scvo-widget .mdl-slider__background-upper {\n    -webkit-flex: 0;\n    -ms-flex: 0;\n    flex: 0;\n    position: relative;\n    border: 0;\n    padding: 0; }\n  .scvo-widget .mdl-slider__background-upper {\n    background: rgba(0, 0, 0, 0.26);\n    transition: left 0.18s cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-snackbar {\n    position: fixed;\n    bottom: 0;\n    left: 50%;\n    cursor: default;\n    background-color: #323232;\n    z-index: 3;\n    display: block;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-justify-content: space-between;\n    -ms-flex-pack: justify;\n    justify-content: space-between;\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    will-change: transform;\n    -webkit-transform: translate(0, 80px);\n    transform: translate(0, 80px);\n    transition: transform 0.25s cubic-bezier(0.4, 0, 1, 1);\n    transition: transform 0.25s cubic-bezier(0.4, 0, 1, 1), -webkit-transform 0.25s cubic-bezier(0.4, 0, 1, 1);\n    pointer-events: none; }\n  @media (max-width: 479px) {\n    .scvo-widget .mdl-snackbar {\n      width: 100%;\n      left: 0;\n      min-height: 48px;\n      max-height: 80px; } }\n  @media (min-width: 480px) {\n    .scvo-widget .mdl-snackbar {\n      min-width: 288px;\n      max-width: 568px;\n      border-radius: 2px;\n      -webkit-transform: translate(-50%, 80px);\n      transform: translate(-50%, 80px); } }\n  .scvo-widget .mdl-snackbar--active {\n    -webkit-transform: translate(0, 0);\n    transform: translate(0, 0);\n    pointer-events: auto;\n    transition: transform 0.25s cubic-bezier(0, 0, 0.2, 1);\n    transition: transform 0.25s cubic-bezier(0, 0, 0.2, 1), -webkit-transform 0.25s cubic-bezier(0, 0, 0.2, 1); }\n  @media (min-width: 480px) {\n    .scvo-widget .mdl-snackbar--active {\n      -webkit-transform: translate(-50%, 0);\n      transform: translate(-50%, 0); } }\n  .scvo-widget .mdl-snackbar__text {\n    padding: 14px 12px 14px 24px;\n    vertical-align: middle;\n    color: #fff;\n    float: left; }\n  .scvo-widget .mdl-snackbar__action {\n    background: 0 0;\n    border: none;\n    color: #448aff;\n    float: right;\n    padding: 14px 24px 14px 12px;\n    font-family: \"Roboto\",\"Helvetica\",\"Arial\",sans-serif;\n    font-size: 14px;\n    font-weight: 500;\n    text-transform: uppercase;\n    line-height: 1;\n    letter-spacing: 0;\n    overflow: hidden;\n    outline: none;\n    opacity: 0;\n    pointer-events: none;\n    cursor: pointer;\n    text-decoration: none;\n    text-align: center;\n    -webkit-align-self: center;\n    -ms-flex-item-align: center;\n    -ms-grid-row-align: center;\n    align-self: center; }\n  .scvo-widget .mdl-snackbar__action::-moz-focus-inner {\n    border: 0; }\n  .scvo-widget .mdl-snackbar__action:not([aria-hidden]) {\n    opacity: 1;\n    pointer-events: auto; }\n  .scvo-widget .mdl-spinner {\n    display: inline-block;\n    position: relative;\n    width: 28px;\n    height: 28px; }\n  .scvo-widget .mdl-spinner:not(.is-upgraded).is-active:after {\n    content: \"Loading...\"; }\n  .scvo-widget .mdl-spinner.is-upgraded.is-active {\n    -webkit-animation: mdl-spinner__container-rotate 1568.23529412ms linear infinite;\n    animation: mdl-spinner__container-rotate 1568.23529412ms linear infinite; }\n\n@-webkit-keyframes mdl-spinner__container-rotate {\n  to {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg); } }\n\n@keyframes mdl-spinner__container-rotate {\n  to {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg); } }\n  .scvo-widget .mdl-spinner__layer {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    opacity: 0; }\n  .scvo-widget .mdl-spinner__layer-1 {\n    border-color: #42a5f5; }\n  .scvo-widget .mdl-spinner--single-color .mdl-spinner__layer-1 {\n    border-color: #607d8b; }\n  .scvo-widget .mdl-spinner.is-active .mdl-spinner__layer-1 {\n    -webkit-animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-1-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;\n    animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-1-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }\n  .scvo-widget .mdl-spinner__layer-2 {\n    border-color: #f44336; }\n  .scvo-widget .mdl-spinner--single-color .mdl-spinner__layer-2 {\n    border-color: #607d8b; }\n  .scvo-widget .mdl-spinner.is-active .mdl-spinner__layer-2 {\n    -webkit-animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-2-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;\n    animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-2-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }\n  .scvo-widget .mdl-spinner__layer-3 {\n    border-color: #fdd835; }\n  .scvo-widget .mdl-spinner--single-color .mdl-spinner__layer-3 {\n    border-color: #607d8b; }\n  .scvo-widget .mdl-spinner.is-active .mdl-spinner__layer-3 {\n    -webkit-animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-3-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;\n    animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-3-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }\n  .scvo-widget .mdl-spinner__layer-4 {\n    border-color: #4caf50; }\n  .scvo-widget .mdl-spinner--single-color .mdl-spinner__layer-4 {\n    border-color: #607d8b; }\n  .scvo-widget .mdl-spinner.is-active .mdl-spinner__layer-4 {\n    -webkit-animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-4-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;\n    animation: mdl-spinner__fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, mdl-spinner__layer-4-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }\n\n@-webkit-keyframes mdl-spinner__fill-unfill-rotate {\n  12.5% {\n    -webkit-transform: rotate(135deg);\n    transform: rotate(135deg); }\n  25% {\n    -webkit-transform: rotate(270deg);\n    transform: rotate(270deg); }\n  37.5% {\n    -webkit-transform: rotate(405deg);\n    transform: rotate(405deg); }\n  50% {\n    -webkit-transform: rotate(540deg);\n    transform: rotate(540deg); }\n  62.5% {\n    -webkit-transform: rotate(675deg);\n    transform: rotate(675deg); }\n  75% {\n    -webkit-transform: rotate(810deg);\n    transform: rotate(810deg); }\n  87.5% {\n    -webkit-transform: rotate(945deg);\n    transform: rotate(945deg); }\n  to {\n    -webkit-transform: rotate(1080deg);\n    transform: rotate(1080deg); } }\n\n@keyframes mdl-spinner__fill-unfill-rotate {\n  12.5% {\n    -webkit-transform: rotate(135deg);\n    transform: rotate(135deg); }\n  25% {\n    -webkit-transform: rotate(270deg);\n    transform: rotate(270deg); }\n  37.5% {\n    -webkit-transform: rotate(405deg);\n    transform: rotate(405deg); }\n  50% {\n    -webkit-transform: rotate(540deg);\n    transform: rotate(540deg); }\n  62.5% {\n    -webkit-transform: rotate(675deg);\n    transform: rotate(675deg); }\n  75% {\n    -webkit-transform: rotate(810deg);\n    transform: rotate(810deg); }\n  87.5% {\n    -webkit-transform: rotate(945deg);\n    transform: rotate(945deg); }\n  to {\n    -webkit-transform: rotate(1080deg);\n    transform: rotate(1080deg); } }\n\n@-webkit-keyframes mdl-spinner__layer-1-fade-in-out {\n  from, 25% {\n    opacity: .99; }\n  26%, 89% {\n    opacity: 0; }\n  90%, 100% {\n    opacity: .99; } }\n\n@keyframes mdl-spinner__layer-1-fade-in-out {\n  from, 25% {\n    opacity: .99; }\n  26%, 89% {\n    opacity: 0; }\n  90%, 100% {\n    opacity: .99; } }\n\n@-webkit-keyframes mdl-spinner__layer-2-fade-in-out {\n  from, 15% {\n    opacity: 0; }\n  25%, 50% {\n    opacity: .99; }\n  51% {\n    opacity: 0; } }\n\n@keyframes mdl-spinner__layer-2-fade-in-out {\n  from, 15% {\n    opacity: 0; }\n  25%, 50% {\n    opacity: .99; }\n  51% {\n    opacity: 0; } }\n\n@-webkit-keyframes mdl-spinner__layer-3-fade-in-out {\n  from, 40% {\n    opacity: 0; }\n  50%, 75% {\n    opacity: .99; }\n  76% {\n    opacity: 0; } }\n\n@keyframes mdl-spinner__layer-3-fade-in-out {\n  from, 40% {\n    opacity: 0; }\n  50%, 75% {\n    opacity: .99; }\n  76% {\n    opacity: 0; } }\n\n@-webkit-keyframes mdl-spinner__layer-4-fade-in-out {\n  from, 65% {\n    opacity: 0; }\n  75%, 90% {\n    opacity: .99; }\n  100% {\n    opacity: 0; } }\n\n@keyframes mdl-spinner__layer-4-fade-in-out {\n  from, 65% {\n    opacity: 0; }\n  75%, 90% {\n    opacity: .99; }\n  100% {\n    opacity: 0; } }\n  .scvo-widget .mdl-spinner__gap-patch {\n    position: absolute;\n    box-sizing: border-box;\n    top: 0;\n    left: 45%;\n    width: 10%;\n    height: 100%;\n    overflow: hidden;\n    border-color: inherit; }\n  .scvo-widget .mdl-spinner__gap-patch .mdl-spinner__circle {\n    width: 1000%;\n    left: -450%; }\n  .scvo-widget .mdl-spinner__circle-clipper {\n    display: inline-block;\n    position: relative;\n    width: 50%;\n    height: 100%;\n    overflow: hidden;\n    border-color: inherit; }\n  .scvo-widget .mdl-spinner__circle-clipper.mdl-spinner__left {\n    float: left; }\n  .scvo-widget .mdl-spinner__circle-clipper.mdl-spinner__right {\n    float: right; }\n  .scvo-widget .mdl-spinner__circle-clipper .mdl-spinner__circle {\n    width: 200%; }\n  .scvo-widget .mdl-spinner__circle {\n    box-sizing: border-box;\n    height: 100%;\n    border-width: 3px;\n    border-style: solid;\n    border-color: inherit;\n    border-bottom-color: transparent !important;\n    border-radius: 50%;\n    -webkit-animation: none;\n    animation: none;\n    position: absolute;\n    top: 0;\n    right: 0;\n    bottom: 0;\n    left: 0; }\n  .scvo-widget .mdl-spinner__left .mdl-spinner__circle {\n    border-right-color: transparent !important;\n    -webkit-transform: rotate(129deg);\n    transform: rotate(129deg); }\n  .scvo-widget .mdl-spinner.is-active .mdl-spinner__left .mdl-spinner__circle {\n    -webkit-animation: mdl-spinner__left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;\n    animation: mdl-spinner__left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }\n  .scvo-widget .mdl-spinner__right .mdl-spinner__circle {\n    left: -100%;\n    border-left-color: transparent !important;\n    -webkit-transform: rotate(-129deg);\n    transform: rotate(-129deg); }\n  .scvo-widget .mdl-spinner.is-active .mdl-spinner__right .mdl-spinner__circle {\n    -webkit-animation: mdl-spinner__right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;\n    animation: mdl-spinner__right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }\n\n@-webkit-keyframes mdl-spinner__left-spin {\n  from {\n    -webkit-transform: rotate(130deg);\n    transform: rotate(130deg); }\n  50% {\n    -webkit-transform: rotate(-5deg);\n    transform: rotate(-5deg); }\n  to {\n    -webkit-transform: rotate(130deg);\n    transform: rotate(130deg); } }\n\n@keyframes mdl-spinner__left-spin {\n  from {\n    -webkit-transform: rotate(130deg);\n    transform: rotate(130deg); }\n  50% {\n    -webkit-transform: rotate(-5deg);\n    transform: rotate(-5deg); }\n  to {\n    -webkit-transform: rotate(130deg);\n    transform: rotate(130deg); } }\n\n@-webkit-keyframes mdl-spinner__right-spin {\n  from {\n    -webkit-transform: rotate(-130deg);\n    transform: rotate(-130deg); }\n  50% {\n    -webkit-transform: rotate(5deg);\n    transform: rotate(5deg); }\n  to {\n    -webkit-transform: rotate(-130deg);\n    transform: rotate(-130deg); } }\n\n@keyframes mdl-spinner__right-spin {\n  from {\n    -webkit-transform: rotate(-130deg);\n    transform: rotate(-130deg); }\n  50% {\n    -webkit-transform: rotate(5deg);\n    transform: rotate(5deg); }\n  to {\n    -webkit-transform: rotate(-130deg);\n    transform: rotate(-130deg); } }\n  .scvo-widget .mdl-switch {\n    position: relative;\n    z-index: 1;\n    vertical-align: middle;\n    display: inline-block;\n    box-sizing: border-box;\n    width: 100%;\n    height: 24px;\n    margin: 0;\n    padding: 0;\n    overflow: visible;\n    -webkit-touch-callout: none;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none; }\n  .scvo-widget .mdl-switch.is-upgraded {\n    padding-left: 28px; }\n  .scvo-widget .mdl-switch__input {\n    line-height: 24px; }\n  .scvo-widget .mdl-switch.is-upgraded .mdl-switch__input {\n    position: absolute;\n    width: 0;\n    height: 0;\n    margin: 0;\n    padding: 0;\n    opacity: 0;\n    -ms-appearance: none;\n    -moz-appearance: none;\n    -webkit-appearance: none;\n    appearance: none;\n    border: none; }\n  .scvo-widget .mdl-switch__track {\n    background: rgba(0, 0, 0, 0.26);\n    position: absolute;\n    left: 0;\n    top: 5px;\n    height: 14px;\n    width: 36px;\n    border-radius: 14px;\n    cursor: pointer; }\n  .scvo-widget .mdl-switch.is-checked .mdl-switch__track {\n    background: rgba(96, 125, 139, 0.5); }\n  .scvo-widget .mdl-switch__track fieldset[disabled] .mdl-switch, .scvo-widget .mdl-switch.is-disabled .mdl-switch__track {\n    background: rgba(0, 0, 0, 0.12);\n    cursor: auto; }\n  .scvo-widget .mdl-switch__thumb {\n    background: #fafafa;\n    position: absolute;\n    left: 0;\n    top: 2px;\n    height: 20px;\n    width: 20px;\n    border-radius: 50%;\n    cursor: pointer;\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);\n    transition-duration: .28s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    transition-property: left; }\n  .scvo-widget .mdl-switch.is-checked .mdl-switch__thumb {\n    background: #607d8b;\n    left: 16px;\n    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-switch__thumb fieldset[disabled] .mdl-switch, .scvo-widget .mdl-switch.is-disabled .mdl-switch__thumb {\n    background: #bdbdbd;\n    cursor: auto; }\n  .scvo-widget .mdl-switch__focus-helper {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-4px, -4px);\n    transform: translate(-4px, -4px);\n    display: inline-block;\n    box-sizing: border-box;\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background-color: transparent; }\n  .scvo-widget .mdl-switch.is-focused .mdl-switch__focus-helper {\n    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.1);\n    background-color: rgba(0, 0, 0, 0.1); }\n  .scvo-widget .mdl-switch.is-focused.is-checked .mdl-switch__focus-helper {\n    box-shadow: 0 0 0 20px rgba(96, 125, 139, 0.26);\n    background-color: rgba(96, 125, 139, 0.26); }\n  .scvo-widget .mdl-switch__label {\n    position: relative;\n    cursor: pointer;\n    font-size: 16px;\n    line-height: 24px;\n    margin: 0;\n    left: 24px; }\n  .scvo-widget .mdl-switch__label fieldset[disabled] .mdl-switch, .scvo-widget .mdl-switch.is-disabled .mdl-switch__label {\n    color: #bdbdbd;\n    cursor: auto; }\n  .scvo-widget .mdl-switch__ripple-container {\n    position: absolute;\n    z-index: 2;\n    top: -12px;\n    left: -14px;\n    box-sizing: border-box;\n    width: 48px;\n    height: 48px;\n    border-radius: 50%;\n    cursor: pointer;\n    overflow: hidden;\n    -webkit-mask-image: -webkit-radial-gradient(circle, #fff, #000);\n    transition-duration: .4s;\n    transition-timing-function: step-end;\n    transition-property: left; }\n  .scvo-widget .mdl-switch__ripple-container .mdl-ripple {\n    background: #607d8b; }\n  .scvo-widget .mdl-switch__ripple-container fieldset[disabled] .mdl-switch, .scvo-widget .mdl-switch.is-disabled .mdl-switch__ripple-container {\n    cursor: auto; }\n  .scvo-widget fieldset[disabled] .mdl-switch .mdl-switch__ripple-container .mdl-ripple, .scvo-widget .mdl-switch.is-disabled .mdl-switch__ripple-container .mdl-ripple {\n    background: 0 0; }\n  .scvo-widget .mdl-switch.is-checked .mdl-switch__ripple-container {\n    left: 2px; }\n  .scvo-widget .mdl-tabs {\n    display: block;\n    width: 100%; }\n  .scvo-widget .mdl-tabs__tab-bar {\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-direction: row;\n    -ms-flex-direction: row;\n    flex-direction: row;\n    -webkit-justify-content: center;\n    -ms-flex-pack: center;\n    justify-content: center;\n    -webkit-align-content: space-between;\n    -ms-flex-line-pack: justify;\n    align-content: space-between;\n    -webkit-align-items: flex-start;\n    -ms-flex-align: start;\n    align-items: flex-start;\n    height: 48px;\n    padding: 0;\n    margin: 0;\n    border-bottom: 1px solid #e0e0e0; }\n  .scvo-widget .mdl-tabs__tab {\n    margin: 0;\n    border: none;\n    padding: 0 24px;\n    float: left;\n    position: relative;\n    display: block;\n    text-decoration: none;\n    height: 48px;\n    line-height: 48px;\n    text-align: center;\n    font-weight: 500;\n    font-size: 14px;\n    text-transform: uppercase;\n    color: rgba(0, 0, 0, 0.54);\n    overflow: hidden; }\n  .scvo-widget .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {\n    color: rgba(0, 0, 0, 0.87); }\n  .scvo-widget .mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {\n    height: 2px;\n    width: 100%;\n    display: block;\n    content: \" \";\n    bottom: 0;\n    left: 0;\n    position: absolute;\n    background: #607d8b;\n    -webkit-animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;\n    animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0.01s alternate forwards;\n    transition: all 1s cubic-bezier(0.4, 0, 1, 1); }\n  .scvo-widget .mdl-tabs__tab .mdl-tabs__ripple-container {\n    display: block;\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    left: 0;\n    top: 0;\n    z-index: 1;\n    overflow: hidden; }\n  .scvo-widget .mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple {\n    background: #607d8b; }\n  .scvo-widget .mdl-tabs__panel {\n    display: block; }\n  .scvo-widget .mdl-tabs.is-upgraded .mdl-tabs__panel {\n    display: none; }\n  .scvo-widget .mdl-tabs.is-upgraded .mdl-tabs__panel.is-active {\n    display: block; }\n\n@-webkit-keyframes border-expand {\n  0% {\n    opacity: 0;\n    width: 0; }\n  100% {\n    opacity: 1;\n    width: 100%; } }\n\n@keyframes border-expand {\n  0% {\n    opacity: 0;\n    width: 0; }\n  100% {\n    opacity: 1;\n    width: 100%; } }\n  .scvo-widget .mdl-textfield {\n    position: relative;\n    font-size: 16px;\n    display: inline-block;\n    box-sizing: border-box;\n    width: 300px;\n    max-width: 100%;\n    margin: 0;\n    padding: 20px 0; }\n  .scvo-widget .mdl-textfield .mdl-button {\n    position: absolute;\n    bottom: 20px; }\n  .scvo-widget .mdl-textfield--align-right {\n    text-align: right; }\n  .scvo-widget .mdl-textfield--full-width {\n    width: 100%; }\n  .scvo-widget .mdl-textfield--expandable {\n    min-width: 32px;\n    width: auto;\n    min-height: 32px; }\n  .scvo-widget .mdl-textfield--expandable .mdl-button--icon {\n    top: 16px; }\n  .scvo-widget .mdl-textfield__input {\n    border: none;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.12);\n    display: block;\n    font-size: 16px;\n    font-family: \"Helvetica\",\"Arial\",sans-serif;\n    margin: 0;\n    padding: 4px 0;\n    width: 100%;\n    background: 0 0;\n    text-align: left;\n    color: inherit; }\n  .scvo-widget .mdl-textfield__input[type=\"number\"] {\n    -moz-appearance: textfield; }\n  .scvo-widget .mdl-textfield__input[type=\"number\"]::-webkit-inner-spin-button, .scvo-widget .mdl-textfield__input[type=\"number\"]::-webkit-outer-spin-button {\n    -webkit-appearance: none;\n    margin: 0; }\n  .scvo-widget .mdl-textfield.is-focused .mdl-textfield__input {\n    outline: none; }\n  .scvo-widget .mdl-textfield.is-invalid .mdl-textfield__input {\n    border-color: #d50000;\n    box-shadow: none; }\n  .scvo-widget fieldset[disabled] .mdl-textfield .mdl-textfield__input, .scvo-widget .mdl-textfield.is-disabled .mdl-textfield__input {\n    background-color: transparent;\n    border-bottom: 1px dotted rgba(0, 0, 0, 0.12);\n    color: rgba(0, 0, 0, 0.26); }\n  .scvo-widget .mdl-textfield textarea.mdl-textfield__input {\n    display: block; }\n  .scvo-widget .mdl-textfield__label {\n    bottom: 0;\n    color: rgba(0, 0, 0, 0.26);\n    font-size: 16px;\n    left: 0;\n    right: 0;\n    pointer-events: none;\n    position: absolute;\n    display: block;\n    top: 24px;\n    width: 100%;\n    overflow: hidden;\n    white-space: nowrap;\n    text-align: left; }\n  .scvo-widget .mdl-textfield.is-dirty .mdl-textfield__label, .scvo-widget .mdl-textfield.has-placeholder .mdl-textfield__label {\n    visibility: hidden; }\n  .scvo-widget .mdl-textfield--floating-label .mdl-textfield__label {\n    transition-duration: .2s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }\n  .scvo-widget .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {\n    transition: none; }\n  .scvo-widget fieldset[disabled] .mdl-textfield .mdl-textfield__label, .scvo-widget .mdl-textfield.is-disabled.is-disabled .mdl-textfield__label {\n    color: rgba(0, 0, 0, 0.26); }\n  .scvo-widget .mdl-textfield--floating-label.is-focused .mdl-textfield__label, .scvo-widget .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .scvo-widget .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {\n    color: #607d8b;\n    font-size: 12px;\n    top: 4px;\n    visibility: visible; }\n  .scvo-widget .mdl-textfield--floating-label.is-focused .mdl-textfield__expandable-holder .mdl-textfield__label, .scvo-widget .mdl-textfield--floating-label.is-dirty .mdl-textfield__expandable-holder .mdl-textfield__label, .scvo-widget .mdl-textfield--floating-label.has-placeholder .mdl-textfield__expandable-holder .mdl-textfield__label {\n    top: -16px; }\n  .scvo-widget .mdl-textfield--floating-label.is-invalid .mdl-textfield__label {\n    color: #d50000;\n    font-size: 12px; }\n  .scvo-widget .mdl-textfield__label:after {\n    background-color: #607d8b;\n    bottom: 20px;\n    content: '';\n    height: 2px;\n    left: 45%;\n    position: absolute;\n    transition-duration: .2s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    visibility: hidden;\n    width: 10px; }\n  .scvo-widget .mdl-textfield.is-focused .mdl-textfield__label:after {\n    left: 0;\n    visibility: visible;\n    width: 100%; }\n  .scvo-widget .mdl-textfield.is-invalid .mdl-textfield__label:after {\n    background-color: #d50000; }\n  .scvo-widget .mdl-textfield__error {\n    color: #d50000;\n    position: absolute;\n    font-size: 12px;\n    margin-top: 3px;\n    visibility: hidden;\n    display: block; }\n  .scvo-widget .mdl-textfield.is-invalid .mdl-textfield__error {\n    visibility: visible; }\n  .scvo-widget .mdl-textfield__expandable-holder {\n    display: inline-block;\n    position: relative;\n    margin-left: 32px;\n    transition-duration: .2s;\n    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n    display: inline-block;\n    max-width: .1px; }\n  .scvo-widget .mdl-textfield.is-focused .mdl-textfield__expandable-holder, .scvo-widget .mdl-textfield.is-dirty .mdl-textfield__expandable-holder {\n    max-width: 600px; }\n  .scvo-widget .mdl-textfield__expandable-holder .mdl-textfield__label:after {\n    bottom: 0; }\n  .scvo-widget .mdl-tooltip {\n    -webkit-transform: scale(0);\n    transform: scale(0);\n    -webkit-transform-origin: top center;\n    transform-origin: top center;\n    z-index: 999;\n    background: rgba(97, 97, 97, 0.9);\n    border-radius: 2px;\n    color: #fff;\n    display: inline-block;\n    font-size: 10px;\n    font-weight: 500;\n    line-height: 14px;\n    max-width: 170px;\n    position: fixed;\n    top: -500px;\n    left: -500px;\n    padding: 8px;\n    text-align: center; }\n  .scvo-widget .mdl-tooltip.is-active {\n    -webkit-animation: pulse 200ms cubic-bezier(0, 0, 0.2, 1) forwards;\n    animation: pulse 200ms cubic-bezier(0, 0, 0.2, 1) forwards; }\n  .scvo-widget .mdl-tooltip--large {\n    line-height: 14px;\n    font-size: 14px;\n    padding: 16px; }\n\n@-webkit-keyframes pulse {\n  0% {\n    -webkit-transform: scale(0);\n    transform: scale(0);\n    opacity: 0; }\n  50% {\n    -webkit-transform: scale(0.99);\n    transform: scale(0.99); }\n  100% {\n    -webkit-transform: scale(1);\n    transform: scale(1);\n    opacity: 1;\n    visibility: visible; } }\n\n@keyframes pulse {\n  0% {\n    -webkit-transform: scale(0);\n    transform: scale(0);\n    opacity: 0; }\n  50% {\n    -webkit-transform: scale(0.99);\n    transform: scale(0.99); }\n  100% {\n    -webkit-transform: scale(1);\n    transform: scale(1);\n    opacity: 1;\n    visibility: visible; } }\n  .scvo-widget .mdl-shadow--2dp {\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-shadow--3dp {\n    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12); }\n  .scvo-widget .mdl-shadow--4dp {\n    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2); }\n  .scvo-widget .mdl-shadow--6dp {\n    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2); }\n  .scvo-widget .mdl-shadow--8dp {\n    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2); }\n  .scvo-widget .mdl-shadow--16dp {\n    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }\n  .scvo-widget .mdl-shadow--24dp {\n    box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2); }\n  .scvo-widget .mdl-grid {\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-flex-flow: row wrap;\n    -ms-flex-flow: row wrap;\n    flex-flow: row wrap;\n    margin: 0 auto;\n    -webkit-align-items: stretch;\n    -ms-flex-align: stretch;\n    align-items: stretch; }\n  .scvo-widget .mdl-grid.mdl-grid--no-spacing {\n    padding: 0; }\n  .scvo-widget .mdl-cell {\n    box-sizing: border-box; }\n  .scvo-widget .mdl-cell--top {\n    -webkit-align-self: flex-start;\n    -ms-flex-item-align: start;\n    align-self: flex-start; }\n  .scvo-widget .mdl-cell--middle {\n    -webkit-align-self: center;\n    -ms-flex-item-align: center;\n    -ms-grid-row-align: center;\n    align-self: center; }\n  .scvo-widget .mdl-cell--bottom {\n    -webkit-align-self: flex-end;\n    -ms-flex-item-align: end;\n    align-self: flex-end; }\n  .scvo-widget .mdl-cell--stretch {\n    -webkit-align-self: stretch;\n    -ms-flex-item-align: stretch;\n    -ms-grid-row-align: stretch;\n    align-self: stretch; }\n  .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell {\n    margin: 0; }\n  .scvo-widget .mdl-cell--order-1 {\n    -webkit-order: 1;\n    -ms-flex-order: 1;\n    order: 1; }\n  .scvo-widget .mdl-cell--order-2 {\n    -webkit-order: 2;\n    -ms-flex-order: 2;\n    order: 2; }\n  .scvo-widget .mdl-cell--order-3 {\n    -webkit-order: 3;\n    -ms-flex-order: 3;\n    order: 3; }\n  .scvo-widget .mdl-cell--order-4 {\n    -webkit-order: 4;\n    -ms-flex-order: 4;\n    order: 4; }\n  .scvo-widget .mdl-cell--order-5 {\n    -webkit-order: 5;\n    -ms-flex-order: 5;\n    order: 5; }\n  .scvo-widget .mdl-cell--order-6 {\n    -webkit-order: 6;\n    -ms-flex-order: 6;\n    order: 6; }\n  .scvo-widget .mdl-cell--order-7 {\n    -webkit-order: 7;\n    -ms-flex-order: 7;\n    order: 7; }\n  .scvo-widget .mdl-cell--order-8 {\n    -webkit-order: 8;\n    -ms-flex-order: 8;\n    order: 8; }\n  .scvo-widget .mdl-cell--order-9 {\n    -webkit-order: 9;\n    -ms-flex-order: 9;\n    order: 9; }\n  .scvo-widget .mdl-cell--order-10 {\n    -webkit-order: 10;\n    -ms-flex-order: 10;\n    order: 10; }\n  .scvo-widget .mdl-cell--order-11 {\n    -webkit-order: 11;\n    -ms-flex-order: 11;\n    order: 11; }\n  .scvo-widget .mdl-cell--order-12 {\n    -webkit-order: 12;\n    -ms-flex-order: 12;\n    order: 12; }\n  @media (max-width: 479px) {\n    .scvo-widget .mdl-grid {\n      padding: 8px; }\n    .scvo-widget .mdl-cell {\n      margin: 8px;\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell {\n      width: 100%; }\n    .scvo-widget .mdl-cell--hide-phone {\n      display: none !important; }\n    .scvo-widget .mdl-cell--order-1-phone.mdl-cell--order-1-phone {\n      -webkit-order: 1;\n      -ms-flex-order: 1;\n      order: 1; }\n    .scvo-widget .mdl-cell--order-2-phone.mdl-cell--order-2-phone {\n      -webkit-order: 2;\n      -ms-flex-order: 2;\n      order: 2; }\n    .scvo-widget .mdl-cell--order-3-phone.mdl-cell--order-3-phone {\n      -webkit-order: 3;\n      -ms-flex-order: 3;\n      order: 3; }\n    .scvo-widget .mdl-cell--order-4-phone.mdl-cell--order-4-phone {\n      -webkit-order: 4;\n      -ms-flex-order: 4;\n      order: 4; }\n    .scvo-widget .mdl-cell--order-5-phone.mdl-cell--order-5-phone {\n      -webkit-order: 5;\n      -ms-flex-order: 5;\n      order: 5; }\n    .scvo-widget .mdl-cell--order-6-phone.mdl-cell--order-6-phone {\n      -webkit-order: 6;\n      -ms-flex-order: 6;\n      order: 6; }\n    .scvo-widget .mdl-cell--order-7-phone.mdl-cell--order-7-phone {\n      -webkit-order: 7;\n      -ms-flex-order: 7;\n      order: 7; }\n    .scvo-widget .mdl-cell--order-8-phone.mdl-cell--order-8-phone {\n      -webkit-order: 8;\n      -ms-flex-order: 8;\n      order: 8; }\n    .scvo-widget .mdl-cell--order-9-phone.mdl-cell--order-9-phone {\n      -webkit-order: 9;\n      -ms-flex-order: 9;\n      order: 9; }\n    .scvo-widget .mdl-cell--order-10-phone.mdl-cell--order-10-phone {\n      -webkit-order: 10;\n      -ms-flex-order: 10;\n      order: 10; }\n    .scvo-widget .mdl-cell--order-11-phone.mdl-cell--order-11-phone {\n      -webkit-order: 11;\n      -ms-flex-order: 11;\n      order: 11; }\n    .scvo-widget .mdl-cell--order-12-phone.mdl-cell--order-12-phone {\n      -webkit-order: 12;\n      -ms-flex-order: 12;\n      order: 12; }\n    .scvo-widget .mdl-cell--1-col, .scvo-widget .mdl-cell--1-col-phone.mdl-cell--1-col-phone {\n      width: calc(25% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--1-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--1-col-phone.mdl-cell--1-col-phone {\n      width: 25%; }\n    .scvo-widget .mdl-cell--2-col, .scvo-widget .mdl-cell--2-col-phone.mdl-cell--2-col-phone {\n      width: calc(50% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--2-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--2-col-phone.mdl-cell--2-col-phone {\n      width: 50%; }\n    .scvo-widget .mdl-cell--3-col, .scvo-widget .mdl-cell--3-col-phone.mdl-cell--3-col-phone {\n      width: calc(75% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--3-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--3-col-phone.mdl-cell--3-col-phone {\n      width: 75%; }\n    .scvo-widget .mdl-cell--4-col, .scvo-widget .mdl-cell--4-col-phone.mdl-cell--4-col-phone {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--4-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--4-col-phone.mdl-cell--4-col-phone {\n      width: 100%; }\n    .scvo-widget .mdl-cell--5-col, .scvo-widget .mdl-cell--5-col-phone.mdl-cell--5-col-phone {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--5-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--5-col-phone.mdl-cell--5-col-phone {\n      width: 100%; }\n    .scvo-widget .mdl-cell--6-col, .scvo-widget .mdl-cell--6-col-phone.mdl-cell--6-col-phone {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--6-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--6-col-phone.mdl-cell--6-col-phone {\n      width: 100%; }\n    .scvo-widget .mdl-cell--7-col, .scvo-widget .mdl-cell--7-col-phone.mdl-cell--7-col-phone {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--7-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--7-col-phone.mdl-cell--7-col-phone {\n      width: 100%; }\n    .scvo-widget .mdl-cell--8-col, .scvo-widget .mdl-cell--8-col-phone.mdl-cell--8-col-phone {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--8-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--8-col-phone.mdl-cell--8-col-phone {\n      width: 100%; }\n    .scvo-widget .mdl-cell--9-col, .scvo-widget .mdl-cell--9-col-phone.mdl-cell--9-col-phone {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--9-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--9-col-phone.mdl-cell--9-col-phone {\n      width: 100%; }\n    .scvo-widget .mdl-cell--10-col, .scvo-widget .mdl-cell--10-col-phone.mdl-cell--10-col-phone {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--10-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--10-col-phone.mdl-cell--10-col-phone {\n      width: 100%; }\n    .scvo-widget .mdl-cell--11-col, .scvo-widget .mdl-cell--11-col-phone.mdl-cell--11-col-phone {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--11-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--11-col-phone.mdl-cell--11-col-phone {\n      width: 100%; }\n    .scvo-widget .mdl-cell--12-col, .scvo-widget .mdl-cell--12-col-phone.mdl-cell--12-col-phone {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--12-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--12-col-phone.mdl-cell--12-col-phone {\n      width: 100%; }\n    .scvo-widget .mdl-cell--1-offset, .scvo-widget .mdl-cell--1-offset-phone.mdl-cell--1-offset-phone {\n      margin-left: calc(25% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--1-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--1-offset-phone.mdl-cell--1-offset-phone {\n      margin-left: 25%; }\n    .scvo-widget .mdl-cell--2-offset, .scvo-widget .mdl-cell--2-offset-phone.mdl-cell--2-offset-phone {\n      margin-left: calc(50% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--2-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--2-offset-phone.mdl-cell--2-offset-phone {\n      margin-left: 50%; }\n    .scvo-widget .mdl-cell--3-offset, .scvo-widget .mdl-cell--3-offset-phone.mdl-cell--3-offset-phone {\n      margin-left: calc(75% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--3-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--3-offset-phone.mdl-cell--3-offset-phone {\n      margin-left: 75%; } }\n  @media (min-width: 480px) and (max-width: 839px) {\n    .scvo-widget .mdl-grid {\n      padding: 8px; }\n    .scvo-widget .mdl-cell {\n      margin: 8px;\n      width: calc(50% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell {\n      width: 50%; }\n    .scvo-widget .mdl-cell--hide-tablet {\n      display: none !important; }\n    .scvo-widget .mdl-cell--order-1-tablet.mdl-cell--order-1-tablet {\n      -webkit-order: 1;\n      -ms-flex-order: 1;\n      order: 1; }\n    .scvo-widget .mdl-cell--order-2-tablet.mdl-cell--order-2-tablet {\n      -webkit-order: 2;\n      -ms-flex-order: 2;\n      order: 2; }\n    .scvo-widget .mdl-cell--order-3-tablet.mdl-cell--order-3-tablet {\n      -webkit-order: 3;\n      -ms-flex-order: 3;\n      order: 3; }\n    .scvo-widget .mdl-cell--order-4-tablet.mdl-cell--order-4-tablet {\n      -webkit-order: 4;\n      -ms-flex-order: 4;\n      order: 4; }\n    .scvo-widget .mdl-cell--order-5-tablet.mdl-cell--order-5-tablet {\n      -webkit-order: 5;\n      -ms-flex-order: 5;\n      order: 5; }\n    .scvo-widget .mdl-cell--order-6-tablet.mdl-cell--order-6-tablet {\n      -webkit-order: 6;\n      -ms-flex-order: 6;\n      order: 6; }\n    .scvo-widget .mdl-cell--order-7-tablet.mdl-cell--order-7-tablet {\n      -webkit-order: 7;\n      -ms-flex-order: 7;\n      order: 7; }\n    .scvo-widget .mdl-cell--order-8-tablet.mdl-cell--order-8-tablet {\n      -webkit-order: 8;\n      -ms-flex-order: 8;\n      order: 8; }\n    .scvo-widget .mdl-cell--order-9-tablet.mdl-cell--order-9-tablet {\n      -webkit-order: 9;\n      -ms-flex-order: 9;\n      order: 9; }\n    .scvo-widget .mdl-cell--order-10-tablet.mdl-cell--order-10-tablet {\n      -webkit-order: 10;\n      -ms-flex-order: 10;\n      order: 10; }\n    .scvo-widget .mdl-cell--order-11-tablet.mdl-cell--order-11-tablet {\n      -webkit-order: 11;\n      -ms-flex-order: 11;\n      order: 11; }\n    .scvo-widget .mdl-cell--order-12-tablet.mdl-cell--order-12-tablet {\n      -webkit-order: 12;\n      -ms-flex-order: 12;\n      order: 12; }\n    .scvo-widget .mdl-cell--1-col, .scvo-widget .mdl-cell--1-col-tablet.mdl-cell--1-col-tablet {\n      width: calc(12.5% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--1-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--1-col-tablet.mdl-cell--1-col-tablet {\n      width: 12.5%; }\n    .scvo-widget .mdl-cell--2-col, .scvo-widget .mdl-cell--2-col-tablet.mdl-cell--2-col-tablet {\n      width: calc(25% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--2-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--2-col-tablet.mdl-cell--2-col-tablet {\n      width: 25%; }\n    .scvo-widget .mdl-cell--3-col, .scvo-widget .mdl-cell--3-col-tablet.mdl-cell--3-col-tablet {\n      width: calc(37.5% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--3-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--3-col-tablet.mdl-cell--3-col-tablet {\n      width: 37.5%; }\n    .scvo-widget .mdl-cell--4-col, .scvo-widget .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {\n      width: calc(50% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--4-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {\n      width: 50%; }\n    .scvo-widget .mdl-cell--5-col, .scvo-widget .mdl-cell--5-col-tablet.mdl-cell--5-col-tablet {\n      width: calc(62.5% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--5-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--5-col-tablet.mdl-cell--5-col-tablet {\n      width: 62.5%; }\n    .scvo-widget .mdl-cell--6-col, .scvo-widget .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {\n      width: calc(75% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--6-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {\n      width: 75%; }\n    .scvo-widget .mdl-cell--7-col, .scvo-widget .mdl-cell--7-col-tablet.mdl-cell--7-col-tablet {\n      width: calc(87.5% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--7-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--7-col-tablet.mdl-cell--7-col-tablet {\n      width: 87.5%; }\n    .scvo-widget .mdl-cell--8-col, .scvo-widget .mdl-cell--8-col-tablet.mdl-cell--8-col-tablet {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--8-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--8-col-tablet.mdl-cell--8-col-tablet {\n      width: 100%; }\n    .scvo-widget .mdl-cell--9-col, .scvo-widget .mdl-cell--9-col-tablet.mdl-cell--9-col-tablet {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--9-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--9-col-tablet.mdl-cell--9-col-tablet {\n      width: 100%; }\n    .scvo-widget .mdl-cell--10-col, .scvo-widget .mdl-cell--10-col-tablet.mdl-cell--10-col-tablet {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--10-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--10-col-tablet.mdl-cell--10-col-tablet {\n      width: 100%; }\n    .scvo-widget .mdl-cell--11-col, .scvo-widget .mdl-cell--11-col-tablet.mdl-cell--11-col-tablet {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--11-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--11-col-tablet.mdl-cell--11-col-tablet {\n      width: 100%; }\n    .scvo-widget .mdl-cell--12-col, .scvo-widget .mdl-cell--12-col-tablet.mdl-cell--12-col-tablet {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--12-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--12-col-tablet.mdl-cell--12-col-tablet {\n      width: 100%; }\n    .scvo-widget .mdl-cell--1-offset, .scvo-widget .mdl-cell--1-offset-tablet.mdl-cell--1-offset-tablet {\n      margin-left: calc(12.5% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--1-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--1-offset-tablet.mdl-cell--1-offset-tablet {\n      margin-left: 12.5%; }\n    .scvo-widget .mdl-cell--2-offset, .scvo-widget .mdl-cell--2-offset-tablet.mdl-cell--2-offset-tablet {\n      margin-left: calc(25% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--2-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--2-offset-tablet.mdl-cell--2-offset-tablet {\n      margin-left: 25%; }\n    .scvo-widget .mdl-cell--3-offset, .scvo-widget .mdl-cell--3-offset-tablet.mdl-cell--3-offset-tablet {\n      margin-left: calc(37.5% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--3-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--3-offset-tablet.mdl-cell--3-offset-tablet {\n      margin-left: 37.5%; }\n    .scvo-widget .mdl-cell--4-offset, .scvo-widget .mdl-cell--4-offset-tablet.mdl-cell--4-offset-tablet {\n      margin-left: calc(50% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--4-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--4-offset-tablet.mdl-cell--4-offset-tablet {\n      margin-left: 50%; }\n    .scvo-widget .mdl-cell--5-offset, .scvo-widget .mdl-cell--5-offset-tablet.mdl-cell--5-offset-tablet {\n      margin-left: calc(62.5% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--5-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--5-offset-tablet.mdl-cell--5-offset-tablet {\n      margin-left: 62.5%; }\n    .scvo-widget .mdl-cell--6-offset, .scvo-widget .mdl-cell--6-offset-tablet.mdl-cell--6-offset-tablet {\n      margin-left: calc(75% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--6-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--6-offset-tablet.mdl-cell--6-offset-tablet {\n      margin-left: 75%; }\n    .scvo-widget .mdl-cell--7-offset, .scvo-widget .mdl-cell--7-offset-tablet.mdl-cell--7-offset-tablet {\n      margin-left: calc(87.5% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--7-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--7-offset-tablet.mdl-cell--7-offset-tablet {\n      margin-left: 87.5%; } }\n  @media (min-width: 840px) {\n    .scvo-widget .mdl-grid {\n      padding: 8px; }\n    .scvo-widget .mdl-cell {\n      margin: 8px;\n      width: calc(33.3333333333% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell {\n      width: 33.3333333333%; }\n    .scvo-widget .mdl-cell--hide-desktop {\n      display: none !important; }\n    .scvo-widget .mdl-cell--order-1-desktop.mdl-cell--order-1-desktop {\n      -webkit-order: 1;\n      -ms-flex-order: 1;\n      order: 1; }\n    .scvo-widget .mdl-cell--order-2-desktop.mdl-cell--order-2-desktop {\n      -webkit-order: 2;\n      -ms-flex-order: 2;\n      order: 2; }\n    .scvo-widget .mdl-cell--order-3-desktop.mdl-cell--order-3-desktop {\n      -webkit-order: 3;\n      -ms-flex-order: 3;\n      order: 3; }\n    .scvo-widget .mdl-cell--order-4-desktop.mdl-cell--order-4-desktop {\n      -webkit-order: 4;\n      -ms-flex-order: 4;\n      order: 4; }\n    .scvo-widget .mdl-cell--order-5-desktop.mdl-cell--order-5-desktop {\n      -webkit-order: 5;\n      -ms-flex-order: 5;\n      order: 5; }\n    .scvo-widget .mdl-cell--order-6-desktop.mdl-cell--order-6-desktop {\n      -webkit-order: 6;\n      -ms-flex-order: 6;\n      order: 6; }\n    .scvo-widget .mdl-cell--order-7-desktop.mdl-cell--order-7-desktop {\n      -webkit-order: 7;\n      -ms-flex-order: 7;\n      order: 7; }\n    .scvo-widget .mdl-cell--order-8-desktop.mdl-cell--order-8-desktop {\n      -webkit-order: 8;\n      -ms-flex-order: 8;\n      order: 8; }\n    .scvo-widget .mdl-cell--order-9-desktop.mdl-cell--order-9-desktop {\n      -webkit-order: 9;\n      -ms-flex-order: 9;\n      order: 9; }\n    .scvo-widget .mdl-cell--order-10-desktop.mdl-cell--order-10-desktop {\n      -webkit-order: 10;\n      -ms-flex-order: 10;\n      order: 10; }\n    .scvo-widget .mdl-cell--order-11-desktop.mdl-cell--order-11-desktop {\n      -webkit-order: 11;\n      -ms-flex-order: 11;\n      order: 11; }\n    .scvo-widget .mdl-cell--order-12-desktop.mdl-cell--order-12-desktop {\n      -webkit-order: 12;\n      -ms-flex-order: 12;\n      order: 12; }\n    .scvo-widget .mdl-cell--1-col, .scvo-widget .mdl-cell--1-col-desktop.mdl-cell--1-col-desktop {\n      width: calc(8.3333333333% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--1-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--1-col-desktop.mdl-cell--1-col-desktop {\n      width: 8.3333333333%; }\n    .scvo-widget .mdl-cell--2-col, .scvo-widget .mdl-cell--2-col-desktop.mdl-cell--2-col-desktop {\n      width: calc(16.6666666667% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--2-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--2-col-desktop.mdl-cell--2-col-desktop {\n      width: 16.6666666667%; }\n    .scvo-widget .mdl-cell--3-col, .scvo-widget .mdl-cell--3-col-desktop.mdl-cell--3-col-desktop {\n      width: calc(25% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--3-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--3-col-desktop.mdl-cell--3-col-desktop {\n      width: 25%; }\n    .scvo-widget .mdl-cell--4-col, .scvo-widget .mdl-cell--4-col-desktop.mdl-cell--4-col-desktop {\n      width: calc(33.3333333333% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--4-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--4-col-desktop.mdl-cell--4-col-desktop {\n      width: 33.3333333333%; }\n    .scvo-widget .mdl-cell--5-col, .scvo-widget .mdl-cell--5-col-desktop.mdl-cell--5-col-desktop {\n      width: calc(41.6666666667% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--5-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--5-col-desktop.mdl-cell--5-col-desktop {\n      width: 41.6666666667%; }\n    .scvo-widget .mdl-cell--6-col, .scvo-widget .mdl-cell--6-col-desktop.mdl-cell--6-col-desktop {\n      width: calc(50% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--6-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--6-col-desktop.mdl-cell--6-col-desktop {\n      width: 50%; }\n    .scvo-widget .mdl-cell--7-col, .scvo-widget .mdl-cell--7-col-desktop.mdl-cell--7-col-desktop {\n      width: calc(58.3333333333% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--7-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--7-col-desktop.mdl-cell--7-col-desktop {\n      width: 58.3333333333%; }\n    .scvo-widget .mdl-cell--8-col, .scvo-widget .mdl-cell--8-col-desktop.mdl-cell--8-col-desktop {\n      width: calc(66.6666666667% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--8-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--8-col-desktop.mdl-cell--8-col-desktop {\n      width: 66.6666666667%; }\n    .scvo-widget .mdl-cell--9-col, .scvo-widget .mdl-cell--9-col-desktop.mdl-cell--9-col-desktop {\n      width: calc(75% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--9-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--9-col-desktop.mdl-cell--9-col-desktop {\n      width: 75%; }\n    .scvo-widget .mdl-cell--10-col, .scvo-widget .mdl-cell--10-col-desktop.mdl-cell--10-col-desktop {\n      width: calc(83.3333333333% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--10-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--10-col-desktop.mdl-cell--10-col-desktop {\n      width: 83.3333333333%; }\n    .scvo-widget .mdl-cell--11-col, .scvo-widget .mdl-cell--11-col-desktop.mdl-cell--11-col-desktop {\n      width: calc(91.6666666667% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--11-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--11-col-desktop.mdl-cell--11-col-desktop {\n      width: 91.6666666667%; }\n    .scvo-widget .mdl-cell--12-col, .scvo-widget .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {\n      width: calc(100% - 16px); }\n    .scvo-widget .mdl-grid--no-spacing > .mdl-cell--12-col, .scvo-widget .mdl-grid--no-spacing > .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {\n      width: 100%; }\n    .scvo-widget .mdl-cell--1-offset, .scvo-widget .mdl-cell--1-offset-desktop.mdl-cell--1-offset-desktop {\n      margin-left: calc(8.3333333333% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--1-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--1-offset-desktop.mdl-cell--1-offset-desktop {\n      margin-left: 8.3333333333%; }\n    .scvo-widget .mdl-cell--2-offset, .scvo-widget .mdl-cell--2-offset-desktop.mdl-cell--2-offset-desktop {\n      margin-left: calc(16.6666666667% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--2-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--2-offset-desktop.mdl-cell--2-offset-desktop {\n      margin-left: 16.6666666667%; }\n    .scvo-widget .mdl-cell--3-offset, .scvo-widget .mdl-cell--3-offset-desktop.mdl-cell--3-offset-desktop {\n      margin-left: calc(25% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--3-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--3-offset-desktop.mdl-cell--3-offset-desktop {\n      margin-left: 25%; }\n    .scvo-widget .mdl-cell--4-offset, .scvo-widget .mdl-cell--4-offset-desktop.mdl-cell--4-offset-desktop {\n      margin-left: calc(33.3333333333% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--4-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--4-offset-desktop.mdl-cell--4-offset-desktop {\n      margin-left: 33.3333333333%; }\n    .scvo-widget .mdl-cell--5-offset, .scvo-widget .mdl-cell--5-offset-desktop.mdl-cell--5-offset-desktop {\n      margin-left: calc(41.6666666667% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--5-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--5-offset-desktop.mdl-cell--5-offset-desktop {\n      margin-left: 41.6666666667%; }\n    .scvo-widget .mdl-cell--6-offset, .scvo-widget .mdl-cell--6-offset-desktop.mdl-cell--6-offset-desktop {\n      margin-left: calc(50% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--6-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--6-offset-desktop.mdl-cell--6-offset-desktop {\n      margin-left: 50%; }\n    .scvo-widget .mdl-cell--7-offset, .scvo-widget .mdl-cell--7-offset-desktop.mdl-cell--7-offset-desktop {\n      margin-left: calc(58.3333333333% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--7-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--7-offset-desktop.mdl-cell--7-offset-desktop {\n      margin-left: 58.3333333333%; }\n    .scvo-widget .mdl-cell--8-offset, .scvo-widget .mdl-cell--8-offset-desktop.mdl-cell--8-offset-desktop {\n      margin-left: calc(66.6666666667% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--8-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--8-offset-desktop.mdl-cell--8-offset-desktop {\n      margin-left: 66.6666666667%; }\n    .scvo-widget .mdl-cell--9-offset, .scvo-widget .mdl-cell--9-offset-desktop.mdl-cell--9-offset-desktop {\n      margin-left: calc(75% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--9-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--9-offset-desktop.mdl-cell--9-offset-desktop {\n      margin-left: 75%; }\n    .scvo-widget .mdl-cell--10-offset, .scvo-widget .mdl-cell--10-offset-desktop.mdl-cell--10-offset-desktop {\n      margin-left: calc(83.3333333333% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--10-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--10-offset-desktop.mdl-cell--10-offset-desktop {\n      margin-left: 83.3333333333%; }\n    .scvo-widget .mdl-cell--11-offset, .scvo-widget .mdl-cell--11-offset-desktop.mdl-cell--11-offset-desktop {\n      margin-left: calc(91.6666666667% + 8px); }\n    .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--11-offset, .scvo-widget .mdl-grid.mdl-grid--no-spacing > .mdl-cell--11-offset-desktop.mdl-cell--11-offset-desktop {\n      margin-left: 91.6666666667%; } }\n  .scvo-widget body {\n    margin: 0; }\n  .scvo-widget .styleguide-demo h1 {\n    margin: 48px 24px 0; }\n  .scvo-widget .styleguide-demo h1:after {\n    content: '';\n    display: block;\n    width: 100%;\n    border-bottom: 1px solid rgba(0, 0, 0, 0.5);\n    margin-top: 24px; }\n  .scvo-widget .styleguide-demo {\n    opacity: 0;\n    transition: opacity .6s ease; }\n  .scvo-widget .styleguide-masthead {\n    height: 256px;\n    background: #212121;\n    padding: 115px 16px 0; }\n  .scvo-widget .styleguide-container {\n    position: relative;\n    max-width: 960px;\n    width: 100%; }\n  .scvo-widget .styleguide-title {\n    color: #fff;\n    bottom: auto;\n    position: relative;\n    font-size: 56px;\n    font-weight: 300;\n    line-height: 1;\n    letter-spacing: -.02em; }\n  .scvo-widget .styleguide-title:after {\n    border-bottom: 0; }\n  .scvo-widget .styleguide-title span {\n    font-weight: 300; }\n  .scvo-widget .mdl-styleguide .mdl-layout__drawer .mdl-navigation__link {\n    padding: 10px 24px; }\n  .scvo-widget .demosLoaded .styleguide-demo {\n    opacity: 1; }\n  .scvo-widget iframe {\n    display: block;\n    width: 100%;\n    border: none; }\n  .scvo-widget iframe.heightSet {\n    overflow: hidden; }\n  .scvo-widget .demo-wrapper {\n    margin: 24px; }\n  .scvo-widget .demo-wrapper iframe {\n    border: 1px solid rgba(0, 0, 0, 0.5); }\n", ""]);
 
 
 /***/ }),
@@ -18289,23 +18289,4009 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
 
 /***/ }),
 
-/***/ "./node_modules/material-design-lite/dist/material.min.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/material-design-lite/dist/material.min.js ***!
-  \****************************************************************/
+/***/ "./node_modules/material-design-lite/material.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/material-design-lite/material.js ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+;(function() {
+"use strict";
+
 /**
- * material-design-lite - Material Design Components in CSS, JS and HTML
- * @version v1.3.0
- * @license Apache-2.0
- * @copyright 2015 Google, Inc.
- * @link https://github.com/google/material-design-lite
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
-!function(){"use strict";function e(e,t){if(e){if(t.element_.classList.contains(t.CssClasses_.MDL_JS_RIPPLE_EFFECT)){var s=document.createElement("span");s.classList.add(t.CssClasses_.MDL_RIPPLE_CONTAINER),s.classList.add(t.CssClasses_.MDL_JS_RIPPLE_EFFECT);var i=document.createElement("span");i.classList.add(t.CssClasses_.MDL_RIPPLE),s.appendChild(i),e.appendChild(s)}e.addEventListener("click",function(s){if("#"===e.getAttribute("href").charAt(0)){s.preventDefault();var i=e.href.split("#")[1],n=t.element_.querySelector("#"+i);t.resetTabState_(),t.resetPanelState_(),e.classList.add(t.CssClasses_.ACTIVE_CLASS),n.classList.add(t.CssClasses_.ACTIVE_CLASS)}})}}function t(e,t,s,i){function n(){var n=e.href.split("#")[1],a=i.content_.querySelector("#"+n);i.resetTabState_(t),i.resetPanelState_(s),e.classList.add(i.CssClasses_.IS_ACTIVE),a.classList.add(i.CssClasses_.IS_ACTIVE)}if(i.tabBar_.classList.contains(i.CssClasses_.JS_RIPPLE_EFFECT)){var a=document.createElement("span");a.classList.add(i.CssClasses_.RIPPLE_CONTAINER),a.classList.add(i.CssClasses_.JS_RIPPLE_EFFECT);var l=document.createElement("span");l.classList.add(i.CssClasses_.RIPPLE),a.appendChild(l),e.appendChild(a)}i.tabBar_.classList.contains(i.CssClasses_.TAB_MANUAL_SWITCH)||e.addEventListener("click",function(t){"#"===e.getAttribute("href").charAt(0)&&(t.preventDefault(),n())}),e.show=n}var s={upgradeDom:function(e,t){},upgradeElement:function(e,t){},upgradeElements:function(e){},upgradeAllRegistered:function(){},registerUpgradedCallback:function(e,t){},register:function(e){},downgradeElements:function(e){}};s=function(){function e(e,t){for(var s=0;s<c.length;s++)if(c[s].className===e)return"undefined"!=typeof t&&(c[s]=t),c[s];return!1}function t(e){var t=e.getAttribute("data-upgraded");return null===t?[""]:t.split(",")}function s(e,s){var i=t(e);return i.indexOf(s)!==-1}function i(e,t,s){if("CustomEvent"in window&&"function"==typeof window.CustomEvent)return new CustomEvent(e,{bubbles:t,cancelable:s});var i=document.createEvent("Events");return i.initEvent(e,t,s),i}function n(t,s){if("undefined"==typeof t&&"undefined"==typeof s)for(var i=0;i<c.length;i++)n(c[i].className,c[i].cssClass);else{var l=t;if("undefined"==typeof s){var o=e(l);o&&(s=o.cssClass)}for(var r=document.querySelectorAll("."+s),_=0;_<r.length;_++)a(r[_],l)}}function a(n,a){if(!("object"==typeof n&&n instanceof Element))throw new Error("Invalid argument provided to upgrade MDL element.");var l=i("mdl-componentupgrading",!0,!0);if(n.dispatchEvent(l),!l.defaultPrevented){var o=t(n),r=[];if(a)s(n,a)||r.push(e(a));else{var _=n.classList;c.forEach(function(e){_.contains(e.cssClass)&&r.indexOf(e)===-1&&!s(n,e.className)&&r.push(e)})}for(var d,h=0,u=r.length;h<u;h++){if(d=r[h],!d)throw new Error("Unable to find a registered component for the given class.");o.push(d.className),n.setAttribute("data-upgraded",o.join(","));var E=new d.classConstructor(n);E[C]=d,p.push(E);for(var m=0,L=d.callbacks.length;m<L;m++)d.callbacks[m](n);d.widget&&(n[d.className]=E);var I=i("mdl-componentupgraded",!0,!1);n.dispatchEvent(I)}}}function l(e){Array.isArray(e)||(e=e instanceof Element?[e]:Array.prototype.slice.call(e));for(var t,s=0,i=e.length;s<i;s++)t=e[s],t instanceof HTMLElement&&(a(t),t.children.length>0&&l(t.children))}function o(t){var s="undefined"==typeof t.widget&&"undefined"==typeof t.widget,i=!0;s||(i=t.widget||t.widget);var n={classConstructor:t.constructor||t.constructor,className:t.classAsString||t.classAsString,cssClass:t.cssClass||t.cssClass,widget:i,callbacks:[]};if(c.forEach(function(e){if(e.cssClass===n.cssClass)throw new Error("The provided cssClass has already been registered: "+e.cssClass);if(e.className===n.className)throw new Error("The provided className has already been registered")}),t.constructor.prototype.hasOwnProperty(C))throw new Error("MDL component classes must not have "+C+" defined as a property.");var a=e(t.classAsString,n);a||c.push(n)}function r(t,s){var i=e(t);i&&i.callbacks.push(s)}function _(){for(var e=0;e<c.length;e++)n(c[e].className)}function d(e){if(e){var t=p.indexOf(e);p.splice(t,1);var s=e.element_.getAttribute("data-upgraded").split(","),n=s.indexOf(e[C].classAsString);s.splice(n,1),e.element_.setAttribute("data-upgraded",s.join(","));var a=i("mdl-componentdowngraded",!0,!1);e.element_.dispatchEvent(a)}}function h(e){var t=function(e){p.filter(function(t){return t.element_===e}).forEach(d)};if(e instanceof Array||e instanceof NodeList)for(var s=0;s<e.length;s++)t(e[s]);else{if(!(e instanceof Node))throw new Error("Invalid argument provided to downgrade MDL nodes.");t(e)}}var c=[],p=[],C="mdlComponentConfigInternal_";return{upgradeDom:n,upgradeElement:a,upgradeElements:l,upgradeAllRegistered:_,registerUpgradedCallback:r,register:o,downgradeElements:h}}(),s.ComponentConfigPublic,s.ComponentConfig,s.Component,s.upgradeDom=s.upgradeDom,s.upgradeElement=s.upgradeElement,s.upgradeElements=s.upgradeElements,s.upgradeAllRegistered=s.upgradeAllRegistered,s.registerUpgradedCallback=s.registerUpgradedCallback,s.register=s.register,s.downgradeElements=s.downgradeElements,window.componentHandler=s,window.componentHandler=s,window.addEventListener("load",function(){"classList"in document.createElement("div")&&"querySelector"in document&&"addEventListener"in window&&Array.prototype.forEach?(document.documentElement.classList.add("mdl-js"),s.upgradeAllRegistered()):(s.upgradeElement=function(){},s.register=function(){})}),Date.now||(Date.now=function(){return(new Date).getTime()},Date.now=Date.now);for(var i=["webkit","moz"],n=0;n<i.length&&!window.requestAnimationFrame;++n){var a=i[n];window.requestAnimationFrame=window[a+"RequestAnimationFrame"],window.cancelAnimationFrame=window[a+"CancelAnimationFrame"]||window[a+"CancelRequestAnimationFrame"],window.requestAnimationFrame=window.requestAnimationFrame,window.cancelAnimationFrame=window.cancelAnimationFrame}if(/iP(ad|hone|od).*OS 6/.test(window.navigator.userAgent)||!window.requestAnimationFrame||!window.cancelAnimationFrame){var l=0;window.requestAnimationFrame=function(e){var t=Date.now(),s=Math.max(l+16,t);return setTimeout(function(){e(l=s)},s-t)},window.cancelAnimationFrame=clearTimeout,window.requestAnimationFrame=window.requestAnimationFrame,window.cancelAnimationFrame=window.cancelAnimationFrame}var o=function(e){this.element_=e,this.init()};window.MaterialButton=o,o.prototype.Constant_={},o.prototype.CssClasses_={RIPPLE_EFFECT:"mdl-js-ripple-effect",RIPPLE_CONTAINER:"mdl-button__ripple-container",RIPPLE:"mdl-ripple"},o.prototype.blurHandler_=function(e){e&&this.element_.blur()},o.prototype.disable=function(){this.element_.disabled=!0},o.prototype.disable=o.prototype.disable,o.prototype.enable=function(){this.element_.disabled=!1},o.prototype.enable=o.prototype.enable,o.prototype.init=function(){if(this.element_){if(this.element_.classList.contains(this.CssClasses_.RIPPLE_EFFECT)){var e=document.createElement("span");e.classList.add(this.CssClasses_.RIPPLE_CONTAINER),this.rippleElement_=document.createElement("span"),this.rippleElement_.classList.add(this.CssClasses_.RIPPLE),e.appendChild(this.rippleElement_),this.boundRippleBlurHandler=this.blurHandler_.bind(this),this.rippleElement_.addEventListener("mouseup",this.boundRippleBlurHandler),this.element_.appendChild(e)}this.boundButtonBlurHandler=this.blurHandler_.bind(this),this.element_.addEventListener("mouseup",this.boundButtonBlurHandler),this.element_.addEventListener("mouseleave",this.boundButtonBlurHandler)}},s.register({constructor:o,classAsString:"MaterialButton",cssClass:"mdl-js-button",widget:!0});var r=function(e){this.element_=e,this.init()};window.MaterialCheckbox=r,r.prototype.Constant_={TINY_TIMEOUT:.001},r.prototype.CssClasses_={INPUT:"mdl-checkbox__input",BOX_OUTLINE:"mdl-checkbox__box-outline",FOCUS_HELPER:"mdl-checkbox__focus-helper",TICK_OUTLINE:"mdl-checkbox__tick-outline",RIPPLE_EFFECT:"mdl-js-ripple-effect",RIPPLE_IGNORE_EVENTS:"mdl-js-ripple-effect--ignore-events",RIPPLE_CONTAINER:"mdl-checkbox__ripple-container",RIPPLE_CENTER:"mdl-ripple--center",RIPPLE:"mdl-ripple",IS_FOCUSED:"is-focused",IS_DISABLED:"is-disabled",IS_CHECKED:"is-checked",IS_UPGRADED:"is-upgraded"},r.prototype.onChange_=function(e){this.updateClasses_()},r.prototype.onFocus_=function(e){this.element_.classList.add(this.CssClasses_.IS_FOCUSED)},r.prototype.onBlur_=function(e){this.element_.classList.remove(this.CssClasses_.IS_FOCUSED)},r.prototype.onMouseUp_=function(e){this.blur_()},r.prototype.updateClasses_=function(){this.checkDisabled(),this.checkToggleState()},r.prototype.blur_=function(){window.setTimeout(function(){this.inputElement_.blur()}.bind(this),this.Constant_.TINY_TIMEOUT)},r.prototype.checkToggleState=function(){this.inputElement_.checked?this.element_.classList.add(this.CssClasses_.IS_CHECKED):this.element_.classList.remove(this.CssClasses_.IS_CHECKED)},r.prototype.checkToggleState=r.prototype.checkToggleState,r.prototype.checkDisabled=function(){this.inputElement_.disabled?this.element_.classList.add(this.CssClasses_.IS_DISABLED):this.element_.classList.remove(this.CssClasses_.IS_DISABLED)},r.prototype.checkDisabled=r.prototype.checkDisabled,r.prototype.disable=function(){this.inputElement_.disabled=!0,this.updateClasses_()},r.prototype.disable=r.prototype.disable,r.prototype.enable=function(){this.inputElement_.disabled=!1,this.updateClasses_()},r.prototype.enable=r.prototype.enable,r.prototype.check=function(){this.inputElement_.checked=!0,this.updateClasses_()},r.prototype.check=r.prototype.check,r.prototype.uncheck=function(){this.inputElement_.checked=!1,this.updateClasses_()},r.prototype.uncheck=r.prototype.uncheck,r.prototype.init=function(){if(this.element_){this.inputElement_=this.element_.querySelector("."+this.CssClasses_.INPUT);var e=document.createElement("span");e.classList.add(this.CssClasses_.BOX_OUTLINE);var t=document.createElement("span");t.classList.add(this.CssClasses_.FOCUS_HELPER);var s=document.createElement("span");if(s.classList.add(this.CssClasses_.TICK_OUTLINE),e.appendChild(s),this.element_.appendChild(t),this.element_.appendChild(e),this.element_.classList.contains(this.CssClasses_.RIPPLE_EFFECT)){this.element_.classList.add(this.CssClasses_.RIPPLE_IGNORE_EVENTS),this.rippleContainerElement_=document.createElement("span"),this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_CONTAINER),this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_EFFECT),this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_CENTER),this.boundRippleMouseUp=this.onMouseUp_.bind(this),this.rippleContainerElement_.addEventListener("mouseup",this.boundRippleMouseUp);var i=document.createElement("span");i.classList.add(this.CssClasses_.RIPPLE),this.rippleContainerElement_.appendChild(i),this.element_.appendChild(this.rippleContainerElement_)}this.boundInputOnChange=this.onChange_.bind(this),this.boundInputOnFocus=this.onFocus_.bind(this),this.boundInputOnBlur=this.onBlur_.bind(this),this.boundElementMouseUp=this.onMouseUp_.bind(this),this.inputElement_.addEventListener("change",this.boundInputOnChange),this.inputElement_.addEventListener("focus",this.boundInputOnFocus),this.inputElement_.addEventListener("blur",this.boundInputOnBlur),this.element_.addEventListener("mouseup",this.boundElementMouseUp),this.updateClasses_(),this.element_.classList.add(this.CssClasses_.IS_UPGRADED)}},s.register({constructor:r,classAsString:"MaterialCheckbox",cssClass:"mdl-js-checkbox",widget:!0});var _=function(e){this.element_=e,this.init()};window.MaterialIconToggle=_,_.prototype.Constant_={TINY_TIMEOUT:.001},_.prototype.CssClasses_={INPUT:"mdl-icon-toggle__input",JS_RIPPLE_EFFECT:"mdl-js-ripple-effect",RIPPLE_IGNORE_EVENTS:"mdl-js-ripple-effect--ignore-events",RIPPLE_CONTAINER:"mdl-icon-toggle__ripple-container",RIPPLE_CENTER:"mdl-ripple--center",RIPPLE:"mdl-ripple",IS_FOCUSED:"is-focused",IS_DISABLED:"is-disabled",IS_CHECKED:"is-checked"},_.prototype.onChange_=function(e){this.updateClasses_()},_.prototype.onFocus_=function(e){this.element_.classList.add(this.CssClasses_.IS_FOCUSED)},_.prototype.onBlur_=function(e){this.element_.classList.remove(this.CssClasses_.IS_FOCUSED)},_.prototype.onMouseUp_=function(e){this.blur_()},_.prototype.updateClasses_=function(){this.checkDisabled(),this.checkToggleState()},_.prototype.blur_=function(){window.setTimeout(function(){this.inputElement_.blur()}.bind(this),this.Constant_.TINY_TIMEOUT)},_.prototype.checkToggleState=function(){this.inputElement_.checked?this.element_.classList.add(this.CssClasses_.IS_CHECKED):this.element_.classList.remove(this.CssClasses_.IS_CHECKED)},_.prototype.checkToggleState=_.prototype.checkToggleState,_.prototype.checkDisabled=function(){this.inputElement_.disabled?this.element_.classList.add(this.CssClasses_.IS_DISABLED):this.element_.classList.remove(this.CssClasses_.IS_DISABLED)},_.prototype.checkDisabled=_.prototype.checkDisabled,_.prototype.disable=function(){this.inputElement_.disabled=!0,this.updateClasses_()},_.prototype.disable=_.prototype.disable,_.prototype.enable=function(){this.inputElement_.disabled=!1,this.updateClasses_()},_.prototype.enable=_.prototype.enable,_.prototype.check=function(){this.inputElement_.checked=!0,this.updateClasses_()},_.prototype.check=_.prototype.check,_.prototype.uncheck=function(){this.inputElement_.checked=!1,this.updateClasses_()},_.prototype.uncheck=_.prototype.uncheck,_.prototype.init=function(){if(this.element_){if(this.inputElement_=this.element_.querySelector("."+this.CssClasses_.INPUT),this.element_.classList.contains(this.CssClasses_.JS_RIPPLE_EFFECT)){this.element_.classList.add(this.CssClasses_.RIPPLE_IGNORE_EVENTS),this.rippleContainerElement_=document.createElement("span"),this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_CONTAINER),this.rippleContainerElement_.classList.add(this.CssClasses_.JS_RIPPLE_EFFECT),this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_CENTER),this.boundRippleMouseUp=this.onMouseUp_.bind(this),this.rippleContainerElement_.addEventListener("mouseup",this.boundRippleMouseUp);var e=document.createElement("span");e.classList.add(this.CssClasses_.RIPPLE),this.rippleContainerElement_.appendChild(e),this.element_.appendChild(this.rippleContainerElement_)}this.boundInputOnChange=this.onChange_.bind(this),this.boundInputOnFocus=this.onFocus_.bind(this),this.boundInputOnBlur=this.onBlur_.bind(this),this.boundElementOnMouseUp=this.onMouseUp_.bind(this),this.inputElement_.addEventListener("change",this.boundInputOnChange),this.inputElement_.addEventListener("focus",this.boundInputOnFocus),this.inputElement_.addEventListener("blur",this.boundInputOnBlur),this.element_.addEventListener("mouseup",this.boundElementOnMouseUp),this.updateClasses_(),this.element_.classList.add("is-upgraded")}},s.register({constructor:_,classAsString:"MaterialIconToggle",cssClass:"mdl-js-icon-toggle",widget:!0});var d=function(e){this.element_=e,this.init()};window.MaterialMenu=d,d.prototype.Constant_={TRANSITION_DURATION_SECONDS:.3,TRANSITION_DURATION_FRACTION:.8,CLOSE_TIMEOUT:150},d.prototype.Keycodes_={ENTER:13,ESCAPE:27,SPACE:32,UP_ARROW:38,DOWN_ARROW:40},d.prototype.CssClasses_={CONTAINER:"mdl-menu__container",OUTLINE:"mdl-menu__outline",ITEM:"mdl-menu__item",ITEM_RIPPLE_CONTAINER:"mdl-menu__item-ripple-container",RIPPLE_EFFECT:"mdl-js-ripple-effect",RIPPLE_IGNORE_EVENTS:"mdl-js-ripple-effect--ignore-events",RIPPLE:"mdl-ripple",IS_UPGRADED:"is-upgraded",IS_VISIBLE:"is-visible",IS_ANIMATING:"is-animating",BOTTOM_LEFT:"mdl-menu--bottom-left",BOTTOM_RIGHT:"mdl-menu--bottom-right",TOP_LEFT:"mdl-menu--top-left",TOP_RIGHT:"mdl-menu--top-right",UNALIGNED:"mdl-menu--unaligned"},d.prototype.init=function(){if(this.element_){var e=document.createElement("div");e.classList.add(this.CssClasses_.CONTAINER),this.element_.parentElement.insertBefore(e,this.element_),this.element_.parentElement.removeChild(this.element_),e.appendChild(this.element_),this.container_=e;var t=document.createElement("div");t.classList.add(this.CssClasses_.OUTLINE),this.outline_=t,e.insertBefore(t,this.element_);var s=this.element_.getAttribute("for")||this.element_.getAttribute("data-mdl-for"),i=null;s&&(i=document.getElementById(s),i&&(this.forElement_=i,i.addEventListener("click",this.handleForClick_.bind(this)),i.addEventListener("keydown",this.handleForKeyboardEvent_.bind(this))));var n=this.element_.querySelectorAll("."+this.CssClasses_.ITEM);this.boundItemKeydown_=this.handleItemKeyboardEvent_.bind(this),this.boundItemClick_=this.handleItemClick_.bind(this);for(var a=0;a<n.length;a++)n[a].addEventListener("click",this.boundItemClick_),n[a].tabIndex="-1",n[a].addEventListener("keydown",this.boundItemKeydown_);if(this.element_.classList.contains(this.CssClasses_.RIPPLE_EFFECT))for(this.element_.classList.add(this.CssClasses_.RIPPLE_IGNORE_EVENTS),a=0;a<n.length;a++){var l=n[a],o=document.createElement("span");o.classList.add(this.CssClasses_.ITEM_RIPPLE_CONTAINER);var r=document.createElement("span");r.classList.add(this.CssClasses_.RIPPLE),o.appendChild(r),l.appendChild(o),l.classList.add(this.CssClasses_.RIPPLE_EFFECT)}this.element_.classList.contains(this.CssClasses_.BOTTOM_LEFT)&&this.outline_.classList.add(this.CssClasses_.BOTTOM_LEFT),this.element_.classList.contains(this.CssClasses_.BOTTOM_RIGHT)&&this.outline_.classList.add(this.CssClasses_.BOTTOM_RIGHT),this.element_.classList.contains(this.CssClasses_.TOP_LEFT)&&this.outline_.classList.add(this.CssClasses_.TOP_LEFT),this.element_.classList.contains(this.CssClasses_.TOP_RIGHT)&&this.outline_.classList.add(this.CssClasses_.TOP_RIGHT),this.element_.classList.contains(this.CssClasses_.UNALIGNED)&&this.outline_.classList.add(this.CssClasses_.UNALIGNED),e.classList.add(this.CssClasses_.IS_UPGRADED)}},d.prototype.handleForClick_=function(e){if(this.element_&&this.forElement_){var t=this.forElement_.getBoundingClientRect(),s=this.forElement_.parentElement.getBoundingClientRect();this.element_.classList.contains(this.CssClasses_.UNALIGNED)||(this.element_.classList.contains(this.CssClasses_.BOTTOM_RIGHT)?(this.container_.style.right=s.right-t.right+"px",this.container_.style.top=this.forElement_.offsetTop+this.forElement_.offsetHeight+"px"):this.element_.classList.contains(this.CssClasses_.TOP_LEFT)?(this.container_.style.left=this.forElement_.offsetLeft+"px",this.container_.style.bottom=s.bottom-t.top+"px"):this.element_.classList.contains(this.CssClasses_.TOP_RIGHT)?(this.container_.style.right=s.right-t.right+"px",this.container_.style.bottom=s.bottom-t.top+"px"):(this.container_.style.left=this.forElement_.offsetLeft+"px",this.container_.style.top=this.forElement_.offsetTop+this.forElement_.offsetHeight+"px"))}this.toggle(e)},d.prototype.handleForKeyboardEvent_=function(e){if(this.element_&&this.container_&&this.forElement_){var t=this.element_.querySelectorAll("."+this.CssClasses_.ITEM+":not([disabled])");t&&t.length>0&&this.container_.classList.contains(this.CssClasses_.IS_VISIBLE)&&(e.keyCode===this.Keycodes_.UP_ARROW?(e.preventDefault(),t[t.length-1].focus()):e.keyCode===this.Keycodes_.DOWN_ARROW&&(e.preventDefault(),t[0].focus()))}},d.prototype.handleItemKeyboardEvent_=function(e){if(this.element_&&this.container_){var t=this.element_.querySelectorAll("."+this.CssClasses_.ITEM+":not([disabled])");if(t&&t.length>0&&this.container_.classList.contains(this.CssClasses_.IS_VISIBLE)){var s=Array.prototype.slice.call(t).indexOf(e.target);if(e.keyCode===this.Keycodes_.UP_ARROW)e.preventDefault(),s>0?t[s-1].focus():t[t.length-1].focus();else if(e.keyCode===this.Keycodes_.DOWN_ARROW)e.preventDefault(),t.length>s+1?t[s+1].focus():t[0].focus();else if(e.keyCode===this.Keycodes_.SPACE||e.keyCode===this.Keycodes_.ENTER){e.preventDefault();var i=new MouseEvent("mousedown");e.target.dispatchEvent(i),i=new MouseEvent("mouseup"),e.target.dispatchEvent(i),e.target.click()}else e.keyCode===this.Keycodes_.ESCAPE&&(e.preventDefault(),this.hide())}}},d.prototype.handleItemClick_=function(e){e.target.hasAttribute("disabled")?e.stopPropagation():(this.closing_=!0,window.setTimeout(function(e){this.hide(),this.closing_=!1}.bind(this),this.Constant_.CLOSE_TIMEOUT))},d.prototype.applyClip_=function(e,t){this.element_.classList.contains(this.CssClasses_.UNALIGNED)?this.element_.style.clip="":this.element_.classList.contains(this.CssClasses_.BOTTOM_RIGHT)?this.element_.style.clip="rect(0 "+t+"px 0 "+t+"px)":this.element_.classList.contains(this.CssClasses_.TOP_LEFT)?this.element_.style.clip="rect("+e+"px 0 "+e+"px 0)":this.element_.classList.contains(this.CssClasses_.TOP_RIGHT)?this.element_.style.clip="rect("+e+"px "+t+"px "+e+"px "+t+"px)":this.element_.style.clip=""},d.prototype.removeAnimationEndListener_=function(e){e.target.classList.remove(d.prototype.CssClasses_.IS_ANIMATING)},d.prototype.addAnimationEndListener_=function(){this.element_.addEventListener("transitionend",this.removeAnimationEndListener_),this.element_.addEventListener("webkitTransitionEnd",this.removeAnimationEndListener_)},d.prototype.show=function(e){if(this.element_&&this.container_&&this.outline_){var t=this.element_.getBoundingClientRect().height,s=this.element_.getBoundingClientRect().width;this.container_.style.width=s+"px",this.container_.style.height=t+"px",this.outline_.style.width=s+"px",this.outline_.style.height=t+"px";for(var i=this.Constant_.TRANSITION_DURATION_SECONDS*this.Constant_.TRANSITION_DURATION_FRACTION,n=this.element_.querySelectorAll("."+this.CssClasses_.ITEM),a=0;a<n.length;a++){var l=null;l=this.element_.classList.contains(this.CssClasses_.TOP_LEFT)||this.element_.classList.contains(this.CssClasses_.TOP_RIGHT)?(t-n[a].offsetTop-n[a].offsetHeight)/t*i+"s":n[a].offsetTop/t*i+"s",n[a].style.transitionDelay=l}this.applyClip_(t,s),window.requestAnimationFrame(function(){this.element_.classList.add(this.CssClasses_.IS_ANIMATING),this.element_.style.clip="rect(0 "+s+"px "+t+"px 0)",this.container_.classList.add(this.CssClasses_.IS_VISIBLE)}.bind(this)),this.addAnimationEndListener_();var o=function(t){t===e||this.closing_||t.target.parentNode===this.element_||(document.removeEventListener("click",o),this.hide())}.bind(this);document.addEventListener("click",o)}},d.prototype.show=d.prototype.show,d.prototype.hide=function(){if(this.element_&&this.container_&&this.outline_){for(var e=this.element_.querySelectorAll("."+this.CssClasses_.ITEM),t=0;t<e.length;t++)e[t].style.removeProperty("transition-delay");var s=this.element_.getBoundingClientRect(),i=s.height,n=s.width;this.element_.classList.add(this.CssClasses_.IS_ANIMATING),this.applyClip_(i,n),this.container_.classList.remove(this.CssClasses_.IS_VISIBLE),this.addAnimationEndListener_()}},d.prototype.hide=d.prototype.hide,d.prototype.toggle=function(e){this.container_.classList.contains(this.CssClasses_.IS_VISIBLE)?this.hide():this.show(e)},d.prototype.toggle=d.prototype.toggle,s.register({constructor:d,classAsString:"MaterialMenu",cssClass:"mdl-js-menu",widget:!0});var h=function(e){this.element_=e,this.init()};window.MaterialProgress=h,h.prototype.Constant_={},h.prototype.CssClasses_={INDETERMINATE_CLASS:"mdl-progress__indeterminate"},h.prototype.setProgress=function(e){this.element_.classList.contains(this.CssClasses_.INDETERMINATE_CLASS)||(this.progressbar_.style.width=e+"%")},h.prototype.setProgress=h.prototype.setProgress,h.prototype.setBuffer=function(e){this.bufferbar_.style.width=e+"%",this.auxbar_.style.width=100-e+"%"},h.prototype.setBuffer=h.prototype.setBuffer,h.prototype.init=function(){if(this.element_){var e=document.createElement("div");e.className="progressbar bar bar1",this.element_.appendChild(e),this.progressbar_=e,e=document.createElement("div"),e.className="bufferbar bar bar2",this.element_.appendChild(e),this.bufferbar_=e,e=document.createElement("div"),e.className="auxbar bar bar3",this.element_.appendChild(e),this.auxbar_=e,this.progressbar_.style.width="0%",this.bufferbar_.style.width="100%",this.auxbar_.style.width="0%",this.element_.classList.add("is-upgraded")}},s.register({constructor:h,classAsString:"MaterialProgress",cssClass:"mdl-js-progress",widget:!0});var c=function(e){this.element_=e,this.init()};window.MaterialRadio=c,c.prototype.Constant_={TINY_TIMEOUT:.001},c.prototype.CssClasses_={IS_FOCUSED:"is-focused",IS_DISABLED:"is-disabled",IS_CHECKED:"is-checked",IS_UPGRADED:"is-upgraded",JS_RADIO:"mdl-js-radio",RADIO_BTN:"mdl-radio__button",RADIO_OUTER_CIRCLE:"mdl-radio__outer-circle",RADIO_INNER_CIRCLE:"mdl-radio__inner-circle",RIPPLE_EFFECT:"mdl-js-ripple-effect",RIPPLE_IGNORE_EVENTS:"mdl-js-ripple-effect--ignore-events",RIPPLE_CONTAINER:"mdl-radio__ripple-container",RIPPLE_CENTER:"mdl-ripple--center",RIPPLE:"mdl-ripple"},c.prototype.onChange_=function(e){for(var t=document.getElementsByClassName(this.CssClasses_.JS_RADIO),s=0;s<t.length;s++){var i=t[s].querySelector("."+this.CssClasses_.RADIO_BTN);i.getAttribute("name")===this.btnElement_.getAttribute("name")&&"undefined"!=typeof t[s].MaterialRadio&&t[s].MaterialRadio.updateClasses_()}},c.prototype.onFocus_=function(e){this.element_.classList.add(this.CssClasses_.IS_FOCUSED)},c.prototype.onBlur_=function(e){this.element_.classList.remove(this.CssClasses_.IS_FOCUSED)},c.prototype.onMouseup_=function(e){this.blur_()},c.prototype.updateClasses_=function(){this.checkDisabled(),this.checkToggleState()},c.prototype.blur_=function(){window.setTimeout(function(){this.btnElement_.blur()}.bind(this),this.Constant_.TINY_TIMEOUT)},c.prototype.checkDisabled=function(){this.btnElement_.disabled?this.element_.classList.add(this.CssClasses_.IS_DISABLED):this.element_.classList.remove(this.CssClasses_.IS_DISABLED)},c.prototype.checkDisabled=c.prototype.checkDisabled,c.prototype.checkToggleState=function(){this.btnElement_.checked?this.element_.classList.add(this.CssClasses_.IS_CHECKED):this.element_.classList.remove(this.CssClasses_.IS_CHECKED)},c.prototype.checkToggleState=c.prototype.checkToggleState,c.prototype.disable=function(){this.btnElement_.disabled=!0,this.updateClasses_()},c.prototype.disable=c.prototype.disable,c.prototype.enable=function(){this.btnElement_.disabled=!1,this.updateClasses_()},c.prototype.enable=c.prototype.enable,c.prototype.check=function(){this.btnElement_.checked=!0,this.onChange_(null)},c.prototype.check=c.prototype.check,c.prototype.uncheck=function(){this.btnElement_.checked=!1,this.onChange_(null)},c.prototype.uncheck=c.prototype.uncheck,c.prototype.init=function(){if(this.element_){this.btnElement_=this.element_.querySelector("."+this.CssClasses_.RADIO_BTN),this.boundChangeHandler_=this.onChange_.bind(this),this.boundFocusHandler_=this.onChange_.bind(this),this.boundBlurHandler_=this.onBlur_.bind(this),this.boundMouseUpHandler_=this.onMouseup_.bind(this);var e=document.createElement("span");e.classList.add(this.CssClasses_.RADIO_OUTER_CIRCLE);var t=document.createElement("span");t.classList.add(this.CssClasses_.RADIO_INNER_CIRCLE),this.element_.appendChild(e),this.element_.appendChild(t);var s;if(this.element_.classList.contains(this.CssClasses_.RIPPLE_EFFECT)){this.element_.classList.add(this.CssClasses_.RIPPLE_IGNORE_EVENTS),s=document.createElement("span"),s.classList.add(this.CssClasses_.RIPPLE_CONTAINER),s.classList.add(this.CssClasses_.RIPPLE_EFFECT),s.classList.add(this.CssClasses_.RIPPLE_CENTER),s.addEventListener("mouseup",this.boundMouseUpHandler_);var i=document.createElement("span");i.classList.add(this.CssClasses_.RIPPLE),s.appendChild(i),this.element_.appendChild(s)}this.btnElement_.addEventListener("change",this.boundChangeHandler_),this.btnElement_.addEventListener("focus",this.boundFocusHandler_),this.btnElement_.addEventListener("blur",this.boundBlurHandler_),this.element_.addEventListener("mouseup",this.boundMouseUpHandler_),this.updateClasses_(),this.element_.classList.add(this.CssClasses_.IS_UPGRADED)}},s.register({constructor:c,classAsString:"MaterialRadio",cssClass:"mdl-js-radio",widget:!0});var p=function(e){this.element_=e,this.isIE_=window.navigator.msPointerEnabled,this.init()};window.MaterialSlider=p,p.prototype.Constant_={},p.prototype.CssClasses_={IE_CONTAINER:"mdl-slider__ie-container",SLIDER_CONTAINER:"mdl-slider__container",BACKGROUND_FLEX:"mdl-slider__background-flex",BACKGROUND_LOWER:"mdl-slider__background-lower",BACKGROUND_UPPER:"mdl-slider__background-upper",IS_LOWEST_VALUE:"is-lowest-value",IS_UPGRADED:"is-upgraded"},p.prototype.onInput_=function(e){this.updateValueStyles_()},p.prototype.onChange_=function(e){this.updateValueStyles_()},p.prototype.onMouseUp_=function(e){e.target.blur()},p.prototype.onContainerMouseDown_=function(e){if(e.target===this.element_.parentElement){e.preventDefault();var t=new MouseEvent("mousedown",{target:e.target,buttons:e.buttons,clientX:e.clientX,clientY:this.element_.getBoundingClientRect().y});this.element_.dispatchEvent(t)}},p.prototype.updateValueStyles_=function(){var e=(this.element_.value-this.element_.min)/(this.element_.max-this.element_.min);0===e?this.element_.classList.add(this.CssClasses_.IS_LOWEST_VALUE):this.element_.classList.remove(this.CssClasses_.IS_LOWEST_VALUE),this.isIE_||(this.backgroundLower_.style.flex=e,this.backgroundLower_.style.webkitFlex=e,this.backgroundUpper_.style.flex=1-e,this.backgroundUpper_.style.webkitFlex=1-e)},p.prototype.disable=function(){this.element_.disabled=!0},p.prototype.disable=p.prototype.disable,p.prototype.enable=function(){this.element_.disabled=!1},p.prototype.enable=p.prototype.enable,p.prototype.change=function(e){"undefined"!=typeof e&&(this.element_.value=e),this.updateValueStyles_()},p.prototype.change=p.prototype.change,p.prototype.init=function(){if(this.element_){if(this.isIE_){var e=document.createElement("div");e.classList.add(this.CssClasses_.IE_CONTAINER),this.element_.parentElement.insertBefore(e,this.element_),this.element_.parentElement.removeChild(this.element_),e.appendChild(this.element_)}else{var t=document.createElement("div");t.classList.add(this.CssClasses_.SLIDER_CONTAINER),this.element_.parentElement.insertBefore(t,this.element_),this.element_.parentElement.removeChild(this.element_),t.appendChild(this.element_);var s=document.createElement("div");s.classList.add(this.CssClasses_.BACKGROUND_FLEX),t.appendChild(s),this.backgroundLower_=document.createElement("div"),this.backgroundLower_.classList.add(this.CssClasses_.BACKGROUND_LOWER),s.appendChild(this.backgroundLower_),this.backgroundUpper_=document.createElement("div"),this.backgroundUpper_.classList.add(this.CssClasses_.BACKGROUND_UPPER),s.appendChild(this.backgroundUpper_)}this.boundInputHandler=this.onInput_.bind(this),this.boundChangeHandler=this.onChange_.bind(this),this.boundMouseUpHandler=this.onMouseUp_.bind(this),this.boundContainerMouseDownHandler=this.onContainerMouseDown_.bind(this),this.element_.addEventListener("input",this.boundInputHandler),this.element_.addEventListener("change",this.boundChangeHandler),this.element_.addEventListener("mouseup",this.boundMouseUpHandler),this.element_.parentElement.addEventListener("mousedown",this.boundContainerMouseDownHandler),this.updateValueStyles_(),this.element_.classList.add(this.CssClasses_.IS_UPGRADED)}},s.register({constructor:p,classAsString:"MaterialSlider",cssClass:"mdl-js-slider",widget:!0});var C=function(e){if(this.element_=e,this.textElement_=this.element_.querySelector("."+this.cssClasses_.MESSAGE),this.actionElement_=this.element_.querySelector("."+this.cssClasses_.ACTION),!this.textElement_)throw new Error("There must be a message element for a snackbar.");if(!this.actionElement_)throw new Error("There must be an action element for a snackbar.");this.active=!1,this.actionHandler_=void 0,this.message_=void 0,this.actionText_=void 0,this.queuedNotifications_=[],this.setActionHidden_(!0)};window.MaterialSnackbar=C,C.prototype.Constant_={ANIMATION_LENGTH:250},C.prototype.cssClasses_={SNACKBAR:"mdl-snackbar",MESSAGE:"mdl-snackbar__text",ACTION:"mdl-snackbar__action",ACTIVE:"mdl-snackbar--active"},C.prototype.displaySnackbar_=function(){this.element_.setAttribute("aria-hidden","true"),
-this.actionHandler_&&(this.actionElement_.textContent=this.actionText_,this.actionElement_.addEventListener("click",this.actionHandler_),this.setActionHidden_(!1)),this.textElement_.textContent=this.message_,this.element_.classList.add(this.cssClasses_.ACTIVE),this.element_.setAttribute("aria-hidden","false"),setTimeout(this.cleanup_.bind(this),this.timeout_)},C.prototype.showSnackbar=function(e){if(void 0===e)throw new Error("Please provide a data object with at least a message to display.");if(void 0===e.message)throw new Error("Please provide a message to be displayed.");if(e.actionHandler&&!e.actionText)throw new Error("Please provide action text with the handler.");this.active?this.queuedNotifications_.push(e):(this.active=!0,this.message_=e.message,e.timeout?this.timeout_=e.timeout:this.timeout_=2750,e.actionHandler&&(this.actionHandler_=e.actionHandler),e.actionText&&(this.actionText_=e.actionText),this.displaySnackbar_())},C.prototype.showSnackbar=C.prototype.showSnackbar,C.prototype.checkQueue_=function(){this.queuedNotifications_.length>0&&this.showSnackbar(this.queuedNotifications_.shift())},C.prototype.cleanup_=function(){this.element_.classList.remove(this.cssClasses_.ACTIVE),setTimeout(function(){this.element_.setAttribute("aria-hidden","true"),this.textElement_.textContent="",Boolean(this.actionElement_.getAttribute("aria-hidden"))||(this.setActionHidden_(!0),this.actionElement_.textContent="",this.actionElement_.removeEventListener("click",this.actionHandler_)),this.actionHandler_=void 0,this.message_=void 0,this.actionText_=void 0,this.active=!1,this.checkQueue_()}.bind(this),this.Constant_.ANIMATION_LENGTH)},C.prototype.setActionHidden_=function(e){e?this.actionElement_.setAttribute("aria-hidden","true"):this.actionElement_.removeAttribute("aria-hidden")},s.register({constructor:C,classAsString:"MaterialSnackbar",cssClass:"mdl-js-snackbar",widget:!0});var u=function(e){this.element_=e,this.init()};window.MaterialSpinner=u,u.prototype.Constant_={MDL_SPINNER_LAYER_COUNT:4},u.prototype.CssClasses_={MDL_SPINNER_LAYER:"mdl-spinner__layer",MDL_SPINNER_CIRCLE_CLIPPER:"mdl-spinner__circle-clipper",MDL_SPINNER_CIRCLE:"mdl-spinner__circle",MDL_SPINNER_GAP_PATCH:"mdl-spinner__gap-patch",MDL_SPINNER_LEFT:"mdl-spinner__left",MDL_SPINNER_RIGHT:"mdl-spinner__right"},u.prototype.createLayer=function(e){var t=document.createElement("div");t.classList.add(this.CssClasses_.MDL_SPINNER_LAYER),t.classList.add(this.CssClasses_.MDL_SPINNER_LAYER+"-"+e);var s=document.createElement("div");s.classList.add(this.CssClasses_.MDL_SPINNER_CIRCLE_CLIPPER),s.classList.add(this.CssClasses_.MDL_SPINNER_LEFT);var i=document.createElement("div");i.classList.add(this.CssClasses_.MDL_SPINNER_GAP_PATCH);var n=document.createElement("div");n.classList.add(this.CssClasses_.MDL_SPINNER_CIRCLE_CLIPPER),n.classList.add(this.CssClasses_.MDL_SPINNER_RIGHT);for(var a=[s,i,n],l=0;l<a.length;l++){var o=document.createElement("div");o.classList.add(this.CssClasses_.MDL_SPINNER_CIRCLE),a[l].appendChild(o)}t.appendChild(s),t.appendChild(i),t.appendChild(n),this.element_.appendChild(t)},u.prototype.createLayer=u.prototype.createLayer,u.prototype.stop=function(){this.element_.classList.remove("is-active")},u.prototype.stop=u.prototype.stop,u.prototype.start=function(){this.element_.classList.add("is-active")},u.prototype.start=u.prototype.start,u.prototype.init=function(){if(this.element_){for(var e=1;e<=this.Constant_.MDL_SPINNER_LAYER_COUNT;e++)this.createLayer(e);this.element_.classList.add("is-upgraded")}},s.register({constructor:u,classAsString:"MaterialSpinner",cssClass:"mdl-js-spinner",widget:!0});var E=function(e){this.element_=e,this.init()};window.MaterialSwitch=E,E.prototype.Constant_={TINY_TIMEOUT:.001},E.prototype.CssClasses_={INPUT:"mdl-switch__input",TRACK:"mdl-switch__track",THUMB:"mdl-switch__thumb",FOCUS_HELPER:"mdl-switch__focus-helper",RIPPLE_EFFECT:"mdl-js-ripple-effect",RIPPLE_IGNORE_EVENTS:"mdl-js-ripple-effect--ignore-events",RIPPLE_CONTAINER:"mdl-switch__ripple-container",RIPPLE_CENTER:"mdl-ripple--center",RIPPLE:"mdl-ripple",IS_FOCUSED:"is-focused",IS_DISABLED:"is-disabled",IS_CHECKED:"is-checked"},E.prototype.onChange_=function(e){this.updateClasses_()},E.prototype.onFocus_=function(e){this.element_.classList.add(this.CssClasses_.IS_FOCUSED)},E.prototype.onBlur_=function(e){this.element_.classList.remove(this.CssClasses_.IS_FOCUSED)},E.prototype.onMouseUp_=function(e){this.blur_()},E.prototype.updateClasses_=function(){this.checkDisabled(),this.checkToggleState()},E.prototype.blur_=function(){window.setTimeout(function(){this.inputElement_.blur()}.bind(this),this.Constant_.TINY_TIMEOUT)},E.prototype.checkDisabled=function(){this.inputElement_.disabled?this.element_.classList.add(this.CssClasses_.IS_DISABLED):this.element_.classList.remove(this.CssClasses_.IS_DISABLED)},E.prototype.checkDisabled=E.prototype.checkDisabled,E.prototype.checkToggleState=function(){this.inputElement_.checked?this.element_.classList.add(this.CssClasses_.IS_CHECKED):this.element_.classList.remove(this.CssClasses_.IS_CHECKED)},E.prototype.checkToggleState=E.prototype.checkToggleState,E.prototype.disable=function(){this.inputElement_.disabled=!0,this.updateClasses_()},E.prototype.disable=E.prototype.disable,E.prototype.enable=function(){this.inputElement_.disabled=!1,this.updateClasses_()},E.prototype.enable=E.prototype.enable,E.prototype.on=function(){this.inputElement_.checked=!0,this.updateClasses_()},E.prototype.on=E.prototype.on,E.prototype.off=function(){this.inputElement_.checked=!1,this.updateClasses_()},E.prototype.off=E.prototype.off,E.prototype.init=function(){if(this.element_){this.inputElement_=this.element_.querySelector("."+this.CssClasses_.INPUT);var e=document.createElement("div");e.classList.add(this.CssClasses_.TRACK);var t=document.createElement("div");t.classList.add(this.CssClasses_.THUMB);var s=document.createElement("span");if(s.classList.add(this.CssClasses_.FOCUS_HELPER),t.appendChild(s),this.element_.appendChild(e),this.element_.appendChild(t),this.boundMouseUpHandler=this.onMouseUp_.bind(this),this.element_.classList.contains(this.CssClasses_.RIPPLE_EFFECT)){this.element_.classList.add(this.CssClasses_.RIPPLE_IGNORE_EVENTS),this.rippleContainerElement_=document.createElement("span"),this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_CONTAINER),this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_EFFECT),this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_CENTER),this.rippleContainerElement_.addEventListener("mouseup",this.boundMouseUpHandler);var i=document.createElement("span");i.classList.add(this.CssClasses_.RIPPLE),this.rippleContainerElement_.appendChild(i),this.element_.appendChild(this.rippleContainerElement_)}this.boundChangeHandler=this.onChange_.bind(this),this.boundFocusHandler=this.onFocus_.bind(this),this.boundBlurHandler=this.onBlur_.bind(this),this.inputElement_.addEventListener("change",this.boundChangeHandler),this.inputElement_.addEventListener("focus",this.boundFocusHandler),this.inputElement_.addEventListener("blur",this.boundBlurHandler),this.element_.addEventListener("mouseup",this.boundMouseUpHandler),this.updateClasses_(),this.element_.classList.add("is-upgraded")}},s.register({constructor:E,classAsString:"MaterialSwitch",cssClass:"mdl-js-switch",widget:!0});var m=function(e){this.element_=e,this.init()};window.MaterialTabs=m,m.prototype.Constant_={},m.prototype.CssClasses_={TAB_CLASS:"mdl-tabs__tab",PANEL_CLASS:"mdl-tabs__panel",ACTIVE_CLASS:"is-active",UPGRADED_CLASS:"is-upgraded",MDL_JS_RIPPLE_EFFECT:"mdl-js-ripple-effect",MDL_RIPPLE_CONTAINER:"mdl-tabs__ripple-container",MDL_RIPPLE:"mdl-ripple",MDL_JS_RIPPLE_EFFECT_IGNORE_EVENTS:"mdl-js-ripple-effect--ignore-events"},m.prototype.initTabs_=function(){this.element_.classList.contains(this.CssClasses_.MDL_JS_RIPPLE_EFFECT)&&this.element_.classList.add(this.CssClasses_.MDL_JS_RIPPLE_EFFECT_IGNORE_EVENTS),this.tabs_=this.element_.querySelectorAll("."+this.CssClasses_.TAB_CLASS),this.panels_=this.element_.querySelectorAll("."+this.CssClasses_.PANEL_CLASS);for(var t=0;t<this.tabs_.length;t++)new e(this.tabs_[t],this);this.element_.classList.add(this.CssClasses_.UPGRADED_CLASS)},m.prototype.resetTabState_=function(){for(var e=0;e<this.tabs_.length;e++)this.tabs_[e].classList.remove(this.CssClasses_.ACTIVE_CLASS)},m.prototype.resetPanelState_=function(){for(var e=0;e<this.panels_.length;e++)this.panels_[e].classList.remove(this.CssClasses_.ACTIVE_CLASS)},m.prototype.init=function(){this.element_&&this.initTabs_()},s.register({constructor:m,classAsString:"MaterialTabs",cssClass:"mdl-js-tabs"});var L=function(e){this.element_=e,this.maxRows=this.Constant_.NO_MAX_ROWS,this.init()};window.MaterialTextfield=L,L.prototype.Constant_={NO_MAX_ROWS:-1,MAX_ROWS_ATTRIBUTE:"maxrows"},L.prototype.CssClasses_={LABEL:"mdl-textfield__label",INPUT:"mdl-textfield__input",IS_DIRTY:"is-dirty",IS_FOCUSED:"is-focused",IS_DISABLED:"is-disabled",IS_INVALID:"is-invalid",IS_UPGRADED:"is-upgraded",HAS_PLACEHOLDER:"has-placeholder"},L.prototype.onKeyDown_=function(e){var t=e.target.value.split("\n").length;13===e.keyCode&&t>=this.maxRows&&e.preventDefault()},L.prototype.onFocus_=function(e){this.element_.classList.add(this.CssClasses_.IS_FOCUSED)},L.prototype.onBlur_=function(e){this.element_.classList.remove(this.CssClasses_.IS_FOCUSED)},L.prototype.onReset_=function(e){this.updateClasses_()},L.prototype.updateClasses_=function(){this.checkDisabled(),this.checkValidity(),this.checkDirty(),this.checkFocus()},L.prototype.checkDisabled=function(){this.input_.disabled?this.element_.classList.add(this.CssClasses_.IS_DISABLED):this.element_.classList.remove(this.CssClasses_.IS_DISABLED)},L.prototype.checkDisabled=L.prototype.checkDisabled,L.prototype.checkFocus=function(){Boolean(this.element_.querySelector(":focus"))?this.element_.classList.add(this.CssClasses_.IS_FOCUSED):this.element_.classList.remove(this.CssClasses_.IS_FOCUSED)},L.prototype.checkFocus=L.prototype.checkFocus,L.prototype.checkValidity=function(){this.input_.validity&&(this.input_.validity.valid?this.element_.classList.remove(this.CssClasses_.IS_INVALID):this.element_.classList.add(this.CssClasses_.IS_INVALID))},L.prototype.checkValidity=L.prototype.checkValidity,L.prototype.checkDirty=function(){this.input_.value&&this.input_.value.length>0?this.element_.classList.add(this.CssClasses_.IS_DIRTY):this.element_.classList.remove(this.CssClasses_.IS_DIRTY)},L.prototype.checkDirty=L.prototype.checkDirty,L.prototype.disable=function(){this.input_.disabled=!0,this.updateClasses_()},L.prototype.disable=L.prototype.disable,L.prototype.enable=function(){this.input_.disabled=!1,this.updateClasses_()},L.prototype.enable=L.prototype.enable,L.prototype.change=function(e){this.input_.value=e||"",this.updateClasses_()},L.prototype.change=L.prototype.change,L.prototype.init=function(){if(this.element_&&(this.label_=this.element_.querySelector("."+this.CssClasses_.LABEL),this.input_=this.element_.querySelector("."+this.CssClasses_.INPUT),this.input_)){this.input_.hasAttribute(this.Constant_.MAX_ROWS_ATTRIBUTE)&&(this.maxRows=parseInt(this.input_.getAttribute(this.Constant_.MAX_ROWS_ATTRIBUTE),10),isNaN(this.maxRows)&&(this.maxRows=this.Constant_.NO_MAX_ROWS)),this.input_.hasAttribute("placeholder")&&this.element_.classList.add(this.CssClasses_.HAS_PLACEHOLDER),this.boundUpdateClassesHandler=this.updateClasses_.bind(this),this.boundFocusHandler=this.onFocus_.bind(this),this.boundBlurHandler=this.onBlur_.bind(this),this.boundResetHandler=this.onReset_.bind(this),this.input_.addEventListener("input",this.boundUpdateClassesHandler),this.input_.addEventListener("focus",this.boundFocusHandler),this.input_.addEventListener("blur",this.boundBlurHandler),this.input_.addEventListener("reset",this.boundResetHandler),this.maxRows!==this.Constant_.NO_MAX_ROWS&&(this.boundKeyDownHandler=this.onKeyDown_.bind(this),this.input_.addEventListener("keydown",this.boundKeyDownHandler));var e=this.element_.classList.contains(this.CssClasses_.IS_INVALID);this.updateClasses_(),this.element_.classList.add(this.CssClasses_.IS_UPGRADED),e&&this.element_.classList.add(this.CssClasses_.IS_INVALID),this.input_.hasAttribute("autofocus")&&(this.element_.focus(),this.checkFocus())}},s.register({constructor:L,classAsString:"MaterialTextfield",cssClass:"mdl-js-textfield",widget:!0});var I=function(e){this.element_=e,this.init()};window.MaterialTooltip=I,I.prototype.Constant_={},I.prototype.CssClasses_={IS_ACTIVE:"is-active",BOTTOM:"mdl-tooltip--bottom",LEFT:"mdl-tooltip--left",RIGHT:"mdl-tooltip--right",TOP:"mdl-tooltip--top"},I.prototype.handleMouseEnter_=function(e){var t=e.target.getBoundingClientRect(),s=t.left+t.width/2,i=t.top+t.height/2,n=-1*(this.element_.offsetWidth/2),a=-1*(this.element_.offsetHeight/2);this.element_.classList.contains(this.CssClasses_.LEFT)||this.element_.classList.contains(this.CssClasses_.RIGHT)?(s=t.width/2,i+a<0?(this.element_.style.top="0",this.element_.style.marginTop="0"):(this.element_.style.top=i+"px",this.element_.style.marginTop=a+"px")):s+n<0?(this.element_.style.left="0",this.element_.style.marginLeft="0"):(this.element_.style.left=s+"px",this.element_.style.marginLeft=n+"px"),this.element_.classList.contains(this.CssClasses_.TOP)?this.element_.style.top=t.top-this.element_.offsetHeight-10+"px":this.element_.classList.contains(this.CssClasses_.RIGHT)?this.element_.style.left=t.left+t.width+10+"px":this.element_.classList.contains(this.CssClasses_.LEFT)?this.element_.style.left=t.left-this.element_.offsetWidth-10+"px":this.element_.style.top=t.top+t.height+10+"px",this.element_.classList.add(this.CssClasses_.IS_ACTIVE)},I.prototype.hideTooltip_=function(){this.element_.classList.remove(this.CssClasses_.IS_ACTIVE)},I.prototype.init=function(){if(this.element_){var e=this.element_.getAttribute("for")||this.element_.getAttribute("data-mdl-for");e&&(this.forElement_=document.getElementById(e)),this.forElement_&&(this.forElement_.hasAttribute("tabindex")||this.forElement_.setAttribute("tabindex","0"),this.boundMouseEnterHandler=this.handleMouseEnter_.bind(this),this.boundMouseLeaveAndScrollHandler=this.hideTooltip_.bind(this),this.forElement_.addEventListener("mouseenter",this.boundMouseEnterHandler,!1),this.forElement_.addEventListener("touchend",this.boundMouseEnterHandler,!1),this.forElement_.addEventListener("mouseleave",this.boundMouseLeaveAndScrollHandler,!1),window.addEventListener("scroll",this.boundMouseLeaveAndScrollHandler,!0),window.addEventListener("touchstart",this.boundMouseLeaveAndScrollHandler))}},s.register({constructor:I,classAsString:"MaterialTooltip",cssClass:"mdl-tooltip"});var f=function(e){this.element_=e,this.init()};window.MaterialLayout=f,f.prototype.Constant_={MAX_WIDTH:"(max-width: 1024px)",TAB_SCROLL_PIXELS:100,RESIZE_TIMEOUT:100,MENU_ICON:"&#xE5D2;",CHEVRON_LEFT:"chevron_left",CHEVRON_RIGHT:"chevron_right"},f.prototype.Keycodes_={ENTER:13,ESCAPE:27,SPACE:32},f.prototype.Mode_={STANDARD:0,SEAMED:1,WATERFALL:2,SCROLL:3},f.prototype.CssClasses_={CONTAINER:"mdl-layout__container",HEADER:"mdl-layout__header",DRAWER:"mdl-layout__drawer",CONTENT:"mdl-layout__content",DRAWER_BTN:"mdl-layout__drawer-button",ICON:"material-icons",JS_RIPPLE_EFFECT:"mdl-js-ripple-effect",RIPPLE_CONTAINER:"mdl-layout__tab-ripple-container",RIPPLE:"mdl-ripple",RIPPLE_IGNORE_EVENTS:"mdl-js-ripple-effect--ignore-events",HEADER_SEAMED:"mdl-layout__header--seamed",HEADER_WATERFALL:"mdl-layout__header--waterfall",HEADER_SCROLL:"mdl-layout__header--scroll",FIXED_HEADER:"mdl-layout--fixed-header",OBFUSCATOR:"mdl-layout__obfuscator",TAB_BAR:"mdl-layout__tab-bar",TAB_CONTAINER:"mdl-layout__tab-bar-container",TAB:"mdl-layout__tab",TAB_BAR_BUTTON:"mdl-layout__tab-bar-button",TAB_BAR_LEFT_BUTTON:"mdl-layout__tab-bar-left-button",TAB_BAR_RIGHT_BUTTON:"mdl-layout__tab-bar-right-button",TAB_MANUAL_SWITCH:"mdl-layout__tab-manual-switch",PANEL:"mdl-layout__tab-panel",HAS_DRAWER:"has-drawer",HAS_TABS:"has-tabs",HAS_SCROLLING_HEADER:"has-scrolling-header",CASTING_SHADOW:"is-casting-shadow",IS_COMPACT:"is-compact",IS_SMALL_SCREEN:"is-small-screen",IS_DRAWER_OPEN:"is-visible",IS_ACTIVE:"is-active",IS_UPGRADED:"is-upgraded",IS_ANIMATING:"is-animating",ON_LARGE_SCREEN:"mdl-layout--large-screen-only",ON_SMALL_SCREEN:"mdl-layout--small-screen-only"},f.prototype.contentScrollHandler_=function(){if(!this.header_.classList.contains(this.CssClasses_.IS_ANIMATING)){var e=!this.element_.classList.contains(this.CssClasses_.IS_SMALL_SCREEN)||this.element_.classList.contains(this.CssClasses_.FIXED_HEADER);this.content_.scrollTop>0&&!this.header_.classList.contains(this.CssClasses_.IS_COMPACT)?(this.header_.classList.add(this.CssClasses_.CASTING_SHADOW),this.header_.classList.add(this.CssClasses_.IS_COMPACT),e&&this.header_.classList.add(this.CssClasses_.IS_ANIMATING)):this.content_.scrollTop<=0&&this.header_.classList.contains(this.CssClasses_.IS_COMPACT)&&(this.header_.classList.remove(this.CssClasses_.CASTING_SHADOW),this.header_.classList.remove(this.CssClasses_.IS_COMPACT),e&&this.header_.classList.add(this.CssClasses_.IS_ANIMATING))}},f.prototype.keyboardEventHandler_=function(e){e.keyCode===this.Keycodes_.ESCAPE&&this.drawer_.classList.contains(this.CssClasses_.IS_DRAWER_OPEN)&&this.toggleDrawer()},f.prototype.screenSizeHandler_=function(){this.screenSizeMediaQuery_.matches?this.element_.classList.add(this.CssClasses_.IS_SMALL_SCREEN):(this.element_.classList.remove(this.CssClasses_.IS_SMALL_SCREEN),this.drawer_&&(this.drawer_.classList.remove(this.CssClasses_.IS_DRAWER_OPEN),this.obfuscator_.classList.remove(this.CssClasses_.IS_DRAWER_OPEN)))},f.prototype.drawerToggleHandler_=function(e){if(e&&"keydown"===e.type){if(e.keyCode!==this.Keycodes_.SPACE&&e.keyCode!==this.Keycodes_.ENTER)return;e.preventDefault()}this.toggleDrawer()},f.prototype.headerTransitionEndHandler_=function(){this.header_.classList.remove(this.CssClasses_.IS_ANIMATING)},f.prototype.headerClickHandler_=function(){this.header_.classList.contains(this.CssClasses_.IS_COMPACT)&&(this.header_.classList.remove(this.CssClasses_.IS_COMPACT),this.header_.classList.add(this.CssClasses_.IS_ANIMATING))},f.prototype.resetTabState_=function(e){for(var t=0;t<e.length;t++)e[t].classList.remove(this.CssClasses_.IS_ACTIVE)},f.prototype.resetPanelState_=function(e){for(var t=0;t<e.length;t++)e[t].classList.remove(this.CssClasses_.IS_ACTIVE)},f.prototype.toggleDrawer=function(){var e=this.element_.querySelector("."+this.CssClasses_.DRAWER_BTN);this.drawer_.classList.toggle(this.CssClasses_.IS_DRAWER_OPEN),this.obfuscator_.classList.toggle(this.CssClasses_.IS_DRAWER_OPEN),this.drawer_.classList.contains(this.CssClasses_.IS_DRAWER_OPEN)?(this.drawer_.setAttribute("aria-hidden","false"),e.setAttribute("aria-expanded","true")):(this.drawer_.setAttribute("aria-hidden","true"),e.setAttribute("aria-expanded","false"))},f.prototype.toggleDrawer=f.prototype.toggleDrawer,f.prototype.init=function(){if(this.element_){var e=document.createElement("div");e.classList.add(this.CssClasses_.CONTAINER);var s=this.element_.querySelector(":focus");this.element_.parentElement.insertBefore(e,this.element_),this.element_.parentElement.removeChild(this.element_),e.appendChild(this.element_),s&&s.focus();for(var i=this.element_.childNodes,n=i.length,a=0;a<n;a++){var l=i[a];l.classList&&l.classList.contains(this.CssClasses_.HEADER)&&(this.header_=l),l.classList&&l.classList.contains(this.CssClasses_.DRAWER)&&(this.drawer_=l),l.classList&&l.classList.contains(this.CssClasses_.CONTENT)&&(this.content_=l)}window.addEventListener("pageshow",function(e){e.persisted&&(this.element_.style.overflowY="hidden",requestAnimationFrame(function(){this.element_.style.overflowY=""}.bind(this)))}.bind(this),!1),this.header_&&(this.tabBar_=this.header_.querySelector("."+this.CssClasses_.TAB_BAR));var o=this.Mode_.STANDARD;if(this.header_&&(this.header_.classList.contains(this.CssClasses_.HEADER_SEAMED)?o=this.Mode_.SEAMED:this.header_.classList.contains(this.CssClasses_.HEADER_WATERFALL)?(o=this.Mode_.WATERFALL,this.header_.addEventListener("transitionend",this.headerTransitionEndHandler_.bind(this)),this.header_.addEventListener("click",this.headerClickHandler_.bind(this))):this.header_.classList.contains(this.CssClasses_.HEADER_SCROLL)&&(o=this.Mode_.SCROLL,e.classList.add(this.CssClasses_.HAS_SCROLLING_HEADER)),o===this.Mode_.STANDARD?(this.header_.classList.add(this.CssClasses_.CASTING_SHADOW),this.tabBar_&&this.tabBar_.classList.add(this.CssClasses_.CASTING_SHADOW)):o===this.Mode_.SEAMED||o===this.Mode_.SCROLL?(this.header_.classList.remove(this.CssClasses_.CASTING_SHADOW),this.tabBar_&&this.tabBar_.classList.remove(this.CssClasses_.CASTING_SHADOW)):o===this.Mode_.WATERFALL&&(this.content_.addEventListener("scroll",this.contentScrollHandler_.bind(this)),this.contentScrollHandler_())),this.drawer_){var r=this.element_.querySelector("."+this.CssClasses_.DRAWER_BTN);if(!r){r=document.createElement("div"),r.setAttribute("aria-expanded","false"),r.setAttribute("role","button"),r.setAttribute("tabindex","0"),r.classList.add(this.CssClasses_.DRAWER_BTN);var _=document.createElement("i");_.classList.add(this.CssClasses_.ICON),_.innerHTML=this.Constant_.MENU_ICON,r.appendChild(_)}this.drawer_.classList.contains(this.CssClasses_.ON_LARGE_SCREEN)?r.classList.add(this.CssClasses_.ON_LARGE_SCREEN):this.drawer_.classList.contains(this.CssClasses_.ON_SMALL_SCREEN)&&r.classList.add(this.CssClasses_.ON_SMALL_SCREEN),r.addEventListener("click",this.drawerToggleHandler_.bind(this)),r.addEventListener("keydown",this.drawerToggleHandler_.bind(this)),this.element_.classList.add(this.CssClasses_.HAS_DRAWER),this.element_.classList.contains(this.CssClasses_.FIXED_HEADER)?this.header_.insertBefore(r,this.header_.firstChild):this.element_.insertBefore(r,this.content_);var d=document.createElement("div");d.classList.add(this.CssClasses_.OBFUSCATOR),this.element_.appendChild(d),d.addEventListener("click",this.drawerToggleHandler_.bind(this)),this.obfuscator_=d,this.drawer_.addEventListener("keydown",this.keyboardEventHandler_.bind(this)),this.drawer_.setAttribute("aria-hidden","true")}if(this.screenSizeMediaQuery_=window.matchMedia(this.Constant_.MAX_WIDTH),this.screenSizeMediaQuery_.addListener(this.screenSizeHandler_.bind(this)),this.screenSizeHandler_(),this.header_&&this.tabBar_){this.element_.classList.add(this.CssClasses_.HAS_TABS);var h=document.createElement("div");h.classList.add(this.CssClasses_.TAB_CONTAINER),this.header_.insertBefore(h,this.tabBar_),this.header_.removeChild(this.tabBar_);var c=document.createElement("div");c.classList.add(this.CssClasses_.TAB_BAR_BUTTON),c.classList.add(this.CssClasses_.TAB_BAR_LEFT_BUTTON);var p=document.createElement("i");p.classList.add(this.CssClasses_.ICON),p.textContent=this.Constant_.CHEVRON_LEFT,c.appendChild(p),c.addEventListener("click",function(){this.tabBar_.scrollLeft-=this.Constant_.TAB_SCROLL_PIXELS}.bind(this));var C=document.createElement("div");C.classList.add(this.CssClasses_.TAB_BAR_BUTTON),C.classList.add(this.CssClasses_.TAB_BAR_RIGHT_BUTTON);var u=document.createElement("i");u.classList.add(this.CssClasses_.ICON),u.textContent=this.Constant_.CHEVRON_RIGHT,C.appendChild(u),C.addEventListener("click",function(){this.tabBar_.scrollLeft+=this.Constant_.TAB_SCROLL_PIXELS}.bind(this)),h.appendChild(c),h.appendChild(this.tabBar_),h.appendChild(C);var E=function(){this.tabBar_.scrollLeft>0?c.classList.add(this.CssClasses_.IS_ACTIVE):c.classList.remove(this.CssClasses_.IS_ACTIVE),this.tabBar_.scrollLeft<this.tabBar_.scrollWidth-this.tabBar_.offsetWidth?C.classList.add(this.CssClasses_.IS_ACTIVE):C.classList.remove(this.CssClasses_.IS_ACTIVE)}.bind(this);this.tabBar_.addEventListener("scroll",E),E();var m=function(){this.resizeTimeoutId_&&clearTimeout(this.resizeTimeoutId_),this.resizeTimeoutId_=setTimeout(function(){E(),this.resizeTimeoutId_=null}.bind(this),this.Constant_.RESIZE_TIMEOUT)}.bind(this);window.addEventListener("resize",m),this.tabBar_.classList.contains(this.CssClasses_.JS_RIPPLE_EFFECT)&&this.tabBar_.classList.add(this.CssClasses_.RIPPLE_IGNORE_EVENTS);for(var L=this.tabBar_.querySelectorAll("."+this.CssClasses_.TAB),I=this.content_.querySelectorAll("."+this.CssClasses_.PANEL),f=0;f<L.length;f++)new t(L[f],L,I,this)}this.element_.classList.add(this.CssClasses_.IS_UPGRADED)}},window.MaterialLayoutTab=t,s.register({constructor:f,classAsString:"MaterialLayout",cssClass:"mdl-js-layout"});var b=function(e){this.element_=e,this.init()};window.MaterialDataTable=b,b.prototype.Constant_={},b.prototype.CssClasses_={DATA_TABLE:"mdl-data-table",SELECTABLE:"mdl-data-table--selectable",SELECT_ELEMENT:"mdl-data-table__select",IS_SELECTED:"is-selected",IS_UPGRADED:"is-upgraded"},b.prototype.selectRow_=function(e,t,s){return t?function(){e.checked?t.classList.add(this.CssClasses_.IS_SELECTED):t.classList.remove(this.CssClasses_.IS_SELECTED)}.bind(this):s?function(){var t,i;if(e.checked)for(t=0;t<s.length;t++)i=s[t].querySelector("td").querySelector(".mdl-checkbox"),i.MaterialCheckbox.check(),s[t].classList.add(this.CssClasses_.IS_SELECTED);else for(t=0;t<s.length;t++)i=s[t].querySelector("td").querySelector(".mdl-checkbox"),i.MaterialCheckbox.uncheck(),s[t].classList.remove(this.CssClasses_.IS_SELECTED)}.bind(this):void 0},b.prototype.createCheckbox_=function(e,t){var i=document.createElement("label"),n=["mdl-checkbox","mdl-js-checkbox","mdl-js-ripple-effect",this.CssClasses_.SELECT_ELEMENT];i.className=n.join(" ");var a=document.createElement("input");return a.type="checkbox",a.classList.add("mdl-checkbox__input"),e?(a.checked=e.classList.contains(this.CssClasses_.IS_SELECTED),a.addEventListener("change",this.selectRow_(a,e))):t&&a.addEventListener("change",this.selectRow_(a,null,t)),i.appendChild(a),s.upgradeElement(i,"MaterialCheckbox"),i},b.prototype.init=function(){if(this.element_){var e=this.element_.querySelector("th"),t=Array.prototype.slice.call(this.element_.querySelectorAll("tbody tr")),s=Array.prototype.slice.call(this.element_.querySelectorAll("tfoot tr")),i=t.concat(s);if(this.element_.classList.contains(this.CssClasses_.SELECTABLE)){var n=document.createElement("th"),a=this.createCheckbox_(null,i);n.appendChild(a),e.parentElement.insertBefore(n,e);for(var l=0;l<i.length;l++){var o=i[l].querySelector("td");if(o){var r=document.createElement("td");if("TBODY"===i[l].parentNode.nodeName.toUpperCase()){var _=this.createCheckbox_(i[l]);r.appendChild(_)}i[l].insertBefore(r,o)}}this.element_.classList.add(this.CssClasses_.IS_UPGRADED)}}},s.register({constructor:b,classAsString:"MaterialDataTable",cssClass:"mdl-js-data-table"});var S=function(e){this.element_=e,this.init()};window.MaterialRipple=S,S.prototype.Constant_={INITIAL_SCALE:"scale(0.0001, 0.0001)",INITIAL_SIZE:"1px",INITIAL_OPACITY:"0.4",FINAL_OPACITY:"0",FINAL_SCALE:""},S.prototype.CssClasses_={RIPPLE_CENTER:"mdl-ripple--center",RIPPLE_EFFECT_IGNORE_EVENTS:"mdl-js-ripple-effect--ignore-events",RIPPLE:"mdl-ripple",IS_ANIMATING:"is-animating",IS_VISIBLE:"is-visible"},S.prototype.downHandler_=function(e){if(!this.rippleElement_.style.width&&!this.rippleElement_.style.height){var t=this.element_.getBoundingClientRect();this.boundHeight=t.height,this.boundWidth=t.width,this.rippleSize_=2*Math.sqrt(t.width*t.width+t.height*t.height)+2,this.rippleElement_.style.width=this.rippleSize_+"px",this.rippleElement_.style.height=this.rippleSize_+"px"}if(this.rippleElement_.classList.add(this.CssClasses_.IS_VISIBLE),"mousedown"===e.type&&this.ignoringMouseDown_)this.ignoringMouseDown_=!1;else{"touchstart"===e.type&&(this.ignoringMouseDown_=!0);var s=this.getFrameCount();if(s>0)return;this.setFrameCount(1);var i,n,a=e.currentTarget.getBoundingClientRect();if(0===e.clientX&&0===e.clientY)i=Math.round(a.width/2),n=Math.round(a.height/2);else{var l=void 0!==e.clientX?e.clientX:e.touches[0].clientX,o=void 0!==e.clientY?e.clientY:e.touches[0].clientY;i=Math.round(l-a.left),n=Math.round(o-a.top)}this.setRippleXY(i,n),this.setRippleStyles(!0),window.requestAnimationFrame(this.animFrameHandler.bind(this))}},S.prototype.upHandler_=function(e){e&&2!==e.detail&&window.setTimeout(function(){this.rippleElement_.classList.remove(this.CssClasses_.IS_VISIBLE)}.bind(this),0)},S.prototype.init=function(){if(this.element_){var e=this.element_.classList.contains(this.CssClasses_.RIPPLE_CENTER);this.element_.classList.contains(this.CssClasses_.RIPPLE_EFFECT_IGNORE_EVENTS)||(this.rippleElement_=this.element_.querySelector("."+this.CssClasses_.RIPPLE),this.frameCount_=0,this.rippleSize_=0,this.x_=0,this.y_=0,this.ignoringMouseDown_=!1,this.boundDownHandler=this.downHandler_.bind(this),this.element_.addEventListener("mousedown",this.boundDownHandler),this.element_.addEventListener("touchstart",this.boundDownHandler),this.boundUpHandler=this.upHandler_.bind(this),this.element_.addEventListener("mouseup",this.boundUpHandler),this.element_.addEventListener("mouseleave",this.boundUpHandler),this.element_.addEventListener("touchend",this.boundUpHandler),this.element_.addEventListener("blur",this.boundUpHandler),this.getFrameCount=function(){return this.frameCount_},this.setFrameCount=function(e){this.frameCount_=e},this.getRippleElement=function(){return this.rippleElement_},this.setRippleXY=function(e,t){this.x_=e,this.y_=t},this.setRippleStyles=function(t){if(null!==this.rippleElement_){var s,i,n,a="translate("+this.x_+"px, "+this.y_+"px)";t?(i=this.Constant_.INITIAL_SCALE,n=this.Constant_.INITIAL_SIZE):(i=this.Constant_.FINAL_SCALE,n=this.rippleSize_+"px",e&&(a="translate("+this.boundWidth/2+"px, "+this.boundHeight/2+"px)")),s="translate(-50%, -50%) "+a+i,this.rippleElement_.style.webkitTransform=s,this.rippleElement_.style.msTransform=s,this.rippleElement_.style.transform=s,t?this.rippleElement_.classList.remove(this.CssClasses_.IS_ANIMATING):this.rippleElement_.classList.add(this.CssClasses_.IS_ANIMATING)}},this.animFrameHandler=function(){this.frameCount_-- >0?window.requestAnimationFrame(this.animFrameHandler.bind(this)):this.setRippleStyles(!1)})}},s.register({constructor:S,classAsString:"MaterialRipple",cssClass:"mdl-js-ripple-effect",widget:!1})}();
-//# sourceMappingURL=material.min.js.map
+
+/**
+ * A component handler interface using the revealing module design pattern.
+ * More details on this design pattern here:
+ * https://github.com/jasonmayes/mdl-component-design-pattern
+ *
+ * @author Jason Mayes.
+ */
+/* exported componentHandler */
+
+// Pre-defining the componentHandler interface, for closure documentation and
+// static verification.
+var componentHandler = {
+  /**
+   * Searches existing DOM for elements of our component type and upgrades them
+   * if they have not already been upgraded.
+   *
+   * @param {string=} optJsClass the programatic name of the element class we
+   * need to create a new instance of.
+   * @param {string=} optCssClass the name of the CSS class elements of this
+   * type will have.
+   */
+  upgradeDom: function(optJsClass, optCssClass) {},
+  /**
+   * Upgrades a specific element rather than all in the DOM.
+   *
+   * @param {!Element} element The element we wish to upgrade.
+   * @param {string=} optJsClass Optional name of the class we want to upgrade
+   * the element to.
+   */
+  upgradeElement: function(element, optJsClass) {},
+  /**
+   * Upgrades a specific list of elements rather than all in the DOM.
+   *
+   * @param {!Element|!Array<!Element>|!NodeList|!HTMLCollection} elements
+   * The elements we wish to upgrade.
+   */
+  upgradeElements: function(elements) {},
+  /**
+   * Upgrades all registered components found in the current DOM. This is
+   * automatically called on window load.
+   */
+  upgradeAllRegistered: function() {},
+  /**
+   * Allows user to be alerted to any upgrades that are performed for a given
+   * component type
+   *
+   * @param {string} jsClass The class name of the MDL component we wish
+   * to hook into for any upgrades performed.
+   * @param {function(!HTMLElement)} callback The function to call upon an
+   * upgrade. This function should expect 1 parameter - the HTMLElement which
+   * got upgraded.
+   */
+  registerUpgradedCallback: function(jsClass, callback) {},
+  /**
+   * Registers a class for future use and attempts to upgrade existing DOM.
+   *
+   * @param {componentHandler.ComponentConfigPublic} config the registration configuration
+   */
+  register: function(config) {},
+  /**
+   * Downgrade either a given node, an array of nodes, or a NodeList.
+   *
+   * @param {!Node|!Array<!Node>|!NodeList} nodes
+   */
+  downgradeElements: function(nodes) {}
+};
+
+componentHandler = (function() {
+  'use strict';
+
+  /** @type {!Array<componentHandler.ComponentConfig>} */
+  var registeredComponents_ = [];
+
+  /** @type {!Array<componentHandler.Component>} */
+  var createdComponents_ = [];
+
+  var componentConfigProperty_ = 'mdlComponentConfigInternal_';
+
+  /**
+   * Searches registered components for a class we are interested in using.
+   * Optionally replaces a match with passed object if specified.
+   *
+   * @param {string} name The name of a class we want to use.
+   * @param {componentHandler.ComponentConfig=} optReplace Optional object to replace match with.
+   * @return {!Object|boolean}
+   * @private
+   */
+  function findRegisteredClass_(name, optReplace) {
+    for (var i = 0; i < registeredComponents_.length; i++) {
+      if (registeredComponents_[i].className === name) {
+        if (typeof optReplace !== 'undefined') {
+          registeredComponents_[i] = optReplace;
+        }
+        return registeredComponents_[i];
+      }
+    }
+    return false;
+  }
+
+  /**
+   * Returns an array of the classNames of the upgraded classes on the element.
+   *
+   * @param {!Element} element The element to fetch data from.
+   * @return {!Array<string>}
+   * @private
+   */
+  function getUpgradedListOfElement_(element) {
+    var dataUpgraded = element.getAttribute('data-upgraded');
+    // Use `['']` as default value to conform the `,name,name...` style.
+    return dataUpgraded === null ? [''] : dataUpgraded.split(',');
+  }
+
+  /**
+   * Returns true if the given element has already been upgraded for the given
+   * class.
+   *
+   * @param {!Element} element The element we want to check.
+   * @param {string} jsClass The class to check for.
+   * @returns {boolean}
+   * @private
+   */
+  function isElementUpgraded_(element, jsClass) {
+    var upgradedList = getUpgradedListOfElement_(element);
+    return upgradedList.indexOf(jsClass) !== -1;
+  }
+
+  /**
+   * Create an event object.
+   *
+   * @param {string} eventType The type name of the event.
+   * @param {boolean} bubbles Whether the event should bubble up the DOM.
+   * @param {boolean} cancelable Whether the event can be canceled.
+   * @returns {!Event}
+   */
+  function createEvent_(eventType, bubbles, cancelable) {
+    if ('CustomEvent' in window && typeof window.CustomEvent === 'function') {
+      return new CustomEvent(eventType, {
+        bubbles: bubbles,
+        cancelable: cancelable
+      });
+    } else {
+      var ev = document.createEvent('Events');
+      ev.initEvent(eventType, bubbles, cancelable);
+      return ev;
+    }
+  }
+
+  /**
+   * Searches existing DOM for elements of our component type and upgrades them
+   * if they have not already been upgraded.
+   *
+   * @param {string=} optJsClass the programatic name of the element class we
+   * need to create a new instance of.
+   * @param {string=} optCssClass the name of the CSS class elements of this
+   * type will have.
+   */
+  function upgradeDomInternal(optJsClass, optCssClass) {
+    if (typeof optJsClass === 'undefined' &&
+        typeof optCssClass === 'undefined') {
+      for (var i = 0; i < registeredComponents_.length; i++) {
+        upgradeDomInternal(registeredComponents_[i].className,
+            registeredComponents_[i].cssClass);
+      }
+    } else {
+      var jsClass = /** @type {string} */ (optJsClass);
+      if (typeof optCssClass === 'undefined') {
+        var registeredClass = findRegisteredClass_(jsClass);
+        if (registeredClass) {
+          optCssClass = registeredClass.cssClass;
+        }
+      }
+
+      var elements = document.querySelectorAll('.' + optCssClass);
+      for (var n = 0; n < elements.length; n++) {
+        upgradeElementInternal(elements[n], jsClass);
+      }
+    }
+  }
+
+  /**
+   * Upgrades a specific element rather than all in the DOM.
+   *
+   * @param {!Element} element The element we wish to upgrade.
+   * @param {string=} optJsClass Optional name of the class we want to upgrade
+   * the element to.
+   */
+  function upgradeElementInternal(element, optJsClass) {
+    // Verify argument type.
+    if (!(typeof element === 'object' && element instanceof Element)) {
+      throw new Error('Invalid argument provided to upgrade MDL element.');
+    }
+    // Allow upgrade to be canceled by canceling emitted event.
+    var upgradingEv = createEvent_('mdl-componentupgrading', true, true);
+    element.dispatchEvent(upgradingEv);
+    if (upgradingEv.defaultPrevented) {
+      return;
+    }
+
+    var upgradedList = getUpgradedListOfElement_(element);
+    var classesToUpgrade = [];
+    // If jsClass is not provided scan the registered components to find the
+    // ones matching the element's CSS classList.
+    if (!optJsClass) {
+      var classList = element.classList;
+      registeredComponents_.forEach(function(component) {
+        // Match CSS & Not to be upgraded & Not upgraded.
+        if (classList.contains(component.cssClass) &&
+            classesToUpgrade.indexOf(component) === -1 &&
+            !isElementUpgraded_(element, component.className)) {
+          classesToUpgrade.push(component);
+        }
+      });
+    } else if (!isElementUpgraded_(element, optJsClass)) {
+      classesToUpgrade.push(findRegisteredClass_(optJsClass));
+    }
+
+    // Upgrade the element for each classes.
+    for (var i = 0, n = classesToUpgrade.length, registeredClass; i < n; i++) {
+      registeredClass = classesToUpgrade[i];
+      if (registeredClass) {
+        // Mark element as upgraded.
+        upgradedList.push(registeredClass.className);
+        element.setAttribute('data-upgraded', upgradedList.join(','));
+        var instance = new registeredClass.classConstructor(element);
+        instance[componentConfigProperty_] = registeredClass;
+        createdComponents_.push(instance);
+        // Call any callbacks the user has registered with this component type.
+        for (var j = 0, m = registeredClass.callbacks.length; j < m; j++) {
+          registeredClass.callbacks[j](element);
+        }
+
+        if (registeredClass.widget) {
+          // Assign per element instance for control over API
+          element[registeredClass.className] = instance;
+        }
+      } else {
+        throw new Error(
+          'Unable to find a registered component for the given class.');
+      }
+
+      var upgradedEv = createEvent_('mdl-componentupgraded', true, false);
+      element.dispatchEvent(upgradedEv);
+    }
+  }
+
+  /**
+   * Upgrades a specific list of elements rather than all in the DOM.
+   *
+   * @param {!Element|!Array<!Element>|!NodeList|!HTMLCollection} elements
+   * The elements we wish to upgrade.
+   */
+  function upgradeElementsInternal(elements) {
+    if (!Array.isArray(elements)) {
+      if (elements instanceof Element) {
+        elements = [elements];
+      } else {
+        elements = Array.prototype.slice.call(elements);
+      }
+    }
+    for (var i = 0, n = elements.length, element; i < n; i++) {
+      element = elements[i];
+      if (element instanceof HTMLElement) {
+        upgradeElementInternal(element);
+        if (element.children.length > 0) {
+          upgradeElementsInternal(element.children);
+        }
+      }
+    }
+  }
+
+  /**
+   * Registers a class for future use and attempts to upgrade existing DOM.
+   *
+   * @param {componentHandler.ComponentConfigPublic} config
+   */
+  function registerInternal(config) {
+    // In order to support both Closure-compiled and uncompiled code accessing
+    // this method, we need to allow for both the dot and array syntax for
+    // property access. You'll therefore see the `foo.bar || foo['bar']`
+    // pattern repeated across this method.
+    var widgetMissing = (typeof config.widget === 'undefined' &&
+        typeof config['widget'] === 'undefined');
+    var widget = true;
+
+    if (!widgetMissing) {
+      widget = config.widget || config['widget'];
+    }
+
+    var newConfig = /** @type {componentHandler.ComponentConfig} */ ({
+      classConstructor: config.constructor || config['constructor'],
+      className: config.classAsString || config['classAsString'],
+      cssClass: config.cssClass || config['cssClass'],
+      widget: widget,
+      callbacks: []
+    });
+
+    registeredComponents_.forEach(function(item) {
+      if (item.cssClass === newConfig.cssClass) {
+        throw new Error('The provided cssClass has already been registered: ' + item.cssClass);
+      }
+      if (item.className === newConfig.className) {
+        throw new Error('The provided className has already been registered');
+      }
+    });
+
+    if (config.constructor.prototype
+        .hasOwnProperty(componentConfigProperty_)) {
+      throw new Error(
+          'MDL component classes must not have ' + componentConfigProperty_ +
+          ' defined as a property.');
+    }
+
+    var found = findRegisteredClass_(config.classAsString, newConfig);
+
+    if (!found) {
+      registeredComponents_.push(newConfig);
+    }
+  }
+
+  /**
+   * Allows user to be alerted to any upgrades that are performed for a given
+   * component type
+   *
+   * @param {string} jsClass The class name of the MDL component we wish
+   * to hook into for any upgrades performed.
+   * @param {function(!HTMLElement)} callback The function to call upon an
+   * upgrade. This function should expect 1 parameter - the HTMLElement which
+   * got upgraded.
+   */
+  function registerUpgradedCallbackInternal(jsClass, callback) {
+    var regClass = findRegisteredClass_(jsClass);
+    if (regClass) {
+      regClass.callbacks.push(callback);
+    }
+  }
+
+  /**
+   * Upgrades all registered components found in the current DOM. This is
+   * automatically called on window load.
+   */
+  function upgradeAllRegisteredInternal() {
+    for (var n = 0; n < registeredComponents_.length; n++) {
+      upgradeDomInternal(registeredComponents_[n].className);
+    }
+  }
+
+  /**
+   * Check the component for the downgrade method.
+   * Execute if found.
+   * Remove component from createdComponents list.
+   *
+   * @param {?componentHandler.Component} component
+   */
+  function deconstructComponentInternal(component) {
+    if (component) {
+      var componentIndex = createdComponents_.indexOf(component);
+      createdComponents_.splice(componentIndex, 1);
+
+      var upgrades = component.element_.getAttribute('data-upgraded').split(',');
+      var componentPlace = upgrades.indexOf(component[componentConfigProperty_].classAsString);
+      upgrades.splice(componentPlace, 1);
+      component.element_.setAttribute('data-upgraded', upgrades.join(','));
+
+      var ev = createEvent_('mdl-componentdowngraded', true, false);
+      component.element_.dispatchEvent(ev);
+    }
+  }
+
+  /**
+   * Downgrade either a given node, an array of nodes, or a NodeList.
+   *
+   * @param {!Node|!Array<!Node>|!NodeList} nodes
+   */
+  function downgradeNodesInternal(nodes) {
+    /**
+     * Auxiliary function to downgrade a single node.
+     * @param  {!Node} node the node to be downgraded
+     */
+    var downgradeNode = function(node) {
+      createdComponents_.filter(function(item) {
+        return item.element_ === node;
+      }).forEach(deconstructComponentInternal);
+    };
+    if (nodes instanceof Array || nodes instanceof NodeList) {
+      for (var n = 0; n < nodes.length; n++) {
+        downgradeNode(nodes[n]);
+      }
+    } else if (nodes instanceof Node) {
+      downgradeNode(nodes);
+    } else {
+      throw new Error('Invalid argument provided to downgrade MDL nodes.');
+    }
+  }
+
+  // Now return the functions that should be made public with their publicly
+  // facing names...
+  return {
+    upgradeDom: upgradeDomInternal,
+    upgradeElement: upgradeElementInternal,
+    upgradeElements: upgradeElementsInternal,
+    upgradeAllRegistered: upgradeAllRegisteredInternal,
+    registerUpgradedCallback: registerUpgradedCallbackInternal,
+    register: registerInternal,
+    downgradeElements: downgradeNodesInternal
+  };
+})();
+
+/**
+ * Describes the type of a registered component type managed by
+ * componentHandler. Provided for benefit of the Closure compiler.
+ *
+ * @typedef {{
+ *   constructor: Function,
+ *   classAsString: string,
+ *   cssClass: string,
+ *   widget: (string|boolean|undefined)
+ * }}
+ */
+componentHandler.ComponentConfigPublic;  // jshint ignore:line
+
+/**
+ * Describes the type of a registered component type managed by
+ * componentHandler. Provided for benefit of the Closure compiler.
+ *
+ * @typedef {{
+ *   constructor: !Function,
+ *   className: string,
+ *   cssClass: string,
+ *   widget: (string|boolean),
+ *   callbacks: !Array<function(!HTMLElement)>
+ * }}
+ */
+componentHandler.ComponentConfig;  // jshint ignore:line
+
+/**
+ * Created component (i.e., upgraded element) type as managed by
+ * componentHandler. Provided for benefit of the Closure compiler.
+ *
+ * @typedef {{
+ *   element_: !HTMLElement,
+ *   className: string,
+ *   classAsString: string,
+ *   cssClass: string,
+ *   widget: string
+ * }}
+ */
+componentHandler.Component;  // jshint ignore:line
+
+// Export all symbols, for the benefit of Closure compiler.
+// No effect on uncompiled code.
+componentHandler['upgradeDom'] = componentHandler.upgradeDom;
+componentHandler['upgradeElement'] = componentHandler.upgradeElement;
+componentHandler['upgradeElements'] = componentHandler.upgradeElements;
+componentHandler['upgradeAllRegistered'] =
+    componentHandler.upgradeAllRegistered;
+componentHandler['registerUpgradedCallback'] =
+    componentHandler.registerUpgradedCallback;
+componentHandler['register'] = componentHandler.register;
+componentHandler['downgradeElements'] = componentHandler.downgradeElements;
+window.componentHandler = componentHandler;
+window['componentHandler'] = componentHandler;
+
+window.addEventListener('load', function() {
+  'use strict';
+
+  /**
+   * Performs a "Cutting the mustard" test. If the browser supports the features
+   * tested, adds a mdl-js class to the <html> element. It then upgrades all MDL
+   * components requiring JavaScript.
+   */
+  if ('classList' in document.createElement('div') &&
+      'querySelector' in document &&
+      'addEventListener' in window && Array.prototype.forEach) {
+    document.documentElement.classList.add('mdl-js');
+    componentHandler.upgradeAllRegistered();
+  } else {
+    /**
+     * Dummy function to avoid JS errors.
+     */
+    componentHandler.upgradeElement = function() {};
+    /**
+     * Dummy function to avoid JS errors.
+     */
+    componentHandler.register = function() {};
+  }
+});
+
+// Source: https://github.com/darius/requestAnimationFrame/blob/master/requestAnimationFrame.js
+// Adapted from https://gist.github.com/paulirish/1579671 which derived from
+// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+// http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
+// requestAnimationFrame polyfill by Erik Möller.
+// Fixes from Paul Irish, Tino Zijdel, Andrew Mao, Klemen Slavič, Darius Bacon
+// MIT license
+if (!Date.now) {
+    /**
+     * Date.now polyfill.
+     * @return {number} the current Date
+     */
+    Date.now = function () {
+        return new Date().getTime();
+    };
+    Date['now'] = Date.now;
+}
+var vendors = [
+    'webkit',
+    'moz'
+];
+for (var i = 0; i < vendors.length && !window.requestAnimationFrame; ++i) {
+    var vp = vendors[i];
+    window.requestAnimationFrame = window[vp + 'RequestAnimationFrame'];
+    window.cancelAnimationFrame = window[vp + 'CancelAnimationFrame'] || window[vp + 'CancelRequestAnimationFrame'];
+    window['requestAnimationFrame'] = window.requestAnimationFrame;
+    window['cancelAnimationFrame'] = window.cancelAnimationFrame;
+}
+if (/iP(ad|hone|od).*OS 6/.test(window.navigator.userAgent) || !window.requestAnimationFrame || !window.cancelAnimationFrame) {
+    var lastTime = 0;
+    /**
+     * requestAnimationFrame polyfill.
+     * @param  {!Function} callback the callback function.
+     */
+    window.requestAnimationFrame = function (callback) {
+        var now = Date.now();
+        var nextTime = Math.max(lastTime + 16, now);
+        return setTimeout(function () {
+            callback(lastTime = nextTime);
+        }, nextTime - now);
+    };
+    window.cancelAnimationFrame = clearTimeout;
+    window['requestAnimationFrame'] = window.requestAnimationFrame;
+    window['cancelAnimationFrame'] = window.cancelAnimationFrame;
+}
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Button MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialButton = function MaterialButton(element) {
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialButton'] = MaterialButton;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialButton.prototype.Constant_ = {};
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialButton.prototype.CssClasses_ = {
+    RIPPLE_EFFECT: 'mdl-js-ripple-effect',
+    RIPPLE_CONTAINER: 'mdl-button__ripple-container',
+    RIPPLE: 'mdl-ripple'
+};
+/**
+   * Handle blur of element.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialButton.prototype.blurHandler_ = function (event) {
+    if (event) {
+        this.element_.blur();
+    }
+};
+// Public methods.
+/**
+   * Disable button.
+   *
+   * @public
+   */
+MaterialButton.prototype.disable = function () {
+    this.element_.disabled = true;
+};
+MaterialButton.prototype['disable'] = MaterialButton.prototype.disable;
+/**
+   * Enable button.
+   *
+   * @public
+   */
+MaterialButton.prototype.enable = function () {
+    this.element_.disabled = false;
+};
+MaterialButton.prototype['enable'] = MaterialButton.prototype.enable;
+/**
+   * Initialize element.
+   */
+MaterialButton.prototype.init = function () {
+    if (this.element_) {
+        if (this.element_.classList.contains(this.CssClasses_.RIPPLE_EFFECT)) {
+            var rippleContainer = document.createElement('span');
+            rippleContainer.classList.add(this.CssClasses_.RIPPLE_CONTAINER);
+            this.rippleElement_ = document.createElement('span');
+            this.rippleElement_.classList.add(this.CssClasses_.RIPPLE);
+            rippleContainer.appendChild(this.rippleElement_);
+            this.boundRippleBlurHandler = this.blurHandler_.bind(this);
+            this.rippleElement_.addEventListener('mouseup', this.boundRippleBlurHandler);
+            this.element_.appendChild(rippleContainer);
+        }
+        this.boundButtonBlurHandler = this.blurHandler_.bind(this);
+        this.element_.addEventListener('mouseup', this.boundButtonBlurHandler);
+        this.element_.addEventListener('mouseleave', this.boundButtonBlurHandler);
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialButton,
+    classAsString: 'MaterialButton',
+    cssClass: 'mdl-js-button',
+    widget: true
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Checkbox MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialCheckbox = function MaterialCheckbox(element) {
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialCheckbox'] = MaterialCheckbox;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialCheckbox.prototype.Constant_ = { TINY_TIMEOUT: 0.001 };
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialCheckbox.prototype.CssClasses_ = {
+    INPUT: 'mdl-checkbox__input',
+    BOX_OUTLINE: 'mdl-checkbox__box-outline',
+    FOCUS_HELPER: 'mdl-checkbox__focus-helper',
+    TICK_OUTLINE: 'mdl-checkbox__tick-outline',
+    RIPPLE_EFFECT: 'mdl-js-ripple-effect',
+    RIPPLE_IGNORE_EVENTS: 'mdl-js-ripple-effect--ignore-events',
+    RIPPLE_CONTAINER: 'mdl-checkbox__ripple-container',
+    RIPPLE_CENTER: 'mdl-ripple--center',
+    RIPPLE: 'mdl-ripple',
+    IS_FOCUSED: 'is-focused',
+    IS_DISABLED: 'is-disabled',
+    IS_CHECKED: 'is-checked',
+    IS_UPGRADED: 'is-upgraded'
+};
+/**
+   * Handle change of state.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialCheckbox.prototype.onChange_ = function (event) {
+    this.updateClasses_();
+};
+/**
+   * Handle focus of element.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialCheckbox.prototype.onFocus_ = function (event) {
+    this.element_.classList.add(this.CssClasses_.IS_FOCUSED);
+};
+/**
+   * Handle lost focus of element.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialCheckbox.prototype.onBlur_ = function (event) {
+    this.element_.classList.remove(this.CssClasses_.IS_FOCUSED);
+};
+/**
+   * Handle mouseup.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialCheckbox.prototype.onMouseUp_ = function (event) {
+    this.blur_();
+};
+/**
+   * Handle class updates.
+   *
+   * @private
+   */
+MaterialCheckbox.prototype.updateClasses_ = function () {
+    this.checkDisabled();
+    this.checkToggleState();
+};
+/**
+   * Add blur.
+   *
+   * @private
+   */
+MaterialCheckbox.prototype.blur_ = function () {
+    // TODO: figure out why there's a focus event being fired after our blur,
+    // so that we can avoid this hack.
+    window.setTimeout(function () {
+        this.inputElement_.blur();
+    }.bind(this), this.Constant_.TINY_TIMEOUT);
+};
+// Public methods.
+/**
+   * Check the inputs toggle state and update display.
+   *
+   * @public
+   */
+MaterialCheckbox.prototype.checkToggleState = function () {
+    if (this.inputElement_.checked) {
+        this.element_.classList.add(this.CssClasses_.IS_CHECKED);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_CHECKED);
+    }
+};
+MaterialCheckbox.prototype['checkToggleState'] = MaterialCheckbox.prototype.checkToggleState;
+/**
+   * Check the inputs disabled state and update display.
+   *
+   * @public
+   */
+MaterialCheckbox.prototype.checkDisabled = function () {
+    if (this.inputElement_.disabled) {
+        this.element_.classList.add(this.CssClasses_.IS_DISABLED);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_DISABLED);
+    }
+};
+MaterialCheckbox.prototype['checkDisabled'] = MaterialCheckbox.prototype.checkDisabled;
+/**
+   * Disable checkbox.
+   *
+   * @public
+   */
+MaterialCheckbox.prototype.disable = function () {
+    this.inputElement_.disabled = true;
+    this.updateClasses_();
+};
+MaterialCheckbox.prototype['disable'] = MaterialCheckbox.prototype.disable;
+/**
+   * Enable checkbox.
+   *
+   * @public
+   */
+MaterialCheckbox.prototype.enable = function () {
+    this.inputElement_.disabled = false;
+    this.updateClasses_();
+};
+MaterialCheckbox.prototype['enable'] = MaterialCheckbox.prototype.enable;
+/**
+   * Check checkbox.
+   *
+   * @public
+   */
+MaterialCheckbox.prototype.check = function () {
+    this.inputElement_.checked = true;
+    this.updateClasses_();
+};
+MaterialCheckbox.prototype['check'] = MaterialCheckbox.prototype.check;
+/**
+   * Uncheck checkbox.
+   *
+   * @public
+   */
+MaterialCheckbox.prototype.uncheck = function () {
+    this.inputElement_.checked = false;
+    this.updateClasses_();
+};
+MaterialCheckbox.prototype['uncheck'] = MaterialCheckbox.prototype.uncheck;
+/**
+   * Initialize element.
+   */
+MaterialCheckbox.prototype.init = function () {
+    if (this.element_) {
+        this.inputElement_ = this.element_.querySelector('.' + this.CssClasses_.INPUT);
+        var boxOutline = document.createElement('span');
+        boxOutline.classList.add(this.CssClasses_.BOX_OUTLINE);
+        var tickContainer = document.createElement('span');
+        tickContainer.classList.add(this.CssClasses_.FOCUS_HELPER);
+        var tickOutline = document.createElement('span');
+        tickOutline.classList.add(this.CssClasses_.TICK_OUTLINE);
+        boxOutline.appendChild(tickOutline);
+        this.element_.appendChild(tickContainer);
+        this.element_.appendChild(boxOutline);
+        if (this.element_.classList.contains(this.CssClasses_.RIPPLE_EFFECT)) {
+            this.element_.classList.add(this.CssClasses_.RIPPLE_IGNORE_EVENTS);
+            this.rippleContainerElement_ = document.createElement('span');
+            this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_CONTAINER);
+            this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_EFFECT);
+            this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_CENTER);
+            this.boundRippleMouseUp = this.onMouseUp_.bind(this);
+            this.rippleContainerElement_.addEventListener('mouseup', this.boundRippleMouseUp);
+            var ripple = document.createElement('span');
+            ripple.classList.add(this.CssClasses_.RIPPLE);
+            this.rippleContainerElement_.appendChild(ripple);
+            this.element_.appendChild(this.rippleContainerElement_);
+        }
+        this.boundInputOnChange = this.onChange_.bind(this);
+        this.boundInputOnFocus = this.onFocus_.bind(this);
+        this.boundInputOnBlur = this.onBlur_.bind(this);
+        this.boundElementMouseUp = this.onMouseUp_.bind(this);
+        this.inputElement_.addEventListener('change', this.boundInputOnChange);
+        this.inputElement_.addEventListener('focus', this.boundInputOnFocus);
+        this.inputElement_.addEventListener('blur', this.boundInputOnBlur);
+        this.element_.addEventListener('mouseup', this.boundElementMouseUp);
+        this.updateClasses_();
+        this.element_.classList.add(this.CssClasses_.IS_UPGRADED);
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialCheckbox,
+    classAsString: 'MaterialCheckbox',
+    cssClass: 'mdl-js-checkbox',
+    widget: true
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for icon toggle MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialIconToggle = function MaterialIconToggle(element) {
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialIconToggle'] = MaterialIconToggle;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialIconToggle.prototype.Constant_ = { TINY_TIMEOUT: 0.001 };
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialIconToggle.prototype.CssClasses_ = {
+    INPUT: 'mdl-icon-toggle__input',
+    JS_RIPPLE_EFFECT: 'mdl-js-ripple-effect',
+    RIPPLE_IGNORE_EVENTS: 'mdl-js-ripple-effect--ignore-events',
+    RIPPLE_CONTAINER: 'mdl-icon-toggle__ripple-container',
+    RIPPLE_CENTER: 'mdl-ripple--center',
+    RIPPLE: 'mdl-ripple',
+    IS_FOCUSED: 'is-focused',
+    IS_DISABLED: 'is-disabled',
+    IS_CHECKED: 'is-checked'
+};
+/**
+   * Handle change of state.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialIconToggle.prototype.onChange_ = function (event) {
+    this.updateClasses_();
+};
+/**
+   * Handle focus of element.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialIconToggle.prototype.onFocus_ = function (event) {
+    this.element_.classList.add(this.CssClasses_.IS_FOCUSED);
+};
+/**
+   * Handle lost focus of element.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialIconToggle.prototype.onBlur_ = function (event) {
+    this.element_.classList.remove(this.CssClasses_.IS_FOCUSED);
+};
+/**
+   * Handle mouseup.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialIconToggle.prototype.onMouseUp_ = function (event) {
+    this.blur_();
+};
+/**
+   * Handle class updates.
+   *
+   * @private
+   */
+MaterialIconToggle.prototype.updateClasses_ = function () {
+    this.checkDisabled();
+    this.checkToggleState();
+};
+/**
+   * Add blur.
+   *
+   * @private
+   */
+MaterialIconToggle.prototype.blur_ = function () {
+    // TODO: figure out why there's a focus event being fired after our blur,
+    // so that we can avoid this hack.
+    window.setTimeout(function () {
+        this.inputElement_.blur();
+    }.bind(this), this.Constant_.TINY_TIMEOUT);
+};
+// Public methods.
+/**
+   * Check the inputs toggle state and update display.
+   *
+   * @public
+   */
+MaterialIconToggle.prototype.checkToggleState = function () {
+    if (this.inputElement_.checked) {
+        this.element_.classList.add(this.CssClasses_.IS_CHECKED);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_CHECKED);
+    }
+};
+MaterialIconToggle.prototype['checkToggleState'] = MaterialIconToggle.prototype.checkToggleState;
+/**
+   * Check the inputs disabled state and update display.
+   *
+   * @public
+   */
+MaterialIconToggle.prototype.checkDisabled = function () {
+    if (this.inputElement_.disabled) {
+        this.element_.classList.add(this.CssClasses_.IS_DISABLED);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_DISABLED);
+    }
+};
+MaterialIconToggle.prototype['checkDisabled'] = MaterialIconToggle.prototype.checkDisabled;
+/**
+   * Disable icon toggle.
+   *
+   * @public
+   */
+MaterialIconToggle.prototype.disable = function () {
+    this.inputElement_.disabled = true;
+    this.updateClasses_();
+};
+MaterialIconToggle.prototype['disable'] = MaterialIconToggle.prototype.disable;
+/**
+   * Enable icon toggle.
+   *
+   * @public
+   */
+MaterialIconToggle.prototype.enable = function () {
+    this.inputElement_.disabled = false;
+    this.updateClasses_();
+};
+MaterialIconToggle.prototype['enable'] = MaterialIconToggle.prototype.enable;
+/**
+   * Check icon toggle.
+   *
+   * @public
+   */
+MaterialIconToggle.prototype.check = function () {
+    this.inputElement_.checked = true;
+    this.updateClasses_();
+};
+MaterialIconToggle.prototype['check'] = MaterialIconToggle.prototype.check;
+/**
+   * Uncheck icon toggle.
+   *
+   * @public
+   */
+MaterialIconToggle.prototype.uncheck = function () {
+    this.inputElement_.checked = false;
+    this.updateClasses_();
+};
+MaterialIconToggle.prototype['uncheck'] = MaterialIconToggle.prototype.uncheck;
+/**
+   * Initialize element.
+   */
+MaterialIconToggle.prototype.init = function () {
+    if (this.element_) {
+        this.inputElement_ = this.element_.querySelector('.' + this.CssClasses_.INPUT);
+        if (this.element_.classList.contains(this.CssClasses_.JS_RIPPLE_EFFECT)) {
+            this.element_.classList.add(this.CssClasses_.RIPPLE_IGNORE_EVENTS);
+            this.rippleContainerElement_ = document.createElement('span');
+            this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_CONTAINER);
+            this.rippleContainerElement_.classList.add(this.CssClasses_.JS_RIPPLE_EFFECT);
+            this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_CENTER);
+            this.boundRippleMouseUp = this.onMouseUp_.bind(this);
+            this.rippleContainerElement_.addEventListener('mouseup', this.boundRippleMouseUp);
+            var ripple = document.createElement('span');
+            ripple.classList.add(this.CssClasses_.RIPPLE);
+            this.rippleContainerElement_.appendChild(ripple);
+            this.element_.appendChild(this.rippleContainerElement_);
+        }
+        this.boundInputOnChange = this.onChange_.bind(this);
+        this.boundInputOnFocus = this.onFocus_.bind(this);
+        this.boundInputOnBlur = this.onBlur_.bind(this);
+        this.boundElementOnMouseUp = this.onMouseUp_.bind(this);
+        this.inputElement_.addEventListener('change', this.boundInputOnChange);
+        this.inputElement_.addEventListener('focus', this.boundInputOnFocus);
+        this.inputElement_.addEventListener('blur', this.boundInputOnBlur);
+        this.element_.addEventListener('mouseup', this.boundElementOnMouseUp);
+        this.updateClasses_();
+        this.element_.classList.add('is-upgraded');
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialIconToggle,
+    classAsString: 'MaterialIconToggle',
+    cssClass: 'mdl-js-icon-toggle',
+    widget: true
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for dropdown MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialMenu = function MaterialMenu(element) {
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialMenu'] = MaterialMenu;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialMenu.prototype.Constant_ = {
+    // Total duration of the menu animation.
+    TRANSITION_DURATION_SECONDS: 0.3,
+    // The fraction of the total duration we want to use for menu item animations.
+    TRANSITION_DURATION_FRACTION: 0.8,
+    // How long the menu stays open after choosing an option (so the user can see
+    // the ripple).
+    CLOSE_TIMEOUT: 150
+};
+/**
+   * Keycodes, for code readability.
+   *
+   * @enum {number}
+   * @private
+   */
+MaterialMenu.prototype.Keycodes_ = {
+    ENTER: 13,
+    ESCAPE: 27,
+    SPACE: 32,
+    UP_ARROW: 38,
+    DOWN_ARROW: 40
+};
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialMenu.prototype.CssClasses_ = {
+    CONTAINER: 'mdl-menu__container',
+    OUTLINE: 'mdl-menu__outline',
+    ITEM: 'mdl-menu__item',
+    ITEM_RIPPLE_CONTAINER: 'mdl-menu__item-ripple-container',
+    RIPPLE_EFFECT: 'mdl-js-ripple-effect',
+    RIPPLE_IGNORE_EVENTS: 'mdl-js-ripple-effect--ignore-events',
+    RIPPLE: 'mdl-ripple',
+    // Statuses
+    IS_UPGRADED: 'is-upgraded',
+    IS_VISIBLE: 'is-visible',
+    IS_ANIMATING: 'is-animating',
+    // Alignment options
+    BOTTOM_LEFT: 'mdl-menu--bottom-left',
+    // This is the default.
+    BOTTOM_RIGHT: 'mdl-menu--bottom-right',
+    TOP_LEFT: 'mdl-menu--top-left',
+    TOP_RIGHT: 'mdl-menu--top-right',
+    UNALIGNED: 'mdl-menu--unaligned'
+};
+/**
+   * Initialize element.
+   */
+MaterialMenu.prototype.init = function () {
+    if (this.element_) {
+        // Create container for the menu.
+        var container = document.createElement('div');
+        container.classList.add(this.CssClasses_.CONTAINER);
+        this.element_.parentElement.insertBefore(container, this.element_);
+        this.element_.parentElement.removeChild(this.element_);
+        container.appendChild(this.element_);
+        this.container_ = container;
+        // Create outline for the menu (shadow and background).
+        var outline = document.createElement('div');
+        outline.classList.add(this.CssClasses_.OUTLINE);
+        this.outline_ = outline;
+        container.insertBefore(outline, this.element_);
+        // Find the "for" element and bind events to it.
+        var forElId = this.element_.getAttribute('for') || this.element_.getAttribute('data-mdl-for');
+        var forEl = null;
+        if (forElId) {
+            forEl = document.getElementById(forElId);
+            if (forEl) {
+                this.forElement_ = forEl;
+                forEl.addEventListener('click', this.handleForClick_.bind(this));
+                forEl.addEventListener('keydown', this.handleForKeyboardEvent_.bind(this));
+            }
+        }
+        var items = this.element_.querySelectorAll('.' + this.CssClasses_.ITEM);
+        this.boundItemKeydown_ = this.handleItemKeyboardEvent_.bind(this);
+        this.boundItemClick_ = this.handleItemClick_.bind(this);
+        for (var i = 0; i < items.length; i++) {
+            // Add a listener to each menu item.
+            items[i].addEventListener('click', this.boundItemClick_);
+            // Add a tab index to each menu item.
+            items[i].tabIndex = '-1';
+            // Add a keyboard listener to each menu item.
+            items[i].addEventListener('keydown', this.boundItemKeydown_);
+        }
+        // Add ripple classes to each item, if the user has enabled ripples.
+        if (this.element_.classList.contains(this.CssClasses_.RIPPLE_EFFECT)) {
+            this.element_.classList.add(this.CssClasses_.RIPPLE_IGNORE_EVENTS);
+            for (i = 0; i < items.length; i++) {
+                var item = items[i];
+                var rippleContainer = document.createElement('span');
+                rippleContainer.classList.add(this.CssClasses_.ITEM_RIPPLE_CONTAINER);
+                var ripple = document.createElement('span');
+                ripple.classList.add(this.CssClasses_.RIPPLE);
+                rippleContainer.appendChild(ripple);
+                item.appendChild(rippleContainer);
+                item.classList.add(this.CssClasses_.RIPPLE_EFFECT);
+            }
+        }
+        // Copy alignment classes to the container, so the outline can use them.
+        if (this.element_.classList.contains(this.CssClasses_.BOTTOM_LEFT)) {
+            this.outline_.classList.add(this.CssClasses_.BOTTOM_LEFT);
+        }
+        if (this.element_.classList.contains(this.CssClasses_.BOTTOM_RIGHT)) {
+            this.outline_.classList.add(this.CssClasses_.BOTTOM_RIGHT);
+        }
+        if (this.element_.classList.contains(this.CssClasses_.TOP_LEFT)) {
+            this.outline_.classList.add(this.CssClasses_.TOP_LEFT);
+        }
+        if (this.element_.classList.contains(this.CssClasses_.TOP_RIGHT)) {
+            this.outline_.classList.add(this.CssClasses_.TOP_RIGHT);
+        }
+        if (this.element_.classList.contains(this.CssClasses_.UNALIGNED)) {
+            this.outline_.classList.add(this.CssClasses_.UNALIGNED);
+        }
+        container.classList.add(this.CssClasses_.IS_UPGRADED);
+    }
+};
+/**
+   * Handles a click on the "for" element, by positioning the menu and then
+   * toggling it.
+   *
+   * @param {Event} evt The event that fired.
+   * @private
+   */
+MaterialMenu.prototype.handleForClick_ = function (evt) {
+    if (this.element_ && this.forElement_) {
+        var rect = this.forElement_.getBoundingClientRect();
+        var forRect = this.forElement_.parentElement.getBoundingClientRect();
+        if (this.element_.classList.contains(this.CssClasses_.UNALIGNED)) {
+        } else if (this.element_.classList.contains(this.CssClasses_.BOTTOM_RIGHT)) {
+            // Position below the "for" element, aligned to its right.
+            this.container_.style.right = forRect.right - rect.right + 'px';
+            this.container_.style.top = this.forElement_.offsetTop + this.forElement_.offsetHeight + 'px';
+        } else if (this.element_.classList.contains(this.CssClasses_.TOP_LEFT)) {
+            // Position above the "for" element, aligned to its left.
+            this.container_.style.left = this.forElement_.offsetLeft + 'px';
+            this.container_.style.bottom = forRect.bottom - rect.top + 'px';
+        } else if (this.element_.classList.contains(this.CssClasses_.TOP_RIGHT)) {
+            // Position above the "for" element, aligned to its right.
+            this.container_.style.right = forRect.right - rect.right + 'px';
+            this.container_.style.bottom = forRect.bottom - rect.top + 'px';
+        } else {
+            // Default: position below the "for" element, aligned to its left.
+            this.container_.style.left = this.forElement_.offsetLeft + 'px';
+            this.container_.style.top = this.forElement_.offsetTop + this.forElement_.offsetHeight + 'px';
+        }
+    }
+    this.toggle(evt);
+};
+/**
+   * Handles a keyboard event on the "for" element.
+   *
+   * @param {Event} evt The event that fired.
+   * @private
+   */
+MaterialMenu.prototype.handleForKeyboardEvent_ = function (evt) {
+    if (this.element_ && this.container_ && this.forElement_) {
+        var items = this.element_.querySelectorAll('.' + this.CssClasses_.ITEM + ':not([disabled])');
+        if (items && items.length > 0 && this.container_.classList.contains(this.CssClasses_.IS_VISIBLE)) {
+            if (evt.keyCode === this.Keycodes_.UP_ARROW) {
+                evt.preventDefault();
+                items[items.length - 1].focus();
+            } else if (evt.keyCode === this.Keycodes_.DOWN_ARROW) {
+                evt.preventDefault();
+                items[0].focus();
+            }
+        }
+    }
+};
+/**
+   * Handles a keyboard event on an item.
+   *
+   * @param {Event} evt The event that fired.
+   * @private
+   */
+MaterialMenu.prototype.handleItemKeyboardEvent_ = function (evt) {
+    if (this.element_ && this.container_) {
+        var items = this.element_.querySelectorAll('.' + this.CssClasses_.ITEM + ':not([disabled])');
+        if (items && items.length > 0 && this.container_.classList.contains(this.CssClasses_.IS_VISIBLE)) {
+            var currentIndex = Array.prototype.slice.call(items).indexOf(evt.target);
+            if (evt.keyCode === this.Keycodes_.UP_ARROW) {
+                evt.preventDefault();
+                if (currentIndex > 0) {
+                    items[currentIndex - 1].focus();
+                } else {
+                    items[items.length - 1].focus();
+                }
+            } else if (evt.keyCode === this.Keycodes_.DOWN_ARROW) {
+                evt.preventDefault();
+                if (items.length > currentIndex + 1) {
+                    items[currentIndex + 1].focus();
+                } else {
+                    items[0].focus();
+                }
+            } else if (evt.keyCode === this.Keycodes_.SPACE || evt.keyCode === this.Keycodes_.ENTER) {
+                evt.preventDefault();
+                // Send mousedown and mouseup to trigger ripple.
+                var e = new MouseEvent('mousedown');
+                evt.target.dispatchEvent(e);
+                e = new MouseEvent('mouseup');
+                evt.target.dispatchEvent(e);
+                // Send click.
+                evt.target.click();
+            } else if (evt.keyCode === this.Keycodes_.ESCAPE) {
+                evt.preventDefault();
+                this.hide();
+            }
+        }
+    }
+};
+/**
+   * Handles a click event on an item.
+   *
+   * @param {Event} evt The event that fired.
+   * @private
+   */
+MaterialMenu.prototype.handleItemClick_ = function (evt) {
+    if (evt.target.hasAttribute('disabled')) {
+        evt.stopPropagation();
+    } else {
+        // Wait some time before closing menu, so the user can see the ripple.
+        this.closing_ = true;
+        window.setTimeout(function (evt) {
+            this.hide();
+            this.closing_ = false;
+        }.bind(this), this.Constant_.CLOSE_TIMEOUT);
+    }
+};
+/**
+   * Calculates the initial clip (for opening the menu) or final clip (for closing
+   * it), and applies it. This allows us to animate from or to the correct point,
+   * that is, the point it's aligned to in the "for" element.
+   *
+   * @param {number} height Height of the clip rectangle
+   * @param {number} width Width of the clip rectangle
+   * @private
+   */
+MaterialMenu.prototype.applyClip_ = function (height, width) {
+    if (this.element_.classList.contains(this.CssClasses_.UNALIGNED)) {
+        // Do not clip.
+        this.element_.style.clip = '';
+    } else if (this.element_.classList.contains(this.CssClasses_.BOTTOM_RIGHT)) {
+        // Clip to the top right corner of the menu.
+        this.element_.style.clip = 'rect(0 ' + width + 'px ' + '0 ' + width + 'px)';
+    } else if (this.element_.classList.contains(this.CssClasses_.TOP_LEFT)) {
+        // Clip to the bottom left corner of the menu.
+        this.element_.style.clip = 'rect(' + height + 'px 0 ' + height + 'px 0)';
+    } else if (this.element_.classList.contains(this.CssClasses_.TOP_RIGHT)) {
+        // Clip to the bottom right corner of the menu.
+        this.element_.style.clip = 'rect(' + height + 'px ' + width + 'px ' + height + 'px ' + width + 'px)';
+    } else {
+        // Default: do not clip (same as clipping to the top left corner).
+        this.element_.style.clip = '';
+    }
+};
+/**
+   * Cleanup function to remove animation listeners.
+   *
+   * @param {Event} evt
+   * @private
+   */
+MaterialMenu.prototype.removeAnimationEndListener_ = function (evt) {
+    evt.target.classList.remove(MaterialMenu.prototype.CssClasses_.IS_ANIMATING);
+};
+/**
+   * Adds an event listener to clean up after the animation ends.
+   *
+   * @private
+   */
+MaterialMenu.prototype.addAnimationEndListener_ = function () {
+    this.element_.addEventListener('transitionend', this.removeAnimationEndListener_);
+    this.element_.addEventListener('webkitTransitionEnd', this.removeAnimationEndListener_);
+};
+/**
+   * Displays the menu.
+   *
+   * @public
+   */
+MaterialMenu.prototype.show = function (evt) {
+    if (this.element_ && this.container_ && this.outline_) {
+        // Measure the inner element.
+        var height = this.element_.getBoundingClientRect().height;
+        var width = this.element_.getBoundingClientRect().width;
+        // Apply the inner element's size to the container and outline.
+        this.container_.style.width = width + 'px';
+        this.container_.style.height = height + 'px';
+        this.outline_.style.width = width + 'px';
+        this.outline_.style.height = height + 'px';
+        var transitionDuration = this.Constant_.TRANSITION_DURATION_SECONDS * this.Constant_.TRANSITION_DURATION_FRACTION;
+        // Calculate transition delays for individual menu items, so that they fade
+        // in one at a time.
+        var items = this.element_.querySelectorAll('.' + this.CssClasses_.ITEM);
+        for (var i = 0; i < items.length; i++) {
+            var itemDelay = null;
+            if (this.element_.classList.contains(this.CssClasses_.TOP_LEFT) || this.element_.classList.contains(this.CssClasses_.TOP_RIGHT)) {
+                itemDelay = (height - items[i].offsetTop - items[i].offsetHeight) / height * transitionDuration + 's';
+            } else {
+                itemDelay = items[i].offsetTop / height * transitionDuration + 's';
+            }
+            items[i].style.transitionDelay = itemDelay;
+        }
+        // Apply the initial clip to the text before we start animating.
+        this.applyClip_(height, width);
+        // Wait for the next frame, turn on animation, and apply the final clip.
+        // Also make it visible. This triggers the transitions.
+        window.requestAnimationFrame(function () {
+            this.element_.classList.add(this.CssClasses_.IS_ANIMATING);
+            this.element_.style.clip = 'rect(0 ' + width + 'px ' + height + 'px 0)';
+            this.container_.classList.add(this.CssClasses_.IS_VISIBLE);
+        }.bind(this));
+        // Clean up after the animation is complete.
+        this.addAnimationEndListener_();
+        // Add a click listener to the document, to close the menu.
+        var callback = function (e) {
+            // Check to see if the document is processing the same event that
+            // displayed the menu in the first place. If so, do nothing.
+            // Also check to see if the menu is in the process of closing itself, and
+            // do nothing in that case.
+            // Also check if the clicked element is a menu item
+            // if so, do nothing.
+            if (e !== evt && !this.closing_ && e.target.parentNode !== this.element_) {
+                document.removeEventListener('click', callback);
+                this.hide();
+            }
+        }.bind(this);
+        document.addEventListener('click', callback);
+    }
+};
+MaterialMenu.prototype['show'] = MaterialMenu.prototype.show;
+/**
+   * Hides the menu.
+   *
+   * @public
+   */
+MaterialMenu.prototype.hide = function () {
+    if (this.element_ && this.container_ && this.outline_) {
+        var items = this.element_.querySelectorAll('.' + this.CssClasses_.ITEM);
+        // Remove all transition delays; menu items fade out concurrently.
+        for (var i = 0; i < items.length; i++) {
+            items[i].style.removeProperty('transition-delay');
+        }
+        // Measure the inner element.
+        var rect = this.element_.getBoundingClientRect();
+        var height = rect.height;
+        var width = rect.width;
+        // Turn on animation, and apply the final clip. Also make invisible.
+        // This triggers the transitions.
+        this.element_.classList.add(this.CssClasses_.IS_ANIMATING);
+        this.applyClip_(height, width);
+        this.container_.classList.remove(this.CssClasses_.IS_VISIBLE);
+        // Clean up after the animation is complete.
+        this.addAnimationEndListener_();
+    }
+};
+MaterialMenu.prototype['hide'] = MaterialMenu.prototype.hide;
+/**
+   * Displays or hides the menu, depending on current state.
+   *
+   * @public
+   */
+MaterialMenu.prototype.toggle = function (evt) {
+    if (this.container_.classList.contains(this.CssClasses_.IS_VISIBLE)) {
+        this.hide();
+    } else {
+        this.show(evt);
+    }
+};
+MaterialMenu.prototype['toggle'] = MaterialMenu.prototype.toggle;
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialMenu,
+    classAsString: 'MaterialMenu',
+    cssClass: 'mdl-js-menu',
+    widget: true
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Progress MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialProgress = function MaterialProgress(element) {
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialProgress'] = MaterialProgress;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialProgress.prototype.Constant_ = {};
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialProgress.prototype.CssClasses_ = { INDETERMINATE_CLASS: 'mdl-progress__indeterminate' };
+/**
+   * Set the current progress of the progressbar.
+   *
+   * @param {number} p Percentage of the progress (0-100)
+   * @public
+   */
+MaterialProgress.prototype.setProgress = function (p) {
+    if (this.element_.classList.contains(this.CssClasses_.INDETERMINATE_CLASS)) {
+        return;
+    }
+    this.progressbar_.style.width = p + '%';
+};
+MaterialProgress.prototype['setProgress'] = MaterialProgress.prototype.setProgress;
+/**
+   * Set the current progress of the buffer.
+   *
+   * @param {number} p Percentage of the buffer (0-100)
+   * @public
+   */
+MaterialProgress.prototype.setBuffer = function (p) {
+    this.bufferbar_.style.width = p + '%';
+    this.auxbar_.style.width = 100 - p + '%';
+};
+MaterialProgress.prototype['setBuffer'] = MaterialProgress.prototype.setBuffer;
+/**
+   * Initialize element.
+   */
+MaterialProgress.prototype.init = function () {
+    if (this.element_) {
+        var el = document.createElement('div');
+        el.className = 'progressbar bar bar1';
+        this.element_.appendChild(el);
+        this.progressbar_ = el;
+        el = document.createElement('div');
+        el.className = 'bufferbar bar bar2';
+        this.element_.appendChild(el);
+        this.bufferbar_ = el;
+        el = document.createElement('div');
+        el.className = 'auxbar bar bar3';
+        this.element_.appendChild(el);
+        this.auxbar_ = el;
+        this.progressbar_.style.width = '0%';
+        this.bufferbar_.style.width = '100%';
+        this.auxbar_.style.width = '0%';
+        this.element_.classList.add('is-upgraded');
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialProgress,
+    classAsString: 'MaterialProgress',
+    cssClass: 'mdl-js-progress',
+    widget: true
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Radio MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialRadio = function MaterialRadio(element) {
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialRadio'] = MaterialRadio;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialRadio.prototype.Constant_ = { TINY_TIMEOUT: 0.001 };
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialRadio.prototype.CssClasses_ = {
+    IS_FOCUSED: 'is-focused',
+    IS_DISABLED: 'is-disabled',
+    IS_CHECKED: 'is-checked',
+    IS_UPGRADED: 'is-upgraded',
+    JS_RADIO: 'mdl-js-radio',
+    RADIO_BTN: 'mdl-radio__button',
+    RADIO_OUTER_CIRCLE: 'mdl-radio__outer-circle',
+    RADIO_INNER_CIRCLE: 'mdl-radio__inner-circle',
+    RIPPLE_EFFECT: 'mdl-js-ripple-effect',
+    RIPPLE_IGNORE_EVENTS: 'mdl-js-ripple-effect--ignore-events',
+    RIPPLE_CONTAINER: 'mdl-radio__ripple-container',
+    RIPPLE_CENTER: 'mdl-ripple--center',
+    RIPPLE: 'mdl-ripple'
+};
+/**
+   * Handle change of state.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialRadio.prototype.onChange_ = function (event) {
+    // Since other radio buttons don't get change events, we need to look for
+    // them to update their classes.
+    var radios = document.getElementsByClassName(this.CssClasses_.JS_RADIO);
+    for (var i = 0; i < radios.length; i++) {
+        var button = radios[i].querySelector('.' + this.CssClasses_.RADIO_BTN);
+        // Different name == different group, so no point updating those.
+        if (button.getAttribute('name') === this.btnElement_.getAttribute('name')) {
+            if (typeof radios[i]['MaterialRadio'] !== 'undefined') {
+                radios[i]['MaterialRadio'].updateClasses_();
+            }
+        }
+    }
+};
+/**
+   * Handle focus.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialRadio.prototype.onFocus_ = function (event) {
+    this.element_.classList.add(this.CssClasses_.IS_FOCUSED);
+};
+/**
+   * Handle lost focus.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialRadio.prototype.onBlur_ = function (event) {
+    this.element_.classList.remove(this.CssClasses_.IS_FOCUSED);
+};
+/**
+   * Handle mouseup.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialRadio.prototype.onMouseup_ = function (event) {
+    this.blur_();
+};
+/**
+   * Update classes.
+   *
+   * @private
+   */
+MaterialRadio.prototype.updateClasses_ = function () {
+    this.checkDisabled();
+    this.checkToggleState();
+};
+/**
+   * Add blur.
+   *
+   * @private
+   */
+MaterialRadio.prototype.blur_ = function () {
+    // TODO: figure out why there's a focus event being fired after our blur,
+    // so that we can avoid this hack.
+    window.setTimeout(function () {
+        this.btnElement_.blur();
+    }.bind(this), this.Constant_.TINY_TIMEOUT);
+};
+// Public methods.
+/**
+   * Check the components disabled state.
+   *
+   * @public
+   */
+MaterialRadio.prototype.checkDisabled = function () {
+    if (this.btnElement_.disabled) {
+        this.element_.classList.add(this.CssClasses_.IS_DISABLED);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_DISABLED);
+    }
+};
+MaterialRadio.prototype['checkDisabled'] = MaterialRadio.prototype.checkDisabled;
+/**
+   * Check the components toggled state.
+   *
+   * @public
+   */
+MaterialRadio.prototype.checkToggleState = function () {
+    if (this.btnElement_.checked) {
+        this.element_.classList.add(this.CssClasses_.IS_CHECKED);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_CHECKED);
+    }
+};
+MaterialRadio.prototype['checkToggleState'] = MaterialRadio.prototype.checkToggleState;
+/**
+   * Disable radio.
+   *
+   * @public
+   */
+MaterialRadio.prototype.disable = function () {
+    this.btnElement_.disabled = true;
+    this.updateClasses_();
+};
+MaterialRadio.prototype['disable'] = MaterialRadio.prototype.disable;
+/**
+   * Enable radio.
+   *
+   * @public
+   */
+MaterialRadio.prototype.enable = function () {
+    this.btnElement_.disabled = false;
+    this.updateClasses_();
+};
+MaterialRadio.prototype['enable'] = MaterialRadio.prototype.enable;
+/**
+   * Check radio.
+   *
+   * @public
+   */
+MaterialRadio.prototype.check = function () {
+    this.btnElement_.checked = true;
+    this.onChange_(null);
+};
+MaterialRadio.prototype['check'] = MaterialRadio.prototype.check;
+/**
+   * Uncheck radio.
+   *
+   * @public
+   */
+MaterialRadio.prototype.uncheck = function () {
+    this.btnElement_.checked = false;
+    this.onChange_(null);
+};
+MaterialRadio.prototype['uncheck'] = MaterialRadio.prototype.uncheck;
+/**
+   * Initialize element.
+   */
+MaterialRadio.prototype.init = function () {
+    if (this.element_) {
+        this.btnElement_ = this.element_.querySelector('.' + this.CssClasses_.RADIO_BTN);
+        this.boundChangeHandler_ = this.onChange_.bind(this);
+        this.boundFocusHandler_ = this.onChange_.bind(this);
+        this.boundBlurHandler_ = this.onBlur_.bind(this);
+        this.boundMouseUpHandler_ = this.onMouseup_.bind(this);
+        var outerCircle = document.createElement('span');
+        outerCircle.classList.add(this.CssClasses_.RADIO_OUTER_CIRCLE);
+        var innerCircle = document.createElement('span');
+        innerCircle.classList.add(this.CssClasses_.RADIO_INNER_CIRCLE);
+        this.element_.appendChild(outerCircle);
+        this.element_.appendChild(innerCircle);
+        var rippleContainer;
+        if (this.element_.classList.contains(this.CssClasses_.RIPPLE_EFFECT)) {
+            this.element_.classList.add(this.CssClasses_.RIPPLE_IGNORE_EVENTS);
+            rippleContainer = document.createElement('span');
+            rippleContainer.classList.add(this.CssClasses_.RIPPLE_CONTAINER);
+            rippleContainer.classList.add(this.CssClasses_.RIPPLE_EFFECT);
+            rippleContainer.classList.add(this.CssClasses_.RIPPLE_CENTER);
+            rippleContainer.addEventListener('mouseup', this.boundMouseUpHandler_);
+            var ripple = document.createElement('span');
+            ripple.classList.add(this.CssClasses_.RIPPLE);
+            rippleContainer.appendChild(ripple);
+            this.element_.appendChild(rippleContainer);
+        }
+        this.btnElement_.addEventListener('change', this.boundChangeHandler_);
+        this.btnElement_.addEventListener('focus', this.boundFocusHandler_);
+        this.btnElement_.addEventListener('blur', this.boundBlurHandler_);
+        this.element_.addEventListener('mouseup', this.boundMouseUpHandler_);
+        this.updateClasses_();
+        this.element_.classList.add(this.CssClasses_.IS_UPGRADED);
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialRadio,
+    classAsString: 'MaterialRadio',
+    cssClass: 'mdl-js-radio',
+    widget: true
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Slider MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialSlider = function MaterialSlider(element) {
+    this.element_ = element;
+    // Browser feature detection.
+    this.isIE_ = window.navigator.msPointerEnabled;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialSlider'] = MaterialSlider;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialSlider.prototype.Constant_ = {};
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialSlider.prototype.CssClasses_ = {
+    IE_CONTAINER: 'mdl-slider__ie-container',
+    SLIDER_CONTAINER: 'mdl-slider__container',
+    BACKGROUND_FLEX: 'mdl-slider__background-flex',
+    BACKGROUND_LOWER: 'mdl-slider__background-lower',
+    BACKGROUND_UPPER: 'mdl-slider__background-upper',
+    IS_LOWEST_VALUE: 'is-lowest-value',
+    IS_UPGRADED: 'is-upgraded'
+};
+/**
+   * Handle input on element.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialSlider.prototype.onInput_ = function (event) {
+    this.updateValueStyles_();
+};
+/**
+   * Handle change on element.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialSlider.prototype.onChange_ = function (event) {
+    this.updateValueStyles_();
+};
+/**
+   * Handle mouseup on element.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialSlider.prototype.onMouseUp_ = function (event) {
+    event.target.blur();
+};
+/**
+   * Handle mousedown on container element.
+   * This handler is purpose is to not require the use to click
+   * exactly on the 2px slider element, as FireFox seems to be very
+   * strict about this.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   * @suppress {missingProperties}
+   */
+MaterialSlider.prototype.onContainerMouseDown_ = function (event) {
+    // If this click is not on the parent element (but rather some child)
+    // ignore. It may still bubble up.
+    if (event.target !== this.element_.parentElement) {
+        return;
+    }
+    // Discard the original event and create a new event that
+    // is on the slider element.
+    event.preventDefault();
+    var newEvent = new MouseEvent('mousedown', {
+        target: event.target,
+        buttons: event.buttons,
+        clientX: event.clientX,
+        clientY: this.element_.getBoundingClientRect().y
+    });
+    this.element_.dispatchEvent(newEvent);
+};
+/**
+   * Handle updating of values.
+   *
+   * @private
+   */
+MaterialSlider.prototype.updateValueStyles_ = function () {
+    // Calculate and apply percentages to div structure behind slider.
+    var fraction = (this.element_.value - this.element_.min) / (this.element_.max - this.element_.min);
+    if (fraction === 0) {
+        this.element_.classList.add(this.CssClasses_.IS_LOWEST_VALUE);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_LOWEST_VALUE);
+    }
+    if (!this.isIE_) {
+        this.backgroundLower_.style.flex = fraction;
+        this.backgroundLower_.style.webkitFlex = fraction;
+        this.backgroundUpper_.style.flex = 1 - fraction;
+        this.backgroundUpper_.style.webkitFlex = 1 - fraction;
+    }
+};
+// Public methods.
+/**
+   * Disable slider.
+   *
+   * @public
+   */
+MaterialSlider.prototype.disable = function () {
+    this.element_.disabled = true;
+};
+MaterialSlider.prototype['disable'] = MaterialSlider.prototype.disable;
+/**
+   * Enable slider.
+   *
+   * @public
+   */
+MaterialSlider.prototype.enable = function () {
+    this.element_.disabled = false;
+};
+MaterialSlider.prototype['enable'] = MaterialSlider.prototype.enable;
+/**
+   * Update slider value.
+   *
+   * @param {number} value The value to which to set the control (optional).
+   * @public
+   */
+MaterialSlider.prototype.change = function (value) {
+    if (typeof value !== 'undefined') {
+        this.element_.value = value;
+    }
+    this.updateValueStyles_();
+};
+MaterialSlider.prototype['change'] = MaterialSlider.prototype.change;
+/**
+   * Initialize element.
+   */
+MaterialSlider.prototype.init = function () {
+    if (this.element_) {
+        if (this.isIE_) {
+            // Since we need to specify a very large height in IE due to
+            // implementation limitations, we add a parent here that trims it down to
+            // a reasonable size.
+            var containerIE = document.createElement('div');
+            containerIE.classList.add(this.CssClasses_.IE_CONTAINER);
+            this.element_.parentElement.insertBefore(containerIE, this.element_);
+            this.element_.parentElement.removeChild(this.element_);
+            containerIE.appendChild(this.element_);
+        } else {
+            // For non-IE browsers, we need a div structure that sits behind the
+            // slider and allows us to style the left and right sides of it with
+            // different colors.
+            var container = document.createElement('div');
+            container.classList.add(this.CssClasses_.SLIDER_CONTAINER);
+            this.element_.parentElement.insertBefore(container, this.element_);
+            this.element_.parentElement.removeChild(this.element_);
+            container.appendChild(this.element_);
+            var backgroundFlex = document.createElement('div');
+            backgroundFlex.classList.add(this.CssClasses_.BACKGROUND_FLEX);
+            container.appendChild(backgroundFlex);
+            this.backgroundLower_ = document.createElement('div');
+            this.backgroundLower_.classList.add(this.CssClasses_.BACKGROUND_LOWER);
+            backgroundFlex.appendChild(this.backgroundLower_);
+            this.backgroundUpper_ = document.createElement('div');
+            this.backgroundUpper_.classList.add(this.CssClasses_.BACKGROUND_UPPER);
+            backgroundFlex.appendChild(this.backgroundUpper_);
+        }
+        this.boundInputHandler = this.onInput_.bind(this);
+        this.boundChangeHandler = this.onChange_.bind(this);
+        this.boundMouseUpHandler = this.onMouseUp_.bind(this);
+        this.boundContainerMouseDownHandler = this.onContainerMouseDown_.bind(this);
+        this.element_.addEventListener('input', this.boundInputHandler);
+        this.element_.addEventListener('change', this.boundChangeHandler);
+        this.element_.addEventListener('mouseup', this.boundMouseUpHandler);
+        this.element_.parentElement.addEventListener('mousedown', this.boundContainerMouseDownHandler);
+        this.updateValueStyles_();
+        this.element_.classList.add(this.CssClasses_.IS_UPGRADED);
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialSlider,
+    classAsString: 'MaterialSlider',
+    cssClass: 'mdl-js-slider',
+    widget: true
+});
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Snackbar MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialSnackbar = function MaterialSnackbar(element) {
+    this.element_ = element;
+    this.textElement_ = this.element_.querySelector('.' + this.cssClasses_.MESSAGE);
+    this.actionElement_ = this.element_.querySelector('.' + this.cssClasses_.ACTION);
+    if (!this.textElement_) {
+        throw new Error('There must be a message element for a snackbar.');
+    }
+    if (!this.actionElement_) {
+        throw new Error('There must be an action element for a snackbar.');
+    }
+    this.active = false;
+    this.actionHandler_ = undefined;
+    this.message_ = undefined;
+    this.actionText_ = undefined;
+    this.queuedNotifications_ = [];
+    this.setActionHidden_(true);
+};
+window['MaterialSnackbar'] = MaterialSnackbar;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialSnackbar.prototype.Constant_ = {
+    // The duration of the snackbar show/hide animation, in ms.
+    ANIMATION_LENGTH: 250
+};
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialSnackbar.prototype.cssClasses_ = {
+    SNACKBAR: 'mdl-snackbar',
+    MESSAGE: 'mdl-snackbar__text',
+    ACTION: 'mdl-snackbar__action',
+    ACTIVE: 'mdl-snackbar--active'
+};
+/**
+   * Display the snackbar.
+   *
+   * @private
+   */
+MaterialSnackbar.prototype.displaySnackbar_ = function () {
+    this.element_.setAttribute('aria-hidden', 'true');
+    if (this.actionHandler_) {
+        this.actionElement_.textContent = this.actionText_;
+        this.actionElement_.addEventListener('click', this.actionHandler_);
+        this.setActionHidden_(false);
+    }
+    this.textElement_.textContent = this.message_;
+    this.element_.classList.add(this.cssClasses_.ACTIVE);
+    this.element_.setAttribute('aria-hidden', 'false');
+    setTimeout(this.cleanup_.bind(this), this.timeout_);
+};
+/**
+   * Show the snackbar.
+   *
+   * @param {Object} data The data for the notification.
+   * @public
+   */
+MaterialSnackbar.prototype.showSnackbar = function (data) {
+    if (data === undefined) {
+        throw new Error('Please provide a data object with at least a message to display.');
+    }
+    if (data['message'] === undefined) {
+        throw new Error('Please provide a message to be displayed.');
+    }
+    if (data['actionHandler'] && !data['actionText']) {
+        throw new Error('Please provide action text with the handler.');
+    }
+    if (this.active) {
+        this.queuedNotifications_.push(data);
+    } else {
+        this.active = true;
+        this.message_ = data['message'];
+        if (data['timeout']) {
+            this.timeout_ = data['timeout'];
+        } else {
+            this.timeout_ = 2750;
+        }
+        if (data['actionHandler']) {
+            this.actionHandler_ = data['actionHandler'];
+        }
+        if (data['actionText']) {
+            this.actionText_ = data['actionText'];
+        }
+        this.displaySnackbar_();
+    }
+};
+MaterialSnackbar.prototype['showSnackbar'] = MaterialSnackbar.prototype.showSnackbar;
+/**
+   * Check if the queue has items within it.
+   * If it does, display the next entry.
+   *
+   * @private
+   */
+MaterialSnackbar.prototype.checkQueue_ = function () {
+    if (this.queuedNotifications_.length > 0) {
+        this.showSnackbar(this.queuedNotifications_.shift());
+    }
+};
+/**
+   * Cleanup the snackbar event listeners and accessiblity attributes.
+   *
+   * @private
+   */
+MaterialSnackbar.prototype.cleanup_ = function () {
+    this.element_.classList.remove(this.cssClasses_.ACTIVE);
+    setTimeout(function () {
+        this.element_.setAttribute('aria-hidden', 'true');
+        this.textElement_.textContent = '';
+        if (!Boolean(this.actionElement_.getAttribute('aria-hidden'))) {
+            this.setActionHidden_(true);
+            this.actionElement_.textContent = '';
+            this.actionElement_.removeEventListener('click', this.actionHandler_);
+        }
+        this.actionHandler_ = undefined;
+        this.message_ = undefined;
+        this.actionText_ = undefined;
+        this.active = false;
+        this.checkQueue_();
+    }.bind(this), this.Constant_.ANIMATION_LENGTH);
+};
+/**
+   * Set the action handler hidden state.
+   *
+   * @param {boolean} value
+   * @private
+   */
+MaterialSnackbar.prototype.setActionHidden_ = function (value) {
+    if (value) {
+        this.actionElement_.setAttribute('aria-hidden', 'true');
+    } else {
+        this.actionElement_.removeAttribute('aria-hidden');
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialSnackbar,
+    classAsString: 'MaterialSnackbar',
+    cssClass: 'mdl-js-snackbar',
+    widget: true
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Spinner MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @param {HTMLElement} element The element that will be upgraded.
+   * @constructor
+   */
+var MaterialSpinner = function MaterialSpinner(element) {
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialSpinner'] = MaterialSpinner;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialSpinner.prototype.Constant_ = { MDL_SPINNER_LAYER_COUNT: 4 };
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialSpinner.prototype.CssClasses_ = {
+    MDL_SPINNER_LAYER: 'mdl-spinner__layer',
+    MDL_SPINNER_CIRCLE_CLIPPER: 'mdl-spinner__circle-clipper',
+    MDL_SPINNER_CIRCLE: 'mdl-spinner__circle',
+    MDL_SPINNER_GAP_PATCH: 'mdl-spinner__gap-patch',
+    MDL_SPINNER_LEFT: 'mdl-spinner__left',
+    MDL_SPINNER_RIGHT: 'mdl-spinner__right'
+};
+/**
+   * Auxiliary method to create a spinner layer.
+   *
+   * @param {number} index Index of the layer to be created.
+   * @public
+   */
+MaterialSpinner.prototype.createLayer = function (index) {
+    var layer = document.createElement('div');
+    layer.classList.add(this.CssClasses_.MDL_SPINNER_LAYER);
+    layer.classList.add(this.CssClasses_.MDL_SPINNER_LAYER + '-' + index);
+    var leftClipper = document.createElement('div');
+    leftClipper.classList.add(this.CssClasses_.MDL_SPINNER_CIRCLE_CLIPPER);
+    leftClipper.classList.add(this.CssClasses_.MDL_SPINNER_LEFT);
+    var gapPatch = document.createElement('div');
+    gapPatch.classList.add(this.CssClasses_.MDL_SPINNER_GAP_PATCH);
+    var rightClipper = document.createElement('div');
+    rightClipper.classList.add(this.CssClasses_.MDL_SPINNER_CIRCLE_CLIPPER);
+    rightClipper.classList.add(this.CssClasses_.MDL_SPINNER_RIGHT);
+    var circleOwners = [
+        leftClipper,
+        gapPatch,
+        rightClipper
+    ];
+    for (var i = 0; i < circleOwners.length; i++) {
+        var circle = document.createElement('div');
+        circle.classList.add(this.CssClasses_.MDL_SPINNER_CIRCLE);
+        circleOwners[i].appendChild(circle);
+    }
+    layer.appendChild(leftClipper);
+    layer.appendChild(gapPatch);
+    layer.appendChild(rightClipper);
+    this.element_.appendChild(layer);
+};
+MaterialSpinner.prototype['createLayer'] = MaterialSpinner.prototype.createLayer;
+/**
+   * Stops the spinner animation.
+   * Public method for users who need to stop the spinner for any reason.
+   *
+   * @public
+   */
+MaterialSpinner.prototype.stop = function () {
+    this.element_.classList.remove('is-active');
+};
+MaterialSpinner.prototype['stop'] = MaterialSpinner.prototype.stop;
+/**
+   * Starts the spinner animation.
+   * Public method for users who need to manually start the spinner for any reason
+   * (instead of just adding the 'is-active' class to their markup).
+   *
+   * @public
+   */
+MaterialSpinner.prototype.start = function () {
+    this.element_.classList.add('is-active');
+};
+MaterialSpinner.prototype['start'] = MaterialSpinner.prototype.start;
+/**
+   * Initialize element.
+   */
+MaterialSpinner.prototype.init = function () {
+    if (this.element_) {
+        for (var i = 1; i <= this.Constant_.MDL_SPINNER_LAYER_COUNT; i++) {
+            this.createLayer(i);
+        }
+        this.element_.classList.add('is-upgraded');
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialSpinner,
+    classAsString: 'MaterialSpinner',
+    cssClass: 'mdl-js-spinner',
+    widget: true
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Checkbox MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialSwitch = function MaterialSwitch(element) {
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialSwitch'] = MaterialSwitch;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialSwitch.prototype.Constant_ = { TINY_TIMEOUT: 0.001 };
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialSwitch.prototype.CssClasses_ = {
+    INPUT: 'mdl-switch__input',
+    TRACK: 'mdl-switch__track',
+    THUMB: 'mdl-switch__thumb',
+    FOCUS_HELPER: 'mdl-switch__focus-helper',
+    RIPPLE_EFFECT: 'mdl-js-ripple-effect',
+    RIPPLE_IGNORE_EVENTS: 'mdl-js-ripple-effect--ignore-events',
+    RIPPLE_CONTAINER: 'mdl-switch__ripple-container',
+    RIPPLE_CENTER: 'mdl-ripple--center',
+    RIPPLE: 'mdl-ripple',
+    IS_FOCUSED: 'is-focused',
+    IS_DISABLED: 'is-disabled',
+    IS_CHECKED: 'is-checked'
+};
+/**
+   * Handle change of state.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialSwitch.prototype.onChange_ = function (event) {
+    this.updateClasses_();
+};
+/**
+   * Handle focus of element.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialSwitch.prototype.onFocus_ = function (event) {
+    this.element_.classList.add(this.CssClasses_.IS_FOCUSED);
+};
+/**
+   * Handle lost focus of element.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialSwitch.prototype.onBlur_ = function (event) {
+    this.element_.classList.remove(this.CssClasses_.IS_FOCUSED);
+};
+/**
+   * Handle mouseup.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialSwitch.prototype.onMouseUp_ = function (event) {
+    this.blur_();
+};
+/**
+   * Handle class updates.
+   *
+   * @private
+   */
+MaterialSwitch.prototype.updateClasses_ = function () {
+    this.checkDisabled();
+    this.checkToggleState();
+};
+/**
+   * Add blur.
+   *
+   * @private
+   */
+MaterialSwitch.prototype.blur_ = function () {
+    // TODO: figure out why there's a focus event being fired after our blur,
+    // so that we can avoid this hack.
+    window.setTimeout(function () {
+        this.inputElement_.blur();
+    }.bind(this), this.Constant_.TINY_TIMEOUT);
+};
+// Public methods.
+/**
+   * Check the components disabled state.
+   *
+   * @public
+   */
+MaterialSwitch.prototype.checkDisabled = function () {
+    if (this.inputElement_.disabled) {
+        this.element_.classList.add(this.CssClasses_.IS_DISABLED);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_DISABLED);
+    }
+};
+MaterialSwitch.prototype['checkDisabled'] = MaterialSwitch.prototype.checkDisabled;
+/**
+   * Check the components toggled state.
+   *
+   * @public
+   */
+MaterialSwitch.prototype.checkToggleState = function () {
+    if (this.inputElement_.checked) {
+        this.element_.classList.add(this.CssClasses_.IS_CHECKED);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_CHECKED);
+    }
+};
+MaterialSwitch.prototype['checkToggleState'] = MaterialSwitch.prototype.checkToggleState;
+/**
+   * Disable switch.
+   *
+   * @public
+   */
+MaterialSwitch.prototype.disable = function () {
+    this.inputElement_.disabled = true;
+    this.updateClasses_();
+};
+MaterialSwitch.prototype['disable'] = MaterialSwitch.prototype.disable;
+/**
+   * Enable switch.
+   *
+   * @public
+   */
+MaterialSwitch.prototype.enable = function () {
+    this.inputElement_.disabled = false;
+    this.updateClasses_();
+};
+MaterialSwitch.prototype['enable'] = MaterialSwitch.prototype.enable;
+/**
+   * Activate switch.
+   *
+   * @public
+   */
+MaterialSwitch.prototype.on = function () {
+    this.inputElement_.checked = true;
+    this.updateClasses_();
+};
+MaterialSwitch.prototype['on'] = MaterialSwitch.prototype.on;
+/**
+   * Deactivate switch.
+   *
+   * @public
+   */
+MaterialSwitch.prototype.off = function () {
+    this.inputElement_.checked = false;
+    this.updateClasses_();
+};
+MaterialSwitch.prototype['off'] = MaterialSwitch.prototype.off;
+/**
+   * Initialize element.
+   */
+MaterialSwitch.prototype.init = function () {
+    if (this.element_) {
+        this.inputElement_ = this.element_.querySelector('.' + this.CssClasses_.INPUT);
+        var track = document.createElement('div');
+        track.classList.add(this.CssClasses_.TRACK);
+        var thumb = document.createElement('div');
+        thumb.classList.add(this.CssClasses_.THUMB);
+        var focusHelper = document.createElement('span');
+        focusHelper.classList.add(this.CssClasses_.FOCUS_HELPER);
+        thumb.appendChild(focusHelper);
+        this.element_.appendChild(track);
+        this.element_.appendChild(thumb);
+        this.boundMouseUpHandler = this.onMouseUp_.bind(this);
+        if (this.element_.classList.contains(this.CssClasses_.RIPPLE_EFFECT)) {
+            this.element_.classList.add(this.CssClasses_.RIPPLE_IGNORE_EVENTS);
+            this.rippleContainerElement_ = document.createElement('span');
+            this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_CONTAINER);
+            this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_EFFECT);
+            this.rippleContainerElement_.classList.add(this.CssClasses_.RIPPLE_CENTER);
+            this.rippleContainerElement_.addEventListener('mouseup', this.boundMouseUpHandler);
+            var ripple = document.createElement('span');
+            ripple.classList.add(this.CssClasses_.RIPPLE);
+            this.rippleContainerElement_.appendChild(ripple);
+            this.element_.appendChild(this.rippleContainerElement_);
+        }
+        this.boundChangeHandler = this.onChange_.bind(this);
+        this.boundFocusHandler = this.onFocus_.bind(this);
+        this.boundBlurHandler = this.onBlur_.bind(this);
+        this.inputElement_.addEventListener('change', this.boundChangeHandler);
+        this.inputElement_.addEventListener('focus', this.boundFocusHandler);
+        this.inputElement_.addEventListener('blur', this.boundBlurHandler);
+        this.element_.addEventListener('mouseup', this.boundMouseUpHandler);
+        this.updateClasses_();
+        this.element_.classList.add('is-upgraded');
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialSwitch,
+    classAsString: 'MaterialSwitch',
+    cssClass: 'mdl-js-switch',
+    widget: true
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Tabs MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {Element} element The element that will be upgraded.
+   */
+var MaterialTabs = function MaterialTabs(element) {
+    // Stores the HTML element.
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialTabs'] = MaterialTabs;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialTabs.prototype.Constant_ = {};
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialTabs.prototype.CssClasses_ = {
+    TAB_CLASS: 'mdl-tabs__tab',
+    PANEL_CLASS: 'mdl-tabs__panel',
+    ACTIVE_CLASS: 'is-active',
+    UPGRADED_CLASS: 'is-upgraded',
+    MDL_JS_RIPPLE_EFFECT: 'mdl-js-ripple-effect',
+    MDL_RIPPLE_CONTAINER: 'mdl-tabs__ripple-container',
+    MDL_RIPPLE: 'mdl-ripple',
+    MDL_JS_RIPPLE_EFFECT_IGNORE_EVENTS: 'mdl-js-ripple-effect--ignore-events'
+};
+/**
+   * Handle clicks to a tabs component
+   *
+   * @private
+   */
+MaterialTabs.prototype.initTabs_ = function () {
+    if (this.element_.classList.contains(this.CssClasses_.MDL_JS_RIPPLE_EFFECT)) {
+        this.element_.classList.add(this.CssClasses_.MDL_JS_RIPPLE_EFFECT_IGNORE_EVENTS);
+    }
+    // Select element tabs, document panels
+    this.tabs_ = this.element_.querySelectorAll('.' + this.CssClasses_.TAB_CLASS);
+    this.panels_ = this.element_.querySelectorAll('.' + this.CssClasses_.PANEL_CLASS);
+    // Create new tabs for each tab element
+    for (var i = 0; i < this.tabs_.length; i++) {
+        new MaterialTab(this.tabs_[i], this);
+    }
+    this.element_.classList.add(this.CssClasses_.UPGRADED_CLASS);
+};
+/**
+   * Reset tab state, dropping active classes
+   *
+   * @private
+   */
+MaterialTabs.prototype.resetTabState_ = function () {
+    for (var k = 0; k < this.tabs_.length; k++) {
+        this.tabs_[k].classList.remove(this.CssClasses_.ACTIVE_CLASS);
+    }
+};
+/**
+   * Reset panel state, droping active classes
+   *
+   * @private
+   */
+MaterialTabs.prototype.resetPanelState_ = function () {
+    for (var j = 0; j < this.panels_.length; j++) {
+        this.panels_[j].classList.remove(this.CssClasses_.ACTIVE_CLASS);
+    }
+};
+/**
+   * Initialize element.
+   */
+MaterialTabs.prototype.init = function () {
+    if (this.element_) {
+        this.initTabs_();
+    }
+};
+/**
+   * Constructor for an individual tab.
+   *
+   * @constructor
+   * @param {Element} tab The HTML element for the tab.
+   * @param {MaterialTabs} ctx The MaterialTabs object that owns the tab.
+   */
+function MaterialTab(tab, ctx) {
+    if (tab) {
+        if (ctx.element_.classList.contains(ctx.CssClasses_.MDL_JS_RIPPLE_EFFECT)) {
+            var rippleContainer = document.createElement('span');
+            rippleContainer.classList.add(ctx.CssClasses_.MDL_RIPPLE_CONTAINER);
+            rippleContainer.classList.add(ctx.CssClasses_.MDL_JS_RIPPLE_EFFECT);
+            var ripple = document.createElement('span');
+            ripple.classList.add(ctx.CssClasses_.MDL_RIPPLE);
+            rippleContainer.appendChild(ripple);
+            tab.appendChild(rippleContainer);
+        }
+        tab.addEventListener('click', function (e) {
+            if (tab.getAttribute('href').charAt(0) === '#') {
+                e.preventDefault();
+                var href = tab.href.split('#')[1];
+                var panel = ctx.element_.querySelector('#' + href);
+                ctx.resetTabState_();
+                ctx.resetPanelState_();
+                tab.classList.add(ctx.CssClasses_.ACTIVE_CLASS);
+                panel.classList.add(ctx.CssClasses_.ACTIVE_CLASS);
+            }
+        });
+    }
+}
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialTabs,
+    classAsString: 'MaterialTabs',
+    cssClass: 'mdl-js-tabs'
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Textfield MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialTextfield = function MaterialTextfield(element) {
+    this.element_ = element;
+    this.maxRows = this.Constant_.NO_MAX_ROWS;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialTextfield'] = MaterialTextfield;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialTextfield.prototype.Constant_ = {
+    NO_MAX_ROWS: -1,
+    MAX_ROWS_ATTRIBUTE: 'maxrows'
+};
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialTextfield.prototype.CssClasses_ = {
+    LABEL: 'mdl-textfield__label',
+    INPUT: 'mdl-textfield__input',
+    IS_DIRTY: 'is-dirty',
+    IS_FOCUSED: 'is-focused',
+    IS_DISABLED: 'is-disabled',
+    IS_INVALID: 'is-invalid',
+    IS_UPGRADED: 'is-upgraded',
+    HAS_PLACEHOLDER: 'has-placeholder'
+};
+/**
+   * Handle input being entered.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialTextfield.prototype.onKeyDown_ = function (event) {
+    var currentRowCount = event.target.value.split('\n').length;
+    if (event.keyCode === 13) {
+        if (currentRowCount >= this.maxRows) {
+            event.preventDefault();
+        }
+    }
+};
+/**
+   * Handle focus.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialTextfield.prototype.onFocus_ = function (event) {
+    this.element_.classList.add(this.CssClasses_.IS_FOCUSED);
+};
+/**
+   * Handle lost focus.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialTextfield.prototype.onBlur_ = function (event) {
+    this.element_.classList.remove(this.CssClasses_.IS_FOCUSED);
+};
+/**
+   * Handle reset event from out side.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialTextfield.prototype.onReset_ = function (event) {
+    this.updateClasses_();
+};
+/**
+   * Handle class updates.
+   *
+   * @private
+   */
+MaterialTextfield.prototype.updateClasses_ = function () {
+    this.checkDisabled();
+    this.checkValidity();
+    this.checkDirty();
+    this.checkFocus();
+};
+// Public methods.
+/**
+   * Check the disabled state and update field accordingly.
+   *
+   * @public
+   */
+MaterialTextfield.prototype.checkDisabled = function () {
+    if (this.input_.disabled) {
+        this.element_.classList.add(this.CssClasses_.IS_DISABLED);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_DISABLED);
+    }
+};
+MaterialTextfield.prototype['checkDisabled'] = MaterialTextfield.prototype.checkDisabled;
+/**
+  * Check the focus state and update field accordingly.
+  *
+  * @public
+  */
+MaterialTextfield.prototype.checkFocus = function () {
+    if (Boolean(this.element_.querySelector(':focus'))) {
+        this.element_.classList.add(this.CssClasses_.IS_FOCUSED);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_FOCUSED);
+    }
+};
+MaterialTextfield.prototype['checkFocus'] = MaterialTextfield.prototype.checkFocus;
+/**
+   * Check the validity state and update field accordingly.
+   *
+   * @public
+   */
+MaterialTextfield.prototype.checkValidity = function () {
+    if (this.input_.validity) {
+        if (this.input_.validity.valid) {
+            this.element_.classList.remove(this.CssClasses_.IS_INVALID);
+        } else {
+            this.element_.classList.add(this.CssClasses_.IS_INVALID);
+        }
+    }
+};
+MaterialTextfield.prototype['checkValidity'] = MaterialTextfield.prototype.checkValidity;
+/**
+   * Check the dirty state and update field accordingly.
+   *
+   * @public
+   */
+MaterialTextfield.prototype.checkDirty = function () {
+    if (this.input_.value && this.input_.value.length > 0) {
+        this.element_.classList.add(this.CssClasses_.IS_DIRTY);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_DIRTY);
+    }
+};
+MaterialTextfield.prototype['checkDirty'] = MaterialTextfield.prototype.checkDirty;
+/**
+   * Disable text field.
+   *
+   * @public
+   */
+MaterialTextfield.prototype.disable = function () {
+    this.input_.disabled = true;
+    this.updateClasses_();
+};
+MaterialTextfield.prototype['disable'] = MaterialTextfield.prototype.disable;
+/**
+   * Enable text field.
+   *
+   * @public
+   */
+MaterialTextfield.prototype.enable = function () {
+    this.input_.disabled = false;
+    this.updateClasses_();
+};
+MaterialTextfield.prototype['enable'] = MaterialTextfield.prototype.enable;
+/**
+   * Update text field value.
+   *
+   * @param {string} value The value to which to set the control (optional).
+   * @public
+   */
+MaterialTextfield.prototype.change = function (value) {
+    this.input_.value = value || '';
+    this.updateClasses_();
+};
+MaterialTextfield.prototype['change'] = MaterialTextfield.prototype.change;
+/**
+   * Initialize element.
+   */
+MaterialTextfield.prototype.init = function () {
+    if (this.element_) {
+        this.label_ = this.element_.querySelector('.' + this.CssClasses_.LABEL);
+        this.input_ = this.element_.querySelector('.' + this.CssClasses_.INPUT);
+        if (this.input_) {
+            if (this.input_.hasAttribute(this.Constant_.MAX_ROWS_ATTRIBUTE)) {
+                this.maxRows = parseInt(this.input_.getAttribute(this.Constant_.MAX_ROWS_ATTRIBUTE), 10);
+                if (isNaN(this.maxRows)) {
+                    this.maxRows = this.Constant_.NO_MAX_ROWS;
+                }
+            }
+            if (this.input_.hasAttribute('placeholder')) {
+                this.element_.classList.add(this.CssClasses_.HAS_PLACEHOLDER);
+            }
+            this.boundUpdateClassesHandler = this.updateClasses_.bind(this);
+            this.boundFocusHandler = this.onFocus_.bind(this);
+            this.boundBlurHandler = this.onBlur_.bind(this);
+            this.boundResetHandler = this.onReset_.bind(this);
+            this.input_.addEventListener('input', this.boundUpdateClassesHandler);
+            this.input_.addEventListener('focus', this.boundFocusHandler);
+            this.input_.addEventListener('blur', this.boundBlurHandler);
+            this.input_.addEventListener('reset', this.boundResetHandler);
+            if (this.maxRows !== this.Constant_.NO_MAX_ROWS) {
+                // TODO: This should handle pasting multi line text.
+                // Currently doesn't.
+                this.boundKeyDownHandler = this.onKeyDown_.bind(this);
+                this.input_.addEventListener('keydown', this.boundKeyDownHandler);
+            }
+            var invalid = this.element_.classList.contains(this.CssClasses_.IS_INVALID);
+            this.updateClasses_();
+            this.element_.classList.add(this.CssClasses_.IS_UPGRADED);
+            if (invalid) {
+                this.element_.classList.add(this.CssClasses_.IS_INVALID);
+            }
+            if (this.input_.hasAttribute('autofocus')) {
+                this.element_.focus();
+                this.checkFocus();
+            }
+        }
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialTextfield,
+    classAsString: 'MaterialTextfield',
+    cssClass: 'mdl-js-textfield',
+    widget: true
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Tooltip MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialTooltip = function MaterialTooltip(element) {
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialTooltip'] = MaterialTooltip;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialTooltip.prototype.Constant_ = {};
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialTooltip.prototype.CssClasses_ = {
+    IS_ACTIVE: 'is-active',
+    BOTTOM: 'mdl-tooltip--bottom',
+    LEFT: 'mdl-tooltip--left',
+    RIGHT: 'mdl-tooltip--right',
+    TOP: 'mdl-tooltip--top'
+};
+/**
+   * Handle mouseenter for tooltip.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialTooltip.prototype.handleMouseEnter_ = function (event) {
+    var props = event.target.getBoundingClientRect();
+    var left = props.left + props.width / 2;
+    var top = props.top + props.height / 2;
+    var marginLeft = -1 * (this.element_.offsetWidth / 2);
+    var marginTop = -1 * (this.element_.offsetHeight / 2);
+    if (this.element_.classList.contains(this.CssClasses_.LEFT) || this.element_.classList.contains(this.CssClasses_.RIGHT)) {
+        left = props.width / 2;
+        if (top + marginTop < 0) {
+            this.element_.style.top = '0';
+            this.element_.style.marginTop = '0';
+        } else {
+            this.element_.style.top = top + 'px';
+            this.element_.style.marginTop = marginTop + 'px';
+        }
+    } else {
+        if (left + marginLeft < 0) {
+            this.element_.style.left = '0';
+            this.element_.style.marginLeft = '0';
+        } else {
+            this.element_.style.left = left + 'px';
+            this.element_.style.marginLeft = marginLeft + 'px';
+        }
+    }
+    if (this.element_.classList.contains(this.CssClasses_.TOP)) {
+        this.element_.style.top = props.top - this.element_.offsetHeight - 10 + 'px';
+    } else if (this.element_.classList.contains(this.CssClasses_.RIGHT)) {
+        this.element_.style.left = props.left + props.width + 10 + 'px';
+    } else if (this.element_.classList.contains(this.CssClasses_.LEFT)) {
+        this.element_.style.left = props.left - this.element_.offsetWidth - 10 + 'px';
+    } else {
+        this.element_.style.top = props.top + props.height + 10 + 'px';
+    }
+    this.element_.classList.add(this.CssClasses_.IS_ACTIVE);
+};
+/**
+   * Hide tooltip on mouseleave or scroll
+   *
+   * @private
+   */
+MaterialTooltip.prototype.hideTooltip_ = function () {
+    this.element_.classList.remove(this.CssClasses_.IS_ACTIVE);
+};
+/**
+   * Initialize element.
+   */
+MaterialTooltip.prototype.init = function () {
+    if (this.element_) {
+        var forElId = this.element_.getAttribute('for') || this.element_.getAttribute('data-mdl-for');
+        if (forElId) {
+            this.forElement_ = document.getElementById(forElId);
+        }
+        if (this.forElement_) {
+            // It's left here because it prevents accidental text selection on Android
+            if (!this.forElement_.hasAttribute('tabindex')) {
+                this.forElement_.setAttribute('tabindex', '0');
+            }
+            this.boundMouseEnterHandler = this.handleMouseEnter_.bind(this);
+            this.boundMouseLeaveAndScrollHandler = this.hideTooltip_.bind(this);
+            this.forElement_.addEventListener('mouseenter', this.boundMouseEnterHandler, false);
+            this.forElement_.addEventListener('touchend', this.boundMouseEnterHandler, false);
+            this.forElement_.addEventListener('mouseleave', this.boundMouseLeaveAndScrollHandler, false);
+            window.addEventListener('scroll', this.boundMouseLeaveAndScrollHandler, true);
+            window.addEventListener('touchstart', this.boundMouseLeaveAndScrollHandler);
+        }
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialTooltip,
+    classAsString: 'MaterialTooltip',
+    cssClass: 'mdl-tooltip'
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Layout MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialLayout = function MaterialLayout(element) {
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialLayout'] = MaterialLayout;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialLayout.prototype.Constant_ = {
+    MAX_WIDTH: '(max-width: 1024px)',
+    TAB_SCROLL_PIXELS: 100,
+    RESIZE_TIMEOUT: 100,
+    MENU_ICON: '&#xE5D2;',
+    CHEVRON_LEFT: 'chevron_left',
+    CHEVRON_RIGHT: 'chevron_right'
+};
+/**
+   * Keycodes, for code readability.
+   *
+   * @enum {number}
+   * @private
+   */
+MaterialLayout.prototype.Keycodes_ = {
+    ENTER: 13,
+    ESCAPE: 27,
+    SPACE: 32
+};
+/**
+   * Modes.
+   *
+   * @enum {number}
+   * @private
+   */
+MaterialLayout.prototype.Mode_ = {
+    STANDARD: 0,
+    SEAMED: 1,
+    WATERFALL: 2,
+    SCROLL: 3
+};
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialLayout.prototype.CssClasses_ = {
+    CONTAINER: 'mdl-layout__container',
+    HEADER: 'mdl-layout__header',
+    DRAWER: 'mdl-layout__drawer',
+    CONTENT: 'mdl-layout__content',
+    DRAWER_BTN: 'mdl-layout__drawer-button',
+    ICON: 'material-icons',
+    JS_RIPPLE_EFFECT: 'mdl-js-ripple-effect',
+    RIPPLE_CONTAINER: 'mdl-layout__tab-ripple-container',
+    RIPPLE: 'mdl-ripple',
+    RIPPLE_IGNORE_EVENTS: 'mdl-js-ripple-effect--ignore-events',
+    HEADER_SEAMED: 'mdl-layout__header--seamed',
+    HEADER_WATERFALL: 'mdl-layout__header--waterfall',
+    HEADER_SCROLL: 'mdl-layout__header--scroll',
+    FIXED_HEADER: 'mdl-layout--fixed-header',
+    OBFUSCATOR: 'mdl-layout__obfuscator',
+    TAB_BAR: 'mdl-layout__tab-bar',
+    TAB_CONTAINER: 'mdl-layout__tab-bar-container',
+    TAB: 'mdl-layout__tab',
+    TAB_BAR_BUTTON: 'mdl-layout__tab-bar-button',
+    TAB_BAR_LEFT_BUTTON: 'mdl-layout__tab-bar-left-button',
+    TAB_BAR_RIGHT_BUTTON: 'mdl-layout__tab-bar-right-button',
+    TAB_MANUAL_SWITCH: 'mdl-layout__tab-manual-switch',
+    PANEL: 'mdl-layout__tab-panel',
+    HAS_DRAWER: 'has-drawer',
+    HAS_TABS: 'has-tabs',
+    HAS_SCROLLING_HEADER: 'has-scrolling-header',
+    CASTING_SHADOW: 'is-casting-shadow',
+    IS_COMPACT: 'is-compact',
+    IS_SMALL_SCREEN: 'is-small-screen',
+    IS_DRAWER_OPEN: 'is-visible',
+    IS_ACTIVE: 'is-active',
+    IS_UPGRADED: 'is-upgraded',
+    IS_ANIMATING: 'is-animating',
+    ON_LARGE_SCREEN: 'mdl-layout--large-screen-only',
+    ON_SMALL_SCREEN: 'mdl-layout--small-screen-only'
+};
+/**
+   * Handles scrolling on the content.
+   *
+   * @private
+   */
+MaterialLayout.prototype.contentScrollHandler_ = function () {
+    if (this.header_.classList.contains(this.CssClasses_.IS_ANIMATING)) {
+        return;
+    }
+    var headerVisible = !this.element_.classList.contains(this.CssClasses_.IS_SMALL_SCREEN) || this.element_.classList.contains(this.CssClasses_.FIXED_HEADER);
+    if (this.content_.scrollTop > 0 && !this.header_.classList.contains(this.CssClasses_.IS_COMPACT)) {
+        this.header_.classList.add(this.CssClasses_.CASTING_SHADOW);
+        this.header_.classList.add(this.CssClasses_.IS_COMPACT);
+        if (headerVisible) {
+            this.header_.classList.add(this.CssClasses_.IS_ANIMATING);
+        }
+    } else if (this.content_.scrollTop <= 0 && this.header_.classList.contains(this.CssClasses_.IS_COMPACT)) {
+        this.header_.classList.remove(this.CssClasses_.CASTING_SHADOW);
+        this.header_.classList.remove(this.CssClasses_.IS_COMPACT);
+        if (headerVisible) {
+            this.header_.classList.add(this.CssClasses_.IS_ANIMATING);
+        }
+    }
+};
+/**
+   * Handles a keyboard event on the drawer.
+   *
+   * @param {Event} evt The event that fired.
+   * @private
+   */
+MaterialLayout.prototype.keyboardEventHandler_ = function (evt) {
+    // Only react when the drawer is open.
+    if (evt.keyCode === this.Keycodes_.ESCAPE && this.drawer_.classList.contains(this.CssClasses_.IS_DRAWER_OPEN)) {
+        this.toggleDrawer();
+    }
+};
+/**
+   * Handles changes in screen size.
+   *
+   * @private
+   */
+MaterialLayout.prototype.screenSizeHandler_ = function () {
+    if (this.screenSizeMediaQuery_.matches) {
+        this.element_.classList.add(this.CssClasses_.IS_SMALL_SCREEN);
+    } else {
+        this.element_.classList.remove(this.CssClasses_.IS_SMALL_SCREEN);
+        // Collapse drawer (if any) when moving to a large screen size.
+        if (this.drawer_) {
+            this.drawer_.classList.remove(this.CssClasses_.IS_DRAWER_OPEN);
+            this.obfuscator_.classList.remove(this.CssClasses_.IS_DRAWER_OPEN);
+        }
+    }
+};
+/**
+   * Handles events of drawer button.
+   *
+   * @param {Event} evt The event that fired.
+   * @private
+   */
+MaterialLayout.prototype.drawerToggleHandler_ = function (evt) {
+    if (evt && evt.type === 'keydown') {
+        if (evt.keyCode === this.Keycodes_.SPACE || evt.keyCode === this.Keycodes_.ENTER) {
+            // prevent scrolling in drawer nav
+            evt.preventDefault();
+        } else {
+            // prevent other keys
+            return;
+        }
+    }
+    this.toggleDrawer();
+};
+/**
+   * Handles (un)setting the `is-animating` class
+   *
+   * @private
+   */
+MaterialLayout.prototype.headerTransitionEndHandler_ = function () {
+    this.header_.classList.remove(this.CssClasses_.IS_ANIMATING);
+};
+/**
+   * Handles expanding the header on click
+   *
+   * @private
+   */
+MaterialLayout.prototype.headerClickHandler_ = function () {
+    if (this.header_.classList.contains(this.CssClasses_.IS_COMPACT)) {
+        this.header_.classList.remove(this.CssClasses_.IS_COMPACT);
+        this.header_.classList.add(this.CssClasses_.IS_ANIMATING);
+    }
+};
+/**
+   * Reset tab state, dropping active classes
+   *
+   * @private
+   */
+MaterialLayout.prototype.resetTabState_ = function (tabBar) {
+    for (var k = 0; k < tabBar.length; k++) {
+        tabBar[k].classList.remove(this.CssClasses_.IS_ACTIVE);
+    }
+};
+/**
+   * Reset panel state, droping active classes
+   *
+   * @private
+   */
+MaterialLayout.prototype.resetPanelState_ = function (panels) {
+    for (var j = 0; j < panels.length; j++) {
+        panels[j].classList.remove(this.CssClasses_.IS_ACTIVE);
+    }
+};
+/**
+  * Toggle drawer state
+  *
+  * @public
+  */
+MaterialLayout.prototype.toggleDrawer = function () {
+    var drawerButton = this.element_.querySelector('.' + this.CssClasses_.DRAWER_BTN);
+    this.drawer_.classList.toggle(this.CssClasses_.IS_DRAWER_OPEN);
+    this.obfuscator_.classList.toggle(this.CssClasses_.IS_DRAWER_OPEN);
+    // Set accessibility properties.
+    if (this.drawer_.classList.contains(this.CssClasses_.IS_DRAWER_OPEN)) {
+        this.drawer_.setAttribute('aria-hidden', 'false');
+        drawerButton.setAttribute('aria-expanded', 'true');
+    } else {
+        this.drawer_.setAttribute('aria-hidden', 'true');
+        drawerButton.setAttribute('aria-expanded', 'false');
+    }
+};
+MaterialLayout.prototype['toggleDrawer'] = MaterialLayout.prototype.toggleDrawer;
+/**
+   * Initialize element.
+   */
+MaterialLayout.prototype.init = function () {
+    if (this.element_) {
+        var container = document.createElement('div');
+        container.classList.add(this.CssClasses_.CONTAINER);
+        var focusedElement = this.element_.querySelector(':focus');
+        this.element_.parentElement.insertBefore(container, this.element_);
+        this.element_.parentElement.removeChild(this.element_);
+        container.appendChild(this.element_);
+        if (focusedElement) {
+            focusedElement.focus();
+        }
+        var directChildren = this.element_.childNodes;
+        var numChildren = directChildren.length;
+        for (var c = 0; c < numChildren; c++) {
+            var child = directChildren[c];
+            if (child.classList && child.classList.contains(this.CssClasses_.HEADER)) {
+                this.header_ = child;
+            }
+            if (child.classList && child.classList.contains(this.CssClasses_.DRAWER)) {
+                this.drawer_ = child;
+            }
+            if (child.classList && child.classList.contains(this.CssClasses_.CONTENT)) {
+                this.content_ = child;
+            }
+        }
+        window.addEventListener('pageshow', function (e) {
+            if (e.persisted) {
+                // when page is loaded from back/forward cache
+                // trigger repaint to let layout scroll in safari
+                this.element_.style.overflowY = 'hidden';
+                requestAnimationFrame(function () {
+                    this.element_.style.overflowY = '';
+                }.bind(this));
+            }
+        }.bind(this), false);
+        if (this.header_) {
+            this.tabBar_ = this.header_.querySelector('.' + this.CssClasses_.TAB_BAR);
+        }
+        var mode = this.Mode_.STANDARD;
+        if (this.header_) {
+            if (this.header_.classList.contains(this.CssClasses_.HEADER_SEAMED)) {
+                mode = this.Mode_.SEAMED;
+            } else if (this.header_.classList.contains(this.CssClasses_.HEADER_WATERFALL)) {
+                mode = this.Mode_.WATERFALL;
+                this.header_.addEventListener('transitionend', this.headerTransitionEndHandler_.bind(this));
+                this.header_.addEventListener('click', this.headerClickHandler_.bind(this));
+            } else if (this.header_.classList.contains(this.CssClasses_.HEADER_SCROLL)) {
+                mode = this.Mode_.SCROLL;
+                container.classList.add(this.CssClasses_.HAS_SCROLLING_HEADER);
+            }
+            if (mode === this.Mode_.STANDARD) {
+                this.header_.classList.add(this.CssClasses_.CASTING_SHADOW);
+                if (this.tabBar_) {
+                    this.tabBar_.classList.add(this.CssClasses_.CASTING_SHADOW);
+                }
+            } else if (mode === this.Mode_.SEAMED || mode === this.Mode_.SCROLL) {
+                this.header_.classList.remove(this.CssClasses_.CASTING_SHADOW);
+                if (this.tabBar_) {
+                    this.tabBar_.classList.remove(this.CssClasses_.CASTING_SHADOW);
+                }
+            } else if (mode === this.Mode_.WATERFALL) {
+                // Add and remove shadows depending on scroll position.
+                // Also add/remove auxiliary class for styling of the compact version of
+                // the header.
+                this.content_.addEventListener('scroll', this.contentScrollHandler_.bind(this));
+                this.contentScrollHandler_();
+            }
+        }
+        // Add drawer toggling button to our layout, if we have an openable drawer.
+        if (this.drawer_) {
+            var drawerButton = this.element_.querySelector('.' + this.CssClasses_.DRAWER_BTN);
+            if (!drawerButton) {
+                drawerButton = document.createElement('div');
+                drawerButton.setAttribute('aria-expanded', 'false');
+                drawerButton.setAttribute('role', 'button');
+                drawerButton.setAttribute('tabindex', '0');
+                drawerButton.classList.add(this.CssClasses_.DRAWER_BTN);
+                var drawerButtonIcon = document.createElement('i');
+                drawerButtonIcon.classList.add(this.CssClasses_.ICON);
+                drawerButtonIcon.innerHTML = this.Constant_.MENU_ICON;
+                drawerButton.appendChild(drawerButtonIcon);
+            }
+            if (this.drawer_.classList.contains(this.CssClasses_.ON_LARGE_SCREEN)) {
+                //If drawer has ON_LARGE_SCREEN class then add it to the drawer toggle button as well.
+                drawerButton.classList.add(this.CssClasses_.ON_LARGE_SCREEN);
+            } else if (this.drawer_.classList.contains(this.CssClasses_.ON_SMALL_SCREEN)) {
+                //If drawer has ON_SMALL_SCREEN class then add it to the drawer toggle button as well.
+                drawerButton.classList.add(this.CssClasses_.ON_SMALL_SCREEN);
+            }
+            drawerButton.addEventListener('click', this.drawerToggleHandler_.bind(this));
+            drawerButton.addEventListener('keydown', this.drawerToggleHandler_.bind(this));
+            // Add a class if the layout has a drawer, for altering the left padding.
+            // Adds the HAS_DRAWER to the elements since this.header_ may or may
+            // not be present.
+            this.element_.classList.add(this.CssClasses_.HAS_DRAWER);
+            // If we have a fixed header, add the button to the header rather than
+            // the layout.
+            if (this.element_.classList.contains(this.CssClasses_.FIXED_HEADER)) {
+                this.header_.insertBefore(drawerButton, this.header_.firstChild);
+            } else {
+                this.element_.insertBefore(drawerButton, this.content_);
+            }
+            var obfuscator = document.createElement('div');
+            obfuscator.classList.add(this.CssClasses_.OBFUSCATOR);
+            this.element_.appendChild(obfuscator);
+            obfuscator.addEventListener('click', this.drawerToggleHandler_.bind(this));
+            this.obfuscator_ = obfuscator;
+            this.drawer_.addEventListener('keydown', this.keyboardEventHandler_.bind(this));
+            this.drawer_.setAttribute('aria-hidden', 'true');
+        }
+        // Keep an eye on screen size, and add/remove auxiliary class for styling
+        // of small screens.
+        this.screenSizeMediaQuery_ = window.matchMedia(this.Constant_.MAX_WIDTH);
+        this.screenSizeMediaQuery_.addListener(this.screenSizeHandler_.bind(this));
+        this.screenSizeHandler_();
+        // Initialize tabs, if any.
+        if (this.header_ && this.tabBar_) {
+            this.element_.classList.add(this.CssClasses_.HAS_TABS);
+            var tabContainer = document.createElement('div');
+            tabContainer.classList.add(this.CssClasses_.TAB_CONTAINER);
+            this.header_.insertBefore(tabContainer, this.tabBar_);
+            this.header_.removeChild(this.tabBar_);
+            var leftButton = document.createElement('div');
+            leftButton.classList.add(this.CssClasses_.TAB_BAR_BUTTON);
+            leftButton.classList.add(this.CssClasses_.TAB_BAR_LEFT_BUTTON);
+            var leftButtonIcon = document.createElement('i');
+            leftButtonIcon.classList.add(this.CssClasses_.ICON);
+            leftButtonIcon.textContent = this.Constant_.CHEVRON_LEFT;
+            leftButton.appendChild(leftButtonIcon);
+            leftButton.addEventListener('click', function () {
+                this.tabBar_.scrollLeft -= this.Constant_.TAB_SCROLL_PIXELS;
+            }.bind(this));
+            var rightButton = document.createElement('div');
+            rightButton.classList.add(this.CssClasses_.TAB_BAR_BUTTON);
+            rightButton.classList.add(this.CssClasses_.TAB_BAR_RIGHT_BUTTON);
+            var rightButtonIcon = document.createElement('i');
+            rightButtonIcon.classList.add(this.CssClasses_.ICON);
+            rightButtonIcon.textContent = this.Constant_.CHEVRON_RIGHT;
+            rightButton.appendChild(rightButtonIcon);
+            rightButton.addEventListener('click', function () {
+                this.tabBar_.scrollLeft += this.Constant_.TAB_SCROLL_PIXELS;
+            }.bind(this));
+            tabContainer.appendChild(leftButton);
+            tabContainer.appendChild(this.tabBar_);
+            tabContainer.appendChild(rightButton);
+            // Add and remove tab buttons depending on scroll position and total
+            // window size.
+            var tabUpdateHandler = function () {
+                if (this.tabBar_.scrollLeft > 0) {
+                    leftButton.classList.add(this.CssClasses_.IS_ACTIVE);
+                } else {
+                    leftButton.classList.remove(this.CssClasses_.IS_ACTIVE);
+                }
+                if (this.tabBar_.scrollLeft < this.tabBar_.scrollWidth - this.tabBar_.offsetWidth) {
+                    rightButton.classList.add(this.CssClasses_.IS_ACTIVE);
+                } else {
+                    rightButton.classList.remove(this.CssClasses_.IS_ACTIVE);
+                }
+            }.bind(this);
+            this.tabBar_.addEventListener('scroll', tabUpdateHandler);
+            tabUpdateHandler();
+            // Update tabs when the window resizes.
+            var windowResizeHandler = function () {
+                // Use timeouts to make sure it doesn't happen too often.
+                if (this.resizeTimeoutId_) {
+                    clearTimeout(this.resizeTimeoutId_);
+                }
+                this.resizeTimeoutId_ = setTimeout(function () {
+                    tabUpdateHandler();
+                    this.resizeTimeoutId_ = null;
+                }.bind(this), this.Constant_.RESIZE_TIMEOUT);
+            }.bind(this);
+            window.addEventListener('resize', windowResizeHandler);
+            if (this.tabBar_.classList.contains(this.CssClasses_.JS_RIPPLE_EFFECT)) {
+                this.tabBar_.classList.add(this.CssClasses_.RIPPLE_IGNORE_EVENTS);
+            }
+            // Select element tabs, document panels
+            var tabs = this.tabBar_.querySelectorAll('.' + this.CssClasses_.TAB);
+            var panels = this.content_.querySelectorAll('.' + this.CssClasses_.PANEL);
+            // Create new tabs for each tab element
+            for (var i = 0; i < tabs.length; i++) {
+                new MaterialLayoutTab(tabs[i], tabs, panels, this);
+            }
+        }
+        this.element_.classList.add(this.CssClasses_.IS_UPGRADED);
+    }
+};
+/**
+   * Constructor for an individual tab.
+   *
+   * @constructor
+   * @param {HTMLElement} tab The HTML element for the tab.
+   * @param {!Array<HTMLElement>} tabs Array with HTML elements for all tabs.
+   * @param {!Array<HTMLElement>} panels Array with HTML elements for all panels.
+   * @param {MaterialLayout} layout The MaterialLayout object that owns the tab.
+   */
+function MaterialLayoutTab(tab, tabs, panels, layout) {
+    /**
+     * Auxiliary method to programmatically select a tab in the UI.
+     */
+    function selectTab() {
+        var href = tab.href.split('#')[1];
+        var panel = layout.content_.querySelector('#' + href);
+        layout.resetTabState_(tabs);
+        layout.resetPanelState_(panels);
+        tab.classList.add(layout.CssClasses_.IS_ACTIVE);
+        panel.classList.add(layout.CssClasses_.IS_ACTIVE);
+    }
+    if (layout.tabBar_.classList.contains(layout.CssClasses_.JS_RIPPLE_EFFECT)) {
+        var rippleContainer = document.createElement('span');
+        rippleContainer.classList.add(layout.CssClasses_.RIPPLE_CONTAINER);
+        rippleContainer.classList.add(layout.CssClasses_.JS_RIPPLE_EFFECT);
+        var ripple = document.createElement('span');
+        ripple.classList.add(layout.CssClasses_.RIPPLE);
+        rippleContainer.appendChild(ripple);
+        tab.appendChild(rippleContainer);
+    }
+    if (!layout.tabBar_.classList.contains(layout.CssClasses_.TAB_MANUAL_SWITCH)) {
+        tab.addEventListener('click', function (e) {
+            if (tab.getAttribute('href').charAt(0) === '#') {
+                e.preventDefault();
+                selectTab();
+            }
+        });
+    }
+    tab.show = selectTab;
+}
+window['MaterialLayoutTab'] = MaterialLayoutTab;
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialLayout,
+    classAsString: 'MaterialLayout',
+    cssClass: 'mdl-js-layout'
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Data Table Card MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {Element} element The element that will be upgraded.
+   */
+var MaterialDataTable = function MaterialDataTable(element) {
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialDataTable'] = MaterialDataTable;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialDataTable.prototype.Constant_ = {};
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialDataTable.prototype.CssClasses_ = {
+    DATA_TABLE: 'mdl-data-table',
+    SELECTABLE: 'mdl-data-table--selectable',
+    SELECT_ELEMENT: 'mdl-data-table__select',
+    IS_SELECTED: 'is-selected',
+    IS_UPGRADED: 'is-upgraded'
+};
+/**
+   * Generates and returns a function that toggles the selection state of a
+   * single row (or multiple rows).
+   *
+   * @param {Element} checkbox Checkbox that toggles the selection state.
+   * @param {Element} row Row to toggle when checkbox changes.
+   * @param {(Array<Object>|NodeList)=} opt_rows Rows to toggle when checkbox changes.
+   * @private
+   */
+MaterialDataTable.prototype.selectRow_ = function (checkbox, row, opt_rows) {
+    if (row) {
+        return function () {
+            if (checkbox.checked) {
+                row.classList.add(this.CssClasses_.IS_SELECTED);
+            } else {
+                row.classList.remove(this.CssClasses_.IS_SELECTED);
+            }
+        }.bind(this);
+    }
+    if (opt_rows) {
+        return function () {
+            var i;
+            var el;
+            if (checkbox.checked) {
+                for (i = 0; i < opt_rows.length; i++) {
+                    el = opt_rows[i].querySelector('td').querySelector('.mdl-checkbox');
+                    el['MaterialCheckbox'].check();
+                    opt_rows[i].classList.add(this.CssClasses_.IS_SELECTED);
+                }
+            } else {
+                for (i = 0; i < opt_rows.length; i++) {
+                    el = opt_rows[i].querySelector('td').querySelector('.mdl-checkbox');
+                    el['MaterialCheckbox'].uncheck();
+                    opt_rows[i].classList.remove(this.CssClasses_.IS_SELECTED);
+                }
+            }
+        }.bind(this);
+    }
+};
+/**
+   * Creates a checkbox for a single or or multiple rows and hooks up the
+   * event handling.
+   *
+   * @param {Element} row Row to toggle when checkbox changes.
+   * @param {(Array<Object>|NodeList)=} opt_rows Rows to toggle when checkbox changes.
+   * @private
+   */
+MaterialDataTable.prototype.createCheckbox_ = function (row, opt_rows) {
+    var label = document.createElement('label');
+    var labelClasses = [
+        'mdl-checkbox',
+        'mdl-js-checkbox',
+        'mdl-js-ripple-effect',
+        this.CssClasses_.SELECT_ELEMENT
+    ];
+    label.className = labelClasses.join(' ');
+    var checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.classList.add('mdl-checkbox__input');
+    if (row) {
+        checkbox.checked = row.classList.contains(this.CssClasses_.IS_SELECTED);
+        checkbox.addEventListener('change', this.selectRow_(checkbox, row));
+    } else if (opt_rows) {
+        checkbox.addEventListener('change', this.selectRow_(checkbox, null, opt_rows));
+    }
+    label.appendChild(checkbox);
+    componentHandler.upgradeElement(label, 'MaterialCheckbox');
+    return label;
+};
+/**
+   * Initialize element.
+   */
+MaterialDataTable.prototype.init = function () {
+    if (this.element_) {
+        var firstHeader = this.element_.querySelector('th');
+        var bodyRows = Array.prototype.slice.call(this.element_.querySelectorAll('tbody tr'));
+        var footRows = Array.prototype.slice.call(this.element_.querySelectorAll('tfoot tr'));
+        var rows = bodyRows.concat(footRows);
+        if (this.element_.classList.contains(this.CssClasses_.SELECTABLE)) {
+            var th = document.createElement('th');
+            var headerCheckbox = this.createCheckbox_(null, rows);
+            th.appendChild(headerCheckbox);
+            firstHeader.parentElement.insertBefore(th, firstHeader);
+            for (var i = 0; i < rows.length; i++) {
+                var firstCell = rows[i].querySelector('td');
+                if (firstCell) {
+                    var td = document.createElement('td');
+                    if (rows[i].parentNode.nodeName.toUpperCase() === 'TBODY') {
+                        var rowCheckbox = this.createCheckbox_(rows[i]);
+                        td.appendChild(rowCheckbox);
+                    }
+                    rows[i].insertBefore(td, firstCell);
+                }
+            }
+            this.element_.classList.add(this.CssClasses_.IS_UPGRADED);
+        }
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialDataTable,
+    classAsString: 'MaterialDataTable',
+    cssClass: 'mdl-js-data-table'
+});
+/**
+ * @license
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+   * Class constructor for Ripple MDL component.
+   * Implements MDL component design pattern defined at:
+   * https://github.com/jasonmayes/mdl-component-design-pattern
+   *
+   * @constructor
+   * @param {HTMLElement} element The element that will be upgraded.
+   */
+var MaterialRipple = function MaterialRipple(element) {
+    this.element_ = element;
+    // Initialize instance.
+    this.init();
+};
+window['MaterialRipple'] = MaterialRipple;
+/**
+   * Store constants in one place so they can be updated easily.
+   *
+   * @enum {string | number}
+   * @private
+   */
+MaterialRipple.prototype.Constant_ = {
+    INITIAL_SCALE: 'scale(0.0001, 0.0001)',
+    INITIAL_SIZE: '1px',
+    INITIAL_OPACITY: '0.4',
+    FINAL_OPACITY: '0',
+    FINAL_SCALE: ''
+};
+/**
+   * Store strings for class names defined by this component that are used in
+   * JavaScript. This allows us to simply change it in one place should we
+   * decide to modify at a later date.
+   *
+   * @enum {string}
+   * @private
+   */
+MaterialRipple.prototype.CssClasses_ = {
+    RIPPLE_CENTER: 'mdl-ripple--center',
+    RIPPLE_EFFECT_IGNORE_EVENTS: 'mdl-js-ripple-effect--ignore-events',
+    RIPPLE: 'mdl-ripple',
+    IS_ANIMATING: 'is-animating',
+    IS_VISIBLE: 'is-visible'
+};
+/**
+   * Handle mouse / finger down on element.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialRipple.prototype.downHandler_ = function (event) {
+    if (!this.rippleElement_.style.width && !this.rippleElement_.style.height) {
+        var rect = this.element_.getBoundingClientRect();
+        this.boundHeight = rect.height;
+        this.boundWidth = rect.width;
+        this.rippleSize_ = Math.sqrt(rect.width * rect.width + rect.height * rect.height) * 2 + 2;
+        this.rippleElement_.style.width = this.rippleSize_ + 'px';
+        this.rippleElement_.style.height = this.rippleSize_ + 'px';
+    }
+    this.rippleElement_.classList.add(this.CssClasses_.IS_VISIBLE);
+    if (event.type === 'mousedown' && this.ignoringMouseDown_) {
+        this.ignoringMouseDown_ = false;
+    } else {
+        if (event.type === 'touchstart') {
+            this.ignoringMouseDown_ = true;
+        }
+        var frameCount = this.getFrameCount();
+        if (frameCount > 0) {
+            return;
+        }
+        this.setFrameCount(1);
+        var bound = event.currentTarget.getBoundingClientRect();
+        var x;
+        var y;
+        // Check if we are handling a keyboard click.
+        if (event.clientX === 0 && event.clientY === 0) {
+            x = Math.round(bound.width / 2);
+            y = Math.round(bound.height / 2);
+        } else {
+            var clientX = event.clientX !== undefined ? event.clientX : event.touches[0].clientX;
+            var clientY = event.clientY !== undefined ? event.clientY : event.touches[0].clientY;
+            x = Math.round(clientX - bound.left);
+            y = Math.round(clientY - bound.top);
+        }
+        this.setRippleXY(x, y);
+        this.setRippleStyles(true);
+        window.requestAnimationFrame(this.animFrameHandler.bind(this));
+    }
+};
+/**
+   * Handle mouse / finger up on element.
+   *
+   * @param {Event} event The event that fired.
+   * @private
+   */
+MaterialRipple.prototype.upHandler_ = function (event) {
+    // Don't fire for the artificial "mouseup" generated by a double-click.
+    if (event && event.detail !== 2) {
+        // Allow a repaint to occur before removing this class, so the animation
+        // shows for tap events, which seem to trigger a mouseup too soon after
+        // mousedown.
+        window.setTimeout(function () {
+            this.rippleElement_.classList.remove(this.CssClasses_.IS_VISIBLE);
+        }.bind(this), 0);
+    }
+};
+/**
+   * Initialize element.
+   */
+MaterialRipple.prototype.init = function () {
+    if (this.element_) {
+        var recentering = this.element_.classList.contains(this.CssClasses_.RIPPLE_CENTER);
+        if (!this.element_.classList.contains(this.CssClasses_.RIPPLE_EFFECT_IGNORE_EVENTS)) {
+            this.rippleElement_ = this.element_.querySelector('.' + this.CssClasses_.RIPPLE);
+            this.frameCount_ = 0;
+            this.rippleSize_ = 0;
+            this.x_ = 0;
+            this.y_ = 0;
+            // Touch start produces a compat mouse down event, which would cause a
+            // second ripples. To avoid that, we use this property to ignore the first
+            // mouse down after a touch start.
+            this.ignoringMouseDown_ = false;
+            this.boundDownHandler = this.downHandler_.bind(this);
+            this.element_.addEventListener('mousedown', this.boundDownHandler);
+            this.element_.addEventListener('touchstart', this.boundDownHandler);
+            this.boundUpHandler = this.upHandler_.bind(this);
+            this.element_.addEventListener('mouseup', this.boundUpHandler);
+            this.element_.addEventListener('mouseleave', this.boundUpHandler);
+            this.element_.addEventListener('touchend', this.boundUpHandler);
+            this.element_.addEventListener('blur', this.boundUpHandler);
+            /**
+         * Getter for frameCount_.
+         * @return {number} the frame count.
+         */
+            this.getFrameCount = function () {
+                return this.frameCount_;
+            };
+            /**
+         * Setter for frameCount_.
+         * @param {number} fC the frame count.
+         */
+            this.setFrameCount = function (fC) {
+                this.frameCount_ = fC;
+            };
+            /**
+         * Getter for rippleElement_.
+         * @return {Element} the ripple element.
+         */
+            this.getRippleElement = function () {
+                return this.rippleElement_;
+            };
+            /**
+         * Sets the ripple X and Y coordinates.
+         * @param  {number} newX the new X coordinate
+         * @param  {number} newY the new Y coordinate
+         */
+            this.setRippleXY = function (newX, newY) {
+                this.x_ = newX;
+                this.y_ = newY;
+            };
+            /**
+         * Sets the ripple styles.
+         * @param  {boolean} start whether or not this is the start frame.
+         */
+            this.setRippleStyles = function (start) {
+                if (this.rippleElement_ !== null) {
+                    var transformString;
+                    var scale;
+                    var size;
+                    var offset = 'translate(' + this.x_ + 'px, ' + this.y_ + 'px)';
+                    if (start) {
+                        scale = this.Constant_.INITIAL_SCALE;
+                        size = this.Constant_.INITIAL_SIZE;
+                    } else {
+                        scale = this.Constant_.FINAL_SCALE;
+                        size = this.rippleSize_ + 'px';
+                        if (recentering) {
+                            offset = 'translate(' + this.boundWidth / 2 + 'px, ' + this.boundHeight / 2 + 'px)';
+                        }
+                    }
+                    transformString = 'translate(-50%, -50%) ' + offset + scale;
+                    this.rippleElement_.style.webkitTransform = transformString;
+                    this.rippleElement_.style.msTransform = transformString;
+                    this.rippleElement_.style.transform = transformString;
+                    if (start) {
+                        this.rippleElement_.classList.remove(this.CssClasses_.IS_ANIMATING);
+                    } else {
+                        this.rippleElement_.classList.add(this.CssClasses_.IS_ANIMATING);
+                    }
+                }
+            };
+            /**
+         * Handles an animation frame.
+         */
+            this.animFrameHandler = function () {
+                if (this.frameCount_-- > 0) {
+                    window.requestAnimationFrame(this.animFrameHandler.bind(this));
+                } else {
+                    this.setRippleStyles(false);
+                }
+            };
+        }
+    }
+};
+// The component registers itself. It can assume componentHandler is available
+// in the global scope.
+componentHandler.register({
+    constructor: MaterialRipple,
+    classAsString: 'MaterialRipple',
+    cssClass: 'mdl-js-ripple-effect',
+    widget: false
+});
+}());
 
 
 /***/ }),
@@ -32602,10 +36588,10 @@ function (_BaseClient) {
 
 /***/ }),
 
-/***/ "./node_modules/webpack-dev-server/client/index.js?http://localhost:9000":
-/*!*********************************************************!*\
-  !*** (webpack)-dev-server/client?http://localhost:9000 ***!
-  \*********************************************************/
+/***/ "./node_modules/webpack-dev-server/client/index.js?https://localhost:9000":
+/*!**********************************************************!*\
+  !*** (webpack)-dev-server/client?https://localhost:9000 ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32786,7 +36772,7 @@ var onSocketMessage = {
   }
 };
 socket(socketUrl, onSocketMessage);
-/* WEBPACK VAR INJECTION */}.call(this, "?http://localhost:9000"))
+/* WEBPACK VAR INJECTION */}.call(this, "?https://localhost:9000"))
 
 /***/ }),
 
@@ -33483,9 +37469,12 @@ module.exports.formatError = function(err) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Components", function() { return Components; });
 /* harmony import */ var _components_remote_content__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/remote-content */ "./src/components/remote-content.ts");
+/* harmony import */ var _components_multi_select__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/multi-select */ "./src/components/multi-select.ts");
+
 
 var Components = {
-    RemoteContent: _components_remote_content__WEBPACK_IMPORTED_MODULE_0__["RemoteContent"]
+    RemoteContent: _components_remote_content__WEBPACK_IMPORTED_MODULE_0__["RemoteContent"],
+    MultiSelect: _components_multi_select__WEBPACK_IMPORTED_MODULE_1__["MultiSelect"]
 };
 
 
@@ -33546,7 +37535,7 @@ var BaseComponent = /** @class */ (function () {
         this.uid = crypto__WEBPACK_IMPORTED_MODULE_0__["randomBytes"](8).toString('hex');
         var config = element.getAttribute('data-config');
         if (!config)
-            throw new Error('Invalid component');
+            throw new Error('Invalid configuration');
         this.config = JSON.parse(config);
         this.element.setAttribute('data-component-uid', this.uid);
     }
@@ -33559,6 +37548,171 @@ var BaseComponent = /** @class */ (function () {
     };
     return BaseComponent;
 }());
+
+
+
+/***/ }),
+
+/***/ "./src/components/multi-select.ts":
+/*!****************************************!*\
+  !*** ./src/components/multi-select.ts ***!
+  \****************************************/
+/*! exports provided: MultiSelect */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MultiSelect", function() { return MultiSelect; });
+/* harmony import */ var _base_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base-component */ "./src/components/base-component.ts");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (undefined && undefined.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+
+var MultiSelect = /** @class */ (function (_super) {
+    __extends(MultiSelect, _super);
+    function MultiSelect(element, widget) {
+        var _this = _super.call(this, element, widget) || this;
+        _this.checkboxElements = [];
+        _this.menuItemElements = [];
+        _this.checkboxElements = Array.from(_this.element.querySelectorAll('.mdl-checkbox__input'));
+        _this.menuItemElements = Array.from(_this.element.querySelectorAll('.mdl-list__item'));
+        _this.selectedLabelElement = _this.element.querySelector('.multi-select-selected');
+        _this.selectedCountElement = _this.element.querySelector('.multi-select-count');
+        _this.menuElement = _this.element.querySelector('.mdl-menu');
+        _this.buttonElement = _this.element.querySelector('#' + _this.menuElement.getAttribute('for'));
+        return _this;
+    }
+    MultiSelect.prototype.init = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var _i, _a, checkbox, _loop_1, _b, _c, menuItem;
+            var _this = this;
+            return __generator(this, function (_d) {
+                this.buttonElement.addEventListener('click', function () {
+                    _this.menuElement.scrollTo({ left: 0, top: 0 });
+                });
+                for (_i = 0, _a = this.checkboxElements; _i < _a.length; _i++) {
+                    checkbox = _a[_i];
+                    checkbox.addEventListener('change', function (evt) {
+                        console.log('Checkbox changed', evt);
+                        _this.updateSelectedLabel();
+                    });
+                }
+                _loop_1 = function (menuItem) {
+                    menuItem.addEventListener('click', function (evt) {
+                        evt.preventDefault();
+                        evt.stopImmediatePropagation();
+                        evt.stopPropagation();
+                        evt.cancelBubble = false;
+                        var checkbox = menuItem.querySelector('.mdl-checkbox').MaterialCheckbox;
+                        var checkboxElement = menuItem.querySelector('input[type="checkbox"]');
+                        if (checkboxElement) {
+                            if (checkboxElement.checked) {
+                                checkbox.uncheck();
+                            }
+                            else {
+                                checkbox.check();
+                            }
+                            _this.updateSelectedLabel();
+                        }
+                    });
+                };
+                for (_b = 0, _c = this.menuItemElements; _b < _c.length; _b++) {
+                    menuItem = _c[_b];
+                    _loop_1(menuItem);
+                }
+                setTimeout(function () {
+                    componentHandler.upgradeDom("MaterialCheckbox", 'mdl-checkbox');
+                    componentHandler.upgradeDom("MaterialRipple", 'mdl-js-ripple-effect');
+                    componentHandler.upgradeDom("MaterialMenu", 'mdl-js-menu');
+                    _this.materialMenu = _this.menuElement.MaterialMenu;
+                    var menuWidth = _this.menuElement.getBoundingClientRect().width;
+                    _this.menuElement.style.width = (menuWidth + 100) + 'px';
+                    _this.menuElement.addEventListener('click', function (evt) {
+                        evt.preventDefault();
+                        evt.stopImmediatePropagation();
+                        evt.stopPropagation();
+                        evt.cancelBubble = false;
+                    });
+                }, 0);
+                this.updateSelectedLabel();
+                return [2 /*return*/];
+            });
+        });
+    };
+    MultiSelect.prototype.updateSelectedLabel = function () {
+        var selected = [];
+        for (var _i = 0, _a = this.checkboxElements; _i < _a.length; _i++) {
+            var checkbox = _a[_i];
+            var labelElement = this.element.querySelector('.mdl-list__item[for="' + checkbox.id + '"] .mdl-list__item-primary-content');
+            var label = labelElement ? labelElement.innerHTML : checkbox.value;
+            if (checkbox.checked) {
+                selected.push(label.trim());
+            }
+        }
+        if (selected.length > 0) {
+            if (this.selectedLabelElement) {
+                this.selectedLabelElement.innerHTML = selected.join(', ');
+            }
+            if (this.selectedCountElement) {
+                this.selectedCountElement.innerHTML = "(" + selected.length + " selected)";
+            }
+        }
+        else {
+            if (this.selectedLabelElement) {
+                this.selectedLabelElement.innerHTML = 'None';
+            }
+            if (this.selectedCountElement) {
+                this.selectedCountElement.innerHTML = "(None selected)";
+            }
+        }
+    };
+    return MultiSelect;
+}(_base_component__WEBPACK_IMPORTED_MODULE_0__["BaseComponent"]));
 
 
 
@@ -33740,7 +37894,7 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
 };
 var _this = undefined;
 
-__webpack_require__(/*! material-design-lite */ "./node_modules/material-design-lite/dist/material.min.js");
+__webpack_require__(/*! ../node_modules/material-design-lite/material */ "./node_modules/material-design-lite/material.js");
 __webpack_require__(/*! ./widget.scss */ "./src/widget.scss");
 var Widget = /** @class */ (function () {
     function Widget(me) {
@@ -33810,13 +37964,13 @@ var Widget = /** @class */ (function () {
 /***/ }),
 
 /***/ 0:
-/*!*******************************************************************************!*\
-  !*** multi (webpack)-dev-server/client?http://localhost:9000 ./src/widget.ts ***!
-  \*******************************************************************************/
+/*!********************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?https://localhost:9000 ./src/widget.ts ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/tonicblue/code/scvo/widgets/node_modules/webpack-dev-server/client/index.js?http://localhost:9000 */"./node_modules/webpack-dev-server/client/index.js?http://localhost:9000");
+__webpack_require__(/*! /home/tonicblue/code/scvo/widgets/node_modules/webpack-dev-server/client/index.js?https://localhost:9000 */"./node_modules/webpack-dev-server/client/index.js?https://localhost:9000");
 module.exports = __webpack_require__(/*! /home/tonicblue/code/scvo/widgets/src/widget.ts */"./src/widget.ts");
 
 

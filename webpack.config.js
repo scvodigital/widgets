@@ -1,3 +1,4 @@
+const fs = require('fs');
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
@@ -16,17 +17,21 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.scss$/,
+        test: /\.s?css$/,
         use: [
           { loader: 'style-loader' },
           { loader: 'css-loader' },
           {
             loader: 'sass-loader',
             options: {
-              includePaths: ['../node_modules/material-design-lite/src']
+              includePaths: ['../node_modules/']
             }
           }
         ]
+      },
+      {
+        test: /\.svg$/,
+        loader: 'svg-inline-loader'
       },
       {
         test: /\.ts$/,
@@ -53,7 +58,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.ts', '.js', '.scss', '.html']
+    extensions: ['.ts', '.js', '.scss', '.css', '.html', '.svg']
   },
   plugins: [
     new HtmlWebPackPlugin({
@@ -62,13 +67,23 @@ module.exports = {
       inject: false
     }),
     new CopyPlugin([
-      { from: 'src/widgets/', to: 'widgets/' }
+      { from: 'src/widgets/', to: 'widgets/' },
+      { from: 'src/assets/', to: 'assets/'}
     ])
   ],
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     compress: true,
     port: 9000,
-    writeToDisk: true
+    writeToDisk: true,
+    https: {
+      key: fs.readFileSync(path.join(__dirname, '../http/test-cert/_wildcard.local-key.pem')),
+      cert: fs.readFileSync(path.join(__dirname, '../http/test-cert/_wildcard.local.pem'))
+    },
+    allowedHosts: [
+      'scvo.local',
+      'volunteerscotland-search.local',
+      'localhost'
+    ]
   }
 };

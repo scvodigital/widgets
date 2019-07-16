@@ -1,6 +1,4 @@
 .scvo-widget {
   @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-  @import '../node_modules/material-design-lite/src/material-design-lite.scss';
-  @import '../node_modules/material-design-lite/src/material-design-lite-grid.scss';
-
+  @import '~../node_modules/material-design-lite/dist/material.blue_grey-blue.min';
 }

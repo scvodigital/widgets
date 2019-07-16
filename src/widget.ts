@@ -1,7 +1,7 @@
 import { Components } from './components';
 import { BaseComponent } from './components/base-component';
 
-require('material-design-lite');
+require('../node_modules/material-design-lite/material');
 require('./widget.scss');
 
 export class Widget {
