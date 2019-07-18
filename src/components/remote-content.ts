@@ -4,7 +4,7 @@ export class RemoteContent extends BaseComponent<RemoteContentConfig> {
   async init() {
     const contentResponse = await fetch(this.config.url);
     const content = await contentResponse.text();
-    this.element.innerHTML = content;
+    this.element.html(content);
     setTimeout(async () => { await this.widget.registerComponents() }, 0);
   }
 }

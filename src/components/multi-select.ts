@@ -1,104 +1,66 @@
 import { BaseComponent } from './base-component';
 import { Widget } from '../widget';
 
+import * as $ from 'jquery';
+
 export class MultiSelect extends BaseComponent<MultiSelectConfig> {
-  checkboxElements: HTMLInputElement[] = [];
-  menuItemElements: HTMLLIElement[] = [];
-  selectedLabelElement: HTMLElement;
-  selectedCountElement: HTMLElement;
-  menuElement: HTMLElement;
-  buttonElement: HTMLElement;
+  checkboxElements = this.element.find('.mdl-checkbox__input');
+  menuItemElements = this.element.find('.mdl-list__item');
+  selectedCountElement = this.element.find('.multi-select-count');
+  menuElement = this.element.find('.mdl-menu');
+  buttonElement = this.element.find('#' + this.menuElement.attr('for'));
   materialMenu: any;
 
   constructor(element: Element, widget: Widget) {
     super(element, widget)
-    this.checkboxElements = Array.from(this.element.querySelectorAll('.mdl-checkbox__input'));
-    this.menuItemElements = Array.from(this.element.querySelectorAll('.mdl-list__item'));
-    this.selectedLabelElement = this.element.querySelector('.multi-select-selected') as HTMLElement;
-    this.selectedCountElement = this.element.querySelector('.multi-select-count') as HTMLElement;
-    this.menuElement = this.element.querySelector('.mdl-menu') as HTMLElement;
-    this.buttonElement = this.element.querySelector('#' + this.menuElement.getAttribute('for')) as HTMLElement;
   }
 
   async init() {
-    this.buttonElement.addEventListener('click', () => {
-      this.menuElement.scrollTo({ left: 0, top: 0 });
+    this.buttonElement.on('click', () => {
+      this.menuElement[0].scrollTo({ left: 0, top: 0 });
     });
 
-    for (const checkbox of this.checkboxElements) {
-      checkbox.addEventListener('change', (evt: Event) => {
-        console.log('Checkbox changed', evt);
-        this.updateSelectedLabel();
-      });
-    }
+    this.checkboxElements.on('change', () => {
+      this.updateSelectedCount();
+    });
 
-    for (const menuItem of this.menuItemElements) {
-      menuItem.addEventListener('click', (evt: Event) => {
-        evt.preventDefault();
-        evt.stopImmediatePropagation();
-        evt.stopPropagation();
-        evt.cancelBubble = false;
-        const checkbox: any = (menuItem.querySelector('.mdl-checkbox') as any).MaterialCheckbox;
-        const checkboxElement = menuItem.querySelector('input[type="checkbox"]') as HTMLInputElement;
-        if (checkboxElement) {
-          if (checkboxElement.checked) {
-            checkbox.uncheck();
-          } else {
-            checkbox.check();
-          }
-          this.updateSelectedLabel();
+    this.menuItemElements.on('click', (evt) => {
+      evt.preventDefault();
+      evt.stopImmediatePropagation();
+      evt.stopPropagation();
+      const menuItem = $(evt.currentTarget);
+      const checkbox: any = ($(menuItem).find('.mdl-checkbox')[0] as any).MaterialCheckbox;
+      const checkboxElement = $(menuItem).find('input[type="checkbox"]');
+      if (checkboxElement) {
+        if (checkboxElement.prop('checked')) {
+          checkbox.uncheck();
+        } else {
+          checkbox.check();
         }
-      });
-    }
+        this.updateSelectedCount();
+      }
+    });
 
     setTimeout(() => {
-      componentHandler.upgradeDom("MaterialCheckbox", 'mdl-checkbox');
-      componentHandler.upgradeDom("MaterialRipple", 'mdl-js-ripple-effect');
-      componentHandler.upgradeDom("MaterialMenu", 'mdl-js-menu');
-
+      componentHandler.upgradeDom();
       this.materialMenu = (this.menuElement as any).MaterialMenu;
-
-      const menuWidth = this.menuElement.getBoundingClientRect().width;
-      this.menuElement.style.width = (menuWidth + 100) + 'px';
-
-      this.menuElement.addEventListener('click', (evt: Event) => {
+      this.menuElement.css('width', this.buttonElement.outerWidth() || 300);
+      this.menuElement.on('click', (evt) => {
         evt.preventDefault();
         evt.stopImmediatePropagation();
         evt.stopPropagation();
-        evt.cancelBubble = false;
       });
     }, 0);
 
-    this.updateSelectedLabel();
+    this.updateSelectedCount();
   }
 
-  updateSelectedLabel() {
-    const selected: string[] = [];
-    for (const checkbox of this.checkboxElements) {
-      const labelElement = this.element.querySelector('.mdl-list__item[for="' + checkbox.id + '"] .mdl-list__item-primary-content');
-      const label = labelElement ? labelElement.innerHTML : checkbox.value;
-      if (checkbox.checked) {
-        selected.push(label.trim());
-      }
-    }
-    if (selected.length > 0) {
-      if (this.selectedLabelElement) {
-        this.selectedLabelElement.innerHTML = selected.join(', ');
-      }
-      if (this.selectedCountElement) {
-        this.selectedCountElement.innerHTML = `(${selected.length} selected)`
-      }
-    } else {
-      if (this.selectedLabelElement) {
-        this.selectedLabelElement.innerHTML = 'None';
-      }
-      if (this.selectedCountElement) {
-        this.selectedCountElement.innerHTML = `(None selected)`
-      }
-    }
+  updateSelectedCount() {
+    const checked = this.menuItemElements.has('input:checked');
+    this.selectedCountElement.attr('data-badge', checked.length.toString());
   }
 }
 
 export interface MultiSelectConfig {
-  labelItemCount: number;
+  selectedListLimit: number;
 }

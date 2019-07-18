@@ -68,7 +68,6 @@ module.exports = {
     }),
     new CopyPlugin([
       { from: 'src/widgets/', to: 'widgets/' },
-      { from: 'src/assets/', to: 'assets/'}
     ])
   ],
   devServer: {

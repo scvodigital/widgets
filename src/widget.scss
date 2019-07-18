@@ -1,4 +1,37 @@
 .scvo-widget {
   @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
   @import '~../node_modules/material-design-lite/dist/material.blue_grey-blue.min';
+
+  .multi-select .mdl-menu {
+    overflow: auto;
+    height: 200px !important;
+    padding: 0 !important;
+  }
+
+  .multi-select .mdl-list__item {
+    padding: 0.5rem;
+  }
+
+  .multi-select .mdl-list__item:hover {
+    background-color: #eaeaea;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .mdl-button {
+    font-weight: 600;
+    text-transform: none;
+  }
+
+  .mdl-slider {
+    width: 100%;
+    margin: 0;
+  }
+
+  .mdl-slider__background-flex {
+    width: 100%;
+    margin: 0;
+  }
 }

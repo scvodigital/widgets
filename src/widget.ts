@@ -1,28 +1,32 @@
 import { Components } from './components';
 import { BaseComponent } from './components/base-component';
 
-require('../node_modules/material-design-lite/material');
+require('material-design-lite');
 require('./widget.scss');
+
+import * as $ from 'jquery';
 
 export class Widget {
   componentRegistry: ComponentRegistry = {};
-  baseElement: HTMLDivElement = document.createElement('div');
+  me: JQuery<HTMLElement>;
+  baseElement = $('<div>');
 
-  constructor(public me: HTMLScriptElement) {
-    const url: string|null = this.me.getAttribute('data-url') || '/widgets/invalid-setup.html';
+  constructor(me: HTMLScriptElement) {
+    this.me = $(me);
+    const url: string|null = this.me.data('url') || '/widgets/invalid-setup.html';
 
-    this.baseElement.classList.add('scvo-widget');
-    this.baseElement.innerHTML = `<div data-component="RemoteContent" data-config='{ "url": "${url}" }'></div>`;
-    me.insertAdjacentElement('afterend', this.baseElement);
+    this.baseElement.addClass('scvo-widget');
+    this.baseElement.html(`<div data-component="RemoteContent" data-config='{ "url": "${url}" }'></div>`);
+    this.baseElement.insertAfter(me);
   }
 
   async registerComponents() {
-    const componentElements = Array.from(this.baseElement.querySelectorAll('[data-component]'));
+    const componentElements = Array.from($('[data-component]')).map(item => $(item));
     for (const componentElement of componentElements) {
-      const uid = componentElement.getAttribute('data-component-uid');
+      const uid = componentElement.data('component-uid');
       if (uid) continue;
 
-      const typeName = componentElement.getAttribute('data-component') || '';
+      const typeName = componentElement.data('component') || '';
       if (!Components.hasOwnProperty(typeName)) throw new Error('Invalid component name: ' + typeName);
 
       const type = Components[typeName] as typeof BaseComponent;
@@ -31,6 +35,7 @@ export class Widget {
       this.componentRegistry[component.uid] = component;
       console.log('Component Registered', component);
     }
+    componentHandler.upgradeDom();
   }
 }
 
