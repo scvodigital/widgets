@@ -6,6 +6,8 @@ require('./widget.scss');
 
 import * as $ from 'jquery';
 
+(window as any).$ = $;
+
 export class Widget {
   componentRegistry: ComponentRegistry = {};
   me: JQuery<HTMLElement>;

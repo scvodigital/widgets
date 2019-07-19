@@ -11,6 +11,8 @@ export class MultiSelect extends BaseComponent<MultiSelectConfig> {
   buttonElement = this.element.find('#' + this.menuElement.attr('for'));
   materialMenu: any;
 
+  selectedCount = 0;
+
   constructor(element: Element, widget: Widget) {
     super(element, widget)
   }
@@ -58,6 +60,13 @@ export class MultiSelect extends BaseComponent<MultiSelectConfig> {
   updateSelectedCount() {
     const checked = this.menuItemElements.has('input:checked');
     this.selectedCountElement.attr('data-badge', checked.length.toString());
+    if (this.selectedCount !== checked.length) {
+      this.selectedCountElement.addClass('rubberBand');
+      setTimeout(() => {
+        this.selectedCountElement.removeClass('rubberBand');
+      }, 500);
+    }
+    this.selectedCount = checked.length;
   }
 }
 

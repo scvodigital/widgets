@@ -1,4 +1,5 @@
 import { BaseComponent } from "./base-component";
+import { DomManipulator, DomManipulatorRules } from '../dom-manipulator';
 
 require('imports-loader?define=>false!typeahead.js/dist/typeahead.jquery.min.js');
 const Bloodhound = require('imports-loader?define=>false!typeahead.js/dist/bloodhound.min.js');
@@ -12,14 +13,22 @@ export const BloodhoundTokenizers = {
 
 export class Typeahead extends BaseComponent<TypeaheadConfig> {
   typeahead: any;
+  selectedItem: any;
+  autocompleted: boolean = false;
+  datasets: { [name: string]: TypeaheadDataset } = {};
 
   async init() {
     const typeaheadArgs: any[] = [this.config.typeaheadOptions || {}];
     this.config.datasets = this.config.datasets.filter(Boolean);
     for (const dataset of this.config.datasets) {
+      if (dataset.bloodhound.local) {
+        for (const item of dataset.bloodhound.local) {
+          item.datasetName = dataset.name;
+        }
+      }
       const datumTokenizerField = dataset.bloodhound.datumTokenizerField;
       const bloodhoundOptions: any = {
-        dataumTokenizer: datumTokenizerField ?
+        datumTokenizer: datumTokenizerField ?
           BloodhoundTokenizers[dataset.bloodhound.datumTokenizer](datumTokenizerField) :
           BloodhoundTokenizers[dataset.bloodhound.datumTokenizer],
         queryTokenizer: BloodhoundTokenizers[dataset.bloodhound.queryTokenizer],
@@ -34,16 +43,54 @@ export class Typeahead extends BaseComponent<TypeaheadConfig> {
 
       dataset.source = engine;
       typeaheadArgs.push(dataset);
+      this.datasets[dataset.name] = dataset;
     }
 
     this.typeahead = (this.element as any).typeahead.apply(this.element, typeaheadArgs);
+    this.typeahead
+      .on('typeahead:select', (ev: any, suggestion: any) => {
+        this.autocompleted = true;
+        this.typeaheadSelect(ev, suggestion);
+      })
+      .on('typeahead:autocomplete', (ev: any, suggestion: any) => {
+        this.autocompleted = true;
+        this.typeaheadSelect(ev, suggestion);
+      })
+      .on('keydown', (ev: any) => {
+        switch (ev.keyCode) {
+          case (9):
+            if (this.autocompleted) ev.preventDefault();
+            break;
+          case (13):
+            if (this.autocompleted) ev.preventDefault();
+            var val = this.element.val();
+            if (val) {
+              (this.element as any).typeahead('val', val);
+              setTimeout(() => { this.element.focus() }, 100);
+            }
+            break;
+        }
+        this.autocompleted = false;
+      });
+  }
+
+  typeaheadSelect(event: any, suggestion: any) {
+    const dataset = this.datasets[suggestion.datasetName] || null;
+    const context = {
+      event,
+      suggestion,
+      dataset,
+      instance: this
+    };
+    DomManipulator(this.config.domManipulatorRules, this.element, context);
   }
 }
 
 export interface TypeaheadConfig {
   typeaheadOptions?: TypeaheadOptions;
-  outputs: any[];
+  domManipulatorRules: DomManipulatorRules;
   datasets: TypeaheadDataset[];
+  clearAfterSelection?: boolean;
   clearIfNothingSelected?: boolean;
 }
 
@@ -67,7 +114,7 @@ export interface TypeaheadClassNames {
 }
 
 export interface TypeaheadDataset {
-  name?: string;
+  name: string;
   limit?: number;
   display?: string;
   templates?: TypeaheadDatasetTemplates;

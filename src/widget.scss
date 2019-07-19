@@ -10,6 +10,7 @@
 
   .multi-select .mdl-list__item {
     padding: 0.5rem;
+    letter-spacing: initial;
   }
 
   .multi-select .mdl-list__item:hover {
@@ -33,5 +34,82 @@
   .mdl-slider__background-flex {
     width: 100%;
     margin: 0;
+  }
+
+  .mdl-badge.rubberBand::after {
+    -webkit-transform-origin: center bottom;
+        -ms-transform-origin: center bottom;
+            transform-origin: center bottom;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+    -webkit-animation-name: rubberBand;
+            animation-name: rubberBand;
+  }
+
+  @keyframes rubberBand {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+      -webkit-transform: scale3d(.95, 1.05, 1);
+              transform: scale3d(.95, 1.05, 1);
+    }
+
+    75% {
+      -webkit-transform: scale3d(1.05, .95, 1);
+              transform: scale3d(1.05, .95, 1);
+    }
+
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+
+  .twitter-typeahead {
+    width: 100%;
+
+    .tt-menu {
+      padding: 0.5rem 0;
+      background-color: #ffffff;
+      width: 100%;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+      .tt-dataset {
+        h3 {
+          font-size: 1rem;
+          line-height: 1rem;
+          font-weight: bold;
+          margin: 0;
+          padding: 0.5rem;
+        }
+        .tt-suggestion {
+          padding: 0.5rem;
+        }
+        .tt-cursor {
+          background-color: #eaeaea;
+        }
+      }
+    }
   }
 }
