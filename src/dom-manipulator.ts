@@ -1,36 +1,6 @@
 import * as mustache from 'mustache';
 import * as $ from 'jquery';
 
-export interface DMRulesCallback {
-  (element: JQuery<HTMLElement>, data?: any): void;
-}
-
-export interface DomManipulatorRules {
-  addClasses?: RulesMap<string[]>;
-  removeClasses?: RulesMap<string[]>;
-  attributes?: RulesMap<RulesMap<string>>;
-  contents?: RulesMap<string>;
-  styles?: RulesMap<RulesMap<string>>;
-  deleteElements?: string[];
-  createElements?: RulesMap<CreateElementRule>;
-  run?: any;
-  delayed?: DelayedRules[];
-}
-
-export interface RulesMap<T> {
-  [selector: string]: T;
-}
-
-export interface DelayedRules {
-  delay: number;
-  rules: DomManipulatorRules;
-}
-
-export interface CreateElementRule {
-  template: string;
-  where?: 'beforeStart'|'afterStart'|'beforeEnd'|'afterEnd';
-}
-
 export function DomManipulator(rules: DomManipulatorRules, root: JQuery<HTMLElement>, data: any) {
   if (rules.addClasses) {
     rulesIterator(rules.addClasses, root, data, (element, classes: string[]) => {
@@ -129,6 +99,10 @@ export function DomManipulator(rules: DomManipulatorRules, root: JQuery<HTMLElem
     }
   }
 
+  if (rules.focus) {
+    $(rules.focus).focus();
+  }
+
   function safeEval(fn: string) {
     return new Function('"use strict"; return ' + fn + ';');
   }
@@ -141,10 +115,44 @@ function rulesIterator(items: any, root: JQuery<HTMLElement>, context: any, call
     const data = isArray ? null : items[selector];
     const renderedSelector = mustache.render(selector, context);
     const elements = renderedSelector === '>' ? root :
-    renderedSelector.startsWith('>') ? root.find(renderedSelector.substr(1)) :
+      renderedSelector.startsWith('>') ? root.find(renderedSelector.substr(1)) :
+      renderedSelector === '<' ? root.parent() :
+      renderedSelector.startsWith('<') ? root.parents(renderedSelector.substr(1)) :
       $(renderedSelector);
     elements.each((i, o) => {
       callback($(o), data);
     });
   }
+}
+
+
+export interface DMRulesCallback {
+  (element: JQuery<HTMLElement>, data?: any): void;
+}
+
+export interface DomManipulatorRules {
+  addClasses?: RulesMap<string[]>;
+  removeClasses?: RulesMap<string[]>;
+  attributes?: RulesMap<RulesMap<string>>;
+  contents?: RulesMap<string>;
+  styles?: RulesMap<RulesMap<string>>;
+  deleteElements?: string[];
+  createElements?: RulesMap<CreateElementRule>;
+  run?: any;
+  delayed?: DelayedRules[];
+  focus?: string;
+}
+
+export interface RulesMap<T> {
+  [selector: string]: T;
+}
+
+export interface DelayedRules {
+  delay: number;
+  rules: DomManipulatorRules;
+}
+
+export interface CreateElementRule {
+  template: string;
+  where?: 'beforeStart'|'afterStart'|'beforeEnd'|'afterEnd';
 }

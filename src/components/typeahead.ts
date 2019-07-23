@@ -16,15 +16,9 @@ export class Typeahead extends BaseComponent<TypeaheadConfig> {
   selectedItem: any;
   autocompleted: boolean = false;
   datasets: { [name: string]: TypeaheadDataset } = {};
-  lockButton: JQuery<HTMLElement> = this.element.prev('.typeahead-lock');
+  textbox = this.element.find('input');
 
   async init() {
-    this.lockButton.on('click', () => {
-      this.setupTypeahead();
-      this.element.prop('readonly', false);
-      this.lockButton.hide();
-      this.element.focus();
-    });
     this.setupTypeahead();
   }
 
@@ -57,7 +51,7 @@ export class Typeahead extends BaseComponent<TypeaheadConfig> {
       this.datasets[dataset.name] = dataset;
     }
 
-    this.typeahead = (this.element as any).typeahead.apply(this.element, typeaheadArgs);
+    this.typeahead = (this.textbox as any).typeahead.apply(this.textbox, typeaheadArgs);
     this.typeahead
       .on('typeahead:select', (ev: any, suggestion: any) => {
         this.autocompleted = true;
@@ -67,64 +61,37 @@ export class Typeahead extends BaseComponent<TypeaheadConfig> {
         this.autocompleted = true;
         this.typeaheadSelect(ev, suggestion);
       })
-      .off('keydown').on('keydown', (event: any) => {
-        console.log('keydown', event);
-        switch (event.keyCode) {
+      .on('keydown', (ev: any) => {
+        switch (ev.keyCode) {
           case (9):
-            if (this.autocompleted) {
-              event.preventDefault();
-            }
+            if (this.autocompleted) ev.preventDefault();
             break;
           case (13):
-            if (this.autocompleted) {
-              event.preventDefault();
-            }
-            var val = this.element.val();
-            if (val) {
-              (this.element as any).typeahead('val', val);
-              setTimeout(() => { this.element.focus() }, 100);
-            }
+            if (this.autocompleted) ev.preventDefault();
             break;
         }
         this.autocompleted = false;
-        this.selectedItem = null;
       });
   }
 
   typeaheadSelect(event: any, suggestion: any) {
-    if (!this.config.itemSelectedRules) return;
-    this.selectedItem = suggestion;
-    const dataset = this.datasets[suggestion.datasetName] || null;
-    const context = {
-      event,
-      suggestion,
-      dataset,
-      instance: this
-    };
-    DomManipulator(this.config.itemSelectedRules, this.element, context);
-    if (this.lockButton.length > 0) {
-      this.element.prop('readonly', true);
-      this.lockButton.show();
-      (this.element as any).typeahead('destroy');
+    if (this.config.itemSelectedRules) {
+      const dataset = this.datasets[suggestion.datasetName] || null;
+      const context = {
+        event,
+        suggestion,
+        dataset,
+        instance: this
+      };
+      DomManipulator(this.config.itemSelectedRules, this.element, context);
     }
-  }
-
-  nothingSelected(event: any) {
-    if (!this.config.nothingSelectedRules) return;
-    const context = {
-      event,
-      instance: this
-    };
-    DomManipulator(this.config.nothingSelectedRules, this.element, context);
   }
 }
 
 export interface TypeaheadConfig {
   typeaheadOptions?: TypeaheadOptions;
   itemSelectedRules?: DomManipulatorRules;
-  nothingSelectedRules?: DomManipulatorRules;
   datasets: TypeaheadDataset[];
-  lockSelected?: boolean;
 }
 
 export interface TypeaheadOptions {

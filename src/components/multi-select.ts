@@ -1,5 +1,4 @@
 import { BaseComponent } from './base-component';
-import { Widget } from '../widget';
 
 import * as $ from 'jquery';
 
@@ -12,10 +11,6 @@ export class MultiSelect extends BaseComponent<MultiSelectConfig> {
   materialMenu: any;
 
   selectedCount = 0;
-
-  constructor(element: Element, widget: Widget) {
-    super(element, widget)
-  }
 
   async init() {
     this.buttonElement.on('click', () => {

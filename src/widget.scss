@@ -36,6 +36,10 @@
     margin: 0;
   }
 
+  .mdl-badge[data-badge="0"] {
+    display: none;
+  }
+
   .mdl-badge.rubberBand::after {
     -webkit-transform-origin: center bottom;
         -ms-transform-origin: center bottom;
@@ -89,9 +93,21 @@
 
   .typeahead-lock {
     position: absolute;
-    right: 0;
+    left: 0;
     z-index: 100;
     display: none;
+  }
+
+  .typeahead-locked {
+    .typeahead-lock {
+      display: block;
+    }
+    input {
+      pointer-events: none;
+      padding-left: 40px;
+      box-sizing: border-box;
+      opacity: 0.5;
+    }
   }
 
   .twitter-typeahead {
