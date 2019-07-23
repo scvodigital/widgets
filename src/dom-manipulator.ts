@@ -99,8 +99,8 @@ export function DomManipulator(rules: DomManipulatorRules, root: JQuery<HTMLElem
     }
   }
 
-  if (rules.focus) {
-    $(rules.focus).focus();
+  if (rules.focus && $(rules.focus)) {
+    $(rules.focus)[0].focus();
   }
 
   function safeEval(fn: string) {

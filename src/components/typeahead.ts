@@ -81,6 +81,8 @@ export class Typeahead extends BaseComponent<TypeaheadConfig> {
         event,
         suggestion,
         dataset,
+        window,
+        $,
         instance: this
       };
       DomManipulator(this.config.itemSelectedRules, this.element, context);

@@ -1,9 +1,10 @@
 import { ComponentManager } from './component-manager';
 
-import { RemoteContent } from './components/remote-content';
-import { MultiSelect } from './components/multi-select';
-import { Typeahead } from './components/typeahead';
+import { AjaxForm } from './components/ajax-form';
 import { DomManipulatorTrigger } from './components/dom-manipulator-trigger';
+import { MultiSelect } from './components/multi-select';
+import { RemoteContent } from './components/remote-content';
+import { Typeahead } from './components/typeahead';
 
 require('material-design-lite');
 require('./widget.scss');
@@ -14,7 +15,7 @@ import * as $ from 'jquery';
 
 export class Widget {
   componentManager = new ComponentManager([
-    RemoteContent, MultiSelect, Typeahead, DomManipulatorTrigger
+    AjaxForm, DomManipulatorTrigger, MultiSelect, RemoteContent, Typeahead,
   ]);
   me: JQuery<HTMLElement>;
   baseElement = $('<div>');

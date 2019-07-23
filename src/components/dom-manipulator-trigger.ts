@@ -18,7 +18,9 @@ export class DomManipulatorTrigger extends BaseComponent<DomManipulatorTriggerCo
   handleEvent(event: Event) {
     const context = {
       event,
-      instance: this
+      window,
+      $,
+      instance: this,
     };
     const rules = this.config[event.type];
     const target = $(event.currentTarget as HTMLElement || this.element);
