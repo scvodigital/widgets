@@ -58,7 +58,10 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.ts', '.js', '.scss', '.css', '.html', '.svg']
+    extensions: ['.ts', '.js', '.scss', '.css', '.html', '.svg'],
+    alias: {
+      handlebars: 'handlebars/dist/handlebars.js'
+    }
   },
   plugins: [
     new HtmlWebPackPlugin({

@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/scvodigital/widgets#readme",
   "devDependencies": {
+    "@types/handlebars": "^4.1.0",
     "@types/jest": "^24.0.15",
     "@types/jquery": "^3.3.30",
     "@types/material-design-lite": "^1.1.15",
@@ -47,6 +48,8 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+    "bristles": "file:../bristles",
+    "handlebars": "^4.1.2",
     "jquery": "^3.4.1",
     "leaflet": "^1.5.1",
     "material-design-lite": "^1.3.0",

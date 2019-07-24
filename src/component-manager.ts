@@ -1,10 +1,11 @@
 import { BaseComponent } from './components/base-component';
+import { Widget } from './widget';
 
 export class ComponentManager {
   components: { [name: string]: any } = {};
   componentRegistry: ComponentRegistry = {};
 
-  constructor(components: any[]) {
+  constructor(components: any[], public widget: Widget) {
     for (const component of components) {
       this.components[component.name] = component as typeof BaseComponent;
     }
@@ -21,10 +22,9 @@ export class ComponentManager {
         if (uid) continue;
 
         const type = this.components[typeName] as typeof BaseComponent;
-        const component = new type(componentElement, this);
+        const component = new type(componentElement, this.widget);
         await component.init();
         this.componentRegistry[component.uid] = component;
-        console.log('Component Registered', component);
       }
     }
     componentHandler.upgradeDom();

@@ -1,11 +1,11 @@
-import * as mustache from 'mustache';
+import { Bristles } from 'bristles';
 import * as $ from 'jquery';
 
 export function DomManipulator(rules: DomManipulatorRules, root: JQuery<HTMLElement>, data: any) {
   if (rules.addClasses) {
     rulesIterator(rules.addClasses, root, data, (element, classes: string[]) => {
       for (let className of classes) {
-        className = mustache.render(className, data);
+        className = Bristles.compile(className)(data);
         element.addClass(className);
       }
     });
@@ -14,7 +14,7 @@ export function DomManipulator(rules: DomManipulatorRules, root: JQuery<HTMLElem
   if (rules.removeClasses) {
     rulesIterator(rules.removeClasses, root, data, (element, classes: string[]) => {
       for (let className of classes) {
-        className = mustache.render(className, data);
+        className = Bristles.compile(className)(data);
         element.removeClass(className);
       }
     });
@@ -26,7 +26,7 @@ export function DomManipulator(rules: DomManipulatorRules, root: JQuery<HTMLElem
         if (value === null) {
           element.removeAttr(attribute);
         } else {
-          const renderedValue = mustache.render(value, data);
+          const renderedValue = Bristles.compile(value)(data);
           element.attr(attribute, renderedValue);
         }
       }
@@ -35,7 +35,7 @@ export function DomManipulator(rules: DomManipulatorRules, root: JQuery<HTMLElem
 
   if (rules.contents) {
     rulesIterator(rules.contents, root, data, (element, contents: string) => {
-      const renderedContents = mustache.render(contents, data);
+      const renderedContents = Bristles.compile(contents)(data);
       element.html(renderedContents);
     });
   }
@@ -46,7 +46,7 @@ export function DomManipulator(rules: DomManipulatorRules, root: JQuery<HTMLElem
         if (value === null) {
           element.css(property, 'initial');
         } else {
-          const renderedValue = mustache.render(value, data);
+          const renderedValue = Bristles.compile(value)(data);
           element.css(property, renderedValue);
         }
       }
@@ -61,7 +61,7 @@ export function DomManipulator(rules: DomManipulatorRules, root: JQuery<HTMLElem
 
   if (rules.createElements) {
     rulesIterator(rules.createElements, root, data, (element, config: CreateElementRule) => {
-      const renderedHtml = mustache.render(config.template, data);
+      const renderedHtml = Bristles.compile(config.template)(data);
       const newElement = $(renderedHtml);
       switch (config.where || 'beforeEnd') {
         case ('beforeStart'):
@@ -113,7 +113,7 @@ function rulesIterator(items: any, root: JQuery<HTMLElement>, context: any, call
   const collection = isArray ? items : Object.keys(items);
   for (const selector of collection) {
     const data = isArray ? null : items[selector];
-    const renderedSelector = mustache.render(selector, context);
+    const renderedSelector = Bristles.compile(selector)(context);
     const elements = renderedSelector === '>' ? root :
       renderedSelector.startsWith('>') ? root.find(renderedSelector.substr(1)) :
       renderedSelector === '<' ? root.parent() :

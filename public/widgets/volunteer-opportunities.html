@@ -1,6 +1,3 @@
-<div class="volops-main">
-  <div class="volops-inner">
-    <h1>Volunteer opportunty search</h1>
-    <div class="volops-search-form" data-component="RemoteContent" data-RemoteContent='{ "url": "https://volunteerscotland-search.local:8080/widget/search-form" }'></div>
-  </div>
-</div>
+<div class="volops-search-form" data-component="RemoteContent" data-RemoteContent='{
+  "url": "https://volunteerscotland-search.local:8080/widget?{{substr window.location.hash 1}}"
+}'></div>

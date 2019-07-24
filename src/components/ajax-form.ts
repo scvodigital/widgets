@@ -19,45 +19,40 @@ export class AjaxForm extends BaseComponent<AjaxFormConfig> {
 
   submit(event: JQuery.SubmitEvent) {
     event.preventDefault();
+
+    const url = this.element.attr('action') || '/';
+    const method = this.element.attr('method') || 'GET';
+    const data = Querystring.parse(this.element.serialize());
+
     if (this.config.onSubmitRules) {
       DomManipulator(this.config.onSubmitRules, this.element, this.getContext());
     }
 
-    const ajaxSettings: JQueryAjaxSettings = {
-      url: this.element.attr('action') || window.location.href,
-      method: this.element.attr('method') || 'GET',
-      data: Querystring.parse(this.element.serialize()),
-      success: (response: any, status: JQuery.Ajax.SuccessTextStatus, xhr: JQuery.jqXHR) => {
-        console.log('Success', response, status, xhr);
-        if (this.config.onSuccessRules) {
-          const context = this.getContext() as AjaxFormSuccessContext;
-          context.xhr = xhr;
-          context.response = response;
-          context.status = status;
-          DomManipulator(this.config.onSuccessRules, this.element, context);
-        }
-      },
-      error: (xhr: JQuery.jqXHR, status: JQuery.Ajax.ErrorTextStatus, error: string) => {
-        console.log('Error', xhr, status, error);
-        if (this.config.onErrorRules) {
-          const context = this.getContext() as AjaxFormErrorContext;
-          context.xhr = xhr;
-          context.status = status;
-          context.error = error;
-          DomManipulator(this.config.onSuccessRules, this.element, context);
-        }
-      }
-    };
+    this.widget.navigationManager.navigate(url, method, data, this.onSuccess.bind(this), this.onError.bind(this)).then(() => {
+      console.log('Submitting', url, method, data);
+    }).catch(err => {
+      console.error('Failed to submit', err);
+    });
+  }
 
-    if (ajaxSettings.method === 'GET') {
-      const url = new URL(ajaxSettings.url || window.location.href);
-      for (const param of this.element.serializeArray()) {
-        url.searchParams.append(param.name, param.value);
-      }
-      ajaxSettings.url = url.href;
+  onSuccess(response: any, status: JQuery.Ajax.SuccessTextStatus, xhr: JQuery.jqXHR) {
+    if (this.config.onSuccessRules) {
+      const context = this.getContext() as AjaxFormSuccessContext;
+      context.xhr = xhr;
+      context.response = response;
+      context.status = status;
+      DomManipulator(this.config.onSuccessRules, this.element, context);
     }
+  }
 
-    $.ajax(ajaxSettings);
+  onError(xhr: JQuery.jqXHR, status: JQuery.Ajax.ErrorTextStatus, error: string) {
+    if (this.config.onErrorRules) {
+      const context = this.getContext() as AjaxFormErrorContext;
+      context.xhr = xhr;
+      context.status = status;
+      context.error = error;
+      DomManipulator(this.config.onSuccessRules, this.element, context);
+    }
   }
 }
 

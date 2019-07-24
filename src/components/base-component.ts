@@ -1,7 +1,7 @@
 import * as Crypto from 'crypto';
-import { ComponentManager } from '../component-manager';
 
 import * as $ from 'jquery';
+import { Widget } from '../widget';
 
 export class BaseComponent<T> {
   config: T;
@@ -12,7 +12,7 @@ export class BaseComponent<T> {
     return this.constructor.name;
   }
 
-  constructor(element: Element|JQuery<HTMLElement>, public componentManager: ComponentManager) {
+  constructor(element: Element|JQuery<HTMLElement>, public widget: Widget) {
     this.element = $(element) as JQuery<HTMLElement>;
     this.config = this.element.data(this.componentType.toLowerCase());
     this.element.data(this.componentType + '-uid', this.uid);
