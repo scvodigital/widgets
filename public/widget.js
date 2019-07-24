@@ -56454,7 +56454,7 @@ var Widget = /** @class */ (function () {
 (function (me) {
     if (me === void 0) { me = document.currentScript; }
     window.addEventListener('DOMContentLoaded', function () {
-        var widget = new Widget(me);
+        new Widget(me);
     });
 })();
 

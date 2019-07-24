@@ -62,6 +62,6 @@ export class Widget {
 
 ((me = document.currentScript) => {
   window.addEventListener('DOMContentLoaded', () => {
-    const widget = new Widget(me as HTMLScriptElement);
+    new Widget(me as HTMLScriptElement);
   });
 })();

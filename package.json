@@ -48,7 +48,7 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
-    "bristles": "file:../bristles",
+    "bristles": "0.0.7",
     "handlebars": "^4.1.2",
     "jquery": "^3.4.1",
     "leaflet": "^1.5.1",
