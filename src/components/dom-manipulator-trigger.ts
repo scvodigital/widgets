@@ -1,5 +1,5 @@
 import { BaseComponent } from './base-component';
-import { DomManipulator, DomManipulatorRules } from '../dom-manipulator';
+import { DomManipulator, DomManipulatorRules } from '../dom-utilities';
 
 export class DomManipulatorTrigger extends BaseComponent<DomManipulatorTriggerConfig> {
   async init() {

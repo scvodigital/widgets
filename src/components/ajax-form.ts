@@ -1,7 +1,7 @@
 import * as Querystring from 'querystring';
 
 import { BaseComponent } from "./base-component";
-import { DomManipulatorRules, DomManipulator } from "../dom-manipulator";
+import { DomManipulatorRules, DomManipulator } from "../dom-utilities";
 
 export class AjaxForm extends BaseComponent<AjaxFormConfig> {
   getContext(): AjaxFormContext {

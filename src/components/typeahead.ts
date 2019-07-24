@@ -1,5 +1,5 @@
 import { BaseComponent } from "./base-component";
-import { DomManipulator, DomManipulatorRules } from '../dom-manipulator';
+import { DomManipulator, DomManipulatorRules } from '../dom-utilities';
 
 require('imports-loader?define=>false!typeahead.js/dist/typeahead.jquery.min.js');
 const Bloodhound = require('imports-loader?define=>false!typeahead.js/dist/bloodhound.min.js');
