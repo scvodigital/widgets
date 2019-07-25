@@ -57,7 +57,9 @@ export class NavigationManager {
         reject(err);
       }
 
-      $.ajax(ajaxSettings);
+      this.widget.componentManager.unregisterComponents()
+        .then(_ => { $.ajax(ajaxSettings); })
+        .catch(err => { console.error('Failed to unregister components', err); });
     });
   }
 }

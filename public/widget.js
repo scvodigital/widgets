@@ -55177,6 +55177,26 @@ var ComponentManager = /** @class */ (function () {
         this.widget = widget;
         this.components = {};
         this.componentRegistry = {};
+        this.mdlSelectorComponentMap = {
+            '.mdl-js-button': 'MaterialButton',
+            '.mdl-js-checkbox': 'MaterialCheckbox',
+            '.mdl-js-data-table  ': 'MaterialDataTable',
+            '.mdl-js-icon-toggle': 'MaterialIconToggle',
+            '.mdl-js-layout': 'MaterialLayout',
+            '.mdl-js-menu': 'MaterialMenu',
+            '.mdl-js-progress': 'MaterialProgress',
+            '.mdl-js-radio': 'MaterialRadio',
+            '.mdl-js-slider': 'MaterialSlider',
+            '.mdl-js-snackbar': 'MaterialSnackbar',
+            '.mdl-js-spinner': 'MaterialSpinner',
+            '.mdl-js-switch': 'MaterialSwitch',
+            '.mdl-js-ripple-effect': 'MaterialRipple',
+            '.mdl-js-tabs': 'MaterialTabs',
+            '.mdl-tabs__tab': 'MaterialTab',
+            '.mdl-layout__tab': 'MaterialLayoutTab',
+            '.mdl-js-textfield': 'MaterialTextfield',
+            '.mdl-tooltip': 'MaterialTooltip'
+        };
         for (var _i = 0, components_1 = components; _i < components_1.length; _i++) {
             var component = components_1[_i];
             this.components[component.name] = component;
@@ -55188,6 +55208,7 @@ var ComponentManager = /** @class */ (function () {
             return __generator(this, function (_c) {
                 switch (_c.label) {
                     case 0:
+                        componentHandler.upgradeDom();
                         componentElements = Array.from($('[data-component]')).map(function (item) { return $(item); });
                         _i = 0, componentElements_1 = componentElements;
                         _c.label = 1;
@@ -55220,6 +55241,44 @@ var ComponentManager = /** @class */ (function () {
                         return [3 /*break*/, 1];
                     case 6:
                         componentHandler.upgradeDom();
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    ComponentManager.prototype.unregisterComponents = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var _i, _a, component, _loop_1, this_1, _b, _c, _d, selector, componentName;
+            return __generator(this, function (_e) {
+                switch (_e.label) {
+                    case 0:
+                        _i = 0, _a = Object.values(this.componentRegistry);
+                        _e.label = 1;
+                    case 1:
+                        if (!(_i < _a.length)) return [3 /*break*/, 4];
+                        component = _a[_i];
+                        return [4 /*yield*/, component.destroy()];
+                    case 2:
+                        _e.sent();
+                        _e.label = 3;
+                    case 3:
+                        _i++;
+                        return [3 /*break*/, 1];
+                    case 4:
+                        this.componentRegistry = {};
+                        _loop_1 = function (selector, componentName) {
+                            var elements = this_1.widget.baseElement.find(selector);
+                            elements.each(function (index, element) {
+                                if (element.hasOwnProperty(componentName)) {
+                                    componentHandler.downgradeElements(element);
+                                }
+                            });
+                        };
+                        this_1 = this;
+                        for (_b = 0, _c = Object.entries(this.mdlSelectorComponentMap); _b < _c.length; _b++) {
+                            _d = _c[_b], selector = _d[0], componentName = _d[1];
+                            _loop_1(selector, componentName);
+                        }
                         return [2 /*return*/];
                 }
             });
@@ -55424,11 +55483,14 @@ var BaseComponent = /** @class */ (function () {
         configurable: true
     });
     BaseComponent.prototype.init = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            return __generator(this, function (_a) {
-                throw new Error('Component not setup properly');
-            });
-        });
+        return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
+            return [2 /*return*/];
+        }); });
+    };
+    BaseComponent.prototype.destroy = function () {
+        return __awaiter(this, void 0, void 0, function () { return __generator(this, function (_a) {
+            return [2 /*return*/];
+        }); });
     };
     return BaseComponent;
 }());
@@ -56263,7 +56325,9 @@ var NavigationManager = /** @class */ (function () {
             catch (err) {
                 reject(err);
             }
-            $.ajax(ajaxSettings);
+            _this.widget.componentManager.unregisterComponents()
+                .then(function (_) { $.ajax(ajaxSettings); })
+                .catch(function (err) { console.error('Failed to unregister components', err); });
         });
     };
     return NavigationManager;

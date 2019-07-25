@@ -18,7 +18,7 @@ export class BaseComponent<T> {
     this.element.data(this.componentType + '-uid', this.uid);
   }
 
-  async init() {
-    throw new Error('Component not setup properly')
-  }
+  async init() { return; }
+
+  async destroy() { return; }
 }
