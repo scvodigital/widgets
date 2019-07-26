@@ -2,8 +2,27 @@ import * as Querystring from 'querystring';
 import { Widget } from './widget';
 
 export class NavigationManager {
+  private _currentLocation: string|undefined;
+  get currentLocation(): string {
+    if (!this._currentLocation) {
+      this._currentLocation = window.location.hash.substr(1);
+    }
+    return this._currentLocation;
+  }
+  set currentLocation(value: string) {
+    this._currentLocation = value.startsWith('#') ? value.substr(1) : value;
+  }
+
   constructor(public element: JQuery<HTMLElement>, public baseUrl: URL, public widget: Widget) {
-    window.addEventListener('hashchange', this.refresh.bind(this));
+    this.currentLocation = window.location.hash;
+    window.addEventListener('hashchange', async () => {
+      if (window.location.hash.substr(1) !== this.currentLocation) {
+        console.log('Navigation Manager => Hash change event: Hash actually changed');
+        await this.refresh();
+      } else {
+        console.log('Navigation Manager => Hash change event: Hash didn\'t change');
+      }
+    });
     this.refresh().then().catch(err => { console.error('Error refreshing', err); });
   }
 
@@ -24,7 +43,8 @@ export class NavigationManager {
           dataType: 'html',
           method: method,
           complete: async () => {
-            window.location.hash = parsed.href.substr(parsed.origin.length);
+            this.currentLocation = parsed.href.substr(parsed.origin.length);
+            window.location.hash = this.currentLocation;
             this.widget.requestUpdate();
             resolve();
           },
@@ -58,7 +78,10 @@ export class NavigationManager {
       }
 
       this.widget.componentManager.unregisterComponents()
-        .then(_ => { $.ajax(ajaxSettings); })
+        .then(() => {
+          console.log('Navigation Manager => navigate()', ajaxSettings);
+          $.ajax(ajaxSettings);
+        })
         .catch(err => { console.error('Failed to unregister components', err); });
     });
   }

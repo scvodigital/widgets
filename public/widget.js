@@ -91837,10 +91837,10 @@ var DomManipulatorTrigger = /** @class */ (function (_super) {
 
 /***/ }),
 
-/***/ "./src/components/leaflet.ts":
-/*!***********************************!*\
-  !*** ./src/components/leaflet.ts ***!
-  \***********************************/
+/***/ "./src/components/leaflet-map.ts":
+/*!***************************************!*\
+  !*** ./src/components/leaflet-map.ts ***!
+  \***************************************/
 /*! exports provided: LeafletMap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -92641,12 +92641,43 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
 
 var NavigationManager = /** @class */ (function () {
     function NavigationManager(element, baseUrl, widget) {
+        var _this = this;
         this.element = element;
         this.baseUrl = baseUrl;
         this.widget = widget;
-        window.addEventListener('hashchange', this.refresh.bind(this));
+        this.currentLocation = window.location.hash;
+        window.addEventListener('hashchange', function () { return __awaiter(_this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        if (!(window.location.hash.substr(1) !== this.currentLocation)) return [3 /*break*/, 2];
+                        console.log('Navigation Manager => Hash change event: Hash actually changed');
+                        return [4 /*yield*/, this.refresh()];
+                    case 1:
+                        _a.sent();
+                        return [3 /*break*/, 3];
+                    case 2:
+                        console.log('Navigation Manager => Hash change event: Hash didn\'t change');
+                        _a.label = 3;
+                    case 3: return [2 /*return*/];
+                }
+            });
+        }); });
         this.refresh().then().catch(function (err) { console.error('Error refreshing', err); });
     }
+    Object.defineProperty(NavigationManager.prototype, "currentLocation", {
+        get: function () {
+            if (!this._currentLocation) {
+                this._currentLocation = window.location.hash.substr(1);
+            }
+            return this._currentLocation;
+        },
+        set: function (value) {
+            this._currentLocation = value.startsWith('#') ? value.substr(1) : value;
+        },
+        enumerable: true,
+        configurable: true
+    });
     NavigationManager.prototype.refresh = function () {
         return __awaiter(this, void 0, void 0, function () {
             var url;
@@ -92676,7 +92707,8 @@ var NavigationManager = /** @class */ (function () {
                     method: method,
                     complete: function () { return __awaiter(_this, void 0, void 0, function () {
                         return __generator(this, function (_a) {
-                            window.location.hash = parsed_1.href.substr(parsed_1.origin.length);
+                            this.currentLocation = parsed_1.href.substr(parsed_1.origin.length);
+                            window.location.hash = this.currentLocation;
                             this.widget.requestUpdate();
                             resolve();
                             return [2 /*return*/];
@@ -92711,7 +92743,10 @@ var NavigationManager = /** @class */ (function () {
                 reject(err);
             }
             _this.widget.componentManager.unregisterComponents()
-                .then(function (_) { $.ajax(ajaxSettings); })
+                .then(function () {
+                console.log('Navigation Manager => navigate()', ajaxSettings);
+                $.ajax(ajaxSettings);
+            })
                 .catch(function (err) { console.error('Failed to unregister components', err); });
         });
     };
@@ -92768,7 +92803,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _navigation_manager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navigation-manager */ "./src/navigation-manager.ts");
 /* harmony import */ var _components_ajax_form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/ajax-form */ "./src/components/ajax-form.ts");
 /* harmony import */ var _components_dom_manipulator_trigger__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/dom-manipulator-trigger */ "./src/components/dom-manipulator-trigger.ts");
-/* harmony import */ var _components_leaflet__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/leaflet */ "./src/components/leaflet.ts");
+/* harmony import */ var _components_leaflet_map__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/leaflet-map */ "./src/components/leaflet-map.ts");
 /* harmony import */ var _components_multi_select__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/multi-select */ "./src/components/multi-select.ts");
 /* harmony import */ var _components_remote_content__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/remote-content */ "./src/components/remote-content.ts");
 /* harmony import */ var _components_typeahead__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/typeahead */ "./src/components/typeahead.ts");
@@ -92824,7 +92859,7 @@ __webpack_require__(/*! ./widget.scss */ "./src/widget.scss");
 window.$ = jquery__WEBPACK_IMPORTED_MODULE_9__;
 var Widget = /** @class */ (function () {
     function Widget(me) {
-        this.componentManager = new _component_manager__WEBPACK_IMPORTED_MODULE_1__["ComponentManager"]([_components_ajax_form__WEBPACK_IMPORTED_MODULE_3__["AjaxForm"], _components_dom_manipulator_trigger__WEBPACK_IMPORTED_MODULE_4__["DomManipulatorTrigger"], _components_leaflet__WEBPACK_IMPORTED_MODULE_5__["LeafletMap"], _components_multi_select__WEBPACK_IMPORTED_MODULE_6__["MultiSelect"], _components_remote_content__WEBPACK_IMPORTED_MODULE_7__["RemoteContent"], _components_typeahead__WEBPACK_IMPORTED_MODULE_8__["Typeahead"]], this);
+        this.componentManager = new _component_manager__WEBPACK_IMPORTED_MODULE_1__["ComponentManager"]([_components_ajax_form__WEBPACK_IMPORTED_MODULE_3__["AjaxForm"], _components_dom_manipulator_trigger__WEBPACK_IMPORTED_MODULE_4__["DomManipulatorTrigger"], _components_leaflet_map__WEBPACK_IMPORTED_MODULE_5__["LeafletMap"], _components_multi_select__WEBPACK_IMPORTED_MODULE_6__["MultiSelect"], _components_remote_content__WEBPACK_IMPORTED_MODULE_7__["RemoteContent"], _components_typeahead__WEBPACK_IMPORTED_MODULE_8__["Typeahead"]], this);
         this.baseElement = jquery__WEBPACK_IMPORTED_MODULE_9__('<div>');
         this.compiledTemplates = {};
         this.clock = window.requestAnimationFrame(this.tick.bind(this));
