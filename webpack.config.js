@@ -21,12 +21,7 @@ module.exports = {
         use: [
           { loader: 'style-loader' },
           { loader: 'css-loader' },
-          {
-            loader: 'sass-loader',
-            options: {
-              includePaths: ['../node_modules/']
-            }
-          }
+          { loader: 'sass-loader' }
         ]
       },
       {

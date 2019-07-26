@@ -3,7 +3,7 @@ import { Widget } from './widget';
 
 export class NavigationManager {
   constructor(public element: JQuery<HTMLElement>, public baseUrl: URL, public widget: Widget) {
-    $(window).on('hashchange', this.refresh);
+    window.addEventListener('hashchange', this.refresh.bind(this));
     this.refresh().then().catch(err => { console.error('Error refreshing', err); });
   }
 

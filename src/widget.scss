@@ -3,6 +3,9 @@
 
   @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
   @import '~../node_modules/material-design-lite/dist/material.blue_grey-blue.min';
+  @import "~../node_modules/leaflet/dist/leaflet.css";
+  @import url("../node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css");
+  @import url("../node_modules/leaflet.markercluster/dist/MarkerCluster.css");
 
   .multi-select .mdl-menu {
     overflow: auto;
@@ -36,6 +39,14 @@
   .mdl-slider__background-flex {
     width: 100%;
     margin: 0;
+  }
+
+  .mdl-tabs__tab-bar {
+    justify-content: left;
+  }
+
+  .mdl-njs-tabs a.is-active {
+    border-bottom: 2px solid #000000;
   }
 
   .mdl-badge[data-badge="0"] {

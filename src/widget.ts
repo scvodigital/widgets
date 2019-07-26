@@ -5,6 +5,7 @@ import { NavigationManager } from './navigation-manager';
 
 import { AjaxForm } from './components/ajax-form';
 import { DomManipulatorTrigger } from './components/dom-manipulator-trigger';
+import { LeafletMap } from './components/leaflet';
 import { MultiSelect } from './components/multi-select';
 import { RemoteContent } from './components/remote-content';
 import { Typeahead } from './components/typeahead';
@@ -16,7 +17,7 @@ import * as $ from 'jquery';
 (window as any).$ = $;
 
 export class Widget {
-  componentManager = new ComponentManager([AjaxForm, DomManipulatorTrigger, MultiSelect, RemoteContent, Typeahead], this);
+  componentManager = new ComponentManager([AjaxForm, DomManipulatorTrigger, LeafletMap, MultiSelect, RemoteContent, Typeahead], this);
   navigationManager: NavigationManager;
   me: JQuery<HTMLElement>;
   baseElement = $('<div>');
