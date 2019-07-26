@@ -18,6 +18,10 @@ export class Typeahead extends BaseComponent<TypeaheadConfig> {
   datasets: { [name: string]: TypeaheadDataset } = {};
   textbox = this.element.find('input');
 
+  isLocked(): boolean {
+    return this.element.hasClass('typeahead-locked');
+  }
+
   async init() {
     this.setupTypeahead();
   }
@@ -64,13 +68,26 @@ export class Typeahead extends BaseComponent<TypeaheadConfig> {
       .on('keydown', (ev: any) => {
         switch (ev.keyCode) {
           case (9):
-            if (this.autocompleted) ev.preventDefault();
+            if (this.autocompleted) {
+              ev.preventDefault();
+            } else {
+              this.nothingSelected();
+            }
             break;
           case (13):
-            if (this.autocompleted) ev.preventDefault();
+            if (this.autocompleted) {
+              ev.preventDefault();
+            } else {
+              this.nothingSelected();
+            }
             break;
         }
         this.autocompleted = false;
+      })
+      .on('blur', (ev: any) => {
+        if (!this.autocompleted) {
+          this.nothingSelected();
+        }
       });
   }
 
@@ -88,11 +105,25 @@ export class Typeahead extends BaseComponent<TypeaheadConfig> {
       DomManipulator(this.config.itemSelectedRules, this.element, context);
     }
   }
+
+  nothingSelected() {
+    console.log('Nothing selected');
+    if (this.config.nothingSelectedRules && !this.isLocked) {
+      const context = {
+        event,
+        window,
+        $,
+        instance: this
+      };
+      DomManipulator(this.config.nothingSelectedRules, this.element, context);
+    }
+  }
 }
 
 export interface TypeaheadConfig {
   typeaheadOptions?: TypeaheadOptions;
   itemSelectedRules?: DomManipulatorRules;
+  nothingSelectedRules?: DomManipulatorRules;
   datasets: TypeaheadDataset[];
 }
 

@@ -53,7 +53,6 @@ export class ComponentManager {
   }
 
   async unregisterComponents() {
-    //TODO Destroy all components and MDL components
     for (const component of Object.values(this.componentRegistry)) {
       await component.destroy();
     }

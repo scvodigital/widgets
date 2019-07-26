@@ -90,10 +90,11 @@ export function DomManipulator(rules: DomManipulatorRules, root: JQuery<HTMLElem
   }
 
   if (rules.run) {
-    const funcs = Array.isArray(rules.run) ? rules.run : [rules.run];
-    for (const func of funcs) {
+    const functionCodes = Array.isArray(rules.run) ? rules.run : [rules.run];
+    for (const functionCode of functionCodes) {
       try {
-        safeEval(func).apply(data);
+        const func = safeEval(functionCode);
+        func.apply(data);
       } catch(err) {
         console.error('Failed to safely evaluate Dom Manipulator rule', err);
       }
