@@ -20,13 +20,14 @@ module.exports = {
         test: /\.s?css$/,
         use: [
           { loader: 'style-loader' },
-          { loader: 'css-loader' },
+          {
+            loader: 'css-loader',
+            options: {
+              url: false
+            }
+          },
           { loader: 'sass-loader' }
         ]
-      },
-      {
-        test: /\.svg$/,
-        loader: 'svg-inline-loader'
       },
       {
         test: /\.ts$/,
@@ -53,7 +54,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.ts', '.js', '.scss', '.css', '.html', '.svg'],
+    extensions: ['.ts', '.js', '.scss', '.css', '.html', '.svg', '.png', '.jpeg', '.jpg', '.gif'],
     alias: {
       handlebars: 'handlebars/dist/handlebars.js'
     }
@@ -66,6 +67,7 @@ module.exports = {
     }),
     new CopyPlugin([
       { from: 'src/widgets/', to: 'widgets/' },
+      { from: 'node_modules/leaflet/dist/images/', to: 'images/'}
     ])
   ],
   devServer: {
