@@ -67,12 +67,6 @@ export class ComponentManager {
         }
       });
     }
-
-    // const mdlSelector = Object.keys(this.mdlSelectorComponentMap).join(', ');
-    // const mdlElements = this.widget.baseElement.find(mdlSelector);
-    // mdlElements.each((i, o) => {
-    //   componentHandler.downgradeElements(o);
-    // });
   }
 }
 

@@ -28,7 +28,9 @@ export class LeafletMap extends BaseComponent<LeafletConfig> {
     L.control.scale().addTo(this.map);
   }
 
-  addFeatureGroups() {
+  async init() {
+    let bounds: Leaflet.LatLngBounds|undefined;
+
     if (this.config.featureGroups) {
       for (const featureGroupConfig of this.config.featureGroups) {
         const featureGroup = new L.FeatureGroup(undefined, featureGroupConfig.options);
@@ -58,11 +60,18 @@ export class LeafletMap extends BaseComponent<LeafletConfig> {
           }
         }
         this.map.addLayer(featureGroup);
+
+        if (featureGroupConfig.boundToThis) {
+          const groupBounds = featureGroup.getBounds();
+          if (!bounds) {
+            bounds = groupBounds;
+          } else {
+            bounds.extend(groupBounds);
+          }
+        }
       }
     }
-  }
 
-  addClusteredMarkerGroups() {
     if (this.config.markerClusterGroups) {
       for (const markerClusterGroupConfig of this.config.markerClusterGroups) {
         const markerClusterGroup = new (L.markerClusterGroup as any)(markerClusterGroupConfig.options) as L.MarkerClusterGroup;
@@ -76,13 +85,21 @@ export class LeafletMap extends BaseComponent<LeafletConfig> {
         }
 
         this.map.addLayer(markerClusterGroup);
+
+        if (markerClusterGroupConfig.boundToThis) {
+          const groupBounds = markerClusterGroup.getBounds();
+          if (!bounds) {
+            bounds = groupBounds;
+          } else {
+            bounds.extend(groupBounds);
+          }
+        }
       }
     }
-  }
 
-  async init() {
-    this.addFeatureGroups();
-    this.addClusteredMarkerGroups();
+    if (bounds) {
+      this.map.fitBounds(bounds);
+    }
   }
 }
 
@@ -97,11 +114,13 @@ export interface LeafletConfig {
 export interface LeafletFeatureGroup {
   features: LeafletFeature<L.InteractiveLayerOptions>[];
   options?: L.LayerOptions;
+  boundToThis?: boolean;
 }
 
 export interface LeafletMarkerClusterGroup {
   markers: LeafletMarker[];
   options?: L.MarkerClusterGroupOptions;
+  boundToThis?: boolean;
 }
 
 export interface LeafletFeature<T extends L.InteractiveLayerOptions> {
