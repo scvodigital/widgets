@@ -90492,10 +90492,10 @@ function (_BaseClient) {
 
 /***/ }),
 
-/***/ "./node_modules/webpack-dev-server/client/index.js?https://localhost:9000":
-/*!**********************************************************!*\
-  !*** (webpack)-dev-server/client?https://localhost:9000 ***!
-  \**********************************************************/
+/***/ "./node_modules/webpack-dev-server/client/index.js?https://volunteerscotland-search.local:9000":
+/*!*******************************************************************************!*\
+  !*** (webpack)-dev-server/client?https://volunteerscotland-search.local:9000 ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -90676,7 +90676,7 @@ var onSocketMessage = {
   }
 };
 socket(socketUrl, onSocketMessage);
-/* WEBPACK VAR INJECTION */}.call(this, "?https://localhost:9000"))
+/* WEBPACK VAR INJECTION */}.call(this, "?https://volunteerscotland-search.local:9000"))
 
 /***/ }),
 
@@ -92880,13 +92880,13 @@ var Widget = /** @class */ (function () {
 /***/ }),
 
 /***/ 0:
-/*!********************************************************************************!*\
-  !*** multi (webpack)-dev-server/client?https://localhost:9000 ./src/widget.ts ***!
-  \********************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?https://volunteerscotland-search.local:9000 ./src/widget.ts ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/tonicblue/code/scvo/widgets/node_modules/webpack-dev-server/client/index.js?https://localhost:9000 */"./node_modules/webpack-dev-server/client/index.js?https://localhost:9000");
+__webpack_require__(/*! /home/tonicblue/code/scvo/widgets/node_modules/webpack-dev-server/client/index.js?https://volunteerscotland-search.local:9000 */"./node_modules/webpack-dev-server/client/index.js?https://volunteerscotland-search.local:9000");
 module.exports = __webpack_require__(/*! /home/tonicblue/code/scvo/widgets/src/widget.ts */"./src/widget.ts");
 
 

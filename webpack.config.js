@@ -73,6 +73,7 @@ module.exports = {
     compress: true,
     port: 9000,
     writeToDisk: true,
+    host: 'volunteerscotland-search.local',
     https: {
       key: fs.readFileSync(path.join(__dirname, '../http/test-cert/_wildcard.local-key.pem')),
       cert: fs.readFileSync(path.join(__dirname, '../http/test-cert/_wildcard.local.pem'))
