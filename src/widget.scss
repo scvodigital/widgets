@@ -1,6 +1,18 @@
 .scvo-widget {
   $unit:1rem;
 
+  .loading-spinner {
+    display: none;
+  }
+
+  &.scvo-widget-loading {
+    pointer-events: none;
+    opacity: 0.7;
+    .scvo-widget-loading-spinner {
+      display: block;
+    }
+  }
+
   @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
   @import '~../node_modules/material-design-lite/dist/material.blue_grey-blue.min';
   @import "~../node_modules/leaflet/dist/leaflet.css";

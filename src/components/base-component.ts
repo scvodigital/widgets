@@ -15,6 +15,9 @@ export class BaseComponent<T> {
   constructor(element: Element|JQuery<HTMLElement>, public widget: Widget) {
     this.element = $(element) as JQuery<HTMLElement>;
     this.config = this.element.data(this.componentType.toLowerCase());
+    if (typeof this.config !== 'object') {
+      console.error(this.componentType + ' => Invalid configuration JSON', this.config);
+    }
     this.element.data(this.componentType + '-uid', this.uid);
   }
 

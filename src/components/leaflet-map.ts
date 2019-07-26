@@ -68,7 +68,10 @@ export class LeafletMap extends BaseComponent<LeafletConfig> {
         const markerClusterGroup = new (L.markerClusterGroup as any)(markerClusterGroupConfig.options) as L.MarkerClusterGroup;
 
         for (const markerConfig of markerClusterGroupConfig.markers) {
-          const marker = L.marker(markerConfig.latLng);
+          const marker = L.marker(markerConfig.latLng, markerConfig.options);
+          if (markerConfig.popupContent) {
+            marker.bindPopup(markerConfig.popupContent);
+          }
           markerClusterGroup.addLayer(marker);
         }
 

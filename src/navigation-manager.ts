@@ -36,6 +36,8 @@ export class NavigationManager {
       let ajaxSettings: JQueryAjaxSettings = {};
 
       try {
+        this.widget.baseElement.addClass('scvo-widget-loading');
+
         const parsed = new URL(url, this.baseUrl);
         parsed.host = this.baseUrl.host;
 
@@ -43,6 +45,7 @@ export class NavigationManager {
           dataType: 'html',
           method: method,
           complete: async () => {
+            this.widget.baseElement.removeClass('scvo-widget-loading');
             this.currentLocation = parsed.href.substr(parsed.origin.length);
             window.location.hash = this.currentLocation;
             this.widget.requestUpdate();
