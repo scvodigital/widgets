@@ -21,6 +21,7 @@ export class Widget {
   navigationManager: NavigationManager;
   me: JQuery<HTMLElement>;
   baseElement = $('<div>');
+  loadingElement = $('<div>');
   compiledTemplates: { [name: string]: (context: any) => any } = {};
   clock = window.requestAnimationFrame(this.tick.bind(this));
 
@@ -30,6 +31,9 @@ export class Widget {
     this.baseElement.addClass('scvo-widget');
     this.baseElement.html(`<div class="widget-loading">Loading, please wait...</div>`);
     this.baseElement.insertAfter(me);
+
+    this.loadingElement.addClass('scvo-widget-loading-indicator');
+    this.loadingElement.insertAfter(me);
 
     const url: string = this.me.data('url') || '/widgets/invalid-setup.html';
     this.navigationManager = new NavigationManager(this.baseElement, new URL(url), this);

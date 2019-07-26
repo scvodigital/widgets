@@ -1,16 +1,41 @@
+.scvo-widget-loading-indicator {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6px;
+  background-color: #dddddd;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.scvo-widget-loading-indicator:before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: -200px;
+  width: 200px;
+  height: 6px;
+  background-color: #2980b9;
+  animation: scvo-widget-loading 2s linear infinite;
+}
+
+@keyframes scvo-widget-loading {
+  from {left: -200px; width: 30%;}
+  50% {width: 30%;}
+  70% {width: 70%;}
+  80% { left: 50%;}
+  95% {left: 120%;}
+  to {left: 100%;}
+}
+
 .scvo-widget {
   $unit:1rem;
-
-  .loading-spinner {
-    display: none;
-  }
 
   &.scvo-widget-loading {
     pointer-events: none;
     opacity: 0.7;
-    .scvo-widget-loading-spinner {
-      display: block;
-    }
   }
 
   @import url('https://fonts.googleapis.com/icon?family=Material+Icons');

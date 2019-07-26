@@ -37,6 +37,7 @@ export class NavigationManager {
 
       try {
         this.widget.baseElement.addClass('scvo-widget-loading');
+        this.widget.loadingElement.show();
 
         const parsed = new URL(url, this.baseUrl);
         parsed.host = this.baseUrl.host;
@@ -46,6 +47,7 @@ export class NavigationManager {
           method: method,
           complete: async () => {
             this.widget.baseElement.removeClass('scvo-widget-loading');
+            this.widget.loadingElement.hide();
             this.currentLocation = parsed.href.substr(parsed.origin.length);
             window.location.hash = this.currentLocation;
             this.widget.requestUpdate();
