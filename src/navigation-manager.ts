@@ -18,6 +18,7 @@ export class NavigationManager {
     localStorage.setItem('tsi', widget.me.data('tsi'));
     localStorage.setItem('colorPrimary', widget.me.data('colour-primary'));
     localStorage.setItem('colorSecondary', widget.me.data('colour-secondary'));
+    localStorage.setItem('disableMVA', widget.me.data('disable-mva'));
     window.addEventListener('hashchange', async () => {
       if (window.location.hash.substr(1) !== this.currentLocation) {
         // console.log('Navigation Manager => Hash change event: Hash actually changed');
@@ -51,6 +52,7 @@ export class NavigationManager {
             if (localStorage.tsi !== 'undefined') jqXHR.setRequestHeader("widget-tsi", localStorage.tsi);
             if (localStorage.colorPrimary !== 'undefined') jqXHR.setRequestHeader("widget-color-primary", localStorage.colorPrimary);
             if (localStorage.colorSecondary !== 'undefined') jqXHR.setRequestHeader("widget-color-secondary", localStorage.colorSecondary);
+            if (localStorage.disableMVA !== 'undefined') jqXHR.setRequestHeader("widget-disable-mva", localStorage.disableMVA);
           },
           method: method,
           complete: async () => {
