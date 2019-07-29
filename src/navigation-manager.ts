@@ -16,8 +16,8 @@ export class NavigationManager {
   constructor(public element: JQuery<HTMLElement>, public baseUrl: URL, public widget: Widget) {
     this.currentLocation = window.location.hash;
     localStorage.setItem('tsi', widget.me.data('tsi'));
-    localStorage.setItem('colorPrimary', widget.me.data('color-primary'));
-    localStorage.setItem('colorSecondary', widget.me.data('color-secondary'));
+    localStorage.setItem('colorPrimary', widget.me.data('colour-primary'));
+    localStorage.setItem('colorSecondary', widget.me.data('colour-secondary'));
     window.addEventListener('hashchange', async () => {
       if (window.location.hash.substr(1) !== this.currentLocation) {
         // console.log('Navigation Manager => Hash change event: Hash actually changed');
