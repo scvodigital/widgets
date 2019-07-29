@@ -29,7 +29,7 @@ export class Widget {
     this.me = $(me);
 
     this.baseElement.addClass('scvo-widget');
-    this.baseElement.html(`<div class="widget-loading">Loading, please wait...</div>`);
+    this.baseElement.html(`<div class="widget-loading"></div>`);
     this.baseElement.insertAfter(me);
 
     this.loadingElement.addClass('scvo-widget-loading-indicator');
