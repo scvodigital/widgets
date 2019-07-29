@@ -48,9 +48,9 @@ export class NavigationManager {
         ajaxSettings = {
           dataType: 'html',
           beforeSend: function(jqXHR, settings){
-            jqXHR.setRequestHeader("widget-tsi", localStorage.tsi);
-            jqXHR.setRequestHeader("widget-color-primary", localStorage.colorPrimary);
-            jqXHR.setRequestHeader("widget-color-secondary", localStorage.colorSecondary);
+            if (localStorage.tsi !== 'undefined') jqXHR.setRequestHeader("widget-tsi", localStorage.tsi);
+            if (localStorage.colorPrimary !== 'undefined') jqXHR.setRequestHeader("widget-color-primary", localStorage.colorPrimary);
+            if (localStorage.colorSecondary !== 'undefined') jqXHR.setRequestHeader("widget-color-secondary", localStorage.colorSecondary);
           },
           method: method,
           complete: async () => {
