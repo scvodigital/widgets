@@ -15,12 +15,15 @@ export class NavigationManager {
 
   constructor(public element: JQuery<HTMLElement>, public baseUrl: URL, public widget: Widget) {
     this.currentLocation = window.location.hash;
+    localStorage.setItem('tsi', widget.me.data('tsi'));
+    localStorage.setItem('colorPrimary', widget.me.data('color-primary'));
+    localStorage.setItem('colorSecondary', widget.me.data('color-secondary'));
     window.addEventListener('hashchange', async () => {
       if (window.location.hash.substr(1) !== this.currentLocation) {
-        console.log('Navigation Manager => Hash change event: Hash actually changed');
+        // console.log('Navigation Manager => Hash change event: Hash actually changed');
         await this.refresh();
       } else {
-        console.log('Navigation Manager => Hash change event: Hash didn\'t change');
+        // console.log('Navigation Manager => Hash change event: Hash didn\'t change');
       }
     });
     this.refresh().then().catch(err => { console.error('Error refreshing', err); });
@@ -44,6 +47,11 @@ export class NavigationManager {
 
         ajaxSettings = {
           dataType: 'html',
+          beforeSend: function(jqXHR, settings){
+            jqXHR.setRequestHeader("widget-tsi", localStorage.tsi);
+            jqXHR.setRequestHeader("widget-color-primary", localStorage.colorPrimary);
+            jqXHR.setRequestHeader("widget-color-secondary", localStorage.colorSecondary);
+          },
           method: method,
           complete: async () => {
             this.widget.baseElement.removeClass('scvo-widget-loading');
@@ -84,7 +92,7 @@ export class NavigationManager {
 
       this.widget.componentManager.unregisterComponents()
         .then(() => {
-          console.log('Navigation Manager => navigate()', ajaxSettings);
+          // console.log('Navigation Manager => navigate()', ajaxSettings);
           $.ajax(ajaxSettings);
         })
         .catch(err => { console.error('Failed to unregister components', err); });
