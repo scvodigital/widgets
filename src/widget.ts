@@ -47,7 +47,6 @@ export class Widget {
     return compiledTemplate(context);
   }
 
-
   private updateRequested = false;
   requestUpdate() {
     this.updateRequested = true;
