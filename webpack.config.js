@@ -70,6 +70,11 @@ module.exports = {
       filename: "./test.html",
       inject: false
     }),
+    new HtmlWebPackPlugin({
+      template: "./src/test-organisations.html",
+      filename: "./test-organisations.html",
+      inject: false
+    }),
     new CopyPlugin([
       { from: 'src/widgets/', to: 'widgets/' },
       { from: 'node_modules/leaflet/dist/images/', to: 'images/'}
