@@ -3,13 +3,12 @@ const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
-const basedir = path.join(__dirname, 'src');
-
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
   entry: {
     widget: path.join(__dirname, 'src', 'widget.ts'),
+    'no-conflict-widget': path.join(__dirname, 'src', 'no-conflict-widget.ts'),
   },
   output: {
     path: path.join(__dirname, 'public')

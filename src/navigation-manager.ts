@@ -40,6 +40,9 @@ export class NavigationManager {
       let ajaxSettings: JQueryAjaxSettings = {};
 
       try {
+        if (window.parent) {
+          window.parent.postMessage({ event: 'navigationStart', data: url }, window.location.origin);
+        }
         this.widget.baseElement.addClass('scvo-widget-loading');
         this.widget.loadingElement.show();
 
@@ -61,6 +64,9 @@ export class NavigationManager {
             this.currentLocation = parsed.href.substr(parsed.origin.length);
             window.location.hash = this.currentLocation;
             this.widget.requestUpdate();
+            if (window.parent) {
+              window.parent.postMessage({ event: 'navigationEnd', data: this.currentLocation }, window.location.origin);
+            }
             resolve();
           },
           success: (response: any, status: JQuery.Ajax.SuccessTextStatus, xhr: JQuery.jqXHR) => {
