@@ -13,29 +13,28 @@ export class LeafletMap extends BaseComponent<LeafletConfig> {
   map: L.Map;
   featureGroups: L.FeatureGroup[] = [];
 
-  constructor(element: Element|JQuery<HTMLElement>, widget: Widget) {
+  constructor(element: Element | JQuery<HTMLElement>, widget: Widget) {
     super(element, widget);
     this.map = L.map(this.element[0], this.config.mapOptions);
     this.map.setView(this.config.initialLatLng, this.config.initialZoom);
 
     const osmAttrib = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>';
     L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
-        attribution: osmAttrib,
-        minZoom: 5,
-        maxZoom: 17,
-        opacity: 0.9
+      attribution: osmAttrib,
+      minZoom: 5,
+      maxZoom: 17,
+      opacity: 0.9
     }).addTo(this.map);
     L.control.scale().addTo(this.map);
   }
 
   async init() {
-    let bounds: Leaflet.LatLngBounds|undefined;
-
+    let bounds: Leaflet.LatLngBounds | undefined;
     if (this.config.featureGroups) {
       for (const featureGroupConfig of this.config.featureGroups) {
         const featureGroup = new L.FeatureGroup(undefined, featureGroupConfig.options);
         for (const featureConfig of featureGroupConfig.features) {
-          let feature: L.Rectangle|L.Circle|L.Polygon|L.Marker|undefined;
+          let feature: L.Rectangle | L.Circle | L.Polygon | L.Marker | undefined;
 
           switch (featureConfig.type) {
             case ('Rectangle'):
@@ -48,6 +47,9 @@ export class LeafletMap extends BaseComponent<LeafletConfig> {
               feature = new L.Polygon((featureConfig as LeafletPolygon).latLngs, featureConfig.options);
               break;
             case ('Marker'):
+              if ((featureConfig as any).options.icon) {
+                (featureConfig as any).options.icon = L.icon((featureConfig as any).options.icon);
+              }
               feature = new L.Marker((featureConfig as LeafletMarker).latLng, featureConfig.options);
               break;
           }
@@ -124,7 +126,7 @@ export interface LeafletMarkerClusterGroup {
 }
 
 export interface LeafletFeature<T extends L.InteractiveLayerOptions> {
-  type: 'Rectangle'|'Circle'|'Polygon'|'Marker';
+  type: 'Rectangle' | 'Circle' | 'Polygon' | 'Marker';
   popupContent?: string;
   options?: T;
   [key: string]: any;
