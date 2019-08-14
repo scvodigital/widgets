@@ -15,16 +15,16 @@ export class NavigationManager {
 
   constructor(public element: JQuery<HTMLElement>, public baseUrl: URL, public widget: Widget) {
     this.currentLocation = window.location.hash;
+    //TODO: Remove all specific code from the widgets code base.
+    //This should not be done like this. Metadata from a script tag should be made available
+    //to templates so this can be done through configuration
     localStorage.setItem('tsi', widget.me.data('tsi'));
     localStorage.setItem('colorPrimary', widget.me.data('colour-primary'));
     localStorage.setItem('colorSecondary', widget.me.data('colour-secondary'));
     localStorage.setItem('disableMVA', widget.me.data('disable-mva'));
     window.addEventListener('hashchange', async () => {
       if (window.location.hash.substr(1) !== this.currentLocation) {
-        // console.log('Navigation Manager => Hash change event: Hash actually changed');
         await this.refresh();
-      } else {
-        // console.log('Navigation Manager => Hash change event: Hash didn\'t change');
       }
     });
     this.refresh().then().catch(err => { console.error('Error refreshing', err); });
@@ -43,12 +43,21 @@ export class NavigationManager {
         this.widget.baseElement.addClass('scvo-widget-loading');
         this.widget.loadingElement.show();
 
+        const baseElementCoords = this.widget.baseElement.offset();
+        const scrollTop = baseElementCoords ? baseElementCoords.top : 0;
+        $('html, body').animate({
+          scrollTop: scrollTop
+        }, 400);
+
         const parsed = new URL(url, this.baseUrl);
         parsed.host = this.baseUrl.host;
 
         ajaxSettings = {
           dataType: 'html',
           beforeSend: function(jqXHR, settings){
+            //TODO: Remove all specific code from the widgets code base.
+            //This should not be done like this. Metadata from a script tag should be made available
+            //to templates so this can be done through configuration
             if (localStorage.tsi !== 'undefined') jqXHR.setRequestHeader("widget-tsi", localStorage.tsi);
             if (localStorage.colorPrimary !== 'undefined') jqXHR.setRequestHeader("widget-color-primary", localStorage.colorPrimary);
             if (localStorage.colorSecondary !== 'undefined') jqXHR.setRequestHeader("widget-color-secondary", localStorage.colorSecondary);
@@ -94,7 +103,6 @@ export class NavigationManager {
 
       this.widget.componentManager.unregisterComponents()
         .then(() => {
-          // console.log('Navigation Manager => navigate()', ajaxSettings);
           $.ajax(ajaxSettings);
         })
         .catch(err => { console.error('Failed to unregister components', err); });

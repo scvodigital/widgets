@@ -142,7 +142,17 @@ export class NoConflictWidget {
           break;
         case ('loading-change'):
           console.log('Window message => Loading change:', message.data.data);
-          this.loadingElement.style.display = message.data.data === 'loading' ? 'block' : 'none';
+          if (message.data.data === 'loading') {
+            this.loadingElement.style.display = 'block';
+            const scrollTop = this.baseElement.offsetTop;
+            window.scroll({
+              top: scrollTop,
+              left: 0,
+              behavior: 'smooth'
+            });
+          } else {
+            this.loadingElement.style.display = 'none';
+          }
           break;
         default:
           console.log('Unknown event:', message.data);
