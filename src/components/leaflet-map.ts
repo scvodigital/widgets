@@ -6,8 +6,16 @@ import 'mapbox.js';
 import { BaseComponent } from "./base-component";
 import { Widget } from '../widget';
 
-
 const L = (window as any).L as typeof Leaflet;
+
+const defaultIcon = L.icon({
+  iconRetinaUrl: require('../../node_modules/leaflet/dist/images/marker-icon-2x.png'),
+  iconUrl: require('../../node_modules/leaflet/dist/images/marker-icon.png'),
+  iconAnchor: [13, 41],
+  shadowUrl: require('../../node_modules/leaflet/dist/images/marker-shadow.png')
+});
+
+L.Marker.prototype.options.icon = defaultIcon;
 
 export class LeafletMap extends BaseComponent<LeafletConfig> {
   map: L.Map;
