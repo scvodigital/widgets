@@ -46,7 +46,6 @@ export class NoConflictWidget {
         window.cancelAnimationFrame(clock);
 
         checkHeight();
-        checkHash();
         checkLoading();
 
         clock = window.requestAnimationFrame(tick);
@@ -64,18 +63,6 @@ export class NoConflictWidget {
             window.parent.postMessage(eventData, '%ORIGIN%');
             oldHeight = newHeight;
           }
-        }
-      }
-
-      function checkHash() {
-        var newHash = window.location.hash;
-        if (oldHash !== newHash) {
-          var eventData = {
-            event: 'hash-change',
-            data: newHash
-          }
-          window.parent.postMessage(eventData, '%ORIGIN%');
-          oldHash = newHash;
         }
       }
 
@@ -111,7 +98,6 @@ export class NoConflictWidget {
     this.me.insertAdjacentElement('afterend', this.loadingElement);
 
     window.addEventListener('message', this.handleMessage.bind(this), false);
-    window.addEventListener('hashchange', this.handleHashChange.bind(this), false);
 
     const meTagHtml = this.me.outerHTML;
     const scriptTagHtml = meTagHtml.replace('no-conflict-', '');
@@ -132,16 +118,10 @@ export class NoConflictWidget {
   handleMessage(message: any) {
     if (message.source === this.frameContentWindow) {
       switch (message.data.event) {
-        case ('hash-change'):
-          //console.log('Window message => Hash change:', message.data.data.substr(1));
-          window.location.hash = message.data.data.substr(1);
-          break;
         case ('height-change'):
-          //console.log('Window message => Height change:', message.data.data);
           this.baseElement.style.height = message.data.data + 'px';
           break;
         case ('loading-change'):
-          //console.log('Window message => Loading change:', message.data.data);
           if (message.data.data === 'loading') {
             this.loadingElement.style.display = 'block';
             const scrollTop = this.baseElement.offsetTop;
@@ -157,13 +137,6 @@ export class NoConflictWidget {
         default:
           //console.log('Unknown event:', message.data);
       }
-    }
-  }
-
-  handleHashChange(event: any) {
-    if (window.location.hash.substr(1) !== this.currentLocation) {
-      console.log('Parent hash change => Hash actually changed', window.location.hash.substr(1));
-      this.frameContentWindow.location.hash = window.location.hash.substr(1);
     }
   }
 }

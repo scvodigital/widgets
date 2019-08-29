@@ -2,6 +2,7 @@ import * as Querystring from 'querystring';
 import { Widget } from './widget';
 
 export class NavigationManager {
+  private isHashChange: boolean = true; //Set to true so on initial load location.hash isn't updated
   private _currentLocation: string|undefined;
   get currentLocation(): string {
     if (!this._currentLocation) {
@@ -24,6 +25,7 @@ export class NavigationManager {
     localStorage.setItem('disableMVA', widget.me.data('disable-mva'));
     window.addEventListener('hashchange', async () => {
       if (window.location.hash.substr(1) !== this.currentLocation) {
+        this.isHashChange = true;
         await this.refresh();
       }
     });
@@ -68,7 +70,11 @@ export class NavigationManager {
             this.widget.baseElement.removeClass('scvo-widget-loading');
             this.widget.loadingElement.hide();
             this.currentLocation = parsed.href.substr(parsed.origin.length);
-            window.location.hash = this.currentLocation;
+            if (!this.isHashChange) {
+              window.location.hash = this.currentLocation;
+            } else {
+              this.isHashChange = false;
+            }
             this.widget.requestUpdate();
             resolve();
           },
