@@ -3,6 +3,7 @@ import { Widget } from './widget';
 
 export class NavigationManager {
   private isHashChange: boolean = true; //Set to true so on initial load location.hash isn't updated
+  private isLoading: boolean = false;
   private _currentLocation: string|undefined;
   get currentLocation(): string {
     if (!this._currentLocation) {
@@ -39,6 +40,12 @@ export class NavigationManager {
 
   navigate(url: string, method: string = 'GET', data: any = {}, successCallback?: SuccessCallback, errorCallback?: ErrorCallback): Promise<void> {
     return new Promise<void>((resolve, reject) => {
+      if (this.isLoading) {
+        resolve();
+        return;
+      }
+      this.isLoading = true;
+
       let ajaxSettings: JQueryAjaxSettings = {};
 
       try {
@@ -55,6 +62,7 @@ export class NavigationManager {
         parsed.host = this.baseUrl.host;
 
         ajaxSettings = {
+          async: false,
           dataType: 'html',
           beforeSend: function(jqXHR, settings){
             //TODO: Remove all specific code from the widgets code base.
@@ -76,6 +84,7 @@ export class NavigationManager {
               this.isHashChange = false;
             }
             this.widget.requestUpdate();
+            this.isLoading = false;
             resolve();
           },
           success: (response: any, status: JQuery.Ajax.SuccessTextStatus, xhr: JQuery.jqXHR) => {
