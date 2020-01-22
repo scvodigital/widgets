@@ -107,7 +107,7 @@ export class LeafletMap extends BaseComponent<LeafletConfig> {
       }
     }
 
-    if (bounds) {
+    if (typeof bounds === 'object' && Object.values(bounds).length > 0) {
       this.map.fitBounds(bounds);
     }
   }
